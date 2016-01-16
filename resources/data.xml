@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <pack>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="6" fixedrot="false" fric="0.2" gid="3" id="5" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Bedroom player" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="6" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="64" id="6" name="Bedroom player" shared="false" width="64">
+        <anim across="1" down="1" durations="100" height="64" id="0" loop="true" name="Animation 0" numframes="1" originx="32" originy="32" sync="false" version="2" width="64">
+            <poly data="4,0,0,16,0,16,16,0,16" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="4" fixedrot="false" fric="0.2" gid="3" id="3" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="lion" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="4" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="64" id="4" name="lion" shared="false" width="64">
+        <anim across="1" down="1" durations="100" height="64" id="0" loop="true" name="Animation 0" numframes="1" originx="32" originy="32" sync="false" version="2" width="64">
+            <poly data="4,0,0,16,0,16,16,0,16" density="0.1" fric="0.2" gid="-1000" id="0" name="default" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <background atlasID="0" desc="" durations="" dx="-0.0" dy="-0.0" height="0" id="2" name="nice sky" numframes="0" oid="-1" repeats="false" resized="false" shared="false" width="0" xpf="1.0" ypf="1.0"/>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="1" fixedrot="true" fric="0.2" gid="3" id="0" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Player 1" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="1" static="false">
         <snippets>
             <s enabled="true" id="2">
