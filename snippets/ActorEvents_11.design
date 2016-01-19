@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <event-collide-typetotype comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <set-game-val-0 comment="false" x="26" y="47">
+                    <plus comment="false" id="0" x="0" y="0">
+                        <get-game-val-0 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="1"/>
+                    </plus>
+                </set-game-val-0>
+                <die comment="false" x="26" y="77">
+                    <ACTOR eid="this" id="0"/>
+                </die>
+            </group>
+            <actortype eid="0" id="0"/>
+            <actortype eid="11" id="1"/>
+        </event-collide-typetotype>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <draw comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <draw-text comment="false" x="26" y="40">
+                    <get-game-val-0 comment="false" id="0" x="0" y="0"/>
+                    <int id="1" val="100"/>
+                    <int id="2" val="100"/>
+                </draw-text>
+            </group>
+        </draw>
+    </group>
+    <group eventID="2" id="1">
+        <eq comment="false" x="466" y="156">
+            <int id="0" val=""/>
+            <int id="1" val=""/>
+        </eq>
+    </group>
+    <group eventID="2" id="-1"/>
+</groups>
