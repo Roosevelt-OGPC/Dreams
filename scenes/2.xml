@@ -8,7 +8,7 @@
     <regions/>
     <terrainRegions/>
     <actors>
-        <actor a="0.0" aid="1" c="false" group="3" id="0" name="Player 1 1" sx="1.0" sy="1.0" x="33" y="169" z="1"/>
+        <actor a="0.0" aid="1" c="false" group="3" id="0" name="Player 1 1" sx="1.0" sy="1.0" x="33" y="170" z="1"/>
         <actor a="0.0" aid="2" c="false" group="3" id="3" name="lion 2" sx="1.0" sy="1.0" x="560" y="7" z="1"/>
     </actors>
     <snippets/>
