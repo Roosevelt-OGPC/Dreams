@@ -1,0 +1,201 @@
+2016-01-26 10:00:12,494 INFO  [main] stencyl.sw.Session: Logfile: C:\Users\EConway6922\Documents\stencylworks\logs\2016-01-26_10-00-05.log
+2016-01-26 10:00:12,635 INFO  [main] stencyl.sw.Session: OS Name: Windows 7
+2016-01-26 10:00:12,635 INFO  [main] stencyl.sw.Session: OS Version: 6.1 (64-bit)
+2016-01-26 10:00:12,635 INFO  [main] stencyl.sw.Session: Java Version: 1.8.0_60
+2016-01-26 10:00:12,635 INFO  [main] stencyl.sw.Session: Stencyl Version: 3.3.2 (b8734)
+2016-01-26 10:00:12,635 INFO  [main] stencyl.sw.Session: Stencyl Workspace: C:\Users\EConway6922\Documents\
+2016-01-26 10:00:12,635 INFO  [main] stencyl.sw.Session: User Working Directory: C:\Users\EConway6922\Downloads\Stencyl
+2016-01-26 10:00:12,635 INFO  [main] stencyl.sw.Session: User Home Directory: C:\Users\EConway6922
+2016-01-26 10:00:12,635 INFO  [main] stencyl.sw.Session: System Path: C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\CCM;C:\WINDOWS\CCM;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Users\EConway6922\Downloads\Stencyl\runtimes\jre-win\bin
+2016-01-26 10:00:16,746 DEBUG [main] stencyl.sw.util.FileHelper: Deleting: C:\Users\ECONWA~1\AppData\Local\Temp\stencyl4424331526062140547
+2016-01-26 10:00:16,793 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-phrases.lang
+2016-01-26 10:00:16,918 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-errors.lang
+2016-01-26 10:00:16,980 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-menu.lang
+2016-01-26 10:00:17,074 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-welcome.lang
+2016-01-26 10:00:17,121 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-dashboard.lang
+2016-01-26 10:00:17,152 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-publish.lang
+2016-01-26 10:00:17,168 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-updater.lang
+2016-01-26 10:00:17,230 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-chat.lang
+2016-01-26 10:00:17,262 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-misc.lang
+2016-01-26 10:00:17,293 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-forge.lang
+2016-01-26 10:00:17,324 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-prefs.lang
+2016-01-26 10:00:17,355 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-creategame.lang
+2016-01-26 10:00:17,371 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-main.lang
+2016-01-26 10:00:17,512 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-blocks.lang
+2016-01-26 10:00:17,606 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-blockhelp.lang
+2016-01-26 10:00:17,715 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-events.lang
+2016-01-26 10:00:17,762 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-code.lang
+2016-01-26 10:00:17,762 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-attributes.lang
+2016-01-26 10:00:17,793 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-create.lang
+2016-01-26 10:00:17,793 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-byob.lang
+2016-01-26 10:00:17,824 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-actor-main.lang
+2016-01-26 10:00:17,965 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-actor-physics.lang
+2016-01-26 10:00:17,965 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-background.lang
+2016-01-26 10:00:18,090 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-behaviorchooser.lang
+2016-01-26 10:00:18,153 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-desktop.lang
+2016-01-26 10:00:18,418 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-font.lang
+2016-01-26 10:00:18,418 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-sound.lang
+2016-01-26 10:00:18,434 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-tileset.lang
+2016-01-26 10:00:18,434 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-preloader.lang
+2016-01-26 10:00:18,497 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-mobile.lang
+2016-01-26 10:00:18,543 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-groups.lang
+2016-01-26 10:00:18,575 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-attributes.lang
+2016-01-26 10:00:18,590 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-input.lang
+2016-01-26 10:00:18,590 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-animation.lang
+2016-01-26 10:00:18,606 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-scene-main.lang
+2016-01-26 10:00:18,637 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-scene-create.lang
+2016-01-26 10:00:18,669 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-scene-tools.lang
+2016-01-26 10:00:18,669 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-phrases.lang
+2016-01-26 10:00:18,669 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-errors.lang
+2016-01-26 10:00:18,669 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-menu.lang
+2016-01-26 10:00:18,669 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-welcome.lang
+2016-01-26 10:00:18,669 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-dashboard.lang
+2016-01-26 10:00:18,684 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-publish.lang
+2016-01-26 10:00:18,684 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-updater.lang
+2016-01-26 10:00:18,684 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-chat.lang
+2016-01-26 10:00:18,684 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-misc.lang
+2016-01-26 10:00:18,684 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-forge.lang
+2016-01-26 10:00:18,684 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-prefs.lang
+2016-01-26 10:00:18,684 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-creategame.lang
+2016-01-26 10:00:18,684 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-main.lang
+2016-01-26 10:00:18,684 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-blocks.lang
+2016-01-26 10:00:18,700 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-blockhelp.lang
+2016-01-26 10:00:18,700 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-events.lang
+2016-01-26 10:00:18,700 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-code.lang
+2016-01-26 10:00:18,700 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-attributes.lang
+2016-01-26 10:00:18,700 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-create.lang
+2016-01-26 10:00:18,715 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-byob.lang
+2016-01-26 10:00:18,715 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-actor-main.lang
+2016-01-26 10:00:18,715 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-actor-physics.lang
+2016-01-26 10:00:18,715 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-background.lang
+2016-01-26 10:00:18,715 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-behaviorchooser.lang
+2016-01-26 10:00:18,715 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-desktop.lang
+2016-01-26 10:00:18,715 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-font.lang
+2016-01-26 10:00:18,715 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-sound.lang
+2016-01-26 10:00:18,715 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-tileset.lang
+2016-01-26 10:00:18,715 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-preloader.lang
+2016-01-26 10:00:18,715 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-mobile.lang
+2016-01-26 10:00:18,715 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-groups.lang
+2016-01-26 10:00:18,715 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-attributes.lang
+2016-01-26 10:00:18,731 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-input.lang
+2016-01-26 10:00:18,731 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-animation.lang
+2016-01-26 10:00:18,731 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-scene-main.lang
+2016-01-26 10:00:18,731 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-scene-create.lang
+2016-01-26 10:00:18,731 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-scene-tools.lang
+2016-01-26 10:00:18,731 INFO  [AWT-EventQueue-0] stencyl.sw.SW: Initializing Stencyl.
+2016-01-26 10:00:18,934 DEBUG [AWT-EventQueue-0] stencyl.sw.Splash: Set Splash message: Look
+2016-01-26 10:00:35,222 INFO  [AWT-EventQueue-0] stencyl.sw.ext.ExtensionDependencyManager: Haxelib actuate 1.6.5
+2016-01-26 10:00:35,254 INFO  [AWT-EventQueue-0] stencyl.sw.ext.ExtensionDependencyManager: Haxelib box2d 1.11.0
+2016-01-26 10:00:35,254 INFO  [AWT-EventQueue-0] stencyl.sw.ext.ExtensionDependencyManager: Haxelib box2d-fake 1.11.0
+2016-01-26 10:00:35,285 INFO  [AWT-EventQueue-0] stencyl.sw.ext.ExtensionDependencyManager: Haxelib console 1.0.0
+2016-01-26 10:00:35,300 INFO  [AWT-EventQueue-0] stencyl.sw.ext.ExtensionDependencyManager: Haxelib format 3.1.2
+2016-01-26 10:00:35,316 INFO  [AWT-EventQueue-0] stencyl.sw.ext.ExtensionDependencyManager: Haxelib hxcpp 3.2.0
+2016-01-26 10:00:35,363 INFO  [AWT-EventQueue-0] stencyl.sw.ext.ExtensionDependencyManager: Haxelib hxtelemetry 0.3.1
+2016-01-26 10:00:35,379 INFO  [AWT-EventQueue-0] stencyl.sw.ext.ExtensionDependencyManager: Haxelib layout 1.1.0
+2016-01-26 10:00:35,379 INFO  [AWT-EventQueue-0] stencyl.sw.ext.ExtensionDependencyManager: Haxelib lime 2.6.8
+2016-01-26 10:00:35,394 INFO  [AWT-EventQueue-0] stencyl.sw.ext.ExtensionDependencyManager: Haxelib openfl 3.3.8
+2016-01-26 10:00:35,410 INFO  [AWT-EventQueue-0] stencyl.sw.ext.ExtensionDependencyManager: Haxelib polygonal-ds 1.4.1
+2016-01-26 10:00:35,410 INFO  [AWT-EventQueue-0] stencyl.sw.ext.ExtensionDependencyManager: Haxelib polygonal-printf 1.0.0.beta
+2016-01-26 10:00:35,426 INFO  [AWT-EventQueue-0] stencyl.sw.ext.ExtensionDependencyManager: Haxelib stencyl 1.0.0
+2016-01-26 10:00:35,426 INFO  [AWT-EventQueue-0] stencyl.sw.ext.ExtensionDependencyManager: Haxelib stencyl-cppia 1.0.0
+2016-01-26 10:00:35,441 INFO  [AWT-EventQueue-0] stencyl.sw.ext.ExtensionDependencyManager: Haxelib svg 1.0.8
+2016-01-26 10:00:35,441 INFO  [AWT-EventQueue-0] stencyl.sw.ext.ExtensionDependencyManager: Haxelib swf 1.7.4
+2016-01-26 10:00:35,441 INFO  [AWT-EventQueue-0] stencyl.sw.ext.ExtensionDependencyManager: Haxelib tilelayer 0.2.1
+2016-01-26 10:00:35,488 DEBUG [AWT-EventQueue-0] stencyl.sw.util.FileHelper: Matching (non-hidden) files within C:\Users\EConway6922\Documents\stencylworks\extensions: []
+2016-01-26 10:00:35,488 DEBUG [AWT-EventQueue-0] stencyl.sw.util.FileHelper: Matching (non-hidden) files within C:\Users\EConway6922\Documents\stencylworks\extensions: []
+2016-01-26 10:00:35,488 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.advanced.EngineExtensionManager: Loading engine extensions...
+2016-01-26 10:00:35,488 DEBUG [AWT-EventQueue-0] stencyl.sw.util.FileHelper: Directories within C:\Users\EConway6922\Documents\stencylworks\engine-extensions: []
+2016-01-26 10:00:35,488 INFO  [AWT-EventQueue-0] stencyl.sw.editors.game.advanced.EngineExtensionManager: Engine Extensions: []
+2016-01-26 10:00:35,504 WARN  [AWT-EventQueue-0] stencyl.sw.app.ExtensionManager: Couldn't load extension settings.
+2016-01-26 10:00:35,519 INFO  [AWT-EventQueue-0] stencyl.sw.app.ExtensionManager: Toolset Extensions: []
+2016-01-26 10:00:37,676 DEBUG [AWT-EventQueue-0] stencyl.sw.app.doc.Workspace: Activated: Welcome Center
+2016-01-26 10:00:37,692 DEBUG [AWT-EventQueue-0] stencyl.sw.app.App: Non-silent Authentication.
+2016-01-26 10:00:37,739 DEBUG [AWT-EventQueue-0] stencyl.sw.Splash: Dispose Splash
+2016-01-26 10:00:38,943 DEBUG [pool-1-thread-1] stencyl.sw.app.tasks.AuthenticateTask: Response: guest
+2016-01-26 10:00:38,958 INFO  [pool-1-thread-1] stencyl.sw.app.tasks.AuthenticateTask: Could not log in. Check your login credentials.
+2016-01-26 10:00:47,133 DEBUG [AWT-EventQueue-0] stencyl.sw.SW: Frame was maximized
+2016-01-26 10:00:48,650 DEBUG [AWT-EventQueue-0] stencyl.sw.util.FileHelper: Deleting: C:\Users\EConway6922\AppData\Local\Temp\stencyl4424331526062140547\sandbox\test\temp
+2016-01-26 10:00:48,697 DEBUG [AWT-EventQueue-0] stencyl.sw.util.FileHelper: Deleting: C:\Users\EConway6922\Documents\stencylworks\preview\scripts
+2016-01-26 10:00:48,806 DEBUG [AWT-EventQueue-0] stencyl.sw.util.FileHelper: Deleting: C:\Users\EConway6922\Documents\stencylworks\preview\game
+2016-01-26 10:00:48,806 INFO  [AWT-EventQueue-0] stencyl.sw.app.tasks.OpenGameTask: Opening game: Dreams
+2016-01-26 10:00:50,182 DEBUG [pool-1-thread-1] stencyl.core.lib.Game: Loading scene-specific snippet. SceneID: 1
+2016-01-26 10:00:50,197 DEBUG [pool-1-thread-1] stencyl.core.lib.Game: Loading scene-specific snippet. SceneID: 2
+2016-01-26 10:00:50,213 DEBUG [pool-1-thread-1] stencyl.core.lib.Game: Loading scene-specific snippet. SceneID: 3
+2016-01-26 10:00:50,275 DEBUG [pool-1-thread-1] stencyl.core.lib.Game: Loading scene-specific snippet. SceneID: 4
+2016-01-26 10:00:50,275 DEBUG [pool-1-thread-1] stencyl.core.lib.Game: Loading scene-specific snippet. SceneID: 5
+2016-01-26 10:00:50,307 DEBUG [pool-1-thread-1] stencyl.core.lib.Game: Loading scene-specific snippet. SceneID: 6
+2016-01-26 10:00:50,369 DEBUG [pool-1-thread-1] stencyl.core.lib.ResourceList: Initializing... 5 : Bedroom player
+2016-01-26 10:00:50,369 DEBUG [pool-1-thread-1] stencyl.core.lib.ResourceList: Initializing... 6 : Bedroom player
+2016-01-26 10:00:50,432 DEBUG [pool-1-thread-1] stencyl.core.lib.ResourceList: Initializing... 7 : BedroomSet
+2016-01-26 10:00:50,463 DEBUG [pool-1-thread-1] stencyl.core.lib.ResourceList: Initializing... 13 : Door
+2016-01-26 10:00:50,463 DEBUG [pool-1-thread-1] stencyl.core.lib.ResourceList: Initializing... 14 : Door
+2016-01-26 10:00:50,479 DEBUG [pool-1-thread-1] stencyl.core.lib.ResourceList: Initializing... 9 : Font
+2016-01-26 10:00:50,494 DEBUG [pool-1-thread-1] stencyl.core.lib.ResourceList: Initializing... 11 : Key
+2016-01-26 10:00:50,494 DEBUG [pool-1-thread-1] stencyl.core.lib.ResourceList: Initializing... 12 : Key
+2016-01-26 10:00:50,510 DEBUG [pool-1-thread-1] stencyl.core.lib.ResourceList: Initializing... 10 : L1Set
+2016-01-26 10:00:50,510 DEBUG [pool-1-thread-1] stencyl.core.lib.ResourceList: Initializing... 3 : lion
+2016-01-26 10:00:50,510 DEBUG [pool-1-thread-1] stencyl.core.lib.ResourceList: Initializing... 4 : lion
+2016-01-26 10:00:50,541 DEBUG [pool-1-thread-1] stencyl.core.lib.ResourceList: Initializing... 2 : nice sky
+2016-01-26 10:00:50,541 DEBUG [pool-1-thread-1] stencyl.core.lib.ResourceList: Initializing... 0 : Player 1
+2016-01-26 10:00:50,541 DEBUG [pool-1-thread-1] stencyl.core.lib.ResourceList: Initializing... 1 : Player 1
+2016-01-26 10:00:50,557 DEBUG [pool-1-thread-1] stencyl.core.lib.ResourceList: Initializing... 8 : TutorialSet
+2016-01-26 10:00:51,354 DEBUG [AWT-EventQueue-0] stencyl.core.lib.io.read.SceneReader: Reading header for Scene: 3 (Bedroom) from: scenes\3.xml
+2016-01-26 10:00:51,432 DEBUG [AWT-EventQueue-0] stencyl.core.lib.io.read.SceneReader: Reading header for Scene: 3 (Bedroom) from: scenes\3.xml
+2016-01-26 10:00:51,776 DEBUG [AWT-EventQueue-0] stencyl.sw.app.doc.Workspace: Activated: Dashboard
+2016-01-26 10:00:51,776 DEBUG [AWT-EventQueue-0] stencyl.sw.util.FileHelper: Trying to delete file that does not exist: C:\Users\EConway6922\AppData\Local\Temp\stencyl4424331526062140547\sandbox\build\code
+2016-01-26 10:00:51,776 DEBUG [AWT-EventQueue-0] stencyl.sw.util.FileHelper: Deleting: C:\Users\EConway6922\AppData\Local\Temp\stencyl4424331526062140547\sandbox\test\temp
+2016-01-26 10:00:51,792 DEBUG [AWT-EventQueue-0] stencyl.core.lib.io.read.SceneReader: Reading header for Scene: 3 (Bedroom) from: scenes\3.xml
+2016-01-26 10:00:52,229 DEBUG [AWT-EventQueue-0] stencyl.sw.app.tasks.OpenGameTask: Took 3423ms
+2016-01-26 10:00:52,526 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.attributes.AttributeTree: Loading attribute into tree: Keys
+2016-01-26 10:00:52,995 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.cgroups.CollisionGroupTree: Loading actor group into tree: Actors
+2016-01-26 10:00:53,042 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.cgroups.CollisionGroupTree: Loading actor group into tree: Doodads
+2016-01-26 10:00:53,073 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.cgroups.CollisionGroupTree: Loading actor group into tree: Players
+2016-01-26 10:00:53,089 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.cgroups.CollisionGroupTree: Loading actor group into tree: Regions
+2016-01-26 10:00:53,120 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.cgroups.CollisionGroupTree: Loading actor group into tree: Tiles
+2016-01-26 10:00:57,310 DEBUG [AWT-EventQueue-0] stencyl.core.lib.Atlas: Getting memory for atlas 0
+2016-01-26 10:00:57,310 DEBUG [AWT-EventQueue-0] stencyl.core.lib.Atlas: Added resource 'Player 1' to atlas 0
+2016-01-26 10:00:57,310 DEBUG [AWT-EventQueue-0] stencyl.core.lib.Atlas: Added resource 'nice sky' to atlas 0
+2016-01-26 10:00:57,325 DEBUG [AWT-EventQueue-0] stencyl.core.lib.Atlas: Added resource 'lion' to atlas 0
+2016-01-26 10:00:57,325 DEBUG [AWT-EventQueue-0] stencyl.core.lib.Atlas: Added resource 'Bedroom player' to atlas 0
+2016-01-26 10:00:57,325 DEBUG [AWT-EventQueue-0] stencyl.core.lib.Atlas: Added resource 'BedroomSet' to atlas 0
+2016-01-26 10:00:57,325 DEBUG [AWT-EventQueue-0] stencyl.core.lib.Atlas: Added resource 'TutorialSet' to atlas 0
+2016-01-26 10:00:57,341 DEBUG [AWT-EventQueue-0] stencyl.core.lib.Atlas: Added resource 'Font' to atlas 0
+2016-01-26 10:00:57,341 DEBUG [AWT-EventQueue-0] stencyl.core.lib.Atlas: Added resource 'L1Set' to atlas 0
+2016-01-26 10:00:57,341 DEBUG [AWT-EventQueue-0] stencyl.core.lib.Atlas: Added resource 'Key' to atlas 0
+2016-01-26 10:00:57,341 DEBUG [AWT-EventQueue-0] stencyl.core.lib.Atlas: Added resource 'Door' to atlas 0
+2016-01-26 10:00:57,513 DEBUG [AWT-EventQueue-0] stencyl.core.lib.Atlas: Getting memory for atlas 1
+2016-01-26 10:00:57,528 DEBUG [AWT-EventQueue-0] stencyl.core.lib.Atlas: Getting memory for atlas 2
+2016-01-26 10:00:57,528 DEBUG [AWT-EventQueue-0] stencyl.core.lib.Atlas: Getting memory for atlas 3
+2016-01-26 10:00:57,825 DEBUG [AWT-EventQueue-0] stencyl.core.lib.io.read.SceneReader: Reading header for Scene: 1 (Level 1) from: scenes\1.xml
+2016-01-26 10:00:57,857 DEBUG [AWT-EventQueue-0] stencyl.core.lib.io.read.SceneReader: Reading header for Scene: 2 (Tutorial) from: scenes\2.xml
+2016-01-26 10:00:57,857 DEBUG [AWT-EventQueue-0] stencyl.core.lib.io.read.SceneReader: Reading header for Scene: 3 (Bedroom) from: scenes\3.xml
+2016-01-26 10:00:57,857 DEBUG [AWT-EventQueue-0] stencyl.core.lib.io.read.SceneReader: Reading header for Scene: 4 (Level 2) from: scenes\4.xml
+2016-01-26 10:00:57,872 DEBUG [AWT-EventQueue-0] stencyl.core.lib.io.read.SceneReader: Reading header for Scene: 5 (Level 3) from: scenes\5.xml
+2016-01-26 10:00:57,872 DEBUG [AWT-EventQueue-0] stencyl.core.lib.io.read.SceneReader: Reading header for Scene: 6 (TEST) from: scenes\6.xml
+2016-01-26 10:01:35,482 DEBUG [AWT-EventQueue-0] stencyl.sw.app.App: Action: Close Game
+2016-01-26 10:01:40,875 DEBUG [AWT-EventQueue-0] stencyl.sw.app.doc.Workspace: Resetting workspace.
+2016-01-26 10:01:40,953 DEBUG [AWT-EventQueue-0] stencyl.sw.app.doc.Workspace: Activated: Welcome Center
+2016-01-26 10:01:49,691 INFO  [AWT-EventQueue-0] stencyl.sw.app.App: Attempting to quit out of Stencyl.
+2016-01-26 10:01:49,738 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Running command: [taskkill, /im, neko.exe, /f]
+2016-01-26 10:01:49,988 DEBUG [Thread-6] stencyl.sw.util.StreamGobbler: [taskkill] ERROR: The process "neko.exe" not found.
+2016-01-26 10:01:50,003 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Process 'taskkill' exited with code: 128
+2016-01-26 10:01:50,003 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Running command: [taskkill, /im, adb.exe, /f]
+2016-01-26 10:01:50,191 DEBUG [Thread-7] stencyl.sw.util.StreamGobbler: [taskkill] ERROR: The process "adb.exe" not found.
+2016-01-26 10:01:50,207 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Process 'taskkill' exited with code: 128
+2016-01-26 10:01:50,207 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Running command: [taskkill, /im, arm-linux-androideabi-g++.exe, /f]
+2016-01-26 10:01:50,410 DEBUG [Thread-8] stencyl.sw.util.StreamGobbler: [taskkill] ERROR: The process "arm-linux-androideabi-g++.exe" not found.
+2016-01-26 10:01:50,410 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Process 'taskkill' exited with code: 128
+2016-01-26 10:01:50,410 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Running command: [taskkill, /im, cc1plus.exe, /f]
+2016-01-26 10:01:50,613 DEBUG [Thread-9] stencyl.sw.util.StreamGobbler: [taskkill] ERROR: The process "cc1plus.exe" not found.
+2016-01-26 10:01:50,613 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Process 'taskkill' exited with code: 128
+2016-01-26 10:01:50,613 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Running command: [taskkill, /im, tail.exe, /f]
+2016-01-26 10:01:50,816 DEBUG [Thread-10] stencyl.sw.util.StreamGobbler: [taskkill] ERROR: The process "tail.exe" not found.
+2016-01-26 10:01:50,832 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Process 'taskkill' exited with code: 128
+2016-01-26 10:01:50,832 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Running command: [taskkill, /im, ios-sim.exe, /f]
+2016-01-26 10:01:50,988 DEBUG [Thread-11] stencyl.sw.util.StreamGobbler: [taskkill] ERROR: The process "ios-sim.exe" not found.
+2016-01-26 10:01:50,988 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Process 'taskkill' exited with code: 128
+2016-01-26 10:01:50,988 DEBUG [AWT-EventQueue-0] stencyl.sw.app.App: Destroying extensions.
+2016-01-26 10:01:50,988 DEBUG [AWT-EventQueue-0] stencyl.sw.app.App: Performing final close.
+2016-01-26 10:01:51,004 INFO  [AWT-EventQueue-0] stencyl.sw.app.App: Exiting...
+2016-01-26 10:01:51,004 DEBUG [AWT-EventQueue-0] stencyl.sw.app.App: Destroying Temporary Sandbox.
+2016-01-26 10:01:51,004 DEBUG [AWT-EventQueue-0] stencyl.sw.util.FileHelper: Deleting: C:\Users\EConway6922\AppData\Local\Temp\stencyl4424331526062140547

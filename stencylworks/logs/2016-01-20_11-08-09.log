@@ -1,0 +1,1168 @@
+2016-01-20 11:08:09,503 INFO  [main] stencyl.sw.Session: Logfile: C:\Users\EConway6922\Documents\stencylworks\logs\2016-01-20_11-08-09.log
+2016-01-20 11:08:09,518 INFO  [main] stencyl.sw.Session: OS Name: Windows 7
+2016-01-20 11:08:09,518 INFO  [main] stencyl.sw.Session: OS Version: 6.1 (64-bit)
+2016-01-20 11:08:09,518 INFO  [main] stencyl.sw.Session: Java Version: 1.8.0_60
+2016-01-20 11:08:09,518 INFO  [main] stencyl.sw.Session: Stencyl Version: 3.3.2 (b8734)
+2016-01-20 11:08:09,518 INFO  [main] stencyl.sw.Session: Stencyl Workspace: C:\Users\EConway6922\Documents\
+2016-01-20 11:08:09,518 INFO  [main] stencyl.sw.Session: User Working Directory: C:\Users\EConway6922\Downloads\Stencyl
+2016-01-20 11:08:09,518 INFO  [main] stencyl.sw.Session: User Home Directory: C:\Users\EConway6922
+2016-01-20 11:08:09,518 INFO  [main] stencyl.sw.Session: System Path: C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\CCM;C:\WINDOWS\CCM;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Users\EConway6922\Downloads\Stencyl\runtimes\jre-win\bin
+2016-01-20 11:08:09,721 DEBUG [main] stencyl.sw.util.FileHelper: Deleting: C:\Users\ECONWA~1\AppData\Local\Temp\stencyl3269967545155578039
+2016-01-20 11:08:09,721 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-phrases.lang
+2016-01-20 11:08:09,737 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-errors.lang
+2016-01-20 11:08:09,737 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-menu.lang
+2016-01-20 11:08:09,752 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-welcome.lang
+2016-01-20 11:08:09,752 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-dashboard.lang
+2016-01-20 11:08:09,752 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-publish.lang
+2016-01-20 11:08:09,752 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-updater.lang
+2016-01-20 11:08:09,752 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-chat.lang
+2016-01-20 11:08:09,752 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-misc.lang
+2016-01-20 11:08:09,783 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-forge.lang
+2016-01-20 11:08:09,783 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-prefs.lang
+2016-01-20 11:08:09,783 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-creategame.lang
+2016-01-20 11:08:09,783 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-main.lang
+2016-01-20 11:08:09,799 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-blocks.lang
+2016-01-20 11:08:09,815 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-blockhelp.lang
+2016-01-20 11:08:09,815 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-events.lang
+2016-01-20 11:08:09,815 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-code.lang
+2016-01-20 11:08:09,815 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-attributes.lang
+2016-01-20 11:08:09,815 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-create.lang
+2016-01-20 11:08:09,815 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-byob.lang
+2016-01-20 11:08:09,815 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-actor-main.lang
+2016-01-20 11:08:09,815 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-actor-physics.lang
+2016-01-20 11:08:09,815 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-background.lang
+2016-01-20 11:08:09,815 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-behaviorchooser.lang
+2016-01-20 11:08:09,815 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-desktop.lang
+2016-01-20 11:08:09,815 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-font.lang
+2016-01-20 11:08:09,830 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-sound.lang
+2016-01-20 11:08:09,830 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-tileset.lang
+2016-01-20 11:08:09,830 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-preloader.lang
+2016-01-20 11:08:09,830 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-mobile.lang
+2016-01-20 11:08:09,830 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-groups.lang
+2016-01-20 11:08:09,830 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-attributes.lang
+2016-01-20 11:08:09,830 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-input.lang
+2016-01-20 11:08:09,830 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-animation.lang
+2016-01-20 11:08:09,830 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-scene-main.lang
+2016-01-20 11:08:09,830 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-scene-create.lang
+2016-01-20 11:08:09,830 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-scene-tools.lang
+2016-01-20 11:08:09,830 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-phrases.lang
+2016-01-20 11:08:09,830 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-errors.lang
+2016-01-20 11:08:09,830 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-menu.lang
+2016-01-20 11:08:09,830 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-welcome.lang
+2016-01-20 11:08:09,830 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-dashboard.lang
+2016-01-20 11:08:09,846 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-publish.lang
+2016-01-20 11:08:09,846 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-updater.lang
+2016-01-20 11:08:09,846 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-chat.lang
+2016-01-20 11:08:09,846 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-misc.lang
+2016-01-20 11:08:09,846 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-forge.lang
+2016-01-20 11:08:09,846 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-prefs.lang
+2016-01-20 11:08:09,846 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-creategame.lang
+2016-01-20 11:08:09,846 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-main.lang
+2016-01-20 11:08:09,846 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-blocks.lang
+2016-01-20 11:08:09,846 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-blockhelp.lang
+2016-01-20 11:08:09,861 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-events.lang
+2016-01-20 11:08:09,861 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-code.lang
+2016-01-20 11:08:09,861 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-attributes.lang
+2016-01-20 11:08:09,861 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-create.lang
+2016-01-20 11:08:09,861 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-byob.lang
+2016-01-20 11:08:09,861 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-actor-main.lang
+2016-01-20 11:08:09,861 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-actor-physics.lang
+2016-01-20 11:08:09,861 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-background.lang
+2016-01-20 11:08:09,861 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-behaviorchooser.lang
+2016-01-20 11:08:09,861 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-desktop.lang
+2016-01-20 11:08:09,861 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-font.lang
+2016-01-20 11:08:09,861 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-sound.lang
+2016-01-20 11:08:09,861 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-tileset.lang
+2016-01-20 11:08:09,861 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-preloader.lang
+2016-01-20 11:08:09,877 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-mobile.lang
+2016-01-20 11:08:09,877 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-groups.lang
+2016-01-20 11:08:09,877 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-attributes.lang
+2016-01-20 11:08:09,877 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-input.lang
+2016-01-20 11:08:09,877 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-animation.lang
+2016-01-20 11:08:09,877 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-scene-main.lang
+2016-01-20 11:08:09,877 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-scene-create.lang
+2016-01-20 11:08:09,877 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-scene-tools.lang
+2016-01-20 11:08:09,877 INFO  [AWT-EventQueue-0] stencyl.sw.SW: Initializing Stencyl.
+2016-01-20 11:08:09,893 DEBUG [AWT-EventQueue-0] stencyl.sw.Splash: Set Splash message: Look
+2016-01-20 11:08:11,265 INFO  [AWT-EventQueue-0] stencyl.sw.ext.ExtensionDependencyManager: Haxelib actuate 1.6.5
+2016-01-20 11:08:11,281 INFO  [AWT-EventQueue-0] stencyl.sw.ext.ExtensionDependencyManager: Haxelib box2d 1.11.0
+2016-01-20 11:08:11,281 INFO  [AWT-EventQueue-0] stencyl.sw.ext.ExtensionDependencyManager: Haxelib box2d-fake 1.11.0
+2016-01-20 11:08:11,281 INFO  [AWT-EventQueue-0] stencyl.sw.ext.ExtensionDependencyManager: Haxelib console 1.0.0
+2016-01-20 11:08:11,281 INFO  [AWT-EventQueue-0] stencyl.sw.ext.ExtensionDependencyManager: Haxelib format 3.1.2
+2016-01-20 11:08:11,281 INFO  [AWT-EventQueue-0] stencyl.sw.ext.ExtensionDependencyManager: Haxelib hxcpp 3.2.0
+2016-01-20 11:08:11,281 INFO  [AWT-EventQueue-0] stencyl.sw.ext.ExtensionDependencyManager: Haxelib hxtelemetry 0.3.1
+2016-01-20 11:08:11,281 INFO  [AWT-EventQueue-0] stencyl.sw.ext.ExtensionDependencyManager: Haxelib layout 1.1.0
+2016-01-20 11:08:11,297 INFO  [AWT-EventQueue-0] stencyl.sw.ext.ExtensionDependencyManager: Haxelib lime 2.6.8
+2016-01-20 11:08:11,297 INFO  [AWT-EventQueue-0] stencyl.sw.ext.ExtensionDependencyManager: Haxelib openfl 3.3.8
+2016-01-20 11:08:11,297 INFO  [AWT-EventQueue-0] stencyl.sw.ext.ExtensionDependencyManager: Haxelib polygonal-ds 1.4.1
+2016-01-20 11:08:11,297 INFO  [AWT-EventQueue-0] stencyl.sw.ext.ExtensionDependencyManager: Haxelib polygonal-printf 1.0.0.beta
+2016-01-20 11:08:11,297 INFO  [AWT-EventQueue-0] stencyl.sw.ext.ExtensionDependencyManager: Haxelib stencyl 1.0.0
+2016-01-20 11:08:11,297 INFO  [AWT-EventQueue-0] stencyl.sw.ext.ExtensionDependencyManager: Haxelib stencyl-cppia 1.0.0
+2016-01-20 11:08:11,297 INFO  [AWT-EventQueue-0] stencyl.sw.ext.ExtensionDependencyManager: Haxelib svg 1.0.8
+2016-01-20 11:08:11,297 INFO  [AWT-EventQueue-0] stencyl.sw.ext.ExtensionDependencyManager: Haxelib swf 1.7.4
+2016-01-20 11:08:11,297 INFO  [AWT-EventQueue-0] stencyl.sw.ext.ExtensionDependencyManager: Haxelib tilelayer 0.2.1
+2016-01-20 11:08:11,328 DEBUG [AWT-EventQueue-0] stencyl.sw.util.FileHelper: Matching (non-hidden) files within C:\Users\EConway6922\Documents\stencylworks\extensions: []
+2016-01-20 11:08:11,343 DEBUG [AWT-EventQueue-0] stencyl.sw.util.FileHelper: Matching (non-hidden) files within C:\Users\EConway6922\Documents\stencylworks\extensions: []
+2016-01-20 11:08:11,343 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.advanced.EngineExtensionManager: Loading engine extensions...
+2016-01-20 11:08:11,343 DEBUG [AWT-EventQueue-0] stencyl.sw.util.FileHelper: Directories within C:\Users\EConway6922\Documents\stencylworks\engine-extensions: []
+2016-01-20 11:08:11,343 INFO  [AWT-EventQueue-0] stencyl.sw.editors.game.advanced.EngineExtensionManager: Engine Extensions: []
+2016-01-20 11:08:11,343 WARN  [AWT-EventQueue-0] stencyl.sw.app.ExtensionManager: Couldn't load extension settings.
+2016-01-20 11:08:11,359 INFO  [AWT-EventQueue-0] stencyl.sw.app.ExtensionManager: Toolset Extensions: []
+2016-01-20 11:08:11,390 DEBUG [AWT-EventQueue-0] stencyl.sw.SW: Maximized frame.
+2016-01-20 11:08:11,749 DEBUG [AWT-EventQueue-0] stencyl.sw.app.doc.Workspace: Activated: Welcome Center
+2016-01-20 11:08:11,749 DEBUG [AWT-EventQueue-0] stencyl.sw.app.App: Non-silent Authentication.
+2016-01-20 11:08:11,765 DEBUG [AWT-EventQueue-0] stencyl.sw.Splash: Dispose Splash
+2016-01-20 11:08:11,905 DEBUG [pool-1-thread-1] stencyl.sw.app.tasks.AuthenticateTask: Response: guest
+2016-01-20 11:08:11,905 INFO  [pool-1-thread-1] stencyl.sw.app.tasks.AuthenticateTask: Could not log in. Check your login credentials.
+2016-01-20 11:08:12,451 DEBUG [AWT-EventQueue-0] stencyl.sw.app.App: Opening URL in browser: http://community.stencyl.com/
+2016-01-20 11:08:12,467 DEBUG [AWT-EventQueue-0] stencyl.thirdparty.misc.net.LaunchBrowser: invoking isDesktopSupported
+2016-01-20 11:08:12,467 DEBUG [AWT-EventQueue-0] stencyl.thirdparty.misc.net.LaunchBrowser: Launching http://community.stencyl.com/ using Desktop.browse()
+2016-01-20 11:08:38,536 DEBUG [AWT-EventQueue-0] stencyl.sw.util.FileHelper: Deleting: C:\Users\EConway6922\AppData\Local\Temp\stencyl3269967545155578039\sandbox\test\temp
+2016-01-20 11:08:38,552 DEBUG [AWT-EventQueue-0] stencyl.sw.util.FileHelper: Deleting: C:\Users\EConway6922\Documents\stencylworks\preview\scripts
+2016-01-20 11:08:38,568 DEBUG [AWT-EventQueue-0] stencyl.sw.util.FileHelper: Deleting: C:\Users\EConway6922\Documents\stencylworks\preview\game
+2016-01-20 11:08:38,568 INFO  [AWT-EventQueue-0] stencyl.sw.app.tasks.OpenGameTask: Opening game: Dreams
+2016-01-20 11:08:38,692 DEBUG [pool-1-thread-1] stencyl.core.lib.Game: Loading scene-specific snippet. SceneID: 1
+2016-01-20 11:08:38,708 DEBUG [pool-1-thread-1] stencyl.core.lib.Game: Loading scene-specific snippet. SceneID: 2
+2016-01-20 11:08:38,708 DEBUG [pool-1-thread-1] stencyl.core.lib.Game: Loading scene-specific snippet. SceneID: 3
+2016-01-20 11:08:38,724 DEBUG [pool-1-thread-1] stencyl.core.lib.Game: Loading scene-specific snippet. SceneID: 4
+2016-01-20 11:08:38,724 DEBUG [pool-1-thread-1] stencyl.core.lib.Game: Loading scene-specific snippet. SceneID: 5
+2016-01-20 11:08:38,739 DEBUG [pool-1-thread-1] stencyl.core.lib.Game: Loading scene-specific snippet. SceneID: 6
+2016-01-20 11:08:38,755 DEBUG [pool-1-thread-1] stencyl.core.lib.ResourceList: Initializing... 5 : Bedroom player
+2016-01-20 11:08:38,770 DEBUG [pool-1-thread-1] stencyl.core.lib.ResourceList: Initializing... 6 : Bedroom player
+2016-01-20 11:08:38,786 DEBUG [pool-1-thread-1] stencyl.core.lib.ResourceList: Initializing... 7 : BedroomSet
+2016-01-20 11:08:38,786 DEBUG [pool-1-thread-1] stencyl.core.lib.ResourceList: Initializing... 13 : Door
+2016-01-20 11:08:38,786 DEBUG [pool-1-thread-1] stencyl.core.lib.ResourceList: Initializing... 14 : Door
+2016-01-20 11:08:38,802 DEBUG [pool-1-thread-1] stencyl.core.lib.ResourceList: Initializing... 9 : Font
+2016-01-20 11:08:38,833 DEBUG [pool-1-thread-1] stencyl.core.lib.ResourceList: Initializing... 11 : Key
+2016-01-20 11:08:38,833 DEBUG [pool-1-thread-1] stencyl.core.lib.ResourceList: Initializing... 12 : Key
+2016-01-20 11:08:38,833 DEBUG [pool-1-thread-1] stencyl.core.lib.ResourceList: Initializing... 10 : L1Set
+2016-01-20 11:08:38,833 DEBUG [pool-1-thread-1] stencyl.core.lib.ResourceList: Initializing... 3 : lion
+2016-01-20 11:08:38,833 DEBUG [pool-1-thread-1] stencyl.core.lib.ResourceList: Initializing... 4 : lion
+2016-01-20 11:08:38,833 DEBUG [pool-1-thread-1] stencyl.core.lib.ResourceList: Initializing... 2 : nice sky
+2016-01-20 11:08:38,833 DEBUG [pool-1-thread-1] stencyl.core.lib.ResourceList: Initializing... 0 : Player 1
+2016-01-20 11:08:38,848 DEBUG [pool-1-thread-1] stencyl.core.lib.ResourceList: Initializing... 1 : Player 1
+2016-01-20 11:08:38,848 DEBUG [pool-1-thread-1] stencyl.core.lib.ResourceList: Initializing... 8 : TutorialSet
+2016-01-20 11:08:39,098 DEBUG [AWT-EventQueue-0] stencyl.core.lib.io.read.SceneReader: Reading header for Scene: 3 (Bedroom) from: scenes\3.xml
+2016-01-20 11:08:39,114 DEBUG [AWT-EventQueue-0] stencyl.core.lib.io.read.SceneReader: Reading header for Scene: 3 (Bedroom) from: scenes\3.xml
+2016-01-20 11:08:39,301 DEBUG [AWT-EventQueue-0] stencyl.sw.app.doc.Workspace: Activated: Dashboard
+2016-01-20 11:08:39,301 DEBUG [AWT-EventQueue-0] stencyl.sw.util.FileHelper: Trying to delete file that does not exist: C:\Users\EConway6922\AppData\Local\Temp\stencyl3269967545155578039\sandbox\build\code
+2016-01-20 11:08:39,301 DEBUG [AWT-EventQueue-0] stencyl.sw.util.FileHelper: Deleting: C:\Users\EConway6922\AppData\Local\Temp\stencyl3269967545155578039\sandbox\test\temp
+2016-01-20 11:08:39,301 DEBUG [AWT-EventQueue-0] stencyl.core.lib.io.read.SceneReader: Reading header for Scene: 3 (Bedroom) from: scenes\3.xml
+2016-01-20 11:08:39,472 DEBUG [AWT-EventQueue-0] stencyl.sw.app.tasks.OpenGameTask: Took 904ms
+2016-01-20 11:08:39,613 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.attributes.AttributeTree: Loading attribute into tree: Keys
+2016-01-20 11:08:39,800 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.cgroups.CollisionGroupTree: Loading actor group into tree: Actors
+2016-01-20 11:08:39,831 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.cgroups.CollisionGroupTree: Loading actor group into tree: Doodads
+2016-01-20 11:08:39,847 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.cgroups.CollisionGroupTree: Loading actor group into tree: Players
+2016-01-20 11:08:39,847 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.cgroups.CollisionGroupTree: Loading actor group into tree: Regions
+2016-01-20 11:08:39,862 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.cgroups.CollisionGroupTree: Loading actor group into tree: Tiles
+2016-01-20 11:08:41,563 DEBUG [AWT-EventQueue-0] stencyl.core.lib.Atlas: Getting memory for atlas 0
+2016-01-20 11:08:41,563 DEBUG [AWT-EventQueue-0] stencyl.core.lib.Atlas: Added resource 'Player 1' to atlas 0
+2016-01-20 11:08:41,563 DEBUG [AWT-EventQueue-0] stencyl.core.lib.Atlas: Added resource 'nice sky' to atlas 0
+2016-01-20 11:08:41,563 DEBUG [AWT-EventQueue-0] stencyl.core.lib.Atlas: Added resource 'lion' to atlas 0
+2016-01-20 11:08:41,563 DEBUG [AWT-EventQueue-0] stencyl.core.lib.Atlas: Added resource 'Bedroom player' to atlas 0
+2016-01-20 11:08:41,563 DEBUG [AWT-EventQueue-0] stencyl.core.lib.Atlas: Added resource 'BedroomSet' to atlas 0
+2016-01-20 11:08:41,563 DEBUG [AWT-EventQueue-0] stencyl.core.lib.Atlas: Added resource 'TutorialSet' to atlas 0
+2016-01-20 11:08:41,563 DEBUG [AWT-EventQueue-0] stencyl.core.lib.Atlas: Added resource 'Font' to atlas 0
+2016-01-20 11:08:41,563 DEBUG [AWT-EventQueue-0] stencyl.core.lib.Atlas: Added resource 'L1Set' to atlas 0
+2016-01-20 11:08:41,563 DEBUG [AWT-EventQueue-0] stencyl.core.lib.Atlas: Added resource 'Key' to atlas 0
+2016-01-20 11:08:41,563 DEBUG [AWT-EventQueue-0] stencyl.core.lib.Atlas: Added resource 'Door' to atlas 0
+2016-01-20 11:08:41,578 DEBUG [AWT-EventQueue-0] stencyl.core.lib.Atlas: Getting memory for atlas 1
+2016-01-20 11:08:41,594 DEBUG [AWT-EventQueue-0] stencyl.core.lib.Atlas: Getting memory for atlas 2
+2016-01-20 11:08:41,594 DEBUG [AWT-EventQueue-0] stencyl.core.lib.Atlas: Getting memory for atlas 3
+2016-01-20 11:08:41,672 DEBUG [AWT-EventQueue-0] stencyl.core.lib.io.read.SceneReader: Reading header for Scene: 1 (Level 1) from: scenes\1.xml
+2016-01-20 11:08:41,672 DEBUG [AWT-EventQueue-0] stencyl.core.lib.io.read.SceneReader: Reading header for Scene: 2 (Tutorial) from: scenes\2.xml
+2016-01-20 11:08:41,672 DEBUG [AWT-EventQueue-0] stencyl.core.lib.io.read.SceneReader: Reading header for Scene: 3 (Bedroom) from: scenes\3.xml
+2016-01-20 11:08:41,688 DEBUG [AWT-EventQueue-0] stencyl.core.lib.io.read.SceneReader: Reading header for Scene: 4 (Level 2) from: scenes\4.xml
+2016-01-20 11:08:41,688 DEBUG [AWT-EventQueue-0] stencyl.core.lib.io.read.SceneReader: Reading header for Scene: 5 (Level 3) from: scenes\5.xml
+2016-01-20 11:08:41,688 DEBUG [AWT-EventQueue-0] stencyl.core.lib.io.read.SceneReader: Reading header for Scene: 6 (TEST) from: scenes\6.xml
+2016-01-20 11:08:48,957 DEBUG [AWT-EventQueue-0] stencyl.sw.app.doc.Workspace: Loading Closed Resource: Bedroom
+2016-01-20 11:08:48,957 DEBUG [pool-1-thread-1] stencyl.core.lib.io.read.SceneReader: Reading header for Scene: 3 (Bedroom) from: scenes\3.xml
+2016-01-20 11:08:49,285 DEBUG [pool-1-thread-1] stencyl.sw.editors.scene.Designer: Brush Changed
+2016-01-20 11:08:50,814 DEBUG [pool-1-thread-1] stencyl.sw.editors.snippet.designer.palette.Palette: Palette asked to refresh: Position
+2016-01-20 11:08:50,954 DEBUG [pool-1-thread-1] stencyl.sw.editors.snippet.designer.palette.Palette: Palette asked to refresh: Conditions
+2016-01-20 11:08:51,484 DEBUG [pool-1-thread-1] stencyl.sw.editors.snippet.designer.palette.Palette: Palette asked to refresh: Actors
+2016-01-20 11:08:51,625 DEBUG [pool-1-thread-1] stencyl.sw.editors.snippet.designer.palette.Palette: Palette asked to refresh: Keyboard & Mouse
+2016-01-20 11:08:51,750 DEBUG [pool-1-thread-1] stencyl.sw.editors.snippet.designer.palette.Palette: Palette asked to refresh: Math
+2016-01-20 11:08:51,843 DEBUG [pool-1-thread-1] stencyl.sw.editors.snippet.designer.palette.Palette: Palette asked to refresh: Getters
+2016-01-20 11:08:52,077 DEBUG [pool-1-thread-1] stencyl.sw.editors.snippet.designer.palette.Palette: Palette asked to refresh: Sound
+2016-01-20 11:08:52,140 DEBUG [pool-1-thread-1] stencyl.sw.editors.snippet.designer.palette.Palette: Palette asked to refresh: Triggers
+2016-01-20 11:08:52,264 DEBUG [pool-1-thread-1] stencyl.sw.editors.snippet.designer.palette.Palette: Palette asked to refresh: Web
+2016-01-20 11:08:52,342 DEBUG [pool-1-thread-1] stencyl.sw.editors.snippet.designer.palette.Palette: Palette asked to refresh: Drawing
+2016-01-20 11:08:52,405 DEBUG [pool-1-thread-1] stencyl.sw.editors.snippet.designer.palette.Palette: Palette asked to refresh: Basic
+2016-01-20 11:08:52,405 DEBUG [pool-1-thread-1] stencyl.sw.editors.snippet.designer.palette.Palette: Palette asked to refresh: Custom
+2016-01-20 11:08:52,420 DEBUG [pool-1-thread-1] stencyl.sw.editors.snippet.designer.palette.Palette: Palette asked to refresh: Extensions
+2016-01-20 11:08:52,420 DEBUG [pool-1-thread-1] stencyl.sw.editors.snippet.designer.palette.Palette: Palette asked to refresh: Position
+2016-01-20 11:08:52,483 DEBUG [pool-1-thread-1] stencyl.sw.editors.snippet.designer.EditArea: ContextSet for current event: []
+2016-01-20 11:08:52,483 DEBUG [pool-1-thread-1] stencyl.sw.editors.snippet.designer.palette.Palette: Palette asked to refresh: Position
+2016-01-20 11:08:52,670 DEBUG [AWT-EventQueue-0] stencyl.sw.app.doc.Workspace: Activated: Bedroom
+2016-01-20 11:08:52,670 DEBUG [pool-1-thread-1] stencyl.sw.app.tasks.OpenResourceTask: Open Took 3713ms
+2016-01-20 11:08:52,810 DEBUG [AWT-EventQueue-0] stencyl.sw.app.tasks.OpenResourceTask: Total Took 3853ms
+2016-01-20 11:08:55,993 INFO  [pool-1-thread-1] stencyl.sw.io.write.MasterWriter: Saving game in place.
+2016-01-20 11:08:56,024 DEBUG [pool-1-thread-1] stencyl.sw.util.FileHelper: Saving backup file C:\Users\EConway6922\Documents\stencylworks\games\Dreams\game.xml.bak.
+2016-01-20 11:08:59,893 DEBUG [pool-1-thread-1] stencyl.sw.io.write.MasterWriter: Writing out local resources.
+2016-01-20 11:08:59,893 DEBUG [pool-1-thread-1] stencyl.sw.util.FileHelper: Saving backup file C:\Users\EConway6922\Documents\stencylworks\games\Dreams\resources\data.xml.bak.
+2016-01-20 11:08:59,908 DEBUG [pool-1-thread-1] stencyl.sw.io.write.resource.SpriteWriter: Mark actor's sprite as clean (disk).
+2016-01-20 11:08:59,908 DEBUG [pool-1-thread-1] stencyl.sw.io.write.resource.TilesetWriter: Mark tileset as clean (disk).
+2016-01-20 11:08:59,908 DEBUG [pool-1-thread-1] stencyl.sw.io.write.resource.SpriteWriter: Mark actor's sprite as clean (disk).
+2016-01-20 11:08:59,908 DEBUG [pool-1-thread-1] stencyl.sw.io.write.resource.FontWriter: Mark font as clean (disk).
+2016-01-20 11:08:59,908 DEBUG [pool-1-thread-1] stencyl.sw.io.write.resource.SpriteWriter: Mark actor's sprite as clean (disk).
+2016-01-20 11:08:59,908 DEBUG [pool-1-thread-1] stencyl.sw.io.write.resource.TilesetWriter: Mark tileset as clean (disk).
+2016-01-20 11:08:59,908 DEBUG [pool-1-thread-1] stencyl.sw.io.write.resource.SpriteWriter: Mark actor's sprite as clean (disk).
+2016-01-20 11:08:59,908 DEBUG [pool-1-thread-1] stencyl.sw.io.write.resource.BackgroundWriter: Skip writing out Background.
+2016-01-20 11:08:59,908 DEBUG [pool-1-thread-1] stencyl.sw.io.write.resource.BackgroundWriter: Mark background as clean (disk).
+2016-01-20 11:08:59,908 DEBUG [pool-1-thread-1] stencyl.sw.io.write.resource.SpriteWriter: Mark actor's sprite as clean (disk).
+2016-01-20 11:08:59,908 DEBUG [pool-1-thread-1] stencyl.sw.io.write.resource.TilesetWriter: Mark tileset as clean (disk).
+2016-01-20 11:08:59,924 DEBUG [pool-1-thread-1] stencyl.sw.io.write.MasterWriter: Writing out scenes.
+2016-01-20 11:08:59,939 DEBUG [pool-1-thread-1] stencyl.sw.editors.scene.SceneRenderer: Saving thumbnail: C:\Users\EConway6922\Documents\stencylworks\games\Dreams\scenes\3.png
+2016-01-20 11:08:59,955 DEBUG [pool-1-thread-1] stencyl.sw.io.write.resource.SceneWriter: Writing terrain.
+2016-01-20 11:08:59,955 DEBUG [pool-1-thread-1] stencyl.thirdparty.org.phys2d.Combiner: Num Tiles: 78
+2016-01-20 11:08:59,955 DEBUG [pool-1-thread-1] stencyl.thirdparty.org.phys2d.Combiner: Coverage: 23.214285%
+2016-01-20 11:08:59,955 DEBUG [pool-1-thread-1] stencyl.thirdparty.org.phys2d.Combiner: Segments: (3,3)
+2016-01-20 11:08:59,955 DEBUG [pool-1-thread-1] stencyl.thirdparty.org.phys2d.Combiner: Using Quad Space
+2016-01-20 11:08:59,971 DEBUG [pool-1-thread-1] stencyl.thirdparty.org.phys2d.Combiner: Combine took: 16ms
+2016-01-20 11:08:59,971 DEBUG [pool-1-thread-1] stencyl.sw.io.write.resource.SceneWriter: Terrain processing took: 0ms
+2016-01-20 11:08:59,986 DEBUG [pool-1-thread-1] stencyl.core.lib.io.read.SceneReader: Reading header for Scene: 3 (Bedroom) from: scenes\3.xml
+2016-01-20 11:09:00,002 DEBUG [pool-1-thread-1] stencyl.sw.io.write.resource.ScenesWriter: Writing out Scene Bedroom
+2016-01-20 11:09:00,002 DEBUG [pool-1-thread-1] stencyl.sw.io.write.MasterWriter: Copying over snippets.
+2016-01-20 11:09:00,002 DEBUG [pool-1-thread-1] stencyl.sw.util.FileHelper: Saving backup file C:\Users\EConway6922\Documents\stencylworks\games\Dreams\snippets\list.xml.bak.
+2016-01-20 11:09:00,127 DEBUG [pool-1-thread-1] stencyl.sw.io.write.resource.SnippetsWriter: Copy from opened to disk: SceneEvents_3
+2016-01-20 11:09:00,127 DEBUG [pool-1-thread-1] stencyl.sw.util.FileHelper: Trying to delete file that does not exist: C:\Users\EConway6922\Documents\stencylworks\games\Dreams\behavior-hx\SceneEvents_3.hx
+2016-01-20 11:09:00,127 DEBUG [pool-1-thread-1] stencyl.sw.io.write.resource.SnippetsWriter: Copied to: C:\Users\EConway6922\Documents\stencylworks\games\Dreams\snippets\SceneEvents_3.design
+2016-01-20 11:09:00,205 DEBUG [pool-3-thread-3] stencyl.sw.io.write.resource.SnippetsWriter: Writing Design Snippet to C:\Users\EConway6922\Documents\stencylworks\preview\scripts\SceneEvents_1.hx. Took 32 ms.
+2016-01-20 11:09:00,205 DEBUG [pool-3-thread-1] stencyl.sw.io.write.resource.SnippetsWriter: Writing Design Snippet to C:\Users\EConway6922\Documents\stencylworks\preview\scripts\ActorEvents_0.hx. Took 32 ms.
+2016-01-20 11:09:00,205 DEBUG [pool-3-thread-2] stencyl.sw.io.write.resource.SnippetsWriter: Writing Design Snippet to C:\Users\EConway6922\Documents\stencylworks\preview\scripts\Design_2_2_4WayMovement.hx. Took 32 ms.
+2016-01-20 11:09:00,205 DEBUG [pool-3-thread-4] stencyl.sw.io.write.resource.SnippetsWriter: Writing Design Snippet to C:\Users\EConway6922\Documents\stencylworks\preview\scripts\ActorEvents_3.hx. Took 32 ms.
+2016-01-20 11:09:00,205 DEBUG [pool-3-thread-1] stencyl.sw.io.write.resource.SnippetsWriter: Writing Design Snippet to C:\Users\EConway6922\Documents\stencylworks\preview\scripts\ActorEvents_5.hx. Took 0 ms.
+2016-01-20 11:09:00,220 DEBUG [pool-3-thread-3] stencyl.sw.io.write.resource.SnippetsWriter: Writing Design Snippet to C:\Users\EConway6922\Documents\stencylworks\preview\scripts\SceneEvents_2.hx. Took 15 ms.
+2016-01-20 11:09:00,220 DEBUG [pool-3-thread-2] stencyl.sw.io.write.resource.SnippetsWriter: Writing Design Snippet to C:\Users\EConway6922\Documents\stencylworks\preview\scripts\SceneEvents_3.hx. Took 15 ms.
+2016-01-20 11:09:00,220 DEBUG [pool-3-thread-4] stencyl.sw.io.write.resource.SnippetsWriter: Writing Design Snippet to C:\Users\EConway6922\Documents\stencylworks\preview\scripts\Design_8_8_2WayHorizontalMovement.hx. Took 15 ms.
+2016-01-20 11:09:00,220 DEBUG [pool-3-thread-2] stencyl.sw.io.write.resource.SnippetsWriter: Writing Design Snippet to C:\Users\EConway6922\Documents\stencylworks\preview\scripts\SceneEvents_4.hx. Took 0 ms.
+2016-01-20 11:09:00,236 DEBUG [pool-3-thread-3] stencyl.sw.io.write.resource.SnippetsWriter: Writing Design Snippet to C:\Users\EConway6922\Documents\stencylworks\preview\scripts\Design_10_10_Camera.hx. Took 16 ms.
+2016-01-20 11:09:00,236 DEBUG [pool-3-thread-3] stencyl.sw.io.write.resource.SnippetsWriter: Writing Design Snippet to C:\Users\EConway6922\Documents\stencylworks\preview\scripts\ActorEvents_13.hx. Took 0 ms.
+2016-01-20 11:09:00,236 DEBUG [pool-3-thread-1] stencyl.sw.io.write.resource.SnippetsWriter: Writing Design Snippet to C:\Users\EConway6922\Documents\stencylworks\preview\scripts\Design_9_9_Jumping.hx. Took 16 ms.
+2016-01-20 11:09:00,236 DEBUG [pool-3-thread-2] stencyl.sw.io.write.resource.SnippetsWriter: Writing Design Snippet to C:\Users\EConway6922\Documents\stencylworks\preview\scripts\ActorEvents_11.hx. Took 16 ms.
+2016-01-20 11:09:00,236 DEBUG [pool-3-thread-4] stencyl.sw.io.write.resource.SnippetsWriter: Writing Design Snippet to C:\Users\EConway6922\Documents\stencylworks\preview\scripts\SceneEvents_5.hx. Took 16 ms.
+2016-01-20 11:09:00,236 DEBUG [pool-3-thread-3] stencyl.sw.io.write.resource.SnippetsWriter: Writing Design Snippet to C:\Users\EConway6922\Documents\stencylworks\preview\scripts\SceneEvents_6.hx. Took 0 ms.
+2016-01-20 11:09:00,236 DEBUG [pool-1-thread-1] stencyl.sw.io.write.MasterWriter: Saving block favorites.
+2016-01-20 11:09:00,251 INFO  [pool-1-thread-1] stencyl.sw.io.write.MasterWriter: Done writing game.
+2016-01-20 11:09:00,298 INFO  [pool-1-thread-1] stencyl.sw.io.write.MasterWriter: Saving game in place.
+2016-01-20 11:09:00,314 DEBUG [pool-1-thread-1] stencyl.sw.util.FileHelper: Saving backup file C:\Users\EConway6922\Documents\stencylworks\games\Dreams\game.xml.bak.
+2016-01-20 11:09:04,073 DEBUG [pool-1-thread-1] stencyl.sw.io.write.MasterWriter: Writing out local resources.
+2016-01-20 11:09:04,073 DEBUG [pool-1-thread-1] stencyl.sw.util.FileHelper: Saving backup file C:\Users\EConway6922\Documents\stencylworks\games\Dreams\resources\data.xml.bak.
+2016-01-20 11:09:04,073 DEBUG [pool-1-thread-1] stencyl.sw.io.write.resource.SpriteWriter: Mark actor's sprite as clean (disk).
+2016-01-20 11:09:04,073 DEBUG [pool-1-thread-1] stencyl.sw.io.write.resource.TilesetWriter: Mark tileset as clean (disk).
+2016-01-20 11:09:04,073 DEBUG [pool-1-thread-1] stencyl.sw.io.write.resource.SpriteWriter: Mark actor's sprite as clean (disk).
+2016-01-20 11:09:04,073 DEBUG [pool-1-thread-1] stencyl.sw.io.write.resource.FontWriter: Mark font as clean (disk).
+2016-01-20 11:09:04,073 DEBUG [pool-1-thread-1] stencyl.sw.io.write.resource.SpriteWriter: Mark actor's sprite as clean (disk).
+2016-01-20 11:09:04,073 DEBUG [pool-1-thread-1] stencyl.sw.io.write.resource.TilesetWriter: Mark tileset as clean (disk).
+2016-01-20 11:09:04,073 DEBUG [pool-1-thread-1] stencyl.sw.io.write.resource.SpriteWriter: Mark actor's sprite as clean (disk).
+2016-01-20 11:09:04,073 DEBUG [pool-1-thread-1] stencyl.sw.io.write.resource.BackgroundWriter: Skip writing out Background.
+2016-01-20 11:09:04,073 DEBUG [pool-1-thread-1] stencyl.sw.io.write.resource.BackgroundWriter: Mark background as clean (disk).
+2016-01-20 11:09:04,073 DEBUG [pool-1-thread-1] stencyl.sw.io.write.resource.SpriteWriter: Mark actor's sprite as clean (disk).
+2016-01-20 11:09:04,073 DEBUG [pool-1-thread-1] stencyl.sw.io.write.resource.TilesetWriter: Mark tileset as clean (disk).
+2016-01-20 11:09:04,089 DEBUG [pool-1-thread-1] stencyl.sw.io.write.MasterWriter: Writing out scenes.
+2016-01-20 11:09:04,105 DEBUG [pool-1-thread-1] stencyl.sw.editors.scene.SceneRenderer: Saving thumbnail: C:\Users\EConway6922\Documents\stencylworks\games\Dreams\scenes\3.png
+2016-01-20 11:09:04,120 DEBUG [pool-1-thread-1] stencyl.sw.io.write.resource.SceneWriter: Writing terrain.
+2016-01-20 11:09:04,120 DEBUG [pool-1-thread-1] stencyl.thirdparty.org.phys2d.Combiner: Num Tiles: 78
+2016-01-20 11:09:04,120 DEBUG [pool-1-thread-1] stencyl.thirdparty.org.phys2d.Combiner: Coverage: 23.214285%
+2016-01-20 11:09:04,120 DEBUG [pool-1-thread-1] stencyl.thirdparty.org.phys2d.Combiner: Segments: (3,3)
+2016-01-20 11:09:04,120 DEBUG [pool-1-thread-1] stencyl.thirdparty.org.phys2d.Combiner: Using Quad Space
+2016-01-20 11:09:04,136 DEBUG [pool-1-thread-1] stencyl.thirdparty.org.phys2d.Combiner: Combine took: 16ms
+2016-01-20 11:09:04,136 DEBUG [pool-1-thread-1] stencyl.sw.io.write.resource.SceneWriter: Terrain processing took: 0ms
+2016-01-20 11:09:04,151 DEBUG [pool-1-thread-1] stencyl.core.lib.io.read.SceneReader: Reading header for Scene: 3 (Bedroom) from: scenes\3.xml
+2016-01-20 11:09:04,151 DEBUG [pool-1-thread-1] stencyl.sw.io.write.resource.ScenesWriter: Writing out Scene Bedroom
+2016-01-20 11:09:04,151 DEBUG [pool-1-thread-1] stencyl.sw.io.write.MasterWriter: Copying over snippets.
+2016-01-20 11:09:04,167 DEBUG [pool-1-thread-1] stencyl.sw.util.FileHelper: Saving backup file C:\Users\EConway6922\Documents\stencylworks\games\Dreams\snippets\list.xml.bak.
+2016-01-20 11:09:04,339 DEBUG [pool-1-thread-1] stencyl.sw.io.write.resource.SnippetsWriter: Copy from opened to disk: SceneEvents_3
+2016-01-20 11:09:04,339 DEBUG [pool-1-thread-1] stencyl.sw.util.FileHelper: Trying to delete file that does not exist: C:\Users\EConway6922\Documents\stencylworks\games\Dreams\behavior-hx\SceneEvents_3.hx
+2016-01-20 11:09:04,339 DEBUG [pool-1-thread-1] stencyl.sw.io.write.resource.SnippetsWriter: Copied to: C:\Users\EConway6922\Documents\stencylworks\games\Dreams\snippets\SceneEvents_3.design
+2016-01-20 11:09:04,401 DEBUG [pool-4-thread-1] stencyl.sw.io.write.resource.SnippetsWriter: Writing Design Snippet to C:\Users\EConway6922\Documents\stencylworks\preview\scripts\ActorEvents_0.hx. Took 16 ms.
+2016-01-20 11:09:04,401 DEBUG [pool-4-thread-3] stencyl.sw.io.write.resource.SnippetsWriter: Writing Design Snippet to C:\Users\EConway6922\Documents\stencylworks\preview\scripts\SceneEvents_1.hx. Took 0 ms.
+2016-01-20 11:09:04,401 DEBUG [pool-4-thread-2] stencyl.sw.io.write.resource.SnippetsWriter: Writing Design Snippet to C:\Users\EConway6922\Documents\stencylworks\preview\scripts\Design_2_2_4WayMovement.hx. Took 16 ms.
+2016-01-20 11:09:04,401 DEBUG [pool-4-thread-3] stencyl.sw.io.write.resource.SnippetsWriter: Writing Design Snippet to C:\Users\EConway6922\Documents\stencylworks\preview\scripts\ActorEvents_5.hx. Took 0 ms.
+2016-01-20 11:09:04,401 DEBUG [pool-4-thread-2] stencyl.sw.io.write.resource.SnippetsWriter: Writing Design Snippet to C:\Users\EConway6922\Documents\stencylworks\preview\scripts\SceneEvents_3.hx. Took 0 ms.
+2016-01-20 11:09:04,417 DEBUG [pool-4-thread-1] stencyl.sw.io.write.resource.SnippetsWriter: Writing Design Snippet to C:\Users\EConway6922\Documents\stencylworks\preview\scripts\SceneEvents_2.hx. Took 16 ms.
+2016-01-20 11:09:04,417 DEBUG [pool-4-thread-4] stencyl.sw.io.write.resource.SnippetsWriter: Writing Design Snippet to C:\Users\EConway6922\Documents\stencylworks\preview\scripts\ActorEvents_3.hx. Took 16 ms.
+2016-01-20 11:09:04,417 DEBUG [pool-4-thread-2] stencyl.sw.io.write.resource.SnippetsWriter: Writing Design Snippet to C:\Users\EConway6922\Documents\stencylworks\preview\scripts\Design_9_9_Jumping.hx. Took 0 ms.
+2016-01-20 11:09:04,417 DEBUG [pool-4-thread-1] stencyl.sw.io.write.resource.SnippetsWriter: Writing Design Snippet to C:\Users\EConway6922\Documents\stencylworks\preview\scripts\Design_10_10_Camera.hx. Took 0 ms.
+2016-01-20 11:09:04,417 DEBUG [pool-4-thread-1] stencyl.sw.io.write.resource.SnippetsWriter: Writing Design Snippet to C:\Users\EConway6922\Documents\stencylworks\preview\scripts\ActorEvents_11.hx. Took 0 ms.
+2016-01-20 11:09:04,417 DEBUG [pool-4-thread-3] stencyl.sw.io.write.resource.SnippetsWriter: Writing Design Snippet to C:\Users\EConway6922\Documents\stencylworks\preview\scripts\Design_8_8_2WayHorizontalMovement.hx. Took 16 ms.
+2016-01-20 11:09:04,432 DEBUG [pool-4-thread-4] stencyl.sw.io.write.resource.SnippetsWriter: Writing Design Snippet to C:\Users\EConway6922\Documents\stencylworks\preview\scripts\SceneEvents_4.hx. Took 15 ms.
+2016-01-20 11:09:04,432 DEBUG [pool-4-thread-2] stencyl.sw.io.write.resource.SnippetsWriter: Writing Design Snippet to C:\Users\EConway6922\Documents\stencylworks\preview\scripts\SceneEvents_5.hx. Took 15 ms.
+2016-01-20 11:09:04,432 DEBUG [pool-4-thread-1] stencyl.sw.io.write.resource.SnippetsWriter: Writing Design Snippet to C:\Users\EConway6922\Documents\stencylworks\preview\scripts\ActorEvents_13.hx. Took 0 ms.
+2016-01-20 11:09:04,432 DEBUG [pool-4-thread-3] stencyl.sw.io.write.resource.SnippetsWriter: Writing Design Snippet to C:\Users\EConway6922\Documents\stencylworks\preview\scripts\SceneEvents_6.hx. Took 15 ms.
+2016-01-20 11:09:04,432 DEBUG [pool-1-thread-1] stencyl.sw.io.write.MasterWriter: Saving block favorites.
+2016-01-20 11:09:04,448 INFO  [pool-1-thread-1] stencyl.sw.io.write.MasterWriter: Done writing game.
+2016-01-20 11:09:04,495 INFO  [AWT-EventQueue-0] stencyl.sw.io.write.resource.HXWriter: Building game with arguments: FLASH, TESTING
+2016-01-20 11:09:04,510 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Running command: [taskkill, /im, neko.exe, /f]
+2016-01-20 11:09:04,635 DEBUG [Thread-7] stencyl.sw.util.StreamGobbler: [taskkill] ERROR: The process "neko.exe" not found.
+2016-01-20 11:09:04,635 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Process 'taskkill' exited with code: 128
+2016-01-20 11:09:04,635 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Running command: [taskkill, /im, adb.exe, /f]
+2016-01-20 11:09:04,744 DEBUG [Thread-8] stencyl.sw.util.StreamGobbler: [taskkill] ERROR: The process "adb.exe" not found.
+2016-01-20 11:09:04,760 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Process 'taskkill' exited with code: 128
+2016-01-20 11:09:04,760 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Running command: [taskkill, /im, arm-linux-androideabi-g++.exe, /f]
+2016-01-20 11:09:04,869 DEBUG [Thread-9] stencyl.sw.util.StreamGobbler: [taskkill] ERROR: The process "arm-linux-androideabi-g++.exe" not found.
+2016-01-20 11:09:04,869 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Process 'taskkill' exited with code: 128
+2016-01-20 11:09:04,869 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Running command: [taskkill, /im, cc1plus.exe, /f]
+2016-01-20 11:09:04,978 DEBUG [Thread-10] stencyl.sw.util.StreamGobbler: [taskkill] ERROR: The process "cc1plus.exe" not found.
+2016-01-20 11:09:04,994 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Process 'taskkill' exited with code: 128
+2016-01-20 11:09:04,994 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Running command: [taskkill, /im, tail.exe, /f]
+2016-01-20 11:09:05,103 DEBUG [Thread-11] stencyl.sw.util.StreamGobbler: [taskkill] ERROR: The process "tail.exe" not found.
+2016-01-20 11:09:05,103 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Process 'taskkill' exited with code: 128
+2016-01-20 11:09:05,103 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Running command: [taskkill, /im, ios-sim.exe, /f]
+2016-01-20 11:09:05,212 DEBUG [Thread-12] stencyl.sw.util.StreamGobbler: [taskkill] ERROR: The process "ios-sim.exe" not found.
+2016-01-20 11:09:05,228 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Process 'taskkill' exited with code: 128
+2016-01-20 11:09:05,275 DEBUG [AWT-EventQueue-0] stencyl.sw.util.FileHelper: Deleting: C:\Users\EConway6922\AppData\Roaming\Macromedia\Flash Player\Logs\flashlog.txt
+2016-01-20 11:09:05,290 DEBUG [pool-1-thread-2] stencyl.sw.util.FileHelper: Deleting: C:\Users\EConway6922\Documents\stencylworks\games-generated\Dreams\Assets\graphics
+2016-01-20 11:09:05,306 DEBUG [pool-1-thread-2] stencyl.sw.util.FileHelper: Trying to delete file that does not exist: C:\Users\EConway6922\Documents\stencylworks\games-generated\Dreams\Export\iPhone\build
+2016-01-20 11:09:05,306 DEBUG [pool-1-thread-2] stencyl.sw.util.FileHelper: Trying to delete file that does not exist: C:\Users\EConway6922\Documents\stencylworks\games-generated\Dreams\Export\cpp\windows\bin
+2016-01-20 11:09:05,384 DEBUG [pool-1-thread-2] stencyl.sw.io.write.resource.HXWriter: Skipping... Player 1
+2016-01-20 11:09:05,384 DEBUG [pool-1-thread-2] stencyl.sw.io.write.resource.HXWriter: Copying graphics for scale: 1x
+2016-01-20 11:09:05,399 DEBUG [pool-1-thread-2] stencyl.sw.io.write.resource.HXWriter: Copying graphics for scale: 1.5x
+2016-01-20 11:09:05,399 DEBUG [pool-1-thread-2] stencyl.sw.io.write.resource.HXWriter: Copying graphics for scale: 2x
+2016-01-20 11:09:05,399 DEBUG [pool-1-thread-2] stencyl.sw.io.write.resource.HXWriter: Copying graphics for scale: 4x
+2016-01-20 11:09:05,399 DEBUG [pool-1-thread-2] stencyl.sw.io.write.resource.HXWriter: Copying graphics for scale: 1x
+2016-01-20 11:09:05,399 DEBUG [pool-1-thread-2] stencyl.sw.io.write.resource.HXWriter: Copying graphics for scale: 1.5x
+2016-01-20 11:09:05,399 DEBUG [pool-1-thread-2] stencyl.sw.io.write.resource.HXWriter: Copying graphics for scale: 2x
+2016-01-20 11:09:05,399 DEBUG [pool-1-thread-2] stencyl.sw.io.write.resource.HXWriter: Copying graphics for scale: 4x
+2016-01-20 11:09:05,399 DEBUG [pool-1-thread-2] stencyl.sw.io.write.resource.HXWriter: Skipping... lion
+2016-01-20 11:09:05,399 DEBUG [pool-1-thread-2] stencyl.sw.io.write.resource.HXWriter: Copying graphics for scale: 1x
+2016-01-20 11:09:05,415 DEBUG [pool-1-thread-2] stencyl.sw.io.write.resource.HXWriter: Copying graphics for scale: 1.5x
+2016-01-20 11:09:05,415 DEBUG [pool-1-thread-2] stencyl.sw.io.write.resource.HXWriter: Copying graphics for scale: 2x
+2016-01-20 11:09:05,415 DEBUG [pool-1-thread-2] stencyl.sw.io.write.resource.HXWriter: Copying graphics for scale: 4x
+2016-01-20 11:09:05,415 DEBUG [pool-1-thread-2] stencyl.sw.io.write.resource.HXWriter: Skipping... Bedroom player
+2016-01-20 11:09:05,415 DEBUG [pool-1-thread-2] stencyl.sw.io.write.resource.HXWriter: Copying graphics for scale: 1x
+2016-01-20 11:09:05,415 DEBUG [pool-1-thread-2] stencyl.sw.io.write.resource.HXWriter: Copying graphics for scale: 1.5x
+2016-01-20 11:09:05,431 DEBUG [pool-1-thread-2] stencyl.sw.io.write.resource.HXWriter: Copying graphics for scale: 2x
+2016-01-20 11:09:05,431 DEBUG [pool-1-thread-2] stencyl.sw.io.write.resource.HXWriter: Copying graphics for scale: 4x
+2016-01-20 11:09:05,431 DEBUG [pool-1-thread-2] stencyl.sw.io.write.resource.HXWriter: Copying graphics for scale: 1x
+2016-01-20 11:09:05,431 DEBUG [pool-1-thread-2] stencyl.sw.io.write.resource.HXWriter: Copying graphics for scale: 1.5x
+2016-01-20 11:09:05,446 DEBUG [pool-1-thread-2] stencyl.sw.io.write.resource.HXWriter: Copying graphics for scale: 2x
+2016-01-20 11:09:05,446 DEBUG [pool-1-thread-2] stencyl.sw.io.write.resource.HXWriter: Copying graphics for scale: 4x
+2016-01-20 11:09:05,446 DEBUG [pool-1-thread-2] stencyl.sw.io.write.resource.HXWriter: Copying graphics for scale: 1x
+2016-01-20 11:09:05,446 DEBUG [pool-1-thread-2] stencyl.sw.io.write.resource.HXWriter: Copying graphics for scale: 1.5x
+2016-01-20 11:09:05,462 DEBUG [pool-1-thread-2] stencyl.sw.io.write.resource.HXWriter: Copying graphics for scale: 2x
+2016-01-20 11:09:05,462 DEBUG [pool-1-thread-2] stencyl.sw.io.write.resource.HXWriter: Copying graphics for scale: 4x
+2016-01-20 11:09:05,462 DEBUG [pool-1-thread-2] stencyl.sw.io.write.resource.HXWriter: Copying graphics for scale: 1x
+2016-01-20 11:09:05,477 DEBUG [pool-1-thread-2] stencyl.sw.io.write.resource.HXWriter: Copying graphics for scale: 1.5x
+2016-01-20 11:09:05,477 DEBUG [pool-1-thread-2] stencyl.sw.io.write.resource.HXWriter: Copying graphics for scale: 2x
+2016-01-20 11:09:05,493 DEBUG [pool-1-thread-2] stencyl.sw.io.write.resource.HXWriter: Copying graphics for scale: 4x
+2016-01-20 11:09:05,509 DEBUG [pool-1-thread-2] stencyl.sw.io.write.resource.HXWriter: Copying graphics for scale: 1x
+2016-01-20 11:09:05,509 DEBUG [pool-1-thread-2] stencyl.sw.io.write.resource.HXWriter: Copying graphics for scale: 1.5x
+2016-01-20 11:09:05,509 DEBUG [pool-1-thread-2] stencyl.sw.io.write.resource.HXWriter: Copying graphics for scale: 2x
+2016-01-20 11:09:05,509 DEBUG [pool-1-thread-2] stencyl.sw.io.write.resource.HXWriter: Copying graphics for scale: 4x
+2016-01-20 11:09:05,524 DEBUG [pool-1-thread-2] stencyl.sw.io.write.resource.HXWriter: Skipping... Key
+2016-01-20 11:09:05,524 DEBUG [pool-1-thread-2] stencyl.sw.io.write.resource.HXWriter: Copying graphics for scale: 1x
+2016-01-20 11:09:05,524 DEBUG [pool-1-thread-2] stencyl.sw.io.write.resource.HXWriter: Copying graphics for scale: 1.5x
+2016-01-20 11:09:05,540 DEBUG [pool-1-thread-2] stencyl.sw.io.write.resource.HXWriter: Copying graphics for scale: 2x
+2016-01-20 11:09:05,540 DEBUG [pool-1-thread-2] stencyl.sw.io.write.resource.HXWriter: Copying graphics for scale: 4x
+2016-01-20 11:09:05,540 DEBUG [pool-1-thread-2] stencyl.sw.io.write.resource.HXWriter: Skipping... Door
+2016-01-20 11:09:05,540 DEBUG [pool-1-thread-2] stencyl.sw.io.write.resource.HXWriter: Copying graphics for scale: 1x
+2016-01-20 11:09:05,540 DEBUG [pool-1-thread-2] stencyl.sw.io.write.resource.HXWriter: Copying graphics for scale: 1.5x
+2016-01-20 11:09:05,555 DEBUG [pool-1-thread-2] stencyl.sw.io.write.resource.HXWriter: Copying graphics for scale: 2x
+2016-01-20 11:09:05,555 DEBUG [pool-1-thread-2] stencyl.sw.io.write.resource.HXWriter: Copying graphics for scale: 4x
+2016-01-20 11:09:05,555 DEBUG [pool-1-thread-2] stencyl.sw.util.FileHelper: Trying to delete file that does not exist: C:\Users\EConway6922\Documents\stencylworks\games-generated\Dreams\Assets\graphics\3x
+2016-01-20 11:09:05,587 DEBUG [pool-1-thread-2] stencyl.sw.util.FileHelper: Saving backup file C:\Users\EConway6922\Documents\stencylworks\games\Dreams\game.xml.bak.
+2016-01-20 11:09:07,864 DEBUG [pool-1-thread-2] stencyl.sw.io.write.resource.HXWriter: Skipping... Player 1
+2016-01-20 11:09:07,864 DEBUG [pool-1-thread-2] stencyl.sw.io.write.resource.HXWriter: Skipping... lion
+2016-01-20 11:09:07,864 DEBUG [pool-1-thread-2] stencyl.sw.io.write.resource.HXWriter: Skipping... Bedroom player
+2016-01-20 11:09:07,864 DEBUG [pool-1-thread-2] stencyl.sw.io.write.resource.HXWriter: Skipping... Key
+2016-01-20 11:09:07,864 DEBUG [pool-1-thread-2] stencyl.sw.io.write.resource.HXWriter: Skipping... Door
+2016-01-20 11:09:07,880 DEBUG [pool-5-thread-1] stencyl.sw.io.write.resource.SnippetsWriter: Writing Design Snippet to C:\Users\EConway6922\Documents\stencylworks\preview\scripts\ActorEvents_0.hx. Took 0 ms.
+2016-01-20 11:09:07,880 DEBUG [pool-5-thread-3] stencyl.sw.io.write.resource.SnippetsWriter: Writing Design Snippet to C:\Users\EConway6922\Documents\stencylworks\preview\scripts\SceneEvents_1.hx. Took 0 ms.
+2016-01-20 11:09:07,895 DEBUG [pool-5-thread-2] stencyl.sw.io.write.resource.SnippetsWriter: Writing Design Snippet to C:\Users\EConway6922\Documents\stencylworks\preview\scripts\SceneEvents_2.hx. Took 15 ms.
+2016-01-20 11:09:07,895 DEBUG [pool-5-thread-1] stencyl.sw.io.write.resource.SnippetsWriter: Writing Design Snippet to C:\Users\EConway6922\Documents\stencylworks\preview\scripts\ActorEvents_5.hx. Took 0 ms.
+2016-01-20 11:09:07,895 DEBUG [pool-5-thread-4] stencyl.sw.io.write.resource.SnippetsWriter: Writing Design Snippet to C:\Users\EConway6922\Documents\stencylworks\preview\scripts\ActorEvents_3.hx. Took 15 ms.
+2016-01-20 11:09:07,895 DEBUG [pool-5-thread-3] stencyl.sw.io.write.resource.SnippetsWriter: Writing Design Snippet to C:\Users\EConway6922\Documents\stencylworks\preview\scripts\SceneEvents_3.hx. Took 0 ms.
+2016-01-20 11:09:07,911 DEBUG [pool-5-thread-2] stencyl.sw.io.write.resource.SnippetsWriter: Writing Design Snippet to C:\Users\EConway6922\Documents\stencylworks\preview\scripts\SceneEvents_4.hx. Took 16 ms.
+2016-01-20 11:09:07,911 DEBUG [pool-5-thread-3] stencyl.sw.io.write.resource.SnippetsWriter: Writing Design Snippet to C:\Users\EConway6922\Documents\stencylworks\preview\scripts\ActorEvents_11.hx. Took 0 ms.
+2016-01-20 11:09:07,911 DEBUG [pool-5-thread-1] stencyl.sw.io.write.resource.SnippetsWriter: Writing Design Snippet to C:\Users\EConway6922\Documents\stencylworks\preview\scripts\ActorEvents_13.hx. Took 0 ms.
+2016-01-20 11:09:07,911 DEBUG [pool-5-thread-4] stencyl.sw.io.write.resource.SnippetsWriter: Writing Design Snippet to C:\Users\EConway6922\Documents\stencylworks\preview\scripts\SceneEvents_6.hx. Took 0 ms.
+2016-01-20 11:09:07,942 DEBUG [pool-1-thread-2] stencyl.sw.util.Util: Running command: [C:\Users\EConway6922\Downloads\Stencyl\plaf\haxe\haxelib.exe, run, openfl, -verbose, build, -debug, project.xml, flash]
+2016-01-20 11:09:08,410 INFO  [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe] OpenFL Command-Line Tools (3.3.8-LPNIQF)
+2016-01-20 11:09:08,410 INFO  [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe] Initializing project...
+2016-01-20 11:09:08,410 INFO  [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe] Using project file: project.xml
+2016-01-20 11:09:08,410 INFO  [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe] Reading HXCPP config: C:\Users\EConway6922\.hxcpp_config.xml
+2016-01-20 11:09:08,644 INFO  [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe] Using target platform: FLASH
+2016-01-20 11:09:08,644 INFO  [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe] Running command: UPDATE
+2016-01-20 11:09:08,644 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (TEXT) Assets/graphics/1.5x/font-9.fnt
+2016-01-20 11:09:08,644 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/1.5x/font-9.png
+2016-01-20 11:09:08,644 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/1.5x/sprite-1-0.png
+2016-01-20 11:09:08,644 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/1.5x/sprite-12-0.png
+2016-01-20 11:09:08,644 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/1.5x/sprite-14-0.png
+2016-01-20 11:09:08,644 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/1.5x/sprite-4-0.png
+2016-01-20 11:09:08,644 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/1.5x/sprite-6-0.png
+2016-01-20 11:09:08,644 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/1.5x/tileset-10.png
+2016-01-20 11:09:08,644 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/1.5x/tileset-7.png
+2016-01-20 11:09:08,644 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/1.5x/tileset-8.png
+2016-01-20 11:09:08,644 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (TEXT) Assets/graphics/1x/font-9.fnt
+2016-01-20 11:09:08,644 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/1x/font-9.png
+2016-01-20 11:09:08,644 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/1x/sprite-1-0.png
+2016-01-20 11:09:08,644 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/1x/sprite-12-0.png
+2016-01-20 11:09:08,644 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/1x/sprite-14-0.png
+2016-01-20 11:09:08,644 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/1x/sprite-4-0.png
+2016-01-20 11:09:08,644 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/1x/sprite-6-0.png
+2016-01-20 11:09:08,644 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/1x/tileset-10.png
+2016-01-20 11:09:08,644 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/1x/tileset-7.png
+2016-01-20 11:09:08,644 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/1x/tileset-8.png
+2016-01-20 11:09:08,644 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (TEXT) Assets/graphics/2x/font-9.fnt
+2016-01-20 11:09:08,644 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/2x/font-9.png
+2016-01-20 11:09:08,644 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/2x/sprite-1-0.png
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/2x/sprite-12-0.png
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/2x/sprite-14-0.png
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/2x/sprite-4-0.png
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/2x/sprite-6-0.png
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/2x/tileset-10.png
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/2x/tileset-7.png
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/2x/tileset-8.png
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (TEXT) Assets/graphics/4x/font-9.fnt
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/4x/font-9.png
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/4x/sprite-1-0.png
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/4x/sprite-12-0.png
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/4x/sprite-14-0.png
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/4x/sprite-4-0.png
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/4x/sprite-6-0.png
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/4x/tileset-10.png
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/4x/tileset-7.png
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/4x/tileset-8.png
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (TEXT) Assets/graphics/default-font.fnt
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/default-font.png
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/preloader-badge.png
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/preloader-bg.png
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/preloader-bg@1.5x.png
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/preloader-bg@2x.png
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/preloader-bg@4x.png
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (TEXT) Assets/data/behaviors.xml
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (TEXT) Assets/data/game.xml
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (TEXT) Assets/data/resources.xml
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (BINARY) Assets/data/scene-0.scn
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (TEXT) Assets/data/scene-0.xml
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (BINARY) Assets/data/scene-1.scn
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (TEXT) Assets/data/scene-1.xml
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (BINARY) Assets/data/scene-2.scn
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (TEXT) Assets/data/scene-2.xml
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (BINARY) Assets/data/scene-3.scn
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (TEXT) Assets/data/scene-3.xml
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (BINARY) Assets/data/scene-4.scn
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (TEXT) Assets/data/scene-4.xml
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (BINARY) Assets/data/scene-5.scn
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (TEXT) Assets/data/scene-5.xml
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (BINARY) Assets/data/scene-6.scn
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (TEXT) Assets/data/scene-6.xml
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (TEXT) Assets/data/scenes.xml
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (TEXT) Assets/graphics/1.5x/font-9.fnt
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/1.5x/font-9.png
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/1.5x/sprite-1-0.png
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/1.5x/sprite-12-0.png
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/1.5x/sprite-14-0.png
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/1.5x/sprite-4-0.png
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/1.5x/sprite-6-0.png
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/1.5x/tileset-10.png
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/1.5x/tileset-7.png
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/1.5x/tileset-8.png
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (TEXT) Assets/graphics/1x/font-9.fnt
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/1x/font-9.png
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/1x/sprite-1-0.png
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/1x/sprite-12-0.png
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/1x/sprite-14-0.png
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/1x/sprite-4-0.png
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/1x/sprite-6-0.png
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/1x/tileset-10.png
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/1x/tileset-7.png
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/1x/tileset-8.png
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (TEXT) Assets/graphics/2x/font-9.fnt
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/2x/font-9.png
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/2x/sprite-1-0.png
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/2x/sprite-12-0.png
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/2x/sprite-14-0.png
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/2x/sprite-4-0.png
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/2x/sprite-6-0.png
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/2x/tileset-10.png
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/2x/tileset-7.png
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/2x/tileset-8.png
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (TEXT) Assets/graphics/4x/font-9.fnt
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/4x/font-9.png
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/4x/sprite-1-0.png
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/4x/sprite-12-0.png
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/4x/sprite-14-0.png
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/4x/sprite-4-0.png
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/4x/sprite-6-0.png
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/4x/tileset-10.png
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/4x/tileset-7.png
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/4x/tileset-8.png
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (TEXT) Assets/graphics/default-font.fnt
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/default-font.png
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/preloader-badge.png
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/preloader-bg.png
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/preloader-bg@1.5x.png
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/preloader-bg@2x.png
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (IMAGE) Assets/graphics/preloader-bg@4x.png
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (TEXT) Assets/data/behaviors.xml
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (TEXT) Assets/data/game.xml
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (TEXT) Assets/data/resources.xml
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (BINARY) Assets/data/scene-0.scn
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (TEXT) Assets/data/scene-0.xml
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (BINARY) Assets/data/scene-1.scn
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (TEXT) Assets/data/scene-1.xml
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (BINARY) Assets/data/scene-2.scn
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (TEXT) Assets/data/scene-2.xml
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (BINARY) Assets/data/scene-3.scn
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (TEXT) Assets/data/scene-3.xml
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (BINARY) Assets/data/scene-4.scn
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (TEXT) Assets/data/scene-4.xml
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (BINARY) Assets/data/scene-5.scn
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (TEXT) Assets/data/scene-5.xml
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (BINARY) Assets/data/scene-6.scn
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (TEXT) Assets/data/scene-6.xml
+2016-01-20 11:09:08,660 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Embedding asset: (TEXT) Assets/data/scenes.xml
+2016-01-20 11:09:09,081 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Copying template file: C:\Users\EConway6922\Downloads\Stencyl\plaf\haxe\lib/lime/lime/templates/haxe/ApplicationMain.hx -> Export/flash/haxe/ApplicationMain.hx
+2016-01-20 11:09:09,081 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Copying template file: C:\Users\EConway6922\Downloads\Stencyl\plaf\haxe\lib/lime/lime/templates/haxe/DefaultAssetLibrary.hx -> Export/flash/haxe/DefaultAssetLibrary.hx
+2016-01-20 11:09:09,097 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Copying template file: C:\Users\EConway6922\Downloads\Stencyl\plaf\haxe\lib/openfl/openfl/templates/haxe/ApplicationMain.hx -> Export/flash/haxe/ApplicationMain.hx
+2016-01-20 11:09:09,097 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Copying template file: C:\Users\EConway6922\Downloads\Stencyl\plaf\haxe\lib/openfl/openfl/templates/haxe/NMEPreloader.hx -> Export/flash/haxe/NMEPreloader.hx
+2016-01-20 11:09:09,097 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Copying template file: C:\Users\EConway6922\Downloads\Stencyl\plaf\haxe\lib/lime/lime/templates/flash/hxml/debug.hxml -> Export/flash/haxe/debug.hxml
+2016-01-20 11:09:09,112 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Copying template file: C:\Users\EConway6922\Downloads\Stencyl\plaf\haxe\lib/lime/lime/templates/flash/hxml/final.hxml -> Export/flash/haxe/final.hxml
+2016-01-20 11:09:09,112 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Copying template file: C:\Users\EConway6922\Downloads\Stencyl\plaf\haxe\lib/lime/lime/templates/flash/hxml/release.hxml -> Export/flash/haxe/release.hxml
+2016-01-20 11:09:09,112 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Copying template file: C:\Users\EConway6922\Downloads\Stencyl\plaf\haxe\lib/openfl/openfl/templates/flash/hxml/debug.hxml -> Export/flash/haxe/debug.hxml
+2016-01-20 11:09:09,112 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Copying template file: C:\Users\EConway6922\Downloads\Stencyl\plaf\haxe\lib/openfl/openfl/templates/flash/hxml/final.hxml -> Export/flash/haxe/final.hxml
+2016-01-20 11:09:09,112 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Copying template file: C:\Users\EConway6922\Downloads\Stencyl\plaf\haxe\lib/openfl/openfl/templates/flash/hxml/release.hxml -> Export/flash/haxe/release.hxml
+2016-01-20 11:09:09,112 INFO  [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe] Running command: BUILD
+2016-01-20 11:09:09,112 DEBUG [Thread-13] stencyl.sw.util.StreamGobbler: [haxelib.exe]  - Running command: haxe -main ApplicationMain -cp C:/Users/EConway6922/Downloads/Stencyl/plaf/haxe/lib/openfl/openfl -D openfl=3.3.8 -cp C:/Users/EConway6922/Downloads/Stencyl/plaf/haxe/lib/lime/lime -D lime=2.6.8 -cp C:/Users/EConway6922/Downloads/Stencyl/plaf/haxe/lib/actuate/1,6,5 -D actuate=1.6.5 -cp C:/Users/EConway6922/Downloads/Stencyl/plaf/haxe/lib/console/1,00 -D console=0.0.0 -cp C:/Users/EConway6922/Downloads/Stencyl/plaf/haxe/lib/polygonal-ds/1,4,1 -D polygonal-ds=1.4.1 -cp C:/Users/EConway6922/Downloads/Stencyl/plaf/haxe/lib/polygonal-printf/1,0,0-beta -D polygonal-printf=1.0.0-beta -cp C:/Users/EConway6922/Downloads/Stencyl/plaf/haxe/lib/box2d/1,11 -D box2d=0.0.0 -cp C:/Users/EConway6922/Downloads/Stencyl/plaf/haxe/lib/stencyl/1,00 -D stencyl=0.0.0 -cp Source -cp C:\Users\EConway6922\Downloads\Stencyl\plaf\haxe\extensions/gestures -D native-trace -D openfl-next -D tools=2.6.8 -D flash-use-stage -D no-compilation -D openfl-flash -D verbose=1 -D web --remap nme:openfl -D network-sandbox -D as3_native -D swf-directblit -swf-lib newgrounds.swf -swf-lib cpmstar.swf -resource Assets/graphics/preloader-bg.png@preloader-bg -swf-lib Export/flash/obj/assets.swf -swf-version 11 -swf Export/flash/bin/Dreams.swf -cp Export/flash/haxe -debug
+2016-01-20 11:09:15,118 DEBUG [pool-1-thread-2] stencyl.sw.util.Util: Process 'haxelib.exe' exited with code: 0
+2016-01-20 11:09:15,118 INFO  [pool-1-thread-2] stencyl.sw.io.write.resource.HXWriter: Finished: Building for Flash.
+2016-01-20 11:09:15,118 DEBUG [pool-1-thread-2] stencyl.sw.util.Util: Running command: [C:\Users\EConway6922\Downloads\Stencyl\ext-tools\players\flash-10-win, C:\Users\EConway6922\Documents\stencylworks\games-generated\Dreams\Export\flash\bin\Dreams.swf]
+2016-01-20 11:09:15,567 INFO  [pool-1-thread-1] stencyl.sw.app.filewatcher.ExternalAppLauncher: [Flash] Universal#initScreen(194): Stage Width: 640
+2016-01-20 11:09:15,567 INFO  [pool-1-thread-1] stencyl.sw.app.filewatcher.ExternalAppLauncher: [Flash] Universal#initScreen(195): Stage Height: 480
+2016-01-20 11:09:15,567 INFO  [pool-1-thread-1] stencyl.sw.app.filewatcher.ExternalAppLauncher: [Flash] Universal#initScreen(196): Screen Width: 640
+2016-01-20 11:09:15,567 INFO  [pool-1-thread-1] stencyl.sw.app.filewatcher.ExternalAppLauncher: [Flash] Universal#initScreen(197): Screen Height: 480
+2016-01-20 11:09:15,567 INFO  [pool-1-thread-1] stencyl.sw.app.filewatcher.ExternalAppLauncher: [Flash] Universal#initScreen(198): Screen DPI: 72
+2016-01-20 11:09:15,567 INFO  [pool-1-thread-1] stencyl.sw.app.filewatcher.ExternalAppLauncher: [Flash] Universal#initScreen(377): Max Scale: 4
+2016-01-20 11:09:15,567 INFO  [pool-1-thread-1] stencyl.sw.app.filewatcher.ExternalAppLauncher: [Flash] Universal#initScreen(378): Engine Scale: 1x
+2016-01-20 11:09:15,567 INFO  [pool-1-thread-1] stencyl.sw.app.filewatcher.ExternalAppLauncher: [Flash] Universal#initScreen(732): Scale X: 1
+2016-01-20 11:09:15,567 INFO  [pool-1-thread-1] stencyl.sw.app.filewatcher.ExternalAppLauncher: [Flash] Universal#initScreen(733): Scale Y: 1
+2016-01-20 11:09:16,067 INFO  [pool-1-thread-1] stencyl.sw.app.filewatcher.ExternalAppLauncher: [Flash] lime.Assets#getImage(310): [Assets] There is no Image asset with an ID of "assets/graphics/1x/background-2-0.png"
+2016-01-20 11:12:07,703 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.Designer: Brush Changed
+2016-01-20 11:12:07,828 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.Designer: Brush Changed
+2016-01-20 11:12:41,134 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Checking if no items: null
+2016-01-20 11:12:41,134 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Working with Actors and/or Tiles
+2016-01-20 11:12:41,290 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Field Count: 17
+2016-01-20 11:12:41,290 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Case 1: Select New Object (Nothing Previously Selected).
+2016-01-20 11:12:44,441 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Checking if no items: [X,Y: 269, 217 0.0 0 ]
+2016-01-20 11:12:44,441 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Translating selection: [X,Y: 269, 217 0.0 0 ] by (179,-89)
+2016-01-20 11:12:44,441 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Deselect
+2016-01-20 11:12:44,441 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Clear Selection
+2016-01-20 11:12:44,441 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Saving Snippet: 4 Way Movement
+2016-01-20 11:12:44,441 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: thisactor
+2016-01-20 11:12:44,457 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Value: down
+2016-01-20 11:12:44,457 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: down
+2016-01-20 11:12:44,457 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Value: left
+2016-01-20 11:12:44,457 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: left
+2016-01-20 11:12:44,457 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Value: right
+2016-01-20 11:12:44,457 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: right
+2016-01-20 11:12:44,457 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 0.0
+2016-01-20 11:12:44,457 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 0.0
+2016-01-20 11:12:44,457 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: true
+2016-01-20 11:12:44,457 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 20.0
+2016-01-20 11:12:44,457 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: false
+2016-01-20 11:12:44,457 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: false
+2016-01-20 11:12:44,457 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: true
+2016-01-20 11:12:44,457 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: false
+2016-01-20 11:12:44,457 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: false
+2016-01-20 11:12:44,457 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:12:44,457 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:12:44,457 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:12:44,457 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:12:44,457 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:12:44,457 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:12:44,457 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:12:44,457 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:12:44,457 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: true
+2016-01-20 11:12:44,457 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Value: up
+2016-01-20 11:12:44,457 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: up
+2016-01-20 11:12:44,472 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.inspector.InspectorPane: Inspecting Group...
+2016-01-20 11:12:44,488 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: End Move Object.
+2016-01-20 11:12:44,628 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Checking if no items: 1 [X,Y: 448, 128 0.0 0 ]
+2016-01-20 11:12:44,628 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: [X,Y: 448, 128 0.0 0 ]
+2016-01-20 11:12:44,628 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: 1 [X,Y: 448, 128 0.0 0 ]
+2016-01-20 11:12:44,628 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Case 2B: Select Same Object.
+2016-01-20 11:12:44,628 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Saving Snippet: 4 Way Movement
+2016-01-20 11:12:44,628 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: thisactor
+2016-01-20 11:12:44,628 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Value: down
+2016-01-20 11:12:44,628 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: down
+2016-01-20 11:12:44,628 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Value: left
+2016-01-20 11:12:44,628 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: left
+2016-01-20 11:12:44,628 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Value: right
+2016-01-20 11:12:44,628 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: right
+2016-01-20 11:12:44,628 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 0.0
+2016-01-20 11:12:44,628 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 0.0
+2016-01-20 11:12:44,628 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: true
+2016-01-20 11:12:44,628 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 20.0
+2016-01-20 11:12:44,628 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: false
+2016-01-20 11:12:44,628 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: false
+2016-01-20 11:12:44,628 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: true
+2016-01-20 11:12:44,628 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: false
+2016-01-20 11:12:44,628 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: false
+2016-01-20 11:12:44,628 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:12:44,628 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:12:44,628 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:12:44,628 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:12:44,628 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:12:44,628 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:12:44,628 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:12:44,628 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:12:44,628 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: true
+2016-01-20 11:12:44,628 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Value: up
+2016-01-20 11:12:44,628 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: up
+2016-01-20 11:12:44,644 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.inspector.InspectorPane: Inspecting Group...
+2016-01-20 11:12:46,672 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Checking if no items: 1 [X,Y: 448, 128 0.0 0 ]
+2016-01-20 11:12:46,672 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Translating selection: 1 [X,Y: 448, 128 0.0 0 ] by (-1,-2)
+2016-01-20 11:12:46,672 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Deselect
+2016-01-20 11:12:46,672 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Clear Selection
+2016-01-20 11:12:46,672 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Saving Snippet: 4 Way Movement
+2016-01-20 11:12:46,672 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: thisactor
+2016-01-20 11:12:46,672 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Value: down
+2016-01-20 11:12:46,672 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: down
+2016-01-20 11:12:46,672 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Value: left
+2016-01-20 11:12:46,672 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: left
+2016-01-20 11:12:46,672 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Value: right
+2016-01-20 11:12:46,672 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: right
+2016-01-20 11:12:46,672 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 0.0
+2016-01-20 11:12:46,672 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 0.0
+2016-01-20 11:12:46,672 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: true
+2016-01-20 11:12:46,672 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 20.0
+2016-01-20 11:12:46,672 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: false
+2016-01-20 11:12:46,672 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: false
+2016-01-20 11:12:46,672 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: true
+2016-01-20 11:12:46,672 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: false
+2016-01-20 11:12:46,672 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: false
+2016-01-20 11:12:46,672 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:12:46,672 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:12:46,672 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:12:46,672 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:12:46,672 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:12:46,672 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:12:46,672 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:12:46,672 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:12:46,672 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: true
+2016-01-20 11:12:46,672 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Value: up
+2016-01-20 11:12:46,687 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: up
+2016-01-20 11:12:46,687 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.inspector.InspectorPane: Inspecting Group...
+2016-01-20 11:12:46,687 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: End Move Object.
+2016-01-20 11:12:47,623 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Checking if no items: 1 [X,Y: 447, 126 0.0 0 ]
+2016-01-20 11:12:47,623 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: [X,Y,L: 480, 192 Layer 0 false]
+2016-01-20 11:12:47,623 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: 1 [X,Y: 447, 126 0.0 0 ]
+2016-01-20 11:12:47,623 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Deselect
+2016-01-20 11:12:47,623 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Clear Selection
+2016-01-20 11:12:47,623 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Saving Snippet: 4 Way Movement
+2016-01-20 11:12:47,623 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: thisactor
+2016-01-20 11:12:47,623 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Value: down
+2016-01-20 11:12:47,623 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: down
+2016-01-20 11:12:47,623 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Value: left
+2016-01-20 11:12:47,623 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: left
+2016-01-20 11:12:47,623 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Value: right
+2016-01-20 11:12:47,623 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: right
+2016-01-20 11:12:47,623 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 0.0
+2016-01-20 11:12:47,623 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 0.0
+2016-01-20 11:12:47,623 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: true
+2016-01-20 11:12:47,623 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 20.0
+2016-01-20 11:12:47,623 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: false
+2016-01-20 11:12:47,623 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: false
+2016-01-20 11:12:47,623 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: true
+2016-01-20 11:12:47,623 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: false
+2016-01-20 11:12:47,623 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: false
+2016-01-20 11:12:47,623 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:12:47,623 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:12:47,623 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:12:47,623 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:12:47,623 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:12:47,623 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:12:47,623 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:12:47,639 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:12:47,639 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: true
+2016-01-20 11:12:47,639 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Value: up
+2016-01-20 11:12:47,639 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: up
+2016-01-20 11:12:47,639 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Case 2C: Select Different Object (Something Previously Selected).
+2016-01-20 11:12:47,717 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Checking if no items: [X,Y,L: 480, 192 Layer 0 true]
+2016-01-20 11:12:48,700 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Checking if no items: [X,Y,L: 480, 192 Layer 0 true]
+2016-01-20 11:12:48,700 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: [X,Y,L: 512, 256 Layer 0 false]
+2016-01-20 11:12:48,700 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: [X,Y,L: 480, 192 Layer 0 true]
+2016-01-20 11:12:48,700 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Case 2B: Select Same Object.
+2016-01-20 11:12:48,762 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Checking if no items: [X,Y,L: 480, 192 Layer 0 true]
+2016-01-20 11:12:49,683 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Checking if no items: [X,Y,L: 480, 192 Layer 0 true]
+2016-01-20 11:12:49,683 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: [X,Y,L: 544, 256 Layer 0 false]
+2016-01-20 11:12:49,683 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: [X,Y,L: 480, 192 Layer 0 true]
+2016-01-20 11:12:49,683 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Case 2B: Select Same Object.
+2016-01-20 11:12:49,792 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Checking if no items: [X,Y,L: 480, 192 Layer 0 true]
+2016-01-20 11:12:49,792 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Translating selection: [X,Y,L: 480, 192 Layer 0 true] by (0,0)
+2016-01-20 11:12:49,792 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Deselect
+2016-01-20 11:12:49,792 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Clear Selection
+2016-01-20 11:12:49,792 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.inspector.InspectorPane: Inspecting Group...
+2016-01-20 11:12:49,792 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Delete Selection
+2016-01-20 11:12:49,792 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Clear Selection
+2016-01-20 11:12:49,807 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.inspector.InspectorPane: Inspecting Group...
+2016-01-20 11:12:49,807 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: End Move Object.
+2016-01-20 11:12:50,322 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Checking if no items: 1 [X,Y,L: 480, 192 Layer 0 true]
+2016-01-20 11:12:50,322 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: [X,Y,L: 480, 224 Layer 0 false]
+2016-01-20 11:12:50,322 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: 1 [X,Y,L: 480, 192 Layer 0 true]
+2016-01-20 11:12:50,322 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Case 2B: Select Same Object.
+2016-01-20 11:12:50,322 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.inspector.InspectorPane: Inspecting Group...
+2016-01-20 11:12:50,400 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Checking if no items: 1 [X,Y,L: 480, 192 Layer 0 true]
+2016-01-20 11:12:50,416 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Translating selection: 1 [X,Y,L: 480, 192 Layer 0 true] by (0,0)
+2016-01-20 11:12:50,416 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Deselect
+2016-01-20 11:12:50,416 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Clear Selection
+2016-01-20 11:12:50,416 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.inspector.InspectorPane: Inspecting Group...
+2016-01-20 11:12:50,416 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Delete Selection
+2016-01-20 11:12:50,416 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Clear Selection
+2016-01-20 11:12:50,416 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.inspector.InspectorPane: Inspecting Group...
+2016-01-20 11:12:50,416 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: End Move Object.
+2016-01-20 11:12:50,650 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Checking if no items: 1 [X,Y,L: 480, 192 Layer 0 true]
+2016-01-20 11:12:50,650 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: [X,Y,L: 416, 192 Layer 0 false]
+2016-01-20 11:12:50,650 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: 1 [X,Y,L: 480, 192 Layer 0 true]
+2016-01-20 11:12:50,650 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Case 2B: Select Same Object.
+2016-01-20 11:12:50,650 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.inspector.InspectorPane: Inspecting Group...
+2016-01-20 11:12:50,743 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Checking if no items: 1 [X,Y,L: 480, 192 Layer 0 true]
+2016-01-20 11:12:51,102 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Checking if no items: 1 [X,Y,L: 480, 192 Layer 0 true]
+2016-01-20 11:12:51,102 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: [X,Y,L: 480, 192 Layer 0 false]
+2016-01-20 11:12:51,102 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: 1 [X,Y,L: 480, 192 Layer 0 true]
+2016-01-20 11:12:51,102 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Case 2B: Select Same Object.
+2016-01-20 11:12:51,102 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.inspector.InspectorPane: Inspecting Group...
+2016-01-20 11:12:51,196 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Checking if no items: 1 [X,Y,L: 480, 192 Layer 0 true]
+2016-01-20 11:12:51,196 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Translating selection: 1 [X,Y,L: 480, 192 Layer 0 true] by (0,0)
+2016-01-20 11:12:51,196 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Deselect
+2016-01-20 11:12:51,196 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Clear Selection
+2016-01-20 11:12:51,196 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.inspector.InspectorPane: Inspecting Group...
+2016-01-20 11:12:51,196 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Delete Selection
+2016-01-20 11:12:51,196 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Clear Selection
+2016-01-20 11:12:51,196 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.inspector.InspectorPane: Inspecting Group...
+2016-01-20 11:12:51,211 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: End Move Object.
+2016-01-20 11:12:56,141 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Checking if no items: 1 [X,Y,L: 480, 192 Layer 0 true]
+2016-01-20 11:12:56,141 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: [X,Y: 447, 126 0.0 0 ]
+2016-01-20 11:12:56,141 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: 1 [X,Y,L: 480, 192 Layer 0 true]
+2016-01-20 11:12:56,141 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Deselect
+2016-01-20 11:12:56,141 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Clear Selection
+2016-01-20 11:12:56,141 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Case 2C: Select Different Object (Something Previously Selected).
+2016-01-20 11:13:01,663 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Checking if no items: [X,Y: 447, 126 0.0 0 ]
+2016-01-20 11:13:01,663 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Translating selection: [X,Y: 447, 126 0.0 0 ] by (2,-2)
+2016-01-20 11:13:01,663 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Deselect
+2016-01-20 11:13:01,663 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Clear Selection
+2016-01-20 11:13:01,679 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Saving Snippet: 4 Way Movement
+2016-01-20 11:13:01,679 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: thisactor
+2016-01-20 11:13:01,679 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Value: down
+2016-01-20 11:13:01,679 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: down
+2016-01-20 11:13:01,679 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Value: left
+2016-01-20 11:13:01,679 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: left
+2016-01-20 11:13:01,679 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Value: right
+2016-01-20 11:13:01,679 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: right
+2016-01-20 11:13:01,679 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 0.0
+2016-01-20 11:13:01,679 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 0.0
+2016-01-20 11:13:01,679 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: true
+2016-01-20 11:13:01,679 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 20.0
+2016-01-20 11:13:01,679 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: false
+2016-01-20 11:13:01,679 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: false
+2016-01-20 11:13:01,679 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: true
+2016-01-20 11:13:01,679 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: false
+2016-01-20 11:13:01,679 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: false
+2016-01-20 11:13:01,679 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:01,679 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:01,679 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:01,679 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:01,679 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:01,679 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:01,679 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:01,679 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:01,679 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: true
+2016-01-20 11:13:01,679 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Value: up
+2016-01-20 11:13:01,679 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: up
+2016-01-20 11:13:01,695 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.inspector.InspectorPane: Inspecting Group...
+2016-01-20 11:13:01,695 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: End Move Object.
+2016-01-20 11:13:14,970 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Checking if no items: 1 [X,Y: 449, 124 0.0 0 ]
+2016-01-20 11:13:14,986 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: [X,Y: 449, 124 0.0 0 ]
+2016-01-20 11:13:14,986 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: 1 [X,Y: 449, 124 0.0 0 ]
+2016-01-20 11:13:14,986 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Case 2B: Select Same Object.
+2016-01-20 11:13:14,986 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Saving Snippet: 4 Way Movement
+2016-01-20 11:13:14,986 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: thisactor
+2016-01-20 11:13:14,986 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Value: down
+2016-01-20 11:13:14,986 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: down
+2016-01-20 11:13:14,986 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Value: left
+2016-01-20 11:13:14,986 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: left
+2016-01-20 11:13:14,986 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Value: right
+2016-01-20 11:13:14,986 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: right
+2016-01-20 11:13:14,986 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 0.0
+2016-01-20 11:13:14,986 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 0.0
+2016-01-20 11:13:14,986 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: true
+2016-01-20 11:13:14,986 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 20.0
+2016-01-20 11:13:14,986 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: false
+2016-01-20 11:13:14,986 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: false
+2016-01-20 11:13:14,986 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: true
+2016-01-20 11:13:14,986 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: false
+2016-01-20 11:13:14,986 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: false
+2016-01-20 11:13:14,986 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:14,986 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:14,986 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:14,986 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:14,986 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:14,986 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:14,986 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:14,986 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:14,986 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: true
+2016-01-20 11:13:14,986 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Value: up
+2016-01-20 11:13:14,986 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: up
+2016-01-20 11:13:14,986 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.inspector.InspectorPane: Inspecting Group...
+2016-01-20 11:13:16,358 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Checking if no items: 1 [X,Y: 449, 124 0.0 0 ]
+2016-01-20 11:13:16,374 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Translating selection: 1 [X,Y: 449, 124 0.0 0 ] by (-180,84)
+2016-01-20 11:13:16,374 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Deselect
+2016-01-20 11:13:16,374 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Clear Selection
+2016-01-20 11:13:16,374 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Saving Snippet: 4 Way Movement
+2016-01-20 11:13:16,374 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: thisactor
+2016-01-20 11:13:16,374 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Value: down
+2016-01-20 11:13:16,374 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: down
+2016-01-20 11:13:16,374 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Value: left
+2016-01-20 11:13:16,374 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: left
+2016-01-20 11:13:16,374 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Value: right
+2016-01-20 11:13:16,374 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: right
+2016-01-20 11:13:16,374 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 0.0
+2016-01-20 11:13:16,374 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 0.0
+2016-01-20 11:13:16,374 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: true
+2016-01-20 11:13:16,374 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 20.0
+2016-01-20 11:13:16,374 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: false
+2016-01-20 11:13:16,374 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: false
+2016-01-20 11:13:16,374 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: true
+2016-01-20 11:13:16,374 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: false
+2016-01-20 11:13:16,374 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: false
+2016-01-20 11:13:16,374 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:16,374 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:16,374 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:16,374 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:16,374 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:16,374 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:16,374 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:16,374 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:16,374 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: true
+2016-01-20 11:13:16,374 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Value: up
+2016-01-20 11:13:16,374 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: up
+2016-01-20 11:13:16,390 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.inspector.InspectorPane: Inspecting Group...
+2016-01-20 11:13:16,390 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: End Move Object.
+2016-01-20 11:13:17,294 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Checking if no items: 1 [X,Y: 269, 208 0.0 0 ]
+2016-01-20 11:13:17,294 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: [X,Y: 269, 208 0.0 0 ]
+2016-01-20 11:13:17,294 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: 1 [X,Y: 269, 208 0.0 0 ]
+2016-01-20 11:13:17,294 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Case 2B: Select Same Object.
+2016-01-20 11:13:17,294 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Saving Snippet: 4 Way Movement
+2016-01-20 11:13:17,294 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: thisactor
+2016-01-20 11:13:17,310 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Value: down
+2016-01-20 11:13:17,310 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: down
+2016-01-20 11:13:17,310 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Value: left
+2016-01-20 11:13:17,310 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: left
+2016-01-20 11:13:17,310 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Value: right
+2016-01-20 11:13:17,310 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: right
+2016-01-20 11:13:17,310 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 0.0
+2016-01-20 11:13:17,310 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 0.0
+2016-01-20 11:13:17,310 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: true
+2016-01-20 11:13:17,310 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 20.0
+2016-01-20 11:13:17,310 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: false
+2016-01-20 11:13:17,310 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: false
+2016-01-20 11:13:17,310 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: true
+2016-01-20 11:13:17,310 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: false
+2016-01-20 11:13:17,310 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: false
+2016-01-20 11:13:17,310 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:17,310 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:17,310 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:17,310 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:17,310 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:17,310 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:17,310 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:17,310 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:17,310 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: true
+2016-01-20 11:13:17,310 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Value: up
+2016-01-20 11:13:17,310 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: up
+2016-01-20 11:13:17,310 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.inspector.InspectorPane: Inspecting Group...
+2016-01-20 11:13:19,026 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Checking if no items: 1 [X,Y: 269, 208 0.0 0 ]
+2016-01-20 11:13:19,026 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Translating selection: 1 [X,Y: 269, 208 0.0 0 ] by (-205,-30)
+2016-01-20 11:13:19,026 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Deselect
+2016-01-20 11:13:19,026 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Clear Selection
+2016-01-20 11:13:19,026 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Saving Snippet: 4 Way Movement
+2016-01-20 11:13:19,026 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: thisactor
+2016-01-20 11:13:19,026 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Value: down
+2016-01-20 11:13:19,026 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: down
+2016-01-20 11:13:19,026 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Value: left
+2016-01-20 11:13:19,026 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: left
+2016-01-20 11:13:19,026 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Value: right
+2016-01-20 11:13:19,026 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: right
+2016-01-20 11:13:19,026 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 0.0
+2016-01-20 11:13:19,026 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 0.0
+2016-01-20 11:13:19,026 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: true
+2016-01-20 11:13:19,026 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 20.0
+2016-01-20 11:13:19,026 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: false
+2016-01-20 11:13:19,026 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: false
+2016-01-20 11:13:19,026 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: true
+2016-01-20 11:13:19,026 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: false
+2016-01-20 11:13:19,026 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: false
+2016-01-20 11:13:19,026 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:19,026 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:19,026 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:19,026 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:19,026 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:19,026 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:19,026 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:19,026 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:19,026 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: true
+2016-01-20 11:13:19,026 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Value: up
+2016-01-20 11:13:19,026 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: up
+2016-01-20 11:13:19,042 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.inspector.InspectorPane: Inspecting Group...
+2016-01-20 11:13:19,042 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: End Move Object.
+2016-01-20 11:13:19,962 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Checking if no items: 1 [X,Y: 64, 178 0.0 0 ]
+2016-01-20 11:13:19,962 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: [X,Y: 64, 178 0.0 0 ]
+2016-01-20 11:13:19,962 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: 1 [X,Y: 64, 178 0.0 0 ]
+2016-01-20 11:13:19,962 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Case 2B: Select Same Object.
+2016-01-20 11:13:19,962 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Saving Snippet: 4 Way Movement
+2016-01-20 11:13:19,962 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: thisactor
+2016-01-20 11:13:19,962 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Value: down
+2016-01-20 11:13:19,962 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: down
+2016-01-20 11:13:19,962 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Value: left
+2016-01-20 11:13:19,962 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: left
+2016-01-20 11:13:19,962 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Value: right
+2016-01-20 11:13:19,962 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: right
+2016-01-20 11:13:19,962 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 0.0
+2016-01-20 11:13:19,978 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 0.0
+2016-01-20 11:13:19,978 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: true
+2016-01-20 11:13:19,978 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 20.0
+2016-01-20 11:13:19,978 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: false
+2016-01-20 11:13:19,978 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: false
+2016-01-20 11:13:19,978 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: true
+2016-01-20 11:13:19,978 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: false
+2016-01-20 11:13:19,978 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: false
+2016-01-20 11:13:19,978 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:19,978 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:19,978 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:19,978 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:19,978 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:19,978 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:19,978 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:19,978 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:19,978 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: true
+2016-01-20 11:13:19,978 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Value: up
+2016-01-20 11:13:19,978 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: up
+2016-01-20 11:13:19,978 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.inspector.InspectorPane: Inspecting Group...
+2016-01-20 11:13:21,132 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Checking if no items: 1 [X,Y: 64, 178 0.0 0 ]
+2016-01-20 11:13:21,132 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Translating selection: 1 [X,Y: 64, 178 0.0 0 ] by (-1,7)
+2016-01-20 11:13:21,132 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Deselect
+2016-01-20 11:13:21,132 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Clear Selection
+2016-01-20 11:13:21,132 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Saving Snippet: 4 Way Movement
+2016-01-20 11:13:21,132 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: thisactor
+2016-01-20 11:13:21,132 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Value: down
+2016-01-20 11:13:21,132 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: down
+2016-01-20 11:13:21,132 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Value: left
+2016-01-20 11:13:21,132 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: left
+2016-01-20 11:13:21,132 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Value: right
+2016-01-20 11:13:21,132 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: right
+2016-01-20 11:13:21,132 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 0.0
+2016-01-20 11:13:21,132 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 0.0
+2016-01-20 11:13:21,132 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: true
+2016-01-20 11:13:21,132 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 20.0
+2016-01-20 11:13:21,132 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: false
+2016-01-20 11:13:21,132 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: false
+2016-01-20 11:13:21,132 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: true
+2016-01-20 11:13:21,132 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: false
+2016-01-20 11:13:21,132 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: false
+2016-01-20 11:13:21,132 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:21,132 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:21,132 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:21,132 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:21,132 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:21,132 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:21,148 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:21,148 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:21,148 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: true
+2016-01-20 11:13:21,148 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Value: up
+2016-01-20 11:13:21,148 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: up
+2016-01-20 11:13:21,148 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.inspector.InspectorPane: Inspecting Group...
+2016-01-20 11:13:21,148 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: End Move Object.
+2016-01-20 11:13:21,694 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Checking if no items: 1 [X,Y: 63, 185 0.0 0 ]
+2016-01-20 11:13:21,694 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: [X,Y,L: 160, 256 Layer 0 false]
+2016-01-20 11:13:21,694 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: 1 [X,Y: 63, 185 0.0 0 ]
+2016-01-20 11:13:21,694 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Deselect
+2016-01-20 11:13:21,694 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Clear Selection
+2016-01-20 11:13:21,694 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Saving Snippet: 4 Way Movement
+2016-01-20 11:13:21,694 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: thisactor
+2016-01-20 11:13:21,694 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Value: down
+2016-01-20 11:13:21,694 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: down
+2016-01-20 11:13:21,694 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Value: left
+2016-01-20 11:13:21,694 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: left
+2016-01-20 11:13:21,694 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Value: right
+2016-01-20 11:13:21,694 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: right
+2016-01-20 11:13:21,694 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 0.0
+2016-01-20 11:13:21,694 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 0.0
+2016-01-20 11:13:21,694 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: true
+2016-01-20 11:13:21,694 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 20.0
+2016-01-20 11:13:21,694 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: false
+2016-01-20 11:13:21,694 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: false
+2016-01-20 11:13:21,694 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: true
+2016-01-20 11:13:21,694 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: false
+2016-01-20 11:13:21,694 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: false
+2016-01-20 11:13:21,694 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:21,694 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:21,694 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:21,694 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:21,694 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:21,694 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:21,694 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:21,694 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:21,694 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: true
+2016-01-20 11:13:21,694 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Value: up
+2016-01-20 11:13:21,694 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: up
+2016-01-20 11:13:21,709 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Case 2C: Select Different Object (Something Previously Selected).
+2016-01-20 11:13:21,740 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Checking if no items: [X,Y,L: 160, 256 Layer 0 true]
+2016-01-20 11:13:22,910 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Checking if no items: [X,Y,L: 160, 256 Layer 0 true]
+2016-01-20 11:13:22,910 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: [X,Y: 63, 185 0.0 0 ]
+2016-01-20 11:13:22,910 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: [X,Y,L: 160, 256 Layer 0 true]
+2016-01-20 11:13:22,910 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Deselect
+2016-01-20 11:13:22,910 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Clear Selection
+2016-01-20 11:13:22,910 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Case 2C: Select Different Object (Something Previously Selected).
+2016-01-20 11:13:23,269 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Checking if no items: [X,Y: 63, 185 0.0 0 ]
+2016-01-20 11:13:23,269 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Translating selection: [X,Y: 63, 185 0.0 0 ] by (160,56)
+2016-01-20 11:13:23,269 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Deselect
+2016-01-20 11:13:23,269 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Clear Selection
+2016-01-20 11:13:23,269 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Saving Snippet: 4 Way Movement
+2016-01-20 11:13:23,269 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: thisactor
+2016-01-20 11:13:23,269 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Value: down
+2016-01-20 11:13:23,269 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: down
+2016-01-20 11:13:23,269 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Value: left
+2016-01-20 11:13:23,269 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: left
+2016-01-20 11:13:23,269 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Value: right
+2016-01-20 11:13:23,269 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: right
+2016-01-20 11:13:23,269 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 0.0
+2016-01-20 11:13:23,269 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 0.0
+2016-01-20 11:13:23,269 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: true
+2016-01-20 11:13:23,269 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 20.0
+2016-01-20 11:13:23,269 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: false
+2016-01-20 11:13:23,269 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: false
+2016-01-20 11:13:23,269 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: true
+2016-01-20 11:13:23,269 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: false
+2016-01-20 11:13:23,269 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: false
+2016-01-20 11:13:23,269 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:23,269 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:23,269 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:23,285 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:23,285 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:23,285 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:23,285 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:23,285 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:23,285 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: true
+2016-01-20 11:13:23,285 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Value: up
+2016-01-20 11:13:23,285 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: up
+2016-01-20 11:13:23,285 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.inspector.InspectorPane: Inspecting Group...
+2016-01-20 11:13:23,285 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: End Move Object.
+2016-01-20 11:13:24,486 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Checking if no items: 1 [X,Y: 223, 241 0.0 0 ]
+2016-01-20 11:13:24,486 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: [X,Y,L: 288, 96 Layer 0 false]
+2016-01-20 11:13:24,486 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: 1 [X,Y: 223, 241 0.0 0 ]
+2016-01-20 11:13:24,486 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Deselect
+2016-01-20 11:13:24,486 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Clear Selection
+2016-01-20 11:13:24,486 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Saving Snippet: 4 Way Movement
+2016-01-20 11:13:24,486 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: thisactor
+2016-01-20 11:13:24,486 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Value: down
+2016-01-20 11:13:24,486 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: down
+2016-01-20 11:13:24,486 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Value: left
+2016-01-20 11:13:24,486 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: left
+2016-01-20 11:13:24,486 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Value: right
+2016-01-20 11:13:24,486 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: right
+2016-01-20 11:13:24,486 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 0.0
+2016-01-20 11:13:24,486 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 0.0
+2016-01-20 11:13:24,486 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: true
+2016-01-20 11:13:24,486 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 20.0
+2016-01-20 11:13:24,486 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: false
+2016-01-20 11:13:24,486 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: false
+2016-01-20 11:13:24,486 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: true
+2016-01-20 11:13:24,486 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: false
+2016-01-20 11:13:24,486 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: false
+2016-01-20 11:13:24,486 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:24,486 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:24,486 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:24,502 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:24,502 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:24,502 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:24,502 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:24,502 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: 
+2016-01-20 11:13:24,502 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: true
+2016-01-20 11:13:24,502 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Value: up
+2016-01-20 11:13:24,502 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.behavior.SnippetSheet: Instance Value: up
+2016-01-20 11:13:24,502 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Case 2C: Select Different Object (Something Previously Selected).
+2016-01-20 11:13:24,564 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Checking if no items: [X,Y,L: 288, 96 Layer 0 true]
+2016-01-20 11:14:03,408 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Translating selection: [X,Y,L: 288, 96 Layer 0 true] by (0,-32)
+2016-01-20 11:14:03,408 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Deselect
+2016-01-20 11:14:03,408 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Clear Selection
+2016-01-20 11:14:03,408 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.inspector.InspectorPane: Inspecting Group...
+2016-01-20 11:14:03,408 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Delete Selection
+2016-01-20 11:14:03,408 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Clear Selection
+2016-01-20 11:14:03,408 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.inspector.InspectorPane: Inspecting Group...
+2016-01-20 11:14:04,391 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Translating selection: 1 [X,Y,L: 288, 64 Layer 0 true] by (0,32)
+2016-01-20 11:14:04,391 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Deselect
+2016-01-20 11:14:04,391 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Clear Selection
+2016-01-20 11:14:04,391 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.inspector.InspectorPane: Inspecting Group...
+2016-01-20 11:14:04,391 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Delete Selection
+2016-01-20 11:14:04,391 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Clear Selection
+2016-01-20 11:14:04,391 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.inspector.InspectorPane: Inspecting Group...
+2016-01-20 11:14:07,589 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.Designer: Brush Changed
+2016-01-20 11:14:07,628 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Deselect
+2016-01-20 11:14:07,628 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.select.SelectionController: Clear Selection
+2016-01-20 11:14:07,659 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.Designer: Brush Changed
+2016-01-20 11:14:07,659 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.scene.Designer: Brush Changed
+2016-01-20 11:14:29,155 DEBUG [AWT-EventQueue-0] stencyl.sw.app.doc.Workspace: Activated: Dashboard
+2016-01-20 11:16:05,906 DEBUG [AWT-EventQueue-0] stencyl.core.lib.io.read.SceneReader: Reading header for Scene: 4 (Level 2) from: scenes\4.xml
+2016-01-20 11:16:06,436 DEBUG [AWT-EventQueue-0] stencyl.core.lib.io.read.SceneReader: Reading header for Scene: 5 (Level 3) from: scenes\5.xml
+2016-01-20 11:16:07,154 DEBUG [AWT-EventQueue-0] stencyl.core.lib.io.read.SceneReader: Reading header for Scene: 1 (Level 1) from: scenes\1.xml
+2016-01-20 11:16:07,482 DEBUG [AWT-EventQueue-0] stencyl.core.lib.io.read.SceneReader: Reading header for Scene: 4 (Level 2) from: scenes\4.xml
+2016-01-20 11:16:08,340 DEBUG [AWT-EventQueue-0] stencyl.core.lib.io.read.SceneReader: Reading header for Scene: 6 (TEST) from: scenes\6.xml
+2016-01-20 11:16:27,233 INFO  [AWT-EventQueue-0] stencyl.sw.app.App: Attempting to quit out of Stencyl.
+2016-01-20 11:16:29,542 INFO  [pool-1-thread-3] stencyl.sw.io.write.MasterWriter: Saving game in place.
+2016-01-20 11:16:29,573 DEBUG [pool-1-thread-3] stencyl.sw.util.FileHelper: Saving backup file C:\Users\EConway6922\Documents\stencylworks\games\Dreams\game.xml.bak.
+2016-01-20 11:16:32,350 DEBUG [pool-1-thread-3] stencyl.sw.io.write.MasterWriter: Writing out local resources.
+2016-01-20 11:16:32,366 DEBUG [pool-1-thread-3] stencyl.sw.util.FileHelper: Saving backup file C:\Users\EConway6922\Documents\stencylworks\games\Dreams\resources\data.xml.bak.
+2016-01-20 11:16:32,366 DEBUG [pool-1-thread-3] stencyl.sw.io.write.resource.SpriteWriter: Mark actor's sprite as clean (disk).
+2016-01-20 11:16:32,366 DEBUG [pool-1-thread-3] stencyl.sw.io.write.resource.TilesetWriter: Mark tileset as clean (disk).
+2016-01-20 11:16:32,366 DEBUG [pool-1-thread-3] stencyl.sw.io.write.resource.SpriteWriter: Mark actor's sprite as clean (disk).
+2016-01-20 11:16:32,366 DEBUG [pool-1-thread-3] stencyl.sw.io.write.resource.FontWriter: Mark font as clean (disk).
+2016-01-20 11:16:32,366 DEBUG [pool-1-thread-3] stencyl.sw.io.write.resource.SpriteWriter: Mark actor's sprite as clean (disk).
+2016-01-20 11:16:32,366 DEBUG [pool-1-thread-3] stencyl.sw.io.write.resource.TilesetWriter: Mark tileset as clean (disk).
+2016-01-20 11:16:32,366 DEBUG [pool-1-thread-3] stencyl.sw.io.write.resource.SpriteWriter: Mark actor's sprite as clean (disk).
+2016-01-20 11:16:32,366 DEBUG [pool-1-thread-3] stencyl.sw.io.write.resource.BackgroundWriter: Skip writing out Background.
+2016-01-20 11:16:32,366 DEBUG [pool-1-thread-3] stencyl.sw.io.write.resource.BackgroundWriter: Mark background as clean (disk).
+2016-01-20 11:16:32,366 DEBUG [pool-1-thread-3] stencyl.sw.io.write.resource.SpriteWriter: Mark actor's sprite as clean (disk).
+2016-01-20 11:16:32,366 DEBUG [pool-1-thread-3] stencyl.sw.io.write.resource.TilesetWriter: Mark tileset as clean (disk).
+2016-01-20 11:16:32,381 DEBUG [pool-1-thread-3] stencyl.sw.io.write.MasterWriter: Writing out scenes.
+2016-01-20 11:16:32,381 DEBUG [pool-1-thread-3] stencyl.sw.editors.scene.SceneRenderer: Saving thumbnail: C:\Users\EConway6922\Documents\stencylworks\games\Dreams\scenes\3.png
+2016-01-20 11:16:32,413 DEBUG [pool-1-thread-3] stencyl.sw.io.write.resource.SceneWriter: Writing terrain.
+2016-01-20 11:16:32,413 DEBUG [pool-1-thread-3] stencyl.thirdparty.org.phys2d.Combiner: Num Tiles: 77
+2016-01-20 11:16:32,413 DEBUG [pool-1-thread-3] stencyl.thirdparty.org.phys2d.Combiner: Coverage: 22.916668%
+2016-01-20 11:16:32,413 DEBUG [pool-1-thread-3] stencyl.thirdparty.org.phys2d.Combiner: Segments: (3,3)
+2016-01-20 11:16:32,413 DEBUG [pool-1-thread-3] stencyl.thirdparty.org.phys2d.Combiner: Using Quad Space
+2016-01-20 11:16:32,428 DEBUG [pool-1-thread-3] stencyl.thirdparty.org.phys2d.Combiner: Combine took: 15ms
+2016-01-20 11:16:32,428 DEBUG [pool-1-thread-3] stencyl.sw.io.write.resource.SceneWriter: Terrain processing took: 0ms
+2016-01-20 11:16:32,537 DEBUG [pool-1-thread-3] stencyl.sw.io.write.resource.ScenesWriter: Writing out Scene Bedroom
+2016-01-20 11:16:32,537 DEBUG [pool-1-thread-3] stencyl.sw.io.write.MasterWriter: Copying over snippets.
+2016-01-20 11:16:32,553 DEBUG [pool-1-thread-3] stencyl.sw.util.FileHelper: Saving backup file C:\Users\EConway6922\Documents\stencylworks\games\Dreams\snippets\list.xml.bak.
+2016-01-20 11:16:32,678 DEBUG [pool-1-thread-3] stencyl.sw.io.write.resource.SnippetsWriter: Copy from opened to disk: SceneEvents_3
+2016-01-20 11:16:32,678 DEBUG [pool-1-thread-3] stencyl.sw.util.FileHelper: Deleting: C:\Users\EConway6922\Documents\stencylworks\games\Dreams\behavior-hx\SceneEvents_3.hx
+2016-01-20 11:16:32,678 DEBUG [pool-1-thread-3] stencyl.sw.io.write.resource.SnippetsWriter: Copied to: C:\Users\EConway6922\Documents\stencylworks\games\Dreams\snippets\SceneEvents_3.design
+2016-01-20 11:16:32,725 DEBUG [pool-1-thread-3] stencyl.sw.io.write.MasterWriter: Saving block favorites.
+2016-01-20 11:16:32,740 INFO  [pool-1-thread-3] stencyl.sw.io.write.MasterWriter: Done writing game.
+2016-01-20 11:16:32,787 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Running command: [taskkill, /im, neko.exe, /f]
+2016-01-20 11:16:32,896 DEBUG [Thread-15] stencyl.sw.util.StreamGobbler: [taskkill] ERROR: The process "neko.exe" not found.
+2016-01-20 11:16:32,912 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Process 'taskkill' exited with code: 128
+2016-01-20 11:16:32,912 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Running command: [taskkill, /im, adb.exe, /f]
+2016-01-20 11:16:33,005 DEBUG [Thread-16] stencyl.sw.util.StreamGobbler: [taskkill] ERROR: The process "adb.exe" not found.
+2016-01-20 11:16:33,021 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Process 'taskkill' exited with code: 128
+2016-01-20 11:16:33,021 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Running command: [taskkill, /im, arm-linux-androideabi-g++.exe, /f]
+2016-01-20 11:16:33,193 DEBUG [Thread-17] stencyl.sw.util.StreamGobbler: [taskkill] ERROR: The process "arm-linux-androideabi-g++.exe" not found.
+2016-01-20 11:16:33,208 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Process 'taskkill' exited with code: 128
+2016-01-20 11:16:33,208 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Running command: [taskkill, /im, cc1plus.exe, /f]
+2016-01-20 11:16:33,380 DEBUG [Thread-18] stencyl.sw.util.StreamGobbler: [taskkill] ERROR: The process "cc1plus.exe" not found.
+2016-01-20 11:16:33,395 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Process 'taskkill' exited with code: 128
+2016-01-20 11:16:33,395 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Running command: [taskkill, /im, tail.exe, /f]
+2016-01-20 11:16:33,567 DEBUG [Thread-19] stencyl.sw.util.StreamGobbler: [taskkill] ERROR: The process "tail.exe" not found.
+2016-01-20 11:16:33,583 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Process 'taskkill' exited with code: 128
+2016-01-20 11:16:33,583 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Running command: [taskkill, /im, ios-sim.exe, /f]
+2016-01-20 11:16:33,785 DEBUG [Thread-20] stencyl.sw.util.StreamGobbler: [taskkill] ERROR: The process "ios-sim.exe" not found.
+2016-01-20 11:16:33,785 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Process 'taskkill' exited with code: 128
+2016-01-20 11:16:33,785 DEBUG [AWT-EventQueue-0] stencyl.sw.app.App: Destroying extensions.
+2016-01-20 11:16:33,785 DEBUG [AWT-EventQueue-0] stencyl.sw.app.App: Performing final close.
+2016-01-20 11:16:33,801 INFO  [AWT-EventQueue-0] stencyl.sw.app.App: Exiting...
+2016-01-20 11:16:33,801 DEBUG [AWT-EventQueue-0] stencyl.sw.app.App: Destroying Temporary Sandbox.
+2016-01-20 11:16:33,801 DEBUG [AWT-EventQueue-0] stencyl.sw.util.FileHelper: Deleting: C:\Users\EConway6922\AppData\Local\Temp\stencyl3269967545155578039
