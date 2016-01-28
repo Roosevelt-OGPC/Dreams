@@ -7,8 +7,12 @@
     <joints/>
     <regions/>
     <terrainRegions/>
-    <actors/>
+    <actors>
+        <actor a="0.0" aid="1" c="false" group="3" id="21" name="Pong Player 1" sx="1.21875" sy="1.65625" x="63" y="206" z="0"/>
+    </actors>
     <snippets/>
-    <terrain/>
+    <terrain>
+        <p pts="4,640.0,480.0,0.0,480.0,0.0,0.0,640.0,0.0" x="0.0" y="0.0"/>
+    </terrain>
     <atlases members="" retainAtlases="true"/>
 </scene>
