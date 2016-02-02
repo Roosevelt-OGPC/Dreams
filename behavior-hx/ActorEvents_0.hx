@@ -68,7 +68,7 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class ActorEvents_16 extends ActorScript
+class ActorEvents_0 extends ActorScript
 {
 	
 	
@@ -80,6 +80,32 @@ class ActorEvents_16 extends ActorScript
 	
 	override public function init()
 	{
+		
+		/* ======================== When Updating ========================= */
+		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled)
+			{
+				if((actor.getScreenX() < 0))
+				{
+					actor.setX(1);
+				}
+				else if((actor.getScreenX() > (getScreenWidth() - (actor.getWidth()))))
+				{
+					actor.setX(((getScreenWidth() - (actor.getWidth())) - 1));
+				}
+			}
+		});
+		
+		/* ======================== Actor of Type ========================= */
+		addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled && sameAsAny(getActorType(13), event.otherActor.getType(),event.otherActor.getGroup()))
+			{
+				Engine.engine.setGameAttribute("Keys", (Engine.engine.getGameAttribute("Keys") - 1));
+				switchScene(GameModel.get().scenes.get(2).getID(), createFadeOut(2, Utils.getColorRGB(0,0,0)), createFadeIn(1, Utils.getColorRGB(0,0,0)));
+			}
+		});
 		
 	}
 	
