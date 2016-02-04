@@ -68,34 +68,41 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class ActorEvents_5 extends ActorScript
+class Design_26_26_STOMP extends ActorScript
 {
+	public var _StompedAnimation:String;
+	
+	/* ========================= Custom Event ========================= */
+	public function _customEvent_stomped():Void
+	{
+		if(!(asBoolean(actor.getActorValue("_BeingStomped"))))
+		{
+			actor.setActorValue("_BeingStomped", true);
+			actor.setAnimation("" + _StompedAnimation);
+			actor.shout("_customEvent_" + "Stop");
+			actor.setActorValue("_DisallowMovement", true);
+			runLater(1000 * 0.2, function(timeTask:TimedTask):Void {
+				Engine.engine.setGameAttribute("Keys", (Engine.engine.getGameAttribute("Keys") + 1));
+				recycleActor(actor);
+			}, actor);
+		}
+	}
 	
 	
 	public function new(dummy:Int, actor:Actor, dummy2:Engine)
 	{
 		super(actor);
+		nameMap.set("Actor", "actor");
+		nameMap.set("Stomped Animation", "_StompedAnimation");
 		
 	}
 	
 	override public function init()
 	{
 		
-		/* ======================== When Updating ========================= */
-		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
-		{
-			if(wrapper.enabled)
-			{
-				if((actor.getScreenX() < 0))
-				{
-					actor.setX(1);
-				}
-				else if((actor.getScreenX() > (getScreenWidth() - (actor.getWidth()))))
-				{
-					actor.setX(((getScreenWidth() - (actor.getWidth())) - 1));
-				}
-			}
-		});
+		/* ======================== When Creating ========================= */
+		actor.setActorValue("_BeingStomped", false);
+		actor.setActorValue("_DisallowMovement", false);
 		
 	}
 	

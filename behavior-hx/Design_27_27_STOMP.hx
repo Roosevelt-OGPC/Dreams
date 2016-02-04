@@ -68,35 +68,51 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class ActorEvents_23 extends ActorScript
+class Design_27_27_STOMP extends ActorScript
 {
+	public var _JumpKey:String;
+	public var _StompableGroup:Group;
 	
 	
 	public function new(dummy:Int, actor:Actor, dummy2:Engine)
 	{
 		super(actor);
+		nameMap.set("Actor", "actor");
+		nameMap.set("Jump Key", "_JumpKey");
+		nameMap.set("Stompable Group", "_StompableGroup");
 		
 	}
 	
 	override public function init()
 	{
 		
-		/* ========================= Type & Type ========================== */
-		addSceneCollisionListener(getActorType(0).ID, getActorType(25).ID, function(event:Collision, list:Array<Dynamic>):Void
+		/* ======================== Something Else ======================== */
+		addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void
 		{
 			if(wrapper.enabled)
 			{
-				if(event.otherFromBottom)
+				_JumpKey = "action1";
+				propertyChanged("_JumpKey", _JumpKey);
+				if(event.thisCollidedWithActor)
 				{
-					createRecycledActor(getActorType(23), 241, 283, Script.FRONT);
-					actor.applyImpulse(240, 244, 5);
-					runLater(1000 * 1, function(timeTask:TimedTask):Void {
-						actor.applyImpulse(241, 283, 5);
-					}, actor);
-					runLater(1000 * 1, function(timeTask:TimedTask):Void {
-						recycleActor(actor);
-					}, actor);
-					Engine.engine.setGameAttribute("Coins", (Engine.engine.getGameAttribute("Coins") + 1));
+					if(event.thisFromBottom)
+					{
+						if((internalGetGroup(event.otherActor, event.otherShape, event) == _StompableGroup))
+						{
+							if(!(asBoolean(actor.getLastCollidedActor().getActorValue("_BeingStomped"))))
+							{
+								actor.getLastCollidedActor().say("Stompable", "_customEvent_" + "stomped");
+								if(isKeyDown(_JumpKey))
+								{
+									actor.setYVelocity(-(asNumber(actor.getLastCollidedActor().getValue("Stompable", "_PushPlayerJumpForce"))));
+								}
+								else
+								{
+									actor.setYVelocity(-(asNumber(actor.getLastCollidedActor().getValue("Stompable", "_PushPlayerForce"))));
+								}
+							}
+						}
+					}
 				}
 			}
 		});
