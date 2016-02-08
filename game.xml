@@ -73,6 +73,7 @@
     <attributes>
         <number cid="-1" id="1" name="Coins" save="true" value="0.0"/>
         <number cid="-1" id="0" name="Keys" save="true" value="0.0"/>
+        <number cid="-1" id="2" name="Score4" save="true" value="0.0"/>
     </attributes>
     <collisions>
         <poly id="0" name="Square" pts="0.0,0.0#0.0,1.0#1.0,1.0#1.0,0.0"/>
@@ -101,6 +102,7 @@
         <poly id="23" name="Tri 60-2R Inv" pts="0.0,0.0#0.5,1.0#1.0,1.0#1.0,0.0"/>
         <poly id="24" name="Tri 60-2L Inv" pts="0.0,0.0#0.0,1.0#0.5,1.0#1.0,0.0"/>
         <poly id="25" name="Wall" pts="0.0,0.0#0.0,0.25#1.0,0.25#1.0,0.0"/>
+        <poly id="26" name="rightPipe" pts="0.0,0.0#0.0,1.0#0.86,1.0#0.86,0.0"/>
     </collisions>
     <autotileFormats/>
     <atlases>

@@ -89,45 +89,16 @@
                     <group eventID="3" id="-1">
                         <create-actor3 comment="false" x="37" y="80">
                             <actortype eid="23" id="0"/>
-                            <int id="1" val="241"/>
-                            <int id="2" val="283"/>
+                            <int id="1" val="235"/>
+                            <int id="2" val="230"/>
                             <int id="3" val="0"/>
                         </create-actor3>
-                        <push-shove comment="false" x="37" y="107">
-                            <ACTOR eid="lastcreated" id="0"/>
-                            <int id="1" val="1"/>
-                            <int id="2" val="240"/>
-                            <int id="3" val="244"/>
-                            <int id="4" val="5"/>
-                        </push-shove>
-                        <dolater comment="false" x="37" y="134">
-                            <group eventID="3" id="-1">
-                                <push-shove comment="false" x="48" y="161">
-                                    <ACTOR eid="lastcreated" id="0"/>
-                                    <int id="1" val="1"/>
-                                    <int id="2" val="241"/>
-                                    <int id="3" val="283"/>
-                                    <int id="4" val="5"/>
-                                </push-shove>
-                            </group>
-                            <int id="0" val="1"/>
-                            <ACTOR eid="this" id="2"/>
-                        </dolater>
-                        <dolater comment="false" x="37" y="200">
-                            <group eventID="3" id="-1">
-                                <die comment="false" x="48" y="227">
-                                    <ACTOR eid="lastcreated" id="0"/>
-                                </die>
-                            </group>
-                            <int id="0" val="1"/>
-                            <ACTOR eid="this" id="2"/>
-                        </dolater>
-                        <set-game-val-1 comment="false" x="37" y="266">
+                        <set-game-val-2 comment="false" x="37" y="107">
                             <plus comment="false" id="0" x="0" y="0">
-                                <get-game-val-1 comment="false" id="0" x="0" y="0"/>
-                                <int id="1" val="1"/>
+                                <get-game-val-2 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="200"/>
                             </plus>
-                        </set-game-val-1>
+                        </set-game-val-2>
                     </group>
                     <collision-bottom comment="false" id="0" x="0" y="0">
                         <int id="0" val="0"/>
@@ -140,9 +111,49 @@
         </event-collide-actortotype>
     </group>
     <group eventID="3" id="1">
-        <else comment="false" x="44" y="357">
-            <group eventID="3" id="-1"/>
-        </else>
+        <push-shove comment="false" x="179" y="223">
+            <ACTOR eid="lastcreated" id="0"/>
+            <int id="1" val="1"/>
+            <int id="2" val="240"/>
+            <int id="3" val="244"/>
+            <int id="4" val="5"/>
+        </push-shove>
+        <dolater comment="false" x="179" y="250">
+            <group eventID="3" id="-1">
+                <push-shove comment="false" x="190" y="277">
+                    <ACTOR eid="lastcreated" id="0"/>
+                    <int id="1" val="1"/>
+                    <int id="2" val="241"/>
+                    <int id="3" val="283"/>
+                    <int id="4" val="5"/>
+                </push-shove>
+            </group>
+            <int id="0" val="1"/>
+            <ACTOR eid="this" id="2"/>
+        </dolater>
+        <dolater comment="false" x="179" y="316">
+            <group eventID="3" id="-1">
+                <die comment="false" x="190" y="343">
+                    <ACTOR eid="lastcreated" id="0"/>
+                </die>
+            </group>
+            <int id="0" val="1"/>
+            <ACTOR eid="this" id="2"/>
+        </dolater>
     </group>
     <group eventID="3" id="-1"/>
+    <group eventID="5" id="0">
+        <event-custom comment="false" x="15" y="15">
+            <group eventID="5" id="-1">
+                <set-game-val-2 comment="false" x="26" y="40">
+                    <plus comment="false" id="0" x="0" y="0">
+                        <get-game-val-2 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="100"/>
+                    </plus>
+                </set-game-val-2>
+            </group>
+            <int id="0" val="stomp"/>
+        </event-custom>
+    </group>
+    <group eventID="5" id="-1"/>
 </groups>

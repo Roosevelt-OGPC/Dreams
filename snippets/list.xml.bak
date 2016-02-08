@@ -4,8 +4,9 @@
         <blocks/>
         <events>
             <event displayName="Updated" enabled="true" id="1" name="step" order="1" repeats="true"/>
-            <event displayName="Actor - Type" enabled="true" id="2" name="event-collide-actortotype" order="3" repeats="false"/>
-            <event displayName="Actor - Type" enabled="false" id="3" name="event-collide-actortotype" order="2" repeats="true"/>
+            <event displayName="Actor - Type" enabled="true" id="2" name="event-collide-actortotype" order="5" repeats="false"/>
+            <event displayName="Actor - Type" enabled="true" id="3" name="event-collide-actortotype" order="4" repeats="true"/>
+            <event displayName="Custom Event" enabled="true" id="5" name="event-custom" order="3" repeats="true"/>
         </events>
     </snippet>
     <snippet attachedevent="false" class="scripts.Design_2_2_4WayMovement" classname="scripts.Design_2_2_4WayMovement" desc="Allows the actor to move up, down, left and right." description="Allows the actor to move up, down, left and right." design="true" drawOrder="0" id="2" name="4 Way Movement" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
@@ -199,6 +200,47 @@
         <blocks/>
         <events>
             <event displayName="Updated" enabled="true" id="1" name="step" order="1" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.SceneEvents_11" classname="scripts.SceneEvents_11" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="29" name="SceneEvents_11" oid="-1" package="scripts." sceneid="11" scenespecific="true" shared="false" type="scene">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_30_30_FollowTarget" classname="scripts.Design_30_30_FollowTarget" desc="Make the actor follow a given actor." description="Make the actor follow a given actor." design="true" drawOrder="0" id="30" name="Follow Target" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
+        <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <actor default="" defaultValue="" desc="The target actor this actor will follow. &lt;br /&gt;&#10;If the target actor is unset or dead this behavior will do nothing." dropdown="" fullname="Target Actor" hidden="false" id="1" name="_TargetActor" order="7"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="Distance X" hidden="true" id="2" name="_DistanceX" order="1"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="Distance Y" hidden="true" id="3" name="_DistanceY" order="2"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="Distance" hidden="true" id="4" name="_Distance" order="3"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="Direction" hidden="true" id="5" name="_Direction" order="4"/>
+        <number default="30.0" defaultValue="30.0" desc="The speed to move towards the target." dropdown="" fullname="Speed" hidden="false" id="6" name="_Speed" order="8"/>
+        <number default="0.0" defaultValue="0.0" desc="The actor will not move closer to the target than this value." dropdown="" fullname="Margin" hidden="false" id="7" name="_Margin" order="9"/>
+        <boolean default="true" defaultValue="true" desc="If selected, the actor will move faster if farther away from the target and slower if closer to to the target.&lt;br /&gt;&#10;If unselected, the actor will move towards the target at a constant speed as specified in the &lt;var&gt;Speed&lt;/var&gt; attribute." dropdown="" fullname="Easing" hidden="false" id="8" name="_Easing" order="11"/>
+        <number default="5.0" defaultValue="5.0" desc="Only used when &lt;var&gt;Easing&lt;/var&gt; is selected.&lt;br /&gt;&#10;The actor will move at least at this speed. The actual speed depends on the distance to the target. The maximum speed is &lt;var&gt;Minimum Easing Speed&lt;/var&gt; plus &lt;var&gt;Speed&lt;/var&gt;. The actor will move at maximum speed if it is in the opposite diagonal corner of the target." dropdown="" fullname="Minimum Easing Speed" hidden="false" id="9" name="_MinimumEasingSpeed" order="12"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="Screen Diagonal" hidden="true" id="10" name="_ScreenDiagonal" order="5"/>
+        <boolean default="true" defaultValue="true" desc="If selected, the actor will stop moving when colliding with the target actor.&lt;br /&gt;&#10;If unselected, the actor will instead continue to  and push the target around." dropdown="" fullname="Stop when Colliding" hidden="false" id="11" name="_StopwhenColliding" order="10"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="Collided" hidden="true" id="12" name="_Collided" order="6"/>
+        <blocks/>
+        <events>
+            <event displayName="Updated" enabled="true" id="1" name="step" order="2" repeats="true"/>
+            <event displayName="Created" enabled="true" id="2" name="init" order="1" repeats="true"/>
+            <event displayName="Actor - Any" enabled="true" id="3" name="event-collide-actor" order="3" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_31_31_DieOnCollisionWithGroup" classname="scripts.Design_31_31_DieOnCollisionWithGroup" desc="Attach to an actor to make it die when it collides with an actor of a specific collision group." description="Attach to an actor to make it die when it collides with an actor of a specific collision group." design="true" drawOrder="0" id="31" name="Die On Collision With Group" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
+        <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <actorgroup default="" defaultValue="" desc="When the actor collides with an actor, it will die if the other actor is of from this group." dropdown="" fullname="Group" hidden="false" id="2" name="_Group" order="1"/>
+        <blocks/>
+        <events>
+            <event displayName="Collision" enabled="true" id="1" name="event-collide-actortogroup" order="1" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_32_32_Collision" classname="scripts.Design_32_32_Collision" desc="" description="" design="true" drawOrder="0" id="32" name="Collision" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
+        <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="2147483647"/>
+        <blocks/>
+        <events>
+            <event displayName="Actor - Type" enabled="true" id="1" name="event-collide-actortotype" order="1" repeats="true"/>
+            <event displayName="Actor - Type" enabled="true" id="2" name="event-collide-actortotype" order="2" repeats="true"/>
         </events>
     </snippet>
 </pack>

@@ -6,7 +6,7 @@
     </layers>
     <joints/>
     <regions>
-        <region b="64" g="64" h="66" id="0" name="Region 0" pts="4,639.0,0.0,639.0,66.0,0.0,66.0,0.0,0.0" r="64" type="box" w="639" x="0" y="892"/>
+        <region b="64" g="64" h="66" id="0" name="Region 0" pts="4,0.0,0.0,0.0,66.0,639.0,66.0,639.0,0.0" r="64" type="box" w="639" x="0" y="892"/>
     </regions>
     <terrainRegions/>
     <actors>
