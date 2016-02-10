@@ -68,18 +68,39 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class ActorEvents_16 extends ActorScript
+class Design_33_33_Animation extends ActorScript
 {
+	public var _Left:String;
+	public var _Right:String;
 	
 	
 	public function new(dummy:Int, actor:Actor, dummy2:Engine)
 	{
 		super(actor);
+		nameMap.set("Actor", "actor");
+		nameMap.set("Left", "_Left");
+		nameMap.set("Right", "_Right");
 		
 	}
 	
 	override public function init()
 	{
+		
+		/* ======================== When Updating ========================= */
+		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled)
+			{
+				if((Engine.engine.getGameAttribute("left") == true))
+				{
+					actor.setAnimation("" + _Left);
+				}
+				else if((Engine.engine.getGameAttribute("right") == true))
+				{
+					actor.setAnimation("" + _Right);
+				}
+			}
+		});
 		
 	}
 	

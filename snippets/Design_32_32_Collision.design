@@ -96,6 +96,49 @@
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="stomp"/>
                         </shout>
+                        <say comment="false" x="37" y="323">
+                            <ACTOR eid="lastcollided" id="0"/>
+                            <int id="1" val="Stompable"/>
+                            <int id="2" val="stomp"/>
+                        </say>
+                        <if comment="false" x="37" y="350">
+                            <group eventID="2" id="-1">
+                                <set-dxy comment="false" x="48" y="388">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="1"/>
+                                    <neg comment="false" id="2" x="0" y="0">
+                                        <as-number comment="false" id="0" x="0" y="0">
+                                            <get-attribute comment="false" id="0" x="0" y="0">
+                                                <ACTOR eid="lastcollided" id="0"/>
+                                                <int id="1" val="Stompable"/>
+                                                <int id="2" val="_PushPlayerJumpForce"/>
+                                            </get-attribute>
+                                        </as-number>
+                                    </neg>
+                                </set-dxy>
+                            </group>
+                            <keystate comment="false" id="0" x="0" y="0">
+                                <int id="0" val="0"/>
+                                <get-val-32-2 comment="false" id="1" x="0" y="0"/>
+                            </keystate>
+                        </if>
+                        <else comment="false" x="37" y="450">
+                            <group eventID="2" id="-1">
+                                <set-dxy comment="false" x="48" y="470">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="1"/>
+                                    <neg comment="false" id="2" x="0" y="0">
+                                        <as-number comment="false" id="0" x="0" y="0">
+                                            <get-attribute comment="false" id="0" x="0" y="0">
+                                                <ACTOR eid="lastcollided" id="0"/>
+                                                <int id="1" val="Stompable"/>
+                                                <int id="2" val="_PushPlayerForce"/>
+                                            </get-attribute>
+                                        </as-number>
+                                    </neg>
+                                </set-dxy>
+                            </group>
+                        </else>
                     </group>
                     <collision-top comment="false" id="0" x="0" y="0">
                         <int id="0" val="0"/>
@@ -108,4 +151,14 @@
         </event-collide-actortotype>
     </group>
     <group eventID="2" id="-1"/>
+    <group eventID="3" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="3" id="-1">
+                <set-val-32-1 comment="false" x="26" y="40">
+                    <int id="0" val="3"/>
+                </set-val-32-1>
+            </group>
+        </init>
+    </group>
+    <group eventID="3" id="-1"/>
 </groups>

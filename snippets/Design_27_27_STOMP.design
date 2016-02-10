@@ -4,7 +4,7 @@
         <collide comment="false" x="15" y="15">
             <group eventID="1" id="-1">
                 <set-val-27-1 comment="false" x="26" y="45">
-                    <control eid="4" id="0"/>
+                    <control eid="7" id="0"/>
                 </set-val-27-1>
                 <if comment="false" x="26" y="72">
                     <group eventID="1" id="-1">

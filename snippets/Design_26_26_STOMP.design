@@ -42,13 +42,7 @@
                         </actor-set-prop>
                         <dolater comment="false" x="37" y="206">
                             <group eventID="2" id="-1">
-                                <set-game-val-0 comment="false" x="48" y="233">
-                                    <plus comment="false" id="0" x="0" y="0">
-                                        <get-game-val-0 comment="false" id="0" x="0" y="0"/>
-                                        <int id="1" val="1"/>
-                                    </plus>
-                                </set-game-val-0>
-                                <die comment="false" x="48" y="263">
+                                <die comment="false" x="48" y="233">
                                     <ACTOR eid="this" id="0"/>
                                 </die>
                             </group>
@@ -66,7 +60,7 @@
                     </not>
                 </if>
             </group>
-            <int id="0" val="stomped"/>
+            <int id="0" val="stomp"/>
         </event-custom>
     </group>
     <group eventID="2" id="1">
