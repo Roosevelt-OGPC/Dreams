@@ -73,6 +73,12 @@ class Design_32_32_Collision extends ActorScript
 	public var _Lives:Float;
 	public var _JumpKey:String;
 	
+	/* ========================= Custom Event ========================= */
+	public function _customEvent_stomped():Void
+	{
+		Engine.engine.setGameAttribute("Score4", (Engine.engine.getGameAttribute("Score4") + 100));
+	}
+	
 	
 	public function new(dummy:Int, actor:Actor, dummy2:Engine)
 	{
@@ -92,6 +98,7 @@ class Design_32_32_Collision extends ActorScript
 		{
 			if(wrapper.enabled && sameAsAny(getActorType(16), event.otherActor.getType(),event.otherActor.getGroup()))
 			{
+				/* kill player if they collide with an enemy */
 				if(event.otherFromLeft)
 				{
 					recycleActor(actor);
@@ -103,10 +110,6 @@ class Design_32_32_Collision extends ActorScript
 				else if(event.otherFromRight)
 				{
 					recycleActor(actor);
-				}
-				else if(event.otherFromTop)
-				{
-					actor.shout("_customEvent_" + "stomp");
 				}
 			}
 		});
@@ -116,6 +119,7 @@ class Design_32_32_Collision extends ActorScript
 		{
 			if(wrapper.enabled && sameAsAny(getActorType(18), event.otherActor.getType(),event.otherActor.getGroup()))
 			{
+				/* kill player if they collide with an enemy */
 				if(event.otherFromLeft)
 				{
 					recycleActor(actor);
@@ -127,19 +131,6 @@ class Design_32_32_Collision extends ActorScript
 				else if(event.otherFromRight)
 				{
 					recycleActor(actor);
-				}
-				else if(event.otherFromTop)
-				{
-					actor.shout("_customEvent_" + "stomp");
-					actor.getLastCollidedActor().say("Stompable", "_customEvent_" + "stomp");
-					if(isKeyDown(_JumpKey))
-					{
-						actor.setYVelocity(-(asNumber(actor.getLastCollidedActor().getValue("Stompable", "_PushPlayerJumpForce"))));
-					}
-					else
-					{
-						actor.setYVelocity(-(asNumber(actor.getLastCollidedActor().getValue("Stompable", "_PushPlayerForce"))));
-					}
 				}
 			}
 		});

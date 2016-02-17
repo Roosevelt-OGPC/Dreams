@@ -8,6 +8,14 @@
                     <int id="1" val="60"/>
                     <int id="2" val="40"/>
                 </draw-text>
+                <draw-text comment="false" x="26" y="65">
+                    <get-xy comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="1" id="0"/>
+                        <int id="1" val="0"/>
+                    </get-xy>
+                    <int id="1" val="60"/>
+                    <int id="2" val="60"/>
+                </draw-text>
             </group>
         </draw>
     </group>

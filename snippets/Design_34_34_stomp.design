@@ -19,9 +19,14 @@
                                                     <int id="1" val="Stompable"/>
                                                     <int id="2" val="stomped"/>
                                                 </say>
-                                                <if comment="false" x="70" y="238">
+                                                <say comment="false" x="70" y="238">
+                                                    <ACTOR eid="this" id="0"/>
+                                                    <int id="1" val="Collision"/>
+                                                    <int id="2" val="stomped"/>
+                                                </say>
+                                                <if comment="false" x="70" y="265">
                                                     <group eventID="1" id="-1">
-                                                        <set-dxy comment="false" x="81" y="276">
+                                                        <set-dxy comment="false" x="81" y="303">
                                                             <ACTOR eid="this" id="0"/>
                                                             <int id="1" val="1"/>
                                                             <neg comment="false" id="2" x="0" y="0">
@@ -40,9 +45,9 @@
                                                         <get-val-34-1 comment="false" id="1" x="0" y="0"/>
                                                     </keystate>
                                                 </if>
-                                                <else comment="false" x="70" y="338">
+                                                <else comment="false" x="70" y="365">
                                                     <group eventID="1" id="-1">
-                                                        <set-dxy comment="false" x="81" y="358">
+                                                        <set-dxy comment="false" x="81" y="385">
                                                             <ACTOR eid="this" id="0"/>
                                                             <int id="1" val="1"/>
                                                             <neg comment="false" id="2" x="0" y="0">

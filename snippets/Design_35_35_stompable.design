@@ -3,8 +3,25 @@
     <group eventID="1" id="0">
         <init comment="false" x="15" y="15">
             <group eventID="1" id="-1">
+                <actor-set-prop comment="false" x="26" y="40">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="_BeingStomped"/>
+                    <false comment="false" id="2" x="0" y="0"/>
+                </actor-set-prop>
+                <actor-set-prop comment="false" x="26" y="72">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="_DisallowMovement"/>
+                    <false comment="false" id="2" x="0" y="0"/>
+                </actor-set-prop>
+            </group>
+        </init>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <event-custom comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
                 <if comment="false" x="26" y="40">
-                    <group eventID="1" id="-1">
+                    <group eventID="2" id="-1">
                         <actor-set-prop comment="false" x="37" y="83">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="_BeingStomped"/>
@@ -24,7 +41,7 @@
                             <true comment="false" id="2" x="0" y="0"/>
                         </actor-set-prop>
                         <dolater comment="false" x="37" y="206">
-                            <group eventID="1" id="-1">
+                            <group eventID="2" id="-1">
                                 <die comment="false" x="48" y="233">
                                     <ACTOR eid="this" id="0"/>
                                 </die>
@@ -42,29 +59,6 @@
                         </as-boolean>
                     </not>
                 </if>
-            </group>
-        </init>
-    </group>
-    <group eventID="1" id="2">
-        <play-sound4 comment="false" x="374" y="374">
-            <int id="0" val="0"/>
-            <sound eid="var" id="1" vid="6"/>
-        </play-sound4>
-    </group>
-    <group eventID="1" id="-1"/>
-    <group eventID="2" id="0">
-        <event-custom comment="false" x="15" y="15">
-            <group eventID="2" id="-1">
-                <actor-set-prop comment="false" x="26" y="40">
-                    <ACTOR eid="this" id="0"/>
-                    <int id="1" val="_BeingStomped"/>
-                    <false comment="false" id="2" x="0" y="0"/>
-                </actor-set-prop>
-                <actor-set-prop comment="false" x="26" y="72">
-                    <ACTOR eid="this" id="0"/>
-                    <int id="1" val="_DisallowMovement"/>
-                    <false comment="false" id="2" x="0" y="0"/>
-                </actor-set-prop>
             </group>
             <int id="0" val="stomped"/>
         </event-custom>

@@ -68,105 +68,40 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class ActorEvents_0 extends ActorScript
+class Design_35_35_Stompable extends ActorScript
 {
-	public var _Jump:Bool;
-	public var _Left:String;
-	public var _Right:String;
+	public var _StompedAnimation:String;
 	
 	/* ========================= Custom Event ========================= */
-	public function _customEvent_stomp():Void
+	public function _customEvent_stomped():Void
 	{
-		Engine.engine.setGameAttribute("Score4", (Engine.engine.getGameAttribute("Score4") + 100));
+		if(!(asBoolean(actor.getActorValue("_BeingStomped"))))
+		{
+			actor.setActorValue("_BeingStomped", true);
+			actor.setAnimation("" + _StompedAnimation);
+			actor.shout("_customEvent_" + "Stop");
+			actor.setActorValue("_DisallowMovement", true);
+			runLater(1000 * 0.2, function(timeTask:TimedTask):Void {
+				recycleActor(actor);
+			}, actor);
+		}
 	}
 	
 	
 	public function new(dummy:Int, actor:Actor, dummy2:Engine)
 	{
 		super(actor);
-		nameMap.set("Jump?", "_Jump");
-		_Jump = false;
-		nameMap.set("Left", "_Left");
-		nameMap.set("Right", "_Right");
+		nameMap.set("Actor", "actor");
+		nameMap.set("Stomped Animation", "_StompedAnimation");
 		
 	}
 	
 	override public function init()
 	{
 		
-		/* ======================== When Updating ========================= */
-		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
-		{
-			if(wrapper.enabled)
-			{
-				if((actor.getScreenX() < 0))
-				{
-					actor.setX(1);
-				}
-				else if((actor.getScreenX() > (getScreenWidth() - (actor.getWidth()))))
-				{
-					actor.setX(((getScreenWidth() - (actor.getWidth())) - 1));
-				}
-			}
-		});
-		
-		/* ======================== When Updating ========================= */
-		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
-		{
-			if(wrapper.enabled)
-			{
-				if(isKeyDown("left"))
-				{
-					Engine.engine.setGameAttribute("left", true);
-					Engine.engine.setGameAttribute("right", false);
-					actor.setXVelocity(-20);
-					if(isKeyDown("shift"))
-					{
-						actor.setXVelocity(-30);
-					}
-				}
-				else if(isKeyDown("right"))
-				{
-					Engine.engine.setGameAttribute("right", true);
-					Engine.engine.setGameAttribute("left", false);
-					actor.setXVelocity(20);
-					if(isKeyDown("shift"))
-					{
-						actor.setXVelocity(30);
-					}
-				}
-				else
-				{
-					actor.setXVelocity(0);
-					Engine.engine.setGameAttribute("left", false);
-					Engine.engine.setGameAttribute("right", false);
-				}
-				if(isKeyPressed("Spacebar"))
-				{
-					if((_Jump == true))
-					{
-						_Jump = false;
-						propertyChanged("_Jump", _Jump);
-						actor.applyImpulseInDirection(270, 38);
-					}
-				}
-				_Jump = false;
-				propertyChanged("_Jump", _Jump);
-			}
-		});
-		
-		/* ======================= Member of Group ======================== */
-		addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void
-		{
-			if(wrapper.enabled && sameAsAny(getActorGroup(1),event.otherActor.getType(),event.otherActor.getGroup()))
-			{
-				if(!(event.thisFromTop))
-				{
-					_Jump = true;
-					propertyChanged("_Jump", _Jump);
-				}
-			}
-		});
+		/* ======================== When Creating ========================= */
+		actor.setActorValue("_BeingStomped", false);
+		actor.setActorValue("_DisallowMovement", false);
 		
 	}
 	

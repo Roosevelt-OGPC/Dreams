@@ -39,7 +39,6 @@ import box2D.common.math.B2Vec2;
 import box2D.dynamics.B2Body;
 import box2D.dynamics.B2Fixture;
 import box2D.dynamics.joints.B2Joint;
-import box2D.collision.shapes.B2Shape;
 
 import motion.Actuate;
 import motion.easing.Back;
@@ -69,25 +68,53 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class SceneEvents_10 extends SceneScript
+class Design_34_34_Stomp extends ActorScript
 {
+	public var _JumpKey:String;
+	public var _StompableGroup:Group;
 	
 	
-	public function new(dummy:Int, dummy2:Engine)
+	public function new(dummy:Int, actor:Actor, dummy2:Engine)
 	{
-		super();
+		super(actor);
+		nameMap.set("Actor", "actor");
+		nameMap.set("Jump Key", "_JumpKey");
+		nameMap.set("Stompable Group", "_StompableGroup");
 		
 	}
 	
 	override public function init()
 	{
 		
-		/* ========================= When Drawing ========================= */
-		addWhenDrawingListener(null, function(g:G, x:Float, y:Float, list:Array<Dynamic>):Void
+		/* ======================== Something Else ======================== */
+		addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void
 		{
 			if(wrapper.enabled)
 			{
-				g.drawString("" + Engine.engine.getGameAttribute("Score4"), 60, 40);
+				_JumpKey = "Spacebar";
+				propertyChanged("_JumpKey", _JumpKey);
+				if(event.thisCollidedWithActor)
+				{
+					if(event.thisFromBottom)
+					{
+						if((internalGetGroup(event.otherActor, event.otherShape, event) == _StompableGroup))
+						{
+							if(!(asBoolean(actor.getLastCollidedActor().getActorValue("_BeingStomped"))))
+							{
+								actor.getLastCollidedActor().say("Stompable", "_customEvent_" + "stomped");
+								actor.say("Collision", "_customEvent_" + "stomped");
+								if(isKeyDown(_JumpKey))
+								{
+									actor.setYVelocity(-(asNumber(actor.getLastCollidedActor().getValue("Stompable", "_PushPlayerJumpForce"))));
+								}
+								else
+								{
+									actor.setYVelocity(-(asNumber(actor.getLastCollidedActor().getValue("Stompable", "_PushPlayerForce"))));
+								}
+							}
+						}
+					}
+				}
 			}
 		});
 		
