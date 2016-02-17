@@ -3,9 +3,9 @@
     <group eventID="1" id="0">
         <collide comment="false" x="15" y="15">
             <group eventID="1" id="-1">
-                <set-val-27-1 comment="false" x="26" y="45">
+                <set-val-34-1 comment="false" x="26" y="45">
                     <control eid="7" id="0"/>
-                </set-val-27-1>
+                </set-val-34-1>
                 <if comment="false" x="26" y="72">
                     <group eventID="1" id="-1">
                         <if comment="false" x="37" y="105">
@@ -17,7 +17,7 @@
                                                 <say comment="false" x="70" y="211">
                                                     <ACTOR eid="lastcollided" id="0"/>
                                                     <int id="1" val="Stompable"/>
-                                                    <int id="2" val="stomp"/>
+                                                    <int id="2" val="stomped"/>
                                                 </say>
                                                 <if comment="false" x="70" y="238">
                                                     <group eventID="1" id="-1">
@@ -37,7 +37,7 @@
                                                     </group>
                                                     <keystate comment="false" id="0" x="0" y="0">
                                                         <int id="0" val="0"/>
-                                                        <get-val-27-1 comment="false" id="1" x="0" y="0"/>
+                                                        <get-val-34-1 comment="false" id="1" x="0" y="0"/>
                                                     </keystate>
                                                 </if>
                                                 <else comment="false" x="70" y="338">
@@ -70,7 +70,7 @@
                                     </group>
                                     <eq comment="false" id="0" x="0" y="0">
                                         <collision-shape-group comment="false" id="0" x="0" y="0"/>
-                                        <get-val-27-2 comment="false" id="1" x="0" y="0"/>
+                                        <get-val-34-2 comment="false" id="1" x="0" y="0"/>
                                     </eq>
                                 </if>
                             </group>

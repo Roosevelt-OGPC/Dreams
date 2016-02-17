@@ -3,9 +3,12 @@
     <group eventID="1" id="0">
         <step comment="false" x="15" y="15">
             <group eventID="1" id="-1">
-                <if comment="false" x="26" y="40">
+                <comment-short comment="false" x="26" y="40">
+                    <int id="0" val="make sure actor doesn&amp;apos;t leave screen"/>
+                </comment-short>
+                <if comment="false" x="26" y="60">
                     <group eventID="1" id="-1">
-                        <set-xy comment="false" x="37" y="78">
+                        <set-xy comment="false" x="37" y="98">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="0"/>
                             <int id="2" val="1"/>
@@ -19,9 +22,9 @@
                         <int id="1" val="0"/>
                     </less>
                 </if>
-                <else-if comment="false" x="26" y="117">
+                <else-if comment="false" x="26" y="137">
                     <group eventID="1" id="-1">
-                        <set-xy comment="false" x="37" y="160">
+                        <set-xy comment="false" x="37" y="180">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="0"/>
                             <minus comment="false" id="2" x="0" y="0">
@@ -121,7 +124,10 @@
     <group eventID="5" id="0">
         <event-custom comment="false" x="15" y="15">
             <group eventID="5" id="-1">
-                <set-game-val-2 comment="false" x="26" y="40">
+                <print comment="false" x="26" y="40">
+                    <int id="0" val="get points when enemies killed"/>
+                </print>
+                <set-game-val-2 comment="false" x="26" y="60">
                     <plus comment="false" id="0" x="0" y="0">
                         <get-game-val-2 comment="false" id="0" x="0" y="0"/>
                         <int id="1" val="100"/>
@@ -135,22 +141,25 @@
     <group eventID="6" id="0">
         <step comment="false" x="15" y="15">
             <group eventID="6" id="-1">
-                <if comment="false" x="26" y="40">
+                <comment-short comment="false" x="26" y="40">
+                    <int id="0" val="walk left"/>
+                </comment-short>
+                <if comment="false" x="26" y="60">
                     <group eventID="6" id="-1">
-                        <set-game-val-3 comment="false" x="37" y="73">
+                        <set-game-val-3 comment="false" x="37" y="93">
                             <true comment="false" id="0" x="0" y="0"/>
                         </set-game-val-3>
-                        <set-game-val-4 comment="false" x="37" y="98">
+                        <set-game-val-4 comment="false" x="37" y="118">
                             <false comment="false" id="0" x="0" y="0"/>
                         </set-game-val-4>
-                        <set-dxy comment="false" x="37" y="123">
+                        <set-dxy comment="false" x="37" y="143">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="0"/>
                             <int id="2" val="-20"/>
                         </set-dxy>
-                        <if comment="false" x="37" y="150">
+                        <if comment="false" x="37" y="170">
                             <group eventID="6" id="-1">
-                                <set-dxy comment="false" x="48" y="183">
+                                <set-dxy comment="false" x="48" y="203">
                                     <ACTOR eid="this" id="0"/>
                                     <int id="1" val="0"/>
                                     <int id="2" val="-30"/>
@@ -167,22 +176,25 @@
                         <control eid="2" id="1"/>
                     </keystate>
                 </if>
-                <else-if comment="false" x="26" y="234">
+                <comment-short comment="false" x="26" y="254">
+                    <int id="0" val="walk right"/>
+                </comment-short>
+                <else-if comment="false" x="26" y="274">
                     <group eventID="6" id="-1">
-                        <set-game-val-4 comment="false" x="37" y="267">
+                        <set-game-val-4 comment="false" x="37" y="307">
                             <true comment="false" id="0" x="0" y="0"/>
                         </set-game-val-4>
-                        <set-game-val-3 comment="false" x="37" y="292">
+                        <set-game-val-3 comment="false" x="37" y="332">
                             <false comment="false" id="0" x="0" y="0"/>
                         </set-game-val-3>
-                        <set-dxy comment="false" x="37" y="317">
+                        <set-dxy comment="false" x="37" y="357">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="0"/>
                             <int id="2" val="20"/>
                         </set-dxy>
-                        <if comment="false" x="37" y="344">
+                        <if comment="false" x="37" y="384">
                             <group eventID="6" id="-1">
-                                <set-dxy comment="false" x="48" y="377">
+                                <set-dxy comment="false" x="48" y="417">
                                     <ACTOR eid="this" id="0"/>
                                     <int id="1" val="0"/>
                                     <int id="2" val="30"/>
@@ -199,29 +211,32 @@
                         <control eid="3" id="1"/>
                     </keystate>
                 </else-if>
-                <else comment="false" x="26" y="428">
+                <else comment="false" x="26" y="468">
                     <group eventID="6" id="-1">
-                        <set-dxy comment="false" x="37" y="448">
+                        <set-dxy comment="false" x="37" y="488">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="0"/>
                             <int id="2" val="0"/>
                         </set-dxy>
-                        <set-game-val-3 comment="false" x="37" y="475">
+                        <set-game-val-3 comment="false" x="37" y="515">
                             <false comment="false" id="0" x="0" y="0"/>
                         </set-game-val-3>
-                        <set-game-val-4 comment="false" x="37" y="500">
+                        <set-game-val-4 comment="false" x="37" y="540">
                             <false comment="false" id="0" x="0" y="0"/>
                         </set-game-val-4>
                     </group>
                 </else>
-                <if comment="false" x="26" y="537">
+                <print comment="false" x="26" y="577">
+                    <int id="0" val="jumping"/>
+                </print>
+                <if comment="false" x="26" y="597">
                     <group eventID="6" id="-1">
-                        <if comment="false" x="37" y="570">
+                        <if comment="false" x="37" y="630">
                             <group eventID="6" id="-1">
-                                <set-val-1-1 comment="false" x="48" y="600">
+                                <set-val-1-1 comment="false" x="48" y="660">
                                     <false comment="false" id="0" x="0" y="0"/>
                                 </set-val-1-1>
-                                <push-shove2 comment="false" x="48" y="625">
+                                <push-shove2 comment="false" x="48" y="685">
                                     <ACTOR eid="this" id="0"/>
                                     <int id="1" val="1"/>
                                     <int id="2" val="270"/>
@@ -239,7 +254,7 @@
                         <control eid="7" id="1"/>
                     </keystate>
                 </if>
-                <set-val-1-1 comment="false" x="26" y="676">
+                <set-val-1-1 comment="false" x="26" y="736">
                     <false comment="false" id="0" x="0" y="0"/>
                 </set-val-1-1>
             </group>
@@ -249,9 +264,12 @@
     <group eventID="7" id="0">
         <event-collide-actortogroup comment="false" x="15" y="15">
             <group eventID="7" id="-1">
-                <if comment="false" x="26" y="47">
+                <comment-short comment="false" x="26" y="47">
+                    <int id="0" val="jump"/>
+                </comment-short>
+                <if comment="false" x="26" y="67">
                     <group eventID="7" id="-1">
-                        <set-val-1-1 comment="false" x="37" y="85">
+                        <set-val-1-1 comment="false" x="37" y="105">
                             <true comment="false" id="0" x="0" y="0"/>
                         </set-val-1-1>
                     </group>
