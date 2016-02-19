@@ -20,6 +20,11 @@
                     <int id="0" val="5"/>
                     <ACTOR eid="lastcreated" id="2"/>
                 </dolater>
+                <set-dxy comment="false" x="26" y="160">
+                    <ACTOR eid="2" id="0"/>
+                    <int id="1" val="0"/>
+                    <int id="2" val="-10"/>
+                </set-dxy>
             </group>
             <int id="0" val="0"/>
             <REGION eid="0" id="1"/>

@@ -68,32 +68,94 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class ActorEvents_5 extends ActorScript
+class Design_36_36_groundpound extends ActorScript
 {
+	public var _CanPound:Bool;
+	public var _DownKeyRequired:Bool;
+	public var _DownKey:String;
+	public var _Force:Float;
+	public var _GroundPoundKey:String;
+	public var _OldX:Float;
 	
 	
 	public function new(dummy:Int, actor:Actor, dummy2:Engine)
 	{
 		super(actor);
+		nameMap.set("Actor", "actor");
+		nameMap.set("Can Pound?", "_CanPound");
+		_CanPound = false;
+		nameMap.set("Down Key Required?", "_DownKeyRequired");
+		_DownKeyRequired = true;
+		nameMap.set("Down Key", "_DownKey");
+		nameMap.set("Force", "_Force");
+		_Force = 0.0;
+		nameMap.set("Ground Pound Key", "_GroundPoundKey");
+		nameMap.set("Old X", "_OldX");
+		_OldX = 0.0;
 		
 	}
 	
 	override public function init()
 	{
 		
+		/* ======================== When Creating ========================= */
+		/* Inputs: ---------------------- */
+		/* "On Ground?" -- <Boolean> Actor Level Attribute, from "On Ground" Behavior (required) */
+		/* "Is Jumping?" -- <Boolean> Actor Level Attribute, from "Jumping" Behavior (required) */
+		/* "Facing Right?" -- <Boolean> Actor Level Attribute, from "Walking" Behavior (required) */
+		/* "Is Wall Sliding?" -- <Boolean> Actor Level Attribute, from "Wall Sliding" Behavior (NOT required) */
+		/* Outputs: --------------------- */
+		/* "Is Ground Pounding" -- <Boolean> Actor Level Attribute */
+		
 		/* ======================== When Updating ========================= */
 		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
 		{
 			if(wrapper.enabled)
 			{
-				if((actor.getScreenX() < 0))
+				if(asBoolean(actor.getActorValue("Is Wall Sliding?")))
 				{
-					actor.setX(1);
+					actor.setActorValue("Is Ground Pounding?", false);
+					_CanPound = false;
+					propertyChanged("_CanPound", _CanPound);
+					return;
 				}
-				else if((actor.getScreenX() > (getScreenWidth() - (actor.getWidth()))))
+				if((!(asBoolean(actor.getActorValue("Is Jumping?"))) || asBoolean(actor.getActorValue("On Ground?"))))
 				{
-					actor.setX(((getScreenWidth() - (actor.getWidth())) - 1));
+					if((asBoolean(actor.getActorValue("Is Ground Pounding?")) && asBoolean(actor.getActorValue("On Ground?"))))
+					{
+						startShakingScreen(1 / 100, 0.2);
+					}
+					_CanPound = false;
+					propertyChanged("_CanPound", _CanPound);
+					actor.setActorValue("Is Ground Pounding?", false);
+					return;
 				}
+				if(isKeyPressed(_GroundPoundKey))
+				{
+					if((_DownKeyRequired && !(isKeyDown(_DownKey))))
+					{
+						return;
+					}
+					_CanPound = false;
+					propertyChanged("_CanPound", _CanPound);
+					actor.setActorValue("Is Ground Pounding?", true);
+					actor.applyImpulse(0, 1, _Force);
+				}
+				if(asBoolean(actor.getActorValue("Is Ground Pounding?")))
+				{
+					actor.setXVelocity(0);
+					actor.setX(_OldX);
+					if(asBoolean(actor.getActorValue("Facing Right?")))
+					{
+						
+					}
+					else
+					{
+						
+					}
+				}
+				_OldX = asNumber(actor.getX());
+				propertyChanged("_OldX", _OldX);
 			}
 		});
 		

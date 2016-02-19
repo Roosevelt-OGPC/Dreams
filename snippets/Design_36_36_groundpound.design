@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="2" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <comment-short comment="false" x="26" y="40">
+                    <int id="0" val="Inputs: ----------------------"/>
+                </comment-short>
+                <comment-short comment="false" x="26" y="60">
+                    <int id="0" val="&amp;quot;On Ground?&amp;quot; -- &amp;lt;Boolean&amp;gt; Actor Level Attribute, from &amp;quot;On Ground&amp;quot; Behavior (required)"/>
+                </comment-short>
+                <comment-short comment="false" x="26" y="80">
+                    <int id="0" val="&amp;quot;Is Jumping?&amp;quot; -- &amp;lt;Boolean&amp;gt; Actor Level Attribute, from &amp;quot;Jumping&amp;quot; Behavior (required)"/>
+                </comment-short>
+                <comment-short comment="false" x="26" y="100">
+                    <int id="0" val="&amp;quot;Facing Right?&amp;quot; -- &amp;lt;Boolean&amp;gt; Actor Level Attribute, from &amp;quot;Walking&amp;quot; Behavior (required)"/>
+                </comment-short>
+                <comment-short comment="false" x="26" y="120">
+                    <int id="0" val="&amp;quot;Is Wall Sliding?&amp;quot; -- &amp;lt;Boolean&amp;gt; Actor Level Attribute, from &amp;quot;Wall Sliding&amp;quot; Behavior (NOT required)"/>
+                </comment-short>
+                <comment-short comment="false" x="26" y="140">
+                    <int id="0" val="Outputs: ---------------------"/>
+                </comment-short>
+                <comment-short comment="false" x="26" y="160">
+                    <int id="0" val="&amp;quot;Is Ground Pounding&amp;quot; -- &amp;lt;Boolean&amp;gt; Actor Level Attribute"/>
+                </comment-short>
+            </group>
+        </init>
+    </group>
+    <group eventID="2" id="-1"/>
+    <group eventID="3" id="0">
+        <step comment="false" x="15" y="15">
+            <group eventID="3" id="-1">
+                <if comment="false" x="26" y="40">
+                    <group eventID="3" id="-1">
+                        <actor-set-prop comment="false" x="37" y="78">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="Is Ground Pounding?"/>
+                            <false comment="false" id="2" x="0" y="0"/>
+                        </actor-set-prop>
+                        <set-val-36-1 comment="false" x="37" y="110">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-val-36-1>
+                        <stop comment="false" x="37" y="135"/>
+                    </group>
+                    <as-boolean comment="false" id="0" x="0" y="0">
+                        <actor-get-prop comment="false" id="0" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="Is Wall Sliding?"/>
+                        </actor-get-prop>
+                    </as-boolean>
+                </if>
+                <if comment="false" x="26" y="167">
+                    <group eventID="3" id="-1">
+                        <if comment="false" x="37" y="215">
+                            <group eventID="3" id="-1">
+                                <shake-start comment="false" x="48" y="258">
+                                    <int id="0" val="1"/>
+                                    <int id="1" val="0.2"/>
+                                </shake-start>
+                            </group>
+                            <and comment="false" id="0" x="0" y="0">
+                                <as-boolean comment="false" id="0" x="0" y="0">
+                                    <actor-get-prop comment="false" id="0" x="0" y="0">
+                                        <ACTOR eid="this" id="0"/>
+                                        <int id="1" val="Is Ground Pounding?"/>
+                                    </actor-get-prop>
+                                </as-boolean>
+                                <as-boolean comment="false" id="1" x="0" y="0">
+                                    <actor-get-prop comment="false" id="0" x="0" y="0">
+                                        <ACTOR eid="this" id="0"/>
+                                        <int id="1" val="On Ground?"/>
+                                    </actor-get-prop>
+                                </as-boolean>
+                            </and>
+                        </if>
+                        <set-val-36-1 comment="false" x="37" y="290">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-val-36-1>
+                        <actor-set-prop comment="false" x="37" y="315">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="Is Ground Pounding?"/>
+                            <false comment="false" id="2" x="0" y="0"/>
+                        </actor-set-prop>
+                        <stop comment="false" x="37" y="347"/>
+                    </group>
+                    <or comment="false" id="0" x="0" y="0">
+                        <not comment="false" id="0" x="0" y="0">
+                            <as-boolean comment="false" id="0" x="0" y="0">
+                                <actor-get-prop comment="false" id="0" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="Is Jumping?"/>
+                                </actor-get-prop>
+                            </as-boolean>
+                        </not>
+                        <as-boolean comment="false" id="1" x="0" y="0">
+                            <actor-get-prop comment="false" id="0" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                                <int id="1" val="On Ground?"/>
+                            </actor-get-prop>
+                        </as-boolean>
+                    </or>
+                </if>
+                <if comment="false" x="26" y="379">
+                    <group eventID="3" id="-1">
+                        <if comment="false" x="37" y="417">
+                            <group eventID="3" id="-1">
+                                <stop comment="false" x="48" y="465"/>
+                            </group>
+                            <and comment="false" id="0" x="0" y="0">
+                                <get-val-36-2 comment="false" id="0" x="0" y="0"/>
+                                <not comment="false" id="1" x="0" y="0">
+                                    <keystate comment="false" id="0" x="0" y="0">
+                                        <int id="0" val="0"/>
+                                        <get-val-36-3 comment="false" id="1" x="0" y="0"/>
+                                    </keystate>
+                                </not>
+                            </and>
+                        </if>
+                        <set-val-36-1 comment="false" x="37" y="497">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-val-36-1>
+                        <actor-set-prop comment="false" x="37" y="522">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="Is Ground Pounding?"/>
+                            <true comment="false" id="2" x="0" y="0"/>
+                        </actor-set-prop>
+                        <push-shove comment="false" x="37" y="554">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="1"/>
+                            <int id="2" val="0"/>
+                            <int id="3" val="1"/>
+                            <get-val-36-4 comment="false" id="4" x="0" y="0"/>
+                        </push-shove>
+                    </group>
+                    <keystate comment="false" id="0" x="0" y="0">
+                        <int id="0" val="1"/>
+                        <get-val-36-5 comment="false" id="1" x="0" y="0"/>
+                    </keystate>
+                </if>
+                <if comment="false" x="26" y="598">
+                    <group eventID="3" id="-1">
+                        <set-dxy comment="false" x="37" y="636">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="0"/>
+                            <int id="2" val="0"/>
+                        </set-dxy>
+                        <set-xy comment="false" x="37" y="663">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="0"/>
+                            <get-val-36-6 comment="false" id="2" x="0" y="0"/>
+                        </set-xy>
+                        <if comment="false" x="37" y="695">
+                            <group eventID="3" id="-1"/>
+                            <as-boolean comment="false" id="0" x="0" y="0">
+                                <actor-get-prop comment="false" id="0" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="Facing Right?"/>
+                                </actor-get-prop>
+                            </as-boolean>
+                        </if>
+                        <else comment="false" x="37" y="765">
+                            <group eventID="3" id="-1"/>
+                        </else>
+                    </group>
+                    <as-boolean comment="false" id="0" x="0" y="0">
+                        <actor-get-prop comment="false" id="0" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="Is Ground Pounding?"/>
+                        </actor-get-prop>
+                    </as-boolean>
+                </if>
+                <set-val-36-6 comment="false" x="26" y="829">
+                    <get-xy comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                        <int id="1" val="0"/>
+                    </get-xy>
+                </set-val-36-6>
+            </group>
+        </step>
+    </group>
+    <group eventID="3" id="-1"/>
+</groups>

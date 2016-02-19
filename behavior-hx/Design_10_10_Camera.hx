@@ -68,18 +68,28 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class ActorEvents_23 extends ActorScript
+class Design_10_10_Camera extends ActorScript
 {
 	
 	
 	public function new(dummy:Int, actor:Actor, dummy2:Engine)
 	{
 		super(actor);
+		nameMap.set("Actor", "actor");
 		
 	}
 	
 	override public function init()
 	{
+		
+		/* ======================== When Updating ========================= */
+		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled)
+			{
+				engine.cameraFollow(actor);
+			}
+		});
 		
 	}
 	
