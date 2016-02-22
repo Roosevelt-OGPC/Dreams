@@ -69,7 +69,7 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class SceneEvents_11 extends SceneScript
+class SceneEvents_7 extends SceneScript
 {
 	
 	
@@ -81,6 +81,21 @@ class SceneEvents_11 extends SceneScript
 	
 	override public function init()
 	{
+		
+		/* ======================== Specific Actor ======================== */
+		addActorEntersRegionListener(getRegion(0), function(a:Actor, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled && sameAs(getActor(1), a))
+			{
+				runLater(1000 * 2, function(timeTask:TimedTask):Void {
+					startShakingScreen(2 / 100, 3);
+				}, null);
+				runLater(1000 * 5, function(timeTask:TimedTask):Void {
+					stopShakingScreen();
+				}, null);
+				getActor(2).setXVelocity(-10);
+			}
+		});
 		
 	}
 	
