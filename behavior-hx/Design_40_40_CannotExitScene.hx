@@ -68,31 +68,17 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class Design_35_35_Stompable extends ActorScript
+class Design_40_40_CannotExitScene extends ActorScript
 {
-	public var _StompedAnimation:String;
-	
-	/* ========================= Custom Event ========================= */
-	public function _customEvent_stomped():Void
-	{
-		if(!(asBoolean(actor.getActorValue("_BeingStomped"))))
-		{
-			actor.setActorValue("_BeingStomped", true);
-			actor.setAnimation("" + _StompedAnimation);
-			actor.shout("_customEvent_" + "Stop");
-			actor.setActorValue("_DisallowMovement", true);
-			runLater(1000 * 0.2, function(timeTask:TimedTask):Void {
-				recycleActor(actor);
-			}, actor);
-		}
-	}
+	public var _Bottom:Float;
 	
 	
 	public function new(dummy:Int, actor:Actor, dummy2:Engine)
 	{
 		super(actor);
 		nameMap.set("Actor", "actor");
-		nameMap.set("Stomped Animation", "_StompedAnimation");
+		nameMap.set("Bottom", "_Bottom");
+		_Bottom = 0.0;
 		
 	}
 	
@@ -100,8 +86,35 @@ class Design_35_35_Stompable extends ActorScript
 	{
 		
 		/* ======================== When Creating ========================= */
-		actor.setActorValue("_BeingStomped", false);
-		actor.setActorValue("_DisallowMovement", false);
+		actor.makeAlwaysSimulate();
+		
+		/* ======================== When Updating ========================= */
+		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled)
+			{
+				if((actor.getX() < 0))
+				{
+					actor.setX(0);
+					actor.setXVelocity(0);
+				}
+				if((actor.getY() < 0))
+				{
+					actor.setY(0);
+					actor.setYVelocity(0);
+				}
+				if(((actor.getX() + (actor.getWidth())) > (getSceneWidth())))
+				{
+					actor.setX(((getSceneWidth()) - (actor.getWidth())));
+					actor.setXVelocity(0);
+				}
+				if(((actor.getY() + (actor.getHeight())) > (getSceneHeight())))
+				{
+					actor.setY(((getSceneHeight()) - (actor.getHeight())));
+					actor.setYVelocity(0);
+				}
+			}
+		});
 		
 	}
 	
