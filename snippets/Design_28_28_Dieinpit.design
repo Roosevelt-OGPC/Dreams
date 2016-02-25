@@ -42,5 +42,11 @@
             </group>
         </step>
     </group>
+    <group eventID="1" id="1">
+        <or comment="false" x="364" y="310">
+            <int id="0" val=""/>
+            <int id="1" val=""/>
+        </or>
+    </group>
     <group eventID="1" id="-1"/>
 </groups>

@@ -64,42 +64,48 @@
     <group eventID="3" id="0">
         <event-collide-actortotype comment="false" x="15" y="15">
             <group eventID="3" id="-1">
-                <if comment="false" x="26" y="47">
+                <dolater comment="false" x="26" y="47">
                     <group eventID="3" id="-1">
-                        <create-actor3 comment="false" x="37" y="80">
-                            <actortype eid="23" id="0"/>
-                            <int id="1" val="235"/>
-                            <int id="2" val="230"/>
-                            <int id="3" val="0"/>
-                        </create-actor3>
-                        <set-game-val-2 comment="false" x="37" y="107">
-                            <plus comment="false" id="0" x="0" y="0">
-                                <get-game-val-2 comment="false" id="0" x="0" y="0"/>
-                                <int id="1" val="200"/>
-                            </plus>
-                        </set-game-val-2>
+                        <if comment="false" x="37" y="74">
+                            <group eventID="3" id="-1">
+                                <create-actor3 comment="false" x="48" y="107">
+                                    <actortype eid="23" id="0"/>
+                                    <int id="1" val="235"/>
+                                    <int id="2" val="230"/>
+                                    <int id="3" val="1"/>
+                                </create-actor3>
+                            </group>
+                            <collision-bottom comment="false" id="0" x="0" y="0">
+                                <int id="0" val="0"/>
+                                <int id="1" val="1"/>
+                            </collision-bottom>
+                        </if>
                     </group>
-                    <collision-bottom comment="false" id="0" x="0" y="0">
-                        <int id="0" val="0"/>
-                        <int id="1" val="1"/>
-                    </collision-bottom>
-                </if>
+                    <int id="0" val=".5"/>
+                    <ACTOR eid="this" id="2"/>
+                </dolater>
             </group>
             <ACTOR eid="this" id="0"/>
             <actortype eid="25" id="1"/>
         </event-collide-actortotype>
     </group>
     <group eventID="3" id="1">
-        <push-shove comment="false" x="179" y="223">
+        <set-game-val-2 comment="false" x="141" y="338">
+            <plus comment="false" id="0" x="0" y="0">
+                <get-game-val-2 comment="false" id="0" x="0" y="0"/>
+                <int id="1" val="200"/>
+            </plus>
+        </set-game-val-2>
+        <push-shove comment="false" x="141" y="368">
             <ACTOR eid="lastcreated" id="0"/>
             <int id="1" val="1"/>
             <int id="2" val="240"/>
             <int id="3" val="244"/>
             <int id="4" val="5"/>
         </push-shove>
-        <dolater comment="false" x="179" y="250">
+        <dolater comment="false" x="141" y="395">
             <group eventID="3" id="-1">
-                <push-shove comment="false" x="190" y="277">
+                <push-shove comment="false" x="152" y="422">
                     <ACTOR eid="lastcreated" id="0"/>
                     <int id="1" val="1"/>
                     <int id="2" val="241"/>
@@ -110,9 +116,9 @@
             <int id="0" val="1"/>
             <ACTOR eid="this" id="2"/>
         </dolater>
-        <dolater comment="false" x="179" y="316">
+        <dolater comment="false" x="141" y="461">
             <group eventID="3" id="-1">
-                <die comment="false" x="190" y="343">
+                <die comment="false" x="152" y="488">
                     <ACTOR eid="lastcreated" id="0"/>
                 </die>
             </group>
