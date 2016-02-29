@@ -288,4 +288,27 @@
             <event displayName="Updated" enabled="true" id="1" name="step" order="1" repeats="true"/>
         </events>
     </snippet>
+    <snippet attachedevent="true" class="scripts.SceneEvents_14" classname="scripts.SceneEvents_14" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="48" name="SceneEvents_14" oid="-1" package="scripts." sceneid="14" scenespecific="true" shared="false" type="scene">
+        <blocks/>
+        <events>
+            <event displayName="Enters Screen" enabled="false" id="1" name="event-actor-screen" order="1" repeats="true"/>
+            <event displayName="Updated" enabled="true" id="2" name="step" order="2" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_49_49_CannotExitScreen" classname="scripts.Design_49_49_CannotExitScreen" desc="Prevent the actor from leaving the screen." description="Prevent the actor from leaving the screen." design="true" drawOrder="0" id="49" name="Cannot Exit Screen" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
+        <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <blocks/>
+        <events>
+            <event displayName="Updated" enabled="true" id="2" name="step" order="3" repeats="true"/>
+            <event displayName="Created" enabled="true" id="3" name="init" order="2" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_51" classname="scripts.ActorEvents_51" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="50" name="ActorEvents_51" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="Jump?" hidden="false" id="1" name="_Jump" order="0"/>
+        <blocks/>
+        <events>
+            <event displayName="Updated" enabled="true" id="1" name="step" order="1" repeats="true"/>
+            <event displayName=" Actor - Group" enabled="true" id="2" name="event-collide-actortogroup" order="2" repeats="true"/>
+        </events>
+    </snippet>
 </pack>
