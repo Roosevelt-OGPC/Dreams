@@ -68,7 +68,7 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class ActorEvents_45 extends ActorScript
+class ActorEvents_53 extends ActorScript
 {
 	
 	
@@ -80,6 +80,33 @@ class ActorEvents_45 extends ActorScript
 	
 	override public function init()
 	{
+		
+		/* ======================== When Updating ========================= */
+		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled)
+			{
+				actor.setXVelocity(10);
+			}
+		});
+		
+		/* =========================== Keyboard =========================== */
+		addKeyStateListener("Spacebar", function(pressed:Bool, released:Bool, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled && pressed)
+			{
+				actor.setYVelocity(-25);
+			}
+		});
+		
+		/* ======================== Something Else ======================== */
+		addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled)
+			{
+				recycleActor(actor);
+			}
+		});
 		
 	}
 	

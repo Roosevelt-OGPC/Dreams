@@ -69,7 +69,7 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class SceneEvents_8 extends SceneScript
+class SceneEvents_14 extends SceneScript
 {
 	
 	
@@ -81,6 +81,18 @@ class SceneEvents_8 extends SceneScript
 	
 	override public function init()
 	{
+		
+		/* ======================== When Updating ========================= */
+		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled)
+			{
+				if(getLastCreatedActor().isOnScreen())
+				{
+					
+				}
+			}
+		});
 		
 	}
 	
