@@ -1,23 +1,134 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <groups>
-    <group eventID="1" id="0">
-        <step comment="false" x="15" y="15">
-            <group eventID="1" id="-1"/>
-        </step>
-    </group>
-    <group eventID="1" id="-1"/>
     <group eventID="2" id="0">
         <step comment="false" x="15" y="15">
             <group eventID="2" id="-1">
                 <if comment="false" x="26" y="40">
                     <group eventID="2" id="-1"/>
-                    <and comment="false" id="0" x="0" y="0">
-                        <int id="0" val=""/>
-                        <int id="1" val=""/>
-                    </and>
+                    <int id="0" val=""/>
                 </if>
             </group>
         </step>
     </group>
     <group eventID="2" id="-1"/>
+    <group eventID="3" id="0">
+        <event-actor-region comment="false" x="15" y="15">
+            <group eventID="3" id="-1">
+                <set-val-17-1 comment="false" x="26" y="42">
+                    <plus comment="false" id="0" x="0" y="0">
+                        <get-val-17-1 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="1"/>
+                    </plus>
+                </set-val-17-1>
+                <die comment="false" x="26" y="72">
+                    <ACTOR eid="49" id="0"/>
+                </die>
+                <scene-shout comment="false" x="26" y="99">
+                    <int id="0" val="_scoreEnemy"/>
+                </scene-shout>
+            </group>
+            <int id="0" val="0"/>
+            <REGION eid="0" id="1"/>
+            <ACTOR eid="49" id="2"/>
+        </event-actor-region>
+    </group>
+    <group eventID="3" id="-1"/>
+    <group eventID="5" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="5" id="-1">
+                <push-shove2 comment="false" x="26" y="40">
+                    <ACTOR eid="49" id="0"/>
+                    <int id="1" val="1"/>
+                    <int id="2" val="45"/>
+                    <int id="3" val="30"/>
+                </push-shove2>
+            </group>
+        </init>
+    </group>
+    <group eventID="5" id="-1"/>
+    <group eventID="6" id="0">
+        <event-custom comment="false" x="15" y="15">
+            <group eventID="6" id="-1">
+                <create-actor3 comment="false" x="26" y="40">
+                    <actortype eid="47" id="0"/>
+                    <int id="1" val="290"/>
+                    <int id="2" val="66"/>
+                    <int id="3" val="1"/>
+                </create-actor3>
+                <push-shove2 comment="false" x="26" y="67">
+                    <ACTOR eid="49" id="0"/>
+                    <int id="1" val="1"/>
+                    <int id="2" val="45"/>
+                    <int id="3" val="30"/>
+                </push-shove2>
+            </group>
+            <int id="0" val="_scoreEnemy"/>
+        </event-custom>
+    </group>
+    <group eventID="6" id="-1"/>
+    <group eventID="7" id="0">
+        <draw comment="false" x="15" y="15">
+            <group eventID="7" id="-1">
+                <draw-text comment="false" x="26" y="40">
+                    <get-xy comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="49" id="0"/>
+                        <int id="1" val="1"/>
+                    </get-xy>
+                    <int id="1" val="30"/>
+                    <int id="2" val="30"/>
+                </draw-text>
+                <draw-text comment="false" x="26" y="73">
+                    <get-xy comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="49" id="0"/>
+                        <int id="1" val="0"/>
+                    </get-xy>
+                    <int id="1" val="50"/>
+                    <int id="2" val="50"/>
+                </draw-text>
+            </group>
+        </draw>
+    </group>
+    <group eventID="7" id="-1"/>
+    <group eventID="8" id="0">
+        <event-custom comment="false" x="15" y="15">
+            <group eventID="6" id="-1">
+                <create-actor3 comment="false" x="26" y="40">
+                    <actortype eid="47" id="0"/>
+                    <int id="1" val="290"/>
+                    <int id="2" val="66"/>
+                    <int id="3" val="1"/>
+                </create-actor3>
+                <push-shove2 comment="false" x="26" y="67">
+                    <ACTOR eid="49" id="0"/>
+                    <int id="1" val="1"/>
+                    <int id="2" val="135"/>
+                    <int id="3" val="30"/>
+                </push-shove2>
+            </group>
+            <int id="0" val="_scorePlayer"/>
+        </event-custom>
+    </group>
+    <group eventID="8" id="-1"/>
+    <group eventID="9" id="0">
+        <event-actor-region comment="false" x="16" y="18">
+            <group eventID="9" id="-1">
+                <set-val-17-1 comment="false" x="27" y="45">
+                    <plus comment="false" id="0" x="0" y="0">
+                        <get-val-17-1 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="1"/>
+                    </plus>
+                </set-val-17-1>
+                <die comment="false" x="27" y="75">
+                    <ACTOR eid="49" id="0"/>
+                </die>
+                <scene-shout comment="false" x="27" y="102">
+                    <int id="0" val="_scorePlayer"/>
+                </scene-shout>
+            </group>
+            <int id="0" val="0"/>
+            <REGION eid="1" id="1"/>
+            <ACTOR eid="49" id="2"/>
+        </event-actor-region>
+    </group>
+    <group eventID="9" id="-1"/>
 </groups>
