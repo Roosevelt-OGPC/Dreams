@@ -4,8 +4,21 @@
         <step comment="false" x="15" y="15">
             <group eventID="2" id="-1">
                 <if comment="false" x="26" y="40">
-                    <group eventID="2" id="-1"/>
-                    <int id="0" val=""/>
+                    <group eventID="2" id="-1">
+                        <scene-change-color comment="false" x="37" y="70">
+                            <scene eid="15" id="0"/>
+                            <int id="1" val="0"/>
+                            <int id="2" val="3"/>
+                            <color b="0" g="0" id="3" r="0"/>
+                            <int id="4" val="0"/>
+                            <int id="5" val="3"/>
+                            <color b="0" g="0" id="6" r="0"/>
+                        </scene-change-color>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-val-17-2 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="3"/>
+                    </eq>
                 </if>
             </group>
         </step>
@@ -112,12 +125,12 @@
     <group eventID="9" id="0">
         <event-actor-region comment="false" x="16" y="18">
             <group eventID="9" id="-1">
-                <set-val-17-1 comment="false" x="27" y="45">
+                <set-val-17-2 comment="false" x="27" y="45">
                     <plus comment="false" id="0" x="0" y="0">
-                        <get-val-17-1 comment="false" id="0" x="0" y="0"/>
+                        <get-val-17-2 comment="false" id="0" x="0" y="0"/>
                         <int id="1" val="1"/>
                     </plus>
-                </set-val-17-1>
+                </set-val-17-2>
                 <die comment="false" x="27" y="75">
                     <ACTOR eid="49" id="0"/>
                 </die>
