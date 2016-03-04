@@ -69,18 +69,75 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class SceneEvents_12 extends SceneScript
+class SceneEvents_8 extends SceneScript
 {
+	public var _ScoreEnemy:Float;
+	public var _scorePlayer:Float;
+	
+	/* ========================= Custom Event ========================= */
+	public function _customEvent__scoreEnemy():Void
+	{
+		createRecycledActor(getActorType(47), 290, 66, Script.MIDDLE);
+		getActor(49).applyImpulseInDirection(45, 30);
+	}
+	
+	/* ========================= Custom Event ========================= */
+	public function _customEvent__scorePlayer():Void
+	{
+		createRecycledActor(getActorType(47), 290, 66, Script.MIDDLE);
+		getActor(49).applyImpulseInDirection(135, 30);
+	}
 	
 	
 	public function new(dummy:Int, dummy2:Engine)
 	{
 		super();
+		nameMap.set("Score-Enemy", "_ScoreEnemy");
+		_ScoreEnemy = 0.0;
+		nameMap.set("_scorePlayer", "_scorePlayer");
+		_scorePlayer = 0.0;
 		
 	}
 	
 	override public function init()
 	{
+		
+		/* ======================== When Creating ========================= */
+		getActor(49).applyImpulseInDirection(45, 30);
+		
+		/* ======================== Specific Actor ======================== */
+		addActorEntersRegionListener(getRegion(0), function(a:Actor, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled && sameAs(getActor(49), a))
+			{
+				_ScoreEnemy = asNumber((_ScoreEnemy + 1));
+				propertyChanged("_ScoreEnemy", _ScoreEnemy);
+				recycleActor(getActor(49));
+				shoutToScene("_customEvent_" + "_scoreEnemy");
+			}
+		});
+		
+		/* ========================= When Drawing ========================= */
+		addWhenDrawingListener(null, function(g:G, x:Float, y:Float, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled)
+			{
+				g.drawString("" + getActor(49).getY(), 30, 30);
+				g.drawString("" + getActor(49).getX(), 50, 50);
+			}
+		});
+		
+		/* ======================== Specific Actor ======================== */
+		addActorEntersRegionListener(getRegion(1), function(a:Actor, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled && sameAs(getActor(49), a))
+			{
+				_scorePlayer = asNumber((_scorePlayer + 1));
+				propertyChanged("_scorePlayer", _scorePlayer);
+				recycleActor(getActor(49));
+				shoutToScene("_customEvent_" + "_scorePlayer");
+			}
+		});
 		
 	}
 	
