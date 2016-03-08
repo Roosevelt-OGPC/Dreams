@@ -91,8 +91,8 @@
         </anim>
     </sprite>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="64" id="54" name="BirdMan" shared="false" width="64">
-        <anim across="3" down="2" durations="100,100,100,100,100" height="128" id="0" loop="true" name="Animation 0" numframes="5" originx="32" originy="32" sync="false" version="2" width="192">
-            <poly data="4,10,19,55,19,55,39,10,39" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        <anim across="2" down="2" durations="100,100,100,100" height="128" id="0" loop="true" name="Animation 0" numframes="4" originx="32" originy="32" sync="false" version="2" width="128">
+            <poly data="4,17,26,47,26,47,41,17,41" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="52" fixedrot="true" fric="0.2" gid="3" id="53" ignoreg="false" inertia="1.0" ldamp="0.0" mass="5.0" name="BirdManPerson" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="54" static="false">

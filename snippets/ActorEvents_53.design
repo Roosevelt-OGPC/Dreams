@@ -36,4 +36,17 @@
         </collide>
     </group>
     <group eventID="3" id="-1"/>
+    <group eventID="4" id="0">
+        <event-key-press-release comment="false" x="15" y="15">
+            <group eventID="4" id="-1">
+                <setanim comment="false" x="26" y="42">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="Animation 0"/>
+                </setanim>
+            </group>
+            <control eid="7" id="0"/>
+            <int id="1" val="0"/>
+        </event-key-press-release>
+    </group>
+    <group eventID="4" id="-1"/>
 </groups>

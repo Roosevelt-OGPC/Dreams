@@ -336,7 +336,8 @@
         <events>
             <event displayName="Updated" enabled="true" id="1" name="step" order="1" repeats="true"/>
             <event displayName="Keyboard" enabled="true" id="2" name="event-key-press-release" order="2" repeats="false"/>
-            <event displayName="Actor - Any" enabled="true" id="3" name="collide" order="3" repeats="true"/>
+            <event displayName="Actor - Any" enabled="true" id="3" name="collide" order="4" repeats="true"/>
+            <event displayName="Keyboard" enabled="true" id="4" name="event-key-press-release" order="3" repeats="true"/>
         </events>
     </snippet>
     <snippet attachedevent="false" class="scripts.Design_53_53_CameraFollow" classname="scripts.Design_53_53_CameraFollow" desc="Attach to an actor to make the camera follow it. You can then specify the speed at which the camera should &quot;scroll&quot; towards the actor." description="Attach to an actor to make the camera follow it. You can then specify the speed at which the camera should &quot;scroll&quot; towards the actor." design="true" drawOrder="0" id="53" name="Camera Follow" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
@@ -363,6 +364,10 @@
         </events>
     </snippet>
     <snippet attachedevent="true" class="scripts.SceneEvents_15" classname="scripts.SceneEvents_15" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="55" name="SceneEvents_15" oid="-1" package="scripts." sceneid="15" scenespecific="true" shared="false" type="scene">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.SceneEvents_16" classname="scripts.SceneEvents_16" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="56" name="SceneEvents_16" oid="-1" package="scripts." sceneid="16" scenespecific="true" shared="false" type="scene">
         <blocks/>
         <events/>
     </snippet>
