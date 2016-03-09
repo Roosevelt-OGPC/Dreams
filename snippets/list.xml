@@ -228,10 +228,6 @@
             <event displayName="Updated" enabled="true" id="3" name="step" order="2" repeats="true"/>
         </events>
     </snippet>
-    <snippet attachedevent="true" class="scripts.SceneEvents_13" classname="scripts.SceneEvents_13" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="38" name="SceneEvents_13" oid="-1" package="scripts." sceneid="13" scenespecific="true" shared="false" type="scene">
-        <blocks/>
-        <events/>
-    </snippet>
     <snippet attachedevent="true" class="scripts.ActorEvents_35" classname="scripts.ActorEvents_35" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="39" name="ActorEvents_35" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
         <blocks/>
         <events/>
@@ -368,6 +364,14 @@
         <events/>
     </snippet>
     <snippet attachedevent="true" class="scripts.SceneEvents_16" classname="scripts.SceneEvents_16" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="56" name="SceneEvents_16" oid="-1" package="scripts." sceneid="16" scenespecific="true" shared="false" type="scene">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.SceneEvents_13" classname="scripts.SceneEvents_13" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="57" name="SceneEvents_13" oid="-1" package="scripts." sceneid="13" scenespecific="true" shared="false" type="scene">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_59" classname="scripts.ActorEvents_59" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="58" name="ActorEvents_59" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
         <blocks/>
         <events/>
     </snippet>
