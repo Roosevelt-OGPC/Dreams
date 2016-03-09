@@ -331,6 +331,14 @@
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="23" fixedrot="true" fric="0.07" gid="3" id="23" ignoreg="true" inertia="1.0" ldamp="0.0" mass="0.1" name="Newspaper scrap" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="24" static="false">
         <snippets/>
     </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="58" fixedrot="false" fric="0.2" gid="3" id="59" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Pac man" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="60" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="30" id="60" name="Pac man" shared="false" width="30">
+        <anim across="1" down="1" durations="100" height="30" id="0" loop="true" name="Animation 0" numframes="1" originx="32" originy="32" sync="false" version="2" width="30">
+            <poly data="4,0,0,16,0,16,16,0,16" density="0.1" fric="0.2" gid="-1000" id="0" name="default" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
     <tileset across="6" atlasID="0" desc="" down="8" id="58" name="Pacman" oid="-1" shared="false" th="32" tw="32">
         <tile collision="0" data="" durations="100" frames="0" id="0" order="-1"/>
         <tile collision="0" data="" durations="100" frames="1" id="1" order="-1"/>
