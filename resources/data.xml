@@ -250,81 +250,91 @@
             <poly data="4,20,10,33,10,33,58,20,58" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
-    <tileset across="3" atlasID="0" desc="" down="3" id="57" name="Flappy Bird" oid="-1" shared="false" th="32" tw="32">
+    <tileset across="8" atlasID="0" desc="" down="10" id="57" name="Flappy Bird" oid="-1" shared="false" th="32" tw="32">
         <tile collision="0" data="" durations="100" frames="0" id="0" order="-1"/>
         <tile collision="0" data="" durations="100" frames="1" id="2" order="-1"/>
         <tile collision="0" data="" durations="100" frames="2" id="6" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="3" id="1" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="4" id="3" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="5" id="7" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="6" id="4" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="7" id="5" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="8" id="8" order="-1"/>
-    </tileset>
-    <tileset across="9" atlasID="0" desc="" down="7" id="61" name="Flappy Guiy" oid="-1" shared="false" th="32" tw="32">
-        <tile collision="0" data="" durations="100" frames="0" id="0" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="1" id="2" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="2" id="6" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="3" id="12" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="4" id="16" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="5" id="20" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="6" id="42" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="7" id="49" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="8" id="56" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="9" id="1" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="10" id="3" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="11" id="7" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="12" id="13" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="13" id="17" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="14" id="21" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="15" id="43" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="16" id="50" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="17" id="57" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="18" id="4" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="19" id="5" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="20" id="8" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="21" id="14" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="22" id="18" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="23" id="22" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="24" id="44" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="25" id="51" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="26" id="58" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="27" id="9" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="28" id="10" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="29" id="11" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="30" id="15" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="31" id="19" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="32" id="23" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="33" id="45" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="34" id="52" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="35" id="59" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="36" id="24" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="37" id="25" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="38" id="26" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="39" id="27" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="40" id="28" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="41" id="29" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="3" id="8" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="4" id="10" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="5" id="22" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="6" id="26" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="7" id="72" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="8" id="1" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="9" id="3" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="10" id="7" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="11" id="9" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="12" id="11" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="13" id="23" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="14" id="27" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="15" id="73" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="16" id="12" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="17" id="13" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="18" id="14" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="19" id="15" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="20" id="16" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="21" id="24" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="22" id="28" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="23" id="74" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="24" id="17" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="25" id="18" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="26" id="19" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="27" id="20" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="28" id="21" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="29" id="25" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="30" id="29" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="31" id="75" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="32" id="30" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="33" id="31" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="34" id="32" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="35" id="33" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="36" id="34" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="37" id="35" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="38" id="36" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="39" id="76" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="40" id="44" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="41" id="45" order="-1"/>
         <tile collision="0" data="" durations="100" frames="42" id="46" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="43" id="53" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="44" id="60" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="45" id="30" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="46" id="31" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="47" id="32" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="48" id="33" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="49" id="34" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="50" id="35" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="51" id="47" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="52" id="54" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="53" id="61" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="54" id="36" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="55" id="37" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="56" id="38" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="57" id="39" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="58" id="40" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="59" id="41" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="60" id="48" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="61" id="55" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="62" id="62" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="43" id="47" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="44" id="48" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="45" id="49" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="46" id="50" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="47" id="77" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="48" id="78" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="49" id="79" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="50" id="80" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="51" id="81" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="52" id="82" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="53" id="83" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="54" id="84" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="55" id="85" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="56" id="86" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="57" id="87" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="58" id="88" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="59" id="89" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="60" id="90" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="61" id="91" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="62" id="92" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="63" id="93" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="64" id="94" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="65" id="95" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="66" id="96" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="67" id="97" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="68" id="98" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="69" id="99" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="70" id="100" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="71" id="101" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="72" id="102" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="73" id="103" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="74" id="104" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="75" id="105" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="76" id="106" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="77" id="107" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="78" id="108" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="79" id="109" order="-1"/>
+    </tileset>
+    <tileset across="2" atlasID="0" desc="" down="1" id="61" name="Flappy Guiy" oid="-1" shared="false" th="32" tw="32">
+        <tile collision="0" data="" durations="100" frames="0" id="0" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="1" id="2" order="-1"/>
     </tileset>
     <font alphabet=" !&quot;#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĀāĂăĄąĆćĈĉĊċČčĎďĐđĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħĨĩĪīĬĭĮįİıĲĳĴĵĶķĸĹĺĻļĽľĿŀŁłŃńŅņŇňŉŊŋŌōŎŏŐőŒœŔŕŖŗŘřŚśŜŝŞşŠšŢţŤťŦŧŨũŪūŬŭŮůŰűŲųŴŵŶŷŸŹźŻżŽžſ" atlasID="0" desc="" height="138" id="9" name="Font" offsets="0|0|0|,25|0|25,32|0|32,49|0|49,68|0|68,85|0|85,104|0|104,122|0|122,131|0|131,140|0|140,149|0|149,167|0|167,188|0|188,199|0|199,218|0|218,227|0|227,245|0|245,262|0|262,279|0|279,298|0|298,317|0|317,335|0|335,354|0|354,372|0|372,390|0|390,407|0|407,425|0|425,434|0|434,446|0|446,468|0|468,491|0|491,514|0|514,532|0|532,550|0|550,577|0|577,600|0|600,621|0|621,643|0|643,665|0|665,687|0|687,710|0|710,733|0|733,750|0|750,773|0|773,797|0|797,819|0|819,845|0|845,869|0|869,892|0|892,913|0|913,936|0|936,961|0|961,980|0|980,1001|0|1001,1024|0|1024,1051|0|1051,1076|0|1076,1099|0|1099,1122|0|1122,1141|0|1141,1151|0|1151,1168|0|1168,1178|0|1178,1195|0|1195,1222|0|1222,1231|0|1231,1253|0|1253,1277|0|1277,1298|0|1298,1321|0|1321,1342|0|1342,1363|0|1363,1385|0|1385,1408|0|1408,1427|0|1427,1442|0|1442,1464|0|1464,1483|0|1483,1510|0|1510,1533|0|1533,1554|0|1554,1578|0|1578,1601|0|1601,1623|0|1623,1642|0|1642,1663|0|1663,1686|0|1686,1711|0|1711,1736|0|1736,1759|0|1759,1782|0|1782,1800|0|1800,1811|0|1811,1816|0|1816,1827|0|1827,1846|0|1846,1867|0|1867,1888|0|1888,1909|0|1909,1918|0|1918,1939|0|1939,1954|0|1954,1977|0|1977,1995|0|1995,2013|0|2013,2030|0|2030,2053|0|2053,2072|0|2072,2083|0|2083,2106|0|2106,2127|0|2127,2148|0|2148,2169|0|2169,2190|0|2190,2198|0|2198,2206|0|2206,2222|0|2222,2239|0|2239,2260|0|2260,2275|0|2275,2297|0|2297,2312|0|2312,2335|0|2335,2352|0|2352,2363|0|2363,2386|0|2386,2407|0|2407,2428|0|2428,2451|0|2451,2476|0|2476,2483|0|2483,2500|0|2500,2522|0|2522,2541|0|2541,2564|0|2564,2569|0|2569,2590|0|2590,2605|0|2605,2632|0|2632,2648|0|2648,2670|0|2670,2693|0|2693,2712|0|2712,2739|0|2739,2766|0|2766,2779|0|2779,2800|0|2800,2812|0|2812,2825|0|2825,2834|0|2834,2857|0|2857,2878|0|2878,2885|0|2885,2894|0|2894,2907|0|2907,2922|0|2922,2944|0|2944,2971|0|2971,2998|0|2998,0|46|3025,17|46|3042,44|46|3069,71|46|3096,98|46|3123,125|46|3150,152|46|3177,179|46|3204,206|46|3231,227|46|3252,249|46|3274,271|46|3296,293|46|3318,315|46|3340,332|46|3357,349|46|3374,366|46|3391,383|46|3408,407|46|3432,431|46|3456,454|46|3479,477|46|3502,500|46|3525,523|46|3548,546|46|3571,563|46|3588,586|46|3611,609|46|3634,632|46|3657,655|46|3680,678|46|3703,701|46|3726,722|46|3747,743|46|3768,765|46|3790,787|46|3812,809|46|3834,831|46|3856,853|46|3878,875|46|3900,901|46|3926,922|46|3947,943|46|3968,964|46|3989,985|46|4010,1006|46|4031,1025|46|4050,1044|46|4069,1063|46|4088,1082|46|4107,1103|46|4128,1126|46|4151,1147|46|4172,1168|46|4193,1189|46|4214,1210|46|4235,1231|46|4256,1252|46|4277,1275|46|4300,1298|46|4323,1321|46|4346,1344|46|4369,1367|46|4392,1390|46|4415,1414|46|4439,1437|46|4462,1464|46|4489,1486|46|4511,1513|46|4538,1535|46|4560,1563|46|4588,1586|46|4611,1607|46|4632,1628|46|4653,1649|46|4674,1670|46|4695,1691|46|4716,1712|46|4737,1733|46|4758,1754|46|4779,1776|46|4801,1800|46|4825,1824|46|4849,1847|46|4872,1869|46|4894,1890|46|4915,1912|46|4937,1933|46|4958,1955|46|4980,1976|46|5001,1999|46|5024,2020|46|5045,2042|46|5067,2063|46|5088,2086|46|5111,2108|46|5133,2131|46|5156,2153|46|5178,2176|46|5201,2198|46|5223,2221|46|5246,2243|46|5268,2266|46|5291,2289|46|5314,2312|46|5337,2336|46|5361,2353|46|5378,2372|46|5397,2389|46|5414,2408|46|5433,2425|46|5450,2444|46|5469,2461|46|5486,2480|46|5505,2497|46|5522,2516|46|5541,2543|46|5568,2566|46|5591,2589|46|5614,2605|46|5630,2629|46|5654,2651|46|5676,2672|46|5697,2694|46|5719,2713|46|5738,2735|46|5760,2754|46|5779,2776|46|5801,2795|46|5820,2817|46|5842,2836|46|5861,2859|46|5884,2878|46|5903,2902|46|5927,2925|46|5950,2949|46|5974,2972|46|5997,0|92|6021,23|92|6044,48|92|6069,70|92|6091,90|92|6111,113|92|6134,134|92|6155,157|92|6178,178|92|6199,201|92|6222,222|92|6243,249|92|6270,275|92|6296,300|92|6321,322|92|6343,347|92|6368,369|92|6390,394|92|6415,416|92|6437,435|92|6456,454|92|6475,473|92|6494,492|92|6513,511|92|6532,530|92|6551,549|92|6570,568|92|6589,589|92|6610,610|92|6631,631|92|6652,652|92|6673,673|92|6694,695|92|6716,718|92|6739,741|92|6762,764|92|6785,787|92|6808,810|92|6831,833|92|6854,856|92|6877,879|92|6900,902|92|6923,925|92|6946,948|92|6969,972|92|6993,997|92|7018,1022|92|7043,1045|92|7066,1068|92|7089,1091|92|7112,1110|92|7131,1128|92|7149,1147|92|7168,1165|92|7186,1184|92|7205,1202|92|7223" oid="-1" prerendered="false" rowHeight="46" shared="false"/>
     <tileset across="3" atlasID="0" desc="" down="2" id="10" name="L1Set" oid="-1" shared="false" th="32" tw="32">
