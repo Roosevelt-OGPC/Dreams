@@ -375,4 +375,100 @@
         <blocks/>
         <events/>
     </snippet>
+    <snippet attachedevent="true" class="scripts.SceneEvents_17" classname="scripts.SceneEvents_17" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="59" name="SceneEvents_17" oid="-1" package="scripts." sceneid="17" scenespecific="true" shared="false" type="scene">
+        <blocks/>
+        <events>
+            <event displayName="Created" enabled="true" id="1" name="init" order="1" repeats="true"/>
+            <event displayName="Drawing" enabled="true" id="2" name="draw" order="2" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_62" classname="scripts.ActorEvents_62" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="60" name="ActorEvents_62" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events>
+            <event displayName="Updated" enabled="true" id="1" name="step" order="1" repeats="true"/>
+            <event displayName="Sound is done" enabled="true" id="2" name="event-sound-finished" order="2" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_64" classname="scripts.ActorEvents_64" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="61" name="ActorEvents_64" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events>
+            <event displayName="Updated" enabled="true" id="1" name="step" order="1" repeats="true"/>
+            <event displayName="Sound is done" enabled="true" id="2" name="event-sound-finished" order="2" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_66" classname="scripts.ActorEvents_66" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="62" name="ActorEvents_66" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events>
+            <event displayName="Updated" enabled="true" id="1" name="step" order="1" repeats="true"/>
+            <event displayName="Sound is done" enabled="true" id="2" name="event-sound-finished" order="2" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_68" classname="scripts.ActorEvents_68" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="63" name="ActorEvents_68" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events>
+            <event displayName="Updated" enabled="true" id="1" name="step" order="1" repeats="true"/>
+            <event displayName="Sound is done" enabled="true" id="2" name="event-sound-finished" order="2" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_70" classname="scripts.ActorEvents_70" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="64" name="ActorEvents_70" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events>
+            <event displayName="Updated" enabled="true" id="1" name="step" order="1" repeats="true"/>
+            <event displayName="Sound is done" enabled="true" id="2" name="event-sound-finished" order="2" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_72" classname="scripts.ActorEvents_72" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="65" name="ActorEvents_72" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events>
+            <event displayName="Updated" enabled="true" id="1" name="step" order="1" repeats="true"/>
+            <event displayName="Sound is done" enabled="true" id="2" name="event-sound-finished" order="2" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_74" classname="scripts.ActorEvents_74" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="66" name="ActorEvents_74" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events>
+            <event displayName="Updated" enabled="true" id="1" name="step" order="1" repeats="true"/>
+            <event displayName="Sound is done" enabled="true" id="2" name="event-sound-finished" order="2" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_76" classname="scripts.ActorEvents_76" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="67" name="ActorEvents_76" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events>
+            <event displayName="Updated" enabled="true" id="1" name="step" order="1" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_68_68_EmphasiseOnMouseOver" classname="scripts.Design_68_68_EmphasiseOnMouseOver" desc="Emphasises the actor in some way when the cursor is placed over it. Options include fade, grow, shrink, brighten, darken and more." description="Emphasises the actor in some way when the cursor is placed over it. Options include fade, grow, shrink, brighten, darken and more." design="true" drawOrder="0" id="68" name="Emphasise On Mouse Over" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
+        <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <text default="" defaultValue="" desc="The type of emphasis applied to the actor on mouse over. Includes fade, grow, shrink, brighten and darken." dropdown="Fade=Fade&#10;Grow=Grow&#10;Shrink=Shrink&#10;Turn Clockwise=Turn Clockwise&#10;Turn Anti-Clockwise=Turn Anti-Clockwise&#10;Brighten=Brighten&#10;Darken=Darken&#10;Tint=Tint&#10;Grayscale=Grayscale&#10;Negative=Negative&#10;Sepia=Sepia&#10;" fullname="Type Of Emphasis" hidden="false" id="1" name="_TypeOfEmphasis" order="1"/>
+        <number default="1.0" defaultValue="1.0" desc="The amount of time, in seconds, which it should take for the actor to go from unemphasised to emphasised. Only applies to grow, shrink and fade. " dropdown="" fullname="Emphasis Time" hidden="false" id="2" name="_EmphasisTime" order="2"/>
+        <number default="50.0" defaultValue="50.0" desc="The amount, as a percentage, to emphasise the actor by, relative to it's normal state (don't use negative values). Does not apply to grayscale, negative and sepia." dropdown="" fullname="Emphasis Amount" hidden="false" id="3" name="_EmphasisAmount" order="3"/>
+        <color default="255,0,0,255" defaultValue="255,0,0,255" desc="The colour to use, if you are using the tint option." dropdown="" fullname="Tinting Colour" hidden="false" id="4" name="_TintingColour" order="4"/>
+        <blocks/>
+        <events>
+            <event displayName="On Actor" enabled="true" id="1" name="event-mouse-enter-exit-actor" order="1" repeats="true"/>
+            <event displayName="On Actor" enabled="true" id="2" name="event-mouse-enter-exit-actor" order="2" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_85" classname="scripts.ActorEvents_85" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="69" name="ActorEvents_85" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_70_70_FollowtheMouse" classname="scripts.Design_70_70_FollowtheMouse" desc="Makes the actor follow the mouse." description="Makes the actor follow the mouse." design="true" drawOrder="0" id="70" name="Follow the Mouse" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
+        <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="Distance X" hidden="true" id="2" name="_DistanceX" order="1"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="Distance Y" hidden="true" id="3" name="_DistanceY" order="2"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="Distance" hidden="true" id="4" name="_Distance" order="3"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="Direction" hidden="true" id="5" name="_Direction" order="4"/>
+        <number default="30.0" defaultValue="30.0" desc="The speed to move towards the mouse." dropdown="" fullname="Speed" hidden="false" id="6" name="_Speed" order="6"/>
+        <number default="0.0" defaultValue="0.0" desc="The actor will not move closer than this to the mouse." dropdown="" fullname="Margin" hidden="false" id="7" name="_Margin" order="7"/>
+        <boolean default="true" defaultValue="true" desc="If selected, the actor will move faster if farther away from the mouse and slower if closer to to the mouse.&lt;br /&gt;&#10;If unselected, the actor will move towards the target at a constant speed as specified in the &lt;var&gt;Speed&lt;/var&gt; attribute." dropdown="" fullname="Easing" hidden="false" id="8" name="_Easing" order="8"/>
+        <number default="5.0" defaultValue="5.0" desc="Only used when &lt;var&gt;Easing&lt;/var&gt; is selected.&lt;br /&gt;&#10;The actor will move at least at this speed. The actual speed depends on the distance to the mouse. The maximum speed is &lt;var&gt;Minimum Easing Speed&lt;/var&gt; plus &lt;var&gt;Speed&lt;/var&gt;. The actor will move at maximum speed if it is in the opposite diagonal corner of the mouse." dropdown="" fullname="Minimum Easing Speed" hidden="false" id="10" name="_MinimumEasingSpeed" order="9"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="Screen Diagonal" hidden="true" id="12" name="_ScreenDiagonal" order="5"/>
+        <text default="" defaultValue="" desc="&lt;em&gt;Always&lt;/em&gt;: The actor will always follow the mouse.&lt;br/&gt;&#10;&lt;em&gt;When Pressed&lt;/em&gt;: The actor will follow the mouse only when it is pressed, and keep on moving when the mouse is released.&lt;br/&gt;&#10;&lt;em&gt;When Pressed, Else Stop&lt;/em&gt;: The actor will follow the mouse only when it is pressed, and stop when the mouse is released.&lt;/br&gt;&#10;" dropdown="Always=Always&#10;When Pressed=WhenPressed&#10;When Pressed, Else Stop=WhenPressedElseStop" fullname="Follow" hidden="false" id="13" name="_Follow" order="10"/>
+        <blocks/>
+        <events>
+            <event displayName="Updated" enabled="true" id="1" name="step" order="2" repeats="true"/>
+            <event displayName="Created" enabled="true" id="2" name="init" order="1" repeats="true"/>
+        </events>
+    </snippet>
 </pack>

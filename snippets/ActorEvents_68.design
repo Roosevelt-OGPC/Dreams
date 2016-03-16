@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <step comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <if comment="false" x="26" y="40">
+                    <group eventID="1" id="-1">
+                        <play-sound4 comment="false" x="37" y="78">
+                            <int id="0" val="0"/>
+                            <sound eid="83" id="1"/>
+                        </play-sound4>
+                        <add-list comment="false" x="37" y="105">
+                            <get-game-val-6 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="f"/>
+                        </add-list>
+                    </group>
+                    <and comment="false" id="0" x="0" y="0">
+                        <amousestate comment="false" id="0" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="3"/>
+                        </amousestate>
+                        <mousestate comment="false" id="1" x="0" y="0">
+                            <int id="0" val="1"/>
+                        </mousestate>
+                    </and>
+                </if>
+            </group>
+        </step>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <event-sound-finished comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <stop-sounds comment="false" x="26" y="42"/>
+            </group>
+            <sound eid="83" id="0"/>
+        </event-sound-finished>
+    </group>
+    <group eventID="2" id="-1"/>
+</groups>
