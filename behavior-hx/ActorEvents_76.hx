@@ -68,7 +68,7 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class ActorEvents_59 extends ActorScript
+class ActorEvents_76 extends ActorScript
 {
 	
 	
@@ -80,6 +80,18 @@ class ActorEvents_59 extends ActorScript
 	
 	override public function init()
 	{
+		
+		/* ======================== When Updating ========================= */
+		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled)
+			{
+				if((actor.isMouseOver() && isMousePressed()))
+				{
+					Engine.engine.setGameAttribute("Player Notes", new Array<Dynamic>());
+				}
+			}
+		});
 		
 	}
 	
