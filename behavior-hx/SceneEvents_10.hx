@@ -69,7 +69,7 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class SceneEvents_16 extends SceneScript
+class SceneEvents_10 extends SceneScript
 {
 	
 	
@@ -81,6 +81,15 @@ class SceneEvents_16 extends SceneScript
 	
 	override public function init()
 	{
+		
+		/* ========================= When Drawing ========================= */
+		addWhenDrawingListener(null, function(g:G, x:Float, y:Float, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled)
+			{
+				g.drawString("" + Engine.engine.getGameAttribute("Score4"), 60, 40);
+			}
+		});
 		
 	}
 	

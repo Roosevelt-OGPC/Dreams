@@ -356,10 +356,10 @@
         <tile collision="-1" data="" durations="100" frames="48" id="29" order="-1"/>
         <tile collision="0" data="" durations="100" frames="49" id="75" order="-1"/>
         <tile collision="0" data="" durations="100" frames="50" id="113" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="51" id="123" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="51" id="123" order="-1"/>
         <tile collision="0" data="" durations="100" frames="52" id="133" order="-1"/>
         <tile collision="0" data="" durations="100" frames="53" id="143" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="54" id="153" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="54" id="153" order="-1"/>
         <tile collision="0" data="" durations="100" frames="55" id="163" order="-1"/>
         <tile collision="-1" data="" durations="100" frames="56" id="30" order="-1"/>
         <tile collision="-1" data="" durations="100" frames="57" id="31" order="-1"/>
@@ -370,10 +370,10 @@
         <tile collision="-1" data="" durations="100" frames="62" id="36" order="-1"/>
         <tile collision="0" data="" durations="100" frames="63" id="76" order="-1"/>
         <tile collision="0" data="" durations="100" frames="64" id="114" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="65" id="124" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="65" id="124" order="-1"/>
         <tile collision="0" data="" durations="100" frames="66" id="134" order="-1"/>
         <tile collision="0" data="" durations="100" frames="67" id="144" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="68" id="154" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="68" id="154" order="-1"/>
         <tile collision="0" data="" durations="100" frames="69" id="164" order="-1"/>
         <tile collision="0" data="" durations="100" frames="70" id="44" order="-1"/>
         <tile collision="0" data="" durations="100" frames="71" id="45" order="-1"/>
@@ -412,10 +412,10 @@
         <tile collision="0" data="" durations="100" frames="104" id="92" order="-1"/>
         <tile collision="0" data="" durations="100" frames="105" id="93" order="-1"/>
         <tile collision="0" data="" durations="100" frames="106" id="117" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="107" id="127" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="108" id="137" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="109" id="147" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="110" id="157" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="107" id="127" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="108" id="137" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="109" id="147" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="110" id="157" order="-1"/>
         <tile collision="0" data="" durations="100" frames="111" id="167" order="-1"/>
         <tile collision="-1" data="" durations="100" frames="112" id="94" order="-1"/>
         <tile collision="0" data="" durations="100" frames="113" id="95" order="-1"/>
@@ -432,12 +432,12 @@
         <tile collision="0" data="" durations="100" frames="124" id="158" order="-1"/>
         <tile collision="0" data="" durations="100" frames="125" id="168" order="-1"/>
         <tile collision="-1" data="" durations="100" frames="126" id="102" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="127" id="103" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="127" id="103" order="-1"/>
         <tile collision="0" data="" durations="100" frames="128" id="104" order="-1"/>
         <tile collision="0" data="" durations="100" frames="129" id="105" order="-1"/>
         <tile collision="0" data="" durations="100" frames="130" id="106" order="-1"/>
         <tile collision="0" data="" durations="100" frames="131" id="107" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="132" id="108" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="132" id="108" order="-1"/>
         <tile collision="0" data="" durations="100" frames="133" id="109" order="-1"/>
         <tile collision="0" data="" durations="100" frames="134" id="119" order="-1"/>
         <tile collision="0" data="" durations="100" frames="135" id="129" order="-1"/>
