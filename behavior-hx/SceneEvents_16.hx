@@ -69,7 +69,7 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class SceneEvents_11 extends SceneScript
+class SceneEvents_16 extends SceneScript
 {
 	
 	
@@ -81,6 +81,24 @@ class SceneEvents_11 extends SceneScript
 	
 	override public function init()
 	{
+		
+		/* ======================== Specific Actor ======================== */
+		addWhenKilledListener(getActor(1), function(list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled)
+			{
+				reloadCurrentScene(createFadeOut(.5, Utils.getColorRGB(0,0,0)), createFadeIn(.5, Utils.getColorRGB(0,0,0)));
+			}
+		});
+		
+		/* ======================== Specific Actor ======================== */
+		addActorPositionListener(getActor(1), function(enteredScreen:Bool, exitedScreen:Bool, enteredScene:Bool, exitedScene:Bool, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled && exitedScreen)
+			{
+				recycleActor(getActor(1));
+			}
+		});
 		
 	}
 	
