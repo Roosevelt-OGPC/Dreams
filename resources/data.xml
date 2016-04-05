@@ -195,6 +195,17 @@
         <tile collision="0" data="" durations="100" frames="26" id="23" order="-1"/>
         <tile collision="0" data="" durations="100" frames="27" id="27" order="-1"/>
     </tileset>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="78" fixedrot="true" fric="0.2" gid="3" id="97" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Button Pink" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="98" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="64" id="98" name="Button Pink" shared="false" width="64">
+        <anim across="1" down="1" durations="100" height="64" id="0" loop="true" name="button" numframes="1" originx="32" originy="32" sync="false" version="2" width="64">
+            <poly data="4,20,40,45,40,45,44,20,44" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="64" id="1" loop="true" name="button pressed" numframes="1" originx="32" originy="32" sync="false" version="2" width="64">
+            <poly data="4,20,40,45,40,45,44,20,44" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 1" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
     <music atlasID="0" desc="" id="80" loop="true" name="C" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="74" fixedrot="true" fric="0.2" gid="6" id="93" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Clyde" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="94" static="false">
         <snippets>
@@ -298,22 +309,26 @@
                 <prop id="58" list="0" val="true"/>
                 <prop id="31" list="0" val="up"/>
             </s>
+            <s enabled="true" id="40">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="2" list="0" val="0.0"/>
+            </s>
         </snippets>
     </actor>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="64" id="96" name="DK Player" shared="false" width="64">
         <anim across="1" down="1" durations="100" height="64" id="0" loop="true" name="Left" numframes="1" originx="32" originy="32" sync="false" version="2" width="64">
-            <poly data="4,22,0,45,0,45,64,22,64" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+            <poly data="4,22,2,45,2,45,64,22,64" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
         <anim across="1" down="1" durations="100" height="64" id="1" loop="true" name="Right" numframes="1" originx="32" originy="32" sync="false" version="2" width="64">
-            <poly data="4,18,0,42,0,42,64,18,64" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 1" rest="0.0" sensor="false"/>
+            <poly data="4,18,2,42,2,42,64,18,64" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 1" rest="0.0" sensor="false"/>
         </anim>
         <anim across="1" down="1" durations="100" height="64" id="2" loop="true" name="Up" numframes="1" originx="32" originy="32" sync="false" version="2" width="64">
-            <poly data="4,29,0,52,0,52,64,29,64" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 2" rest="0.0" sensor="false"/>
+            <poly data="4,29,2,52,2,52,64,29,64" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 2" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
     <tileset across="3" atlasID="0" desc="" down="7" id="38" name="DKset" oid="-1" shared="false" th="32" tw="32">
-        <tile collision="0" data="" durations="100" frames="0" id="0" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="1" id="1" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="0" id="0" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="1" id="1" order="-1"/>
         <tile collision="0" data="" durations="100" frames="2" id="8" order="-1"/>
         <tile collision="-1" data="" durations="100" frames="3" id="2" order="-1"/>
         <tile collision="-1" data="" durations="100" frames="4" id="3" order="-1"/>
@@ -324,10 +339,10 @@
         <tile collision="-1" data="" durations="100" frames="9" id="6" order="-1"/>
         <tile collision="-1" data="" durations="100" frames="10" id="7" order="-1"/>
         <tile collision="0" data="" durations="100" frames="11" id="11" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="12" id="12" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="13" id="13" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="12" id="12" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="13" id="13" order="-1"/>
         <tile collision="0" data="" durations="100" frames="14" id="14" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="15" id="15" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="15" id="15" order="-1"/>
         <tile collision="0" data="" durations="100" frames="16" id="16" order="-1"/>
         <tile collision="0" data="" durations="100" frames="17" id="17" order="-1"/>
         <tile collision="-1" data="" durations="100" frames="18" id="18" order="-1"/>
@@ -904,6 +919,17 @@
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="32" id="28" name="sneaky block" shared="false" width="32">
         <anim across="1" down="1" durations="100" height="32" id="0" loop="true" name="Animation 0" numframes="1" originx="32" originy="32" sync="false" version="2" width="32">
             <poly data="4,0,0,16,0,16,16,0,16" density="0.1" fric="0.2" gid="-1000" id="0" name="default" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="79" fixedrot="true" fric="0.2" gid="3" id="99" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Square Dude" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="100" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="64" id="100" name="Square Dude" shared="false" width="64">
+        <anim across="1" down="1" durations="100" height="64" id="0" loop="true" name="Right" numframes="1" originx="32" originy="32" sync="false" version="2" width="64">
+            <poly data="4,4,15,49,15,49,64,4,64" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="64" id="1" loop="true" name="Left" numframes="1" originx="32" originy="32" sync="false" version="2" width="64">
+            <poly data="4,15,15,59,15,59,64,15,64" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 1" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="19" fixedrot="true" fric="0.2" gid="3" id="16" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Tooth" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="17" static="false">
