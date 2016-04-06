@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <draw comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <draw-text comment="false" x="26" y="40">
+                    <get-game-val-6 comment="false" id="0" x="0" y="0"/>
+                    <int id="1" val="500"/>
+                    <int id="2" val="30"/>
+                </draw-text>
+                <draw-text comment="false" x="26" y="65">
+                    <get-game-val-3 comment="false" id="0" x="0" y="0"/>
+                    <int id="1" val="100"/>
+                    <int id="2" val="30"/>
+                </draw-text>
+                <if comment="false" x="26" y="90">
+                    <group eventID="1" id="-1">
+                        <scene-change-through comment="false" x="37" y="125">
+                            <scene eid="3" id="0"/>
+                            <int id="1" val="0"/>
+                            <int id="2" val="1"/>
+                        </scene-change-through>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <tostring comment="false" id="0" x="0" y="0">
+                            <get-game-val-7 comment="false" id="0" x="0" y="0"/>
+                        </tostring>
+                        <tostring comment="false" id="1" x="0" y="0">
+                            <get-game-val-6 comment="false" id="0" x="0" y="0"/>
+                        </tostring>
+                    </eq>
+                </if>
+            </group>
+        </draw>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <set-game-val-3 comment="false" x="26" y="40">
+                    <create-list comment="false" id="0" x="0" y="0"/>
+                </set-game-val-3>
+                <add-list comment="false" x="26" y="65">
+                    <get-game-val-7 comment="false" id="0" x="0" y="0"/>
+                    <int id="1" val="c"/>
+                </add-list>
+                <add-list comment="false" x="26" y="90">
+                    <get-game-val-7 comment="false" id="0" x="0" y="0"/>
+                    <int id="1" val="c"/>
+                </add-list>
+                <add-list comment="false" x="26" y="115">
+                    <get-game-val-7 comment="false" id="0" x="0" y="0"/>
+                    <int id="1" val="g"/>
+                </add-list>
+                <add-list comment="false" x="26" y="140">
+                    <get-game-val-7 comment="false" id="0" x="0" y="0"/>
+                    <int id="1" val="g"/>
+                </add-list>
+                <add-list comment="false" x="26" y="165">
+                    <get-game-val-7 comment="false" id="0" x="0" y="0"/>
+                    <int id="1" val="a"/>
+                </add-list>
+                <add-list comment="false" x="26" y="190">
+                    <get-game-val-7 comment="false" id="0" x="0" y="0"/>
+                    <int id="1" val="a"/>
+                </add-list>
+            </group>
+        </init>
+    </group>
+    <group eventID="2" id="-1"/>
+</groups>

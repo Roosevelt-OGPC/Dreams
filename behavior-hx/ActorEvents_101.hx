@@ -68,7 +68,7 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class ActorEvents_64 extends ActorScript
+class ActorEvents_101 extends ActorScript
 {
 	
 	
@@ -88,18 +88,25 @@ class ActorEvents_64 extends ActorScript
 			{
 				if((actor.isMouseOver() && isMousePressed()))
 				{
-					playSound(getSound(81));
-					Engine.engine.getGameAttribute("Player Notes").push("d");
+					runLater(1000 * 1, function(timeTask:TimedTask):Void {
+						playSound(getSound(80));
+					}, actor);
+					runLater(1000 * 2, function(timeTask:TimedTask):Void {
+						playSound(getSound(80));
+					}, actor);
+					runLater(1000 * 3, function(timeTask:TimedTask):Void {
+						playSound(getSound(84));
+					}, actor);
+					runLater(1000 * 4, function(timeTask:TimedTask):Void {
+						playSound(getSound(84));
+					}, actor);
+					runLater(1000 * 5, function(timeTask:TimedTask):Void {
+						playSound(getSound(78));
+					}, actor);
+					runLater(1000 * 6, function(timeTask:TimedTask):Void {
+						playSound(getSound(78));
+					}, actor);
 				}
-			}
-		});
-		
-		/* ======================== Sound is done ========================= */
-		addSoundListener(getSound(81), function(list:Array<Dynamic>):Void
-		{
-			if(wrapper.enabled)
-			{
-				stopAllSounds();
 			}
 		});
 		

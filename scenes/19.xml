@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene depth="1" desc="" eventsnippetid="80" extheight="544" extwidth="704" extx="-32" exty="-32" format="3.4.0" gravx="-0.0" gravy="0.0" height="480" id="19" name="Piano 2" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="640">
+    <layers>
+        <color-bg blue="255" green="255" red="255"/>
+        <layer blendMode="normal" color="100,168,234" id="0" locked="false" name="Layer 0" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+    </layers>
+    <joints/>
+    <regions/>
+    <terrainRegions/>
+    <actors>
+        <actor a="0.0" aid="1" c="false" group="3" id="62" name="Note C 1" sx="1.0" sy="1.0" x="9" y="67" z="0"/>
+        <actor a="0.0" aid="2" c="false" group="3" id="64" name="Note D 2" sx="1.0" sy="1.0" x="79" y="67" z="0"/>
+        <actor a="0.0" aid="3" c="false" group="3" id="66" name="Note E 3" sx="1.0" sy="1.0" x="150" y="67" z="0"/>
+        <actor a="0.0" aid="4" c="false" group="3" id="68" name="Note F 4" sx="1.0" sy="1.0" x="221" y="67" z="0"/>
+        <actor a="0.0" aid="5" c="false" group="3" id="70" name="Note G 5" sx="1.0" sy="1.0" x="292" y="67" z="0"/>
+        <actor a="0.0" aid="6" c="false" group="3" id="72" name="Note A1 6" sx="1.0" sy="1.0" x="362" y="67" z="0"/>
+        <actor a="0.0" aid="7" c="false" group="3" id="74" name="Note B 7" sx="1.0" sy="1.0" x="433" y="67" z="0"/>
+        <actor a="0.0" aid="8" c="false" group="3" id="85" name="Player Fingers 8" sx="1.0" sy="1.0" x="500" y="137" z="0"/>
+        <actor a="0.0" aid="9" c="false" group="3" id="76" name="reset box 9" sx="1.0" sy="1.0" x="530" y="5" z="0"/>
+        <actor a="0.0" aid="10" c="false" group="3" id="101" name="Note button 10" sx="1.0" sy="1.0" x="457" y="1" z="0"/>
+    </actors>
+    <snippets/>
+    <terrain/>
+    <atlases members="" retainAtlases="true"/>
+</scene>
