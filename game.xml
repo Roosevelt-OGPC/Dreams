@@ -113,7 +113,7 @@
         <boolean cid="-1" id="8" name="Pink Button Pressed" save="true" value="false"/>
         <list cid="-1" id="7" name="Required Notes" save="true" val="list"/>
         <boolean cid="-1" id="3" name="left" save="true" value="false"/>
-        <number cid="-1" id="8" name="Level" save="true" value="0"/>
+        <number cid="-1" id="8" name="Level" save="true" value="0.0"/>
         <number cid="-1" id="2" name="Score4" save="true" value="0.0"/>
         <boolean cid="-1" id="4" name="right" save="true" value="false"/>
         <boolean cid="-1" id="9" name="region 1 activated" save="true" value="false"/>
