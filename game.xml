@@ -111,10 +111,13 @@
     <props/>
     <attributes>
         <list cid="-1" id="6" name="Player Notes" save="true" val="list"/>
+        <number cid="-1" id="12" name="score" save="true" value="0"/>
         <number cid="-1" id="5" name="Y of ball" save="true" value="0.0"/>
         <boolean cid="-1" id="8" name="Pink Button Pressed" save="true" value="false"/>
         <list cid="-1" id="7" name="Required Notes" save="true" val="list"/>
+        <number cid="-1" id="11" name="lives" save="true" value="3"/>
         <boolean cid="-1" id="3" name="left" save="true" value="false"/>
+        <number cid="-1" id="10" name="level" save="true" value="0"/>
         <number cid="-1" id="8" name="Level" save="true" value="0.0"/>
         <number cid="-1" id="2" name="Score4" save="true" value="0.0"/>
         <boolean cid="-1" id="4" name="right" save="true" value="false"/>
