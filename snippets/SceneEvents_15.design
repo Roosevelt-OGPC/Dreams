@@ -1,2 +1,117 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<groups/>
+<groups>
+    <group eventID="1" id="0">
+        <step comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <ignore-screen-tolerance comment="false" x="26" y="40">
+                    <ACTOR eid="1" id="0"/>
+                </ignore-screen-tolerance>
+                <if comment="false" x="26" y="67">
+                    <group eventID="1" id="-1">
+                        <toggle-grav comment="false" x="37" y="100">
+                            <ACTOR eid="1" id="0"/>
+                            <int id="1" val="0"/>
+                        </toggle-grav>
+                        <set-val-55-1 comment="false" x="37" y="127">
+                            <int id="0" val="1"/>
+                        </set-val-55-1>
+                    </group>
+                    <keystate comment="false" id="0" x="0" y="0">
+                        <int id="0" val="1"/>
+                        <control eid="7" id="1"/>
+                    </keystate>
+                </if>
+                <if comment="false" x="26" y="159">
+                    <group eventID="1" id="-1">
+                        <set-val-55-3 comment="false" x="37" y="197">
+                            <minus comment="false" id="0" x="0" y="0">
+                                <get-val-55-3 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="1"/>
+                            </minus>
+                        </set-val-55-3>
+                        <toggle-grav comment="false" x="37" y="227">
+                            <ACTOR eid="1" id="0"/>
+                            <int id="1" val="1"/>
+                        </toggle-grav>
+                        <setvel comment="false" x="37" y="254">
+                            <ACTOR eid="1" id="0"/>
+                            <int id="1" val="0"/>
+                            <int id="2" val="0"/>
+                        </setvel>
+                    </group>
+                    <and comment="false" id="0" x="0" y="0">
+                        <keystate comment="false" id="0" x="0" y="0">
+                            <int id="0" val="1"/>
+                            <control eid="9" id="1"/>
+                        </keystate>
+                        <more comment="false" id="1" x="0" y="0">
+                            <get-val-55-3 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </more>
+                    </and>
+                </if>
+                <if comment="false" x="26" y="293">
+                    <group eventID="1" id="-1">
+                        <setvel comment="false" x="37" y="326">
+                            <ACTOR eid="lastcreated" id="0"/>
+                            <int id="1" val="-90"/>
+                            <int id="2" val="55"/>
+                        </setvel>
+                    </group>
+                    <keystate comment="false" id="0" x="0" y="0">
+                        <int id="0" val="1"/>
+                        <control eid="10" id="1"/>
+                    </keystate>
+                </if>
+            </group>
+        </step>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <set-val-55-2 comment="false" x="26" y="40">
+                    <int id="0" val="0"/>
+                </set-val-55-2>
+                <set-val-55-1 comment="false" x="26" y="60">
+                    <int id="0" val="0"/>
+                </set-val-55-1>
+                <set-val-55-3 comment="false" x="26" y="80">
+                    <int id="0" val="3"/>
+                </set-val-55-3>
+                <toggle-grav comment="false" x="26" y="100">
+                    <ACTOR eid="1" id="0"/>
+                    <int id="1" val="1"/>
+                </toggle-grav>
+            </group>
+        </init>
+    </group>
+    <group eventID="2" id="-1"/>
+    <group eventID="3" id="0">
+        <event-type-region comment="false" x="15" y="15">
+            <group eventID="3" id="-1">
+                <scene-reload-color comment="false" x="26" y="47">
+                    <int id="0" val="0"/>
+                    <int id="1" val="1.5"/>
+                    <color b="0" g="0" id="2" r="0"/>
+                    <int id="3" val="0"/>
+                    <int id="4" val="1.5"/>
+                    <color b="0" g="0" id="5" r="0"/>
+                </scene-reload-color>
+            </group>
+            <int id="0" val="0"/>
+            <REGION eid="0" id="1"/>
+            <actortype eid="109" id="2"/>
+        </event-type-region>
+    </group>
+    <group eventID="3" id="-1"/>
+    <group eventID="4" id="0">
+        <event-type-region comment="false" x="15" y="15">
+            <group eventID="4" id="-1"/>
+            <int id="0" val="0"/>
+            <REGION eid="1" id="1"/>
+            <actortype eid="109" id="2"/>
+        </event-type-region>
+    </group>
+    <group eventID="4" id="-1"/>
+</groups>

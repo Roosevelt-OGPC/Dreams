@@ -165,36 +165,85 @@
             <poly data="4,0,0,16,0,16,16,0,16" density="0.1" fric="0.2" gid="-1000" id="0" name="default" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
-    <tileset across="7" atlasID="0" desc="" down="4" id="56" name="Breakout" oid="-1" shared="false" th="32" tw="32">
-        <tile collision="0" data="" durations="100" frames="0" id="0" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="1" id="1" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="2" id="2" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="3" id="9" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="4" id="16" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="5" id="20" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="6" id="24" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="7" id="3" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="8" id="4" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="9" id="5" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="10" id="10" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="11" id="17" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="12" id="21" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="13" id="25" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="14" id="6" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="15" id="7" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="16" id="8" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="17" id="11" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="18" id="18" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="19" id="22" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="20" id="26" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="21" id="12" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="22" id="13" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="23" id="14" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="24" id="15" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="25" id="19" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="26" id="23" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="27" id="27" order="-1"/>
+    <tileset across="7" atlasID="0" desc="" down="5" id="106" name="Breakout" oid="-1" shared="false" th="32" tw="32">
+        <tile collision="1" data="" durations="100" frames="0" id="0" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1" id="1" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="2" id="2" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="3" id="3" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="4" id="4" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="5" id="5" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="6" id="6" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="7" id="7" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="8" id="8" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="9" id="9" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="10" id="10" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="11" id="11" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="12" id="12" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="13" id="13" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="14" id="14" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="15" id="15" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="16" id="16" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="17" id="17" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="18" id="18" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="19" id="19" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="20" id="20" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="21" id="21" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="22" id="22" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="23" id="23" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="24" id="24" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="25" id="25" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="26" id="26" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="27" id="27" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="28" id="28" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="29" id="29" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="30" id="30" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="31" id="31" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="32" id="32" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="33" id="33" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="34" id="34" order="-1"/>
     </tileset>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="84" fixedrot="true" fric="0.0" gid="3" id="109" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Breakout Ball" oid="-1" pausable="true" physicsMode="0" rest="1.0" shared="false" sprite="110" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="64" id="110" name="Breakout Ball" shared="false" width="64">
+        <anim across="1" down="1" durations="100" height="64" id="0" loop="true" name="Animation 0" numframes="1" originx="32" originy="32" sync="false" version="2" width="64">
+            <circle data="9,23,25" density="0.1" fric="0.2" gid="-1000" id="0" name="Circle" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <font alphabet=" !&quot;#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĀāĂăĄąĆćĈĉĊċČčĎďĐđĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħĨĩĪīĬĭĮįİıĲĳĴĵĶķĸĹĺĻļĽľĿŀŁłŃńŅņŇňŉŊŋŌōŎŏŐőŒœŔŕŖŗŘřŚśŜŝŞşŠšŢţŤťŦŧŨũŪūŬŭŮůŰűŲųŴŵŶŷŸŹźŻżŽžſ" atlasID="0" desc="" height="56" id="111" name="Breakout font small" offsets="0|0|0|,9|0|9,13|0|13,23|0|23,44|0|44,65|0|65,80|0|80,103|0|103,107|0|107,114|0|114,121|0|121,131|0|131,152|0|152,156|0|156,177|0|177,181|0|181,196|0|196,217|0|217,238|0|238,259|0|259,280|0|280,301|0|301,322|0|322,343|0|343,364|0|364,385|0|385,406|0|406,410|0|410,414|0|414,424|0|424,445|0|445,455|0|455,476|0|476,497|0|497,518|0|518,539|0|539,560|0|560,581|0|581,602|0|602,623|0|623,644|0|644,665|0|665,675|0|675,696|0|696,717|0|717,738|0|738,759|0|759,780|0|780,801|0|801,822|0|822,843|0|843,864|0|864,885|0|885,906|0|906,927|0|927,948|0|948,969|0|969,990|0|990,1011|0|1011,1032|0|1032,1039|0|1039,1054|0|1054,1061|0|1061,1076|0|1076,1097|0|1097,1102|0|1102,1123|0|1123,1144|0|1144,1165|0|1165,1186|0|1186,1207|0|1207,1228|0|1228,1249|0|1249,1270|0|1270,1280|0|1280,1301|0|1301,1322|0|1322,1343|0|1343,1364|0|1364,1385|0|1385,1406|0|1406,1427|0|1427,1448|0|1448,1469|0|1469,1490|0|1490,1511|0|1511,1532|0|1532,1553|0|1553,1574|0|1574,1595|0|1595,1616|0|1616,1637|0|1637,1647|0|1647,1651|0|1651,1661|0|1661,1682|0|1682,1683|0|1683,1684|0|1684,1685|0|1685,1686|0|1686,1687|0|1687,1688|0|1688,1689|0|1689,1690|0|1690,1691|0|1691,1692|0|1692,1693|0|1693,1694|0|1694,1695|0|1695,1696|0|1696,1697|0|1697,1698|0|1698,1699|0|1699,1700|0|1700,1701|0|1701,1702|0|1702,1703|0|1703,1704|0|1704,1705|0|1705,1706|0|1706,1707|0|1707,1708|0|1708,1709|0|1709,1710|0|1710,1711|0|1711,1712|0|1712,1713|0|1713,1714|0|1714,1715|0|1715,1716|0|1716,1720|0|1720,1741|0|1741,1762|0|1762,1777|0|1777,1798|0|1798,1802|0|1802,1823|0|1823,1844|0|1844,1865|0|1865,1875|0|1875,1893|0|1893,1914|0|1914,1926|0|1926,1947|0|1947,1968|0|1968,1978|0|1978,1993|0|1993,2003|0|2003,2013|0|2013,2017|0|2017,2038|0|2038,2059|0|2059,2063|0|2063,2070|0|2070,2077|0|2077,2087|0|2087,2105|0|2105,2126|0|2126,2147|0|2147,2168|0|2168,2189|0|2189,2210|0|2210,2231|0|2231,2252|0|2252,2273|0|2273,2294|0|2294,2315|0|2315,2333|0|2333,2354|0|2354,2375|0|2375,2396|0|2396,2417|0|2417,2438|0|2438,2448|0|2448,2458|0|2458,2468|0|2468,2478|0|2478,2502|0|2502,2523|0|2523,2544|0|2544,2565|0|2565,2586|0|2586,2607|0|2607,2628|0|2628,2643|0|2643,2664|0|2664,2685|0|2685,2706|0|2706,2727|0|2727,2748|0|2748,2769|0|2769,2790|0|2790,2811|0|2811,2832|0|2832,2853|0|2853,2874|0|2874,2895|0|2895,2916|0|2916,2937|0|2937,2955|0|2955,2976|0|2976,2997|0|2997,3018|0|3018,3039|0|3039,3060|0|3060,3070|0|3070,0|28|3080,10|28|3090,20|28|3100,41|28|3121,62|28|3142,83|28|3163,104|28|3184,125|28|3205,146|28|3226,167|28|3247,182|28|3262,203|28|3283,224|28|3304,245|28|3325,266|28|3346,287|28|3367,308|28|3388,329|28|3409,350|28|3430,351|28|3431,352|28|3432,353|28|3433,354|28|3434,355|28|3435,356|28|3436,357|28|3437,358|28|3438,359|28|3439,360|28|3440,361|28|3441,362|28|3442,363|28|3443,364|28|3444,365|28|3445,366|28|3446,367|28|3447,368|28|3448,369|28|3449,370|28|3450,371|28|3451,372|28|3452,373|28|3453,374|28|3454,375|28|3455,376|28|3456,377|28|3457,378|28|3458,379|28|3459,380|28|3460,381|28|3461,382|28|3462,383|28|3463,384|28|3464,385|28|3465,386|28|3466,387|28|3467,388|28|3468,389|28|3469,390|28|3470,391|28|3471,392|28|3472,393|28|3473,394|28|3474,395|28|3475,396|28|3476,397|28|3477,398|28|3478,399|28|3479,400|28|3480,401|28|3481,402|28|3482,403|28|3483,404|28|3484,405|28|3485,406|28|3486,407|28|3487,408|28|3488,409|28|3489,410|28|3490,411|28|3491,412|28|3492,413|28|3493,414|28|3494,415|28|3495,416|28|3496,417|28|3497,418|28|3498,419|28|3499,420|28|3500,421|28|3501,422|28|3502,423|28|3503,424|28|3504,425|28|3505,426|28|3506,427|28|3507,428|28|3508,429|28|3509,430|28|3510,431|28|3511,432|28|3512,433|28|3513,434|28|3514,435|28|3515,436|28|3516,437|28|3517,438|28|3518,439|28|3519,440|28|3520,441|28|3521,442|28|3522,443|28|3523,444|28|3524,445|28|3525,446|28|3526,447|28|3527,448|28|3528,449|28|3529,450|28|3530,451|28|3531,452|28|3532,453|28|3533,454|28|3534,455|28|3535,456|28|3536,457|28|3537,458|28|3538,459|28|3539,460|28|3540,461|28|3541,462|28|3542,463|28|3543,464|28|3544,465|28|3545,466|28|3546,467|28|3547,468|28|3548,469|28|3549,470|28|3550" oid="-1" prerendered="false" rowHeight="28" shared="false"/>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="83" fixedrot="true" fric="0.2" gid="3" id="107" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Breakout Paddle" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="108" static="false">
+        <snippets>
+            <s enabled="true" id="85">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="33" list="0" val="left"/>
+                <prop id="34" list="0" val="right"/>
+                <prop id="37" list="0" val="0"/>
+                <prop id="38" list="0" val="true"/>
+                <prop id="39" list="0" val="false"/>
+                <prop id="40" list="0" val="0.0"/>
+                <prop id="41" list="0" val=""/>
+                <prop id="42" list="0" val=""/>
+                <prop id="11" list="0" val="60"/>
+                <prop id="43" list="0" val=""/>
+                <prop id="44" list="0" val=""/>
+                <prop id="45" list="0" val="true"/>
+                <prop id="46" list="0" val="true"/>
+            </s>
+            <s enabled="true" id="53">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val="0.0"/>
+                <prop id="4" list="0" val="0.0"/>
+                <prop id="6" list="0" val="0.0"/>
+                <prop id="8" list="0" val="0.0"/>
+                <prop id="9" list="0" val="10"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="64" id="108" name="Breakout Paddle" shared="false" width="64">
+        <anim across="1" down="1" durations="100" height="64" id="0" loop="true" name="Animation 0" numframes="1" originx="32" originy="32" sync="false" version="2" width="64">
+            <poly data="4,0,21,64,21,64,33,0,33" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="78" fixedrot="true" fric="0.2" gid="3" id="97" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Button Pink" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="98" static="false">
         <snippets/>
     </actor>
