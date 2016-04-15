@@ -39,6 +39,7 @@ import box2D.common.math.B2Vec2;
 import box2D.dynamics.B2Body;
 import box2D.dynamics.B2Fixture;
 import box2D.dynamics.joints.B2Joint;
+import box2D.collision.shapes.B2Shape;
 
 import motion.Actuate;
 import motion.easing.Back;
@@ -68,38 +69,69 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class ActorEvents_62 extends ActorScript
+class SceneEvents_15 extends SceneScript
 {
+	public var _font:Float;
+	public var _win:Float;
+	public var _freeze:Float;
 	
 	
-	public function new(dummy:Int, actor:Actor, dummy2:Engine)
+	public function new(dummy:Int, dummy2:Engine)
 	{
-		super(actor);
+		super();
+		nameMap.set("font", "_font");
+		_font = 0.0;
+		nameMap.set("win", "_win");
+		_win = 0.0;
+		nameMap.set("freeze", "_freeze");
+		_freeze = 0.0;
 		
 	}
 	
 	override public function init()
 	{
 		
+		/* ======================== When Creating ========================= */
+		_win = asNumber(0);
+		propertyChanged("_win", _win);
+		_font = asNumber(0);
+		propertyChanged("_font", _font);
+		_freeze = asNumber(3);
+		propertyChanged("_freeze", _freeze);
+		getActor(1).setIgnoreGravity(!false);
+		
 		/* ======================== When Updating ========================= */
 		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
 		{
 			if(wrapper.enabled)
 			{
-				if((actor.isMouseOver() && isMousePressed()))
+				getActor(1).makeAlwaysSimulate();
+				if(isKeyPressed("Spacebar"))
 				{
-					playSound(getSound(80));
-					Engine.engine.getGameAttribute("Player Notes").push("c");
+					getActor(1).setIgnoreGravity(!true);
+					_font = asNumber(1);
+					propertyChanged("_font", _font);
+				}
+				if((isKeyPressed("f") && (_freeze > 0)))
+				{
+					_freeze = asNumber((_freeze - 1));
+					propertyChanged("_freeze", _freeze);
+					getActor(1).setIgnoreGravity(!false);
+					getActor(1).setVelocity(0, 0);
+				}
+				if(isKeyPressed("j"))
+				{
+					getLastCreatedActor().setVelocity(-90, 55);
 				}
 			}
 		});
 		
-		/* ======================== Sound is done ========================= */
-		addSoundListener(getSound(80), function(list:Array<Dynamic>):Void
+		/* ======================== Actor of Type ========================= */
+		addActorEntersRegionListener(getRegion(0), function(a:Actor, list:Array<Dynamic>):Void
 		{
-			if(wrapper.enabled)
+			if(wrapper.enabled && sameAsAny(getActorType(109),a.getType(),a.getGroup()))
 			{
-				stopAllSounds();
+				reloadCurrentScene(createFadeOut(1.5, Utils.getColorRGB(0,0,0)), createFadeIn(1.5, Utils.getColorRGB(0,0,0)));
 			}
 		});
 		

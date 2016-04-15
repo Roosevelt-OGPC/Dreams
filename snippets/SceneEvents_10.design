@@ -4,15 +4,30 @@
         <draw comment="false" x="15" y="15">
             <group eventID="1" id="-1">
                 <draw-text comment="false" x="26" y="40">
-                    <get-game-val-2 comment="false" id="0" x="0" y="0"/>
-                    <int id="1" val="60"/>
+                    <int id="0" val="Score:"/>
+                    <int id="1" val="20"/>
                     <int id="2" val="40"/>
+                </draw-text>
+                <draw-text comment="false" x="26" y="60">
+                    <get-game-val-12 comment="false" id="0" x="0" y="0"/>
+                    <int id="1" val="90"/>
+                    <int id="2" val="40"/>
+                </draw-text>
+                <draw-text comment="false" x="26" y="85">
+                    <int id="0" val="Lives:"/>
+                    <int id="1" val="20"/>
+                    <int id="2" val="60"/>
+                </draw-text>
+                <draw-text comment="false" x="26" y="105">
+                    <get-val-22-1 comment="false" id="0" x="0" y="0"/>
+                    <int id="1" val="80"/>
+                    <int id="2" val="60"/>
                 </draw-text>
             </group>
         </draw>
     </group>
     <group eventID="1" id="1">
-        <draw-text comment="false" x="19" y="149">
+        <draw-text comment="false" x="25" y="197">
             <get-xy comment="false" id="0" x="0" y="0">
                 <ACTOR eid="1" id="0"/>
                 <int id="1" val="0"/>
@@ -20,7 +35,7 @@
             <int id="1" val="60"/>
             <int id="2" val="60"/>
         </draw-text>
-        <draw-text comment="false" x="19" y="182">
+        <draw-text comment="false" x="25" y="230">
             <get-xy comment="false" id="0" x="0" y="0">
                 <ACTOR eid="1" id="0"/>
                 <int id="1" val="1"/>
@@ -30,40 +45,4 @@
         </draw-text>
     </group>
     <group eventID="1" id="-1"/>
-    <group eventID="2" id="0">
-        <step comment="false" x="15" y="15">
-            <group eventID="2" id="-1">
-                <if comment="false" x="26" y="40">
-                    <group eventID="2" id="-1">
-                        <set-xy comment="false" x="37" y="78">
-                            <ACTOR eid="1" id="0"/>
-                            <int id="1" val="0"/>
-                            <int id="2" val="1629"/>
-                        </set-xy>
-                        <set-xy comment="false" x="37" y="105">
-                            <ACTOR eid="1" id="0"/>
-                            <int id="1" val="1"/>
-                            <int id="2" val="234"/>
-                        </set-xy>
-                    </group>
-                    <and comment="false" id="0" x="0" y="0">
-                        <is-in-region comment="false" id="0" x="0" y="0">
-                            <ACTOR eid="1" id="0"/>
-                            <REGION eid="0" id="1"/>
-                        </is-in-region>
-                        <keystate comment="false" id="1" x="0" y="0">
-                            <int id="0" val="0"/>
-                            <control eid="1" id="1"/>
-                        </keystate>
-                    </and>
-                </if>
-            </group>
-        </step>
-    </group>
-    <group eventID="2" id="1">
-        <camera-follow comment="false" x="53" y="187">
-            <ACTOR eid="1" id="0"/>
-        </camera-follow>
-    </group>
-    <group eventID="2" id="-1"/>
 </groups>

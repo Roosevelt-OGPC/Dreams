@@ -52,21 +52,50 @@
     <folders>
         <group desc="" id="0" name="level4" type="actor">
             <r id="39"/>
-            <r id="23"/>
-            <r id="25"/>
             <r id="41"/>
             <r id="43"/>
+            <r id="112"/>
+            <r id="114"/>
+            <r id="116"/>
+            <r id="118"/>
+            <r id="23"/>
+            <r id="120"/>
+            <r id="25"/>
+            <r id="122"/>
             <r id="27"/>
         </group>
-        <group desc="" id="1" name="level3" type="actor">
+        <group desc="" id="1" name="donkey kong" type="actor">
             <r id="49"/>
             <r id="21"/>
             <r id="45"/>
             <r id="47"/>
+            <r id="95"/>
         </group>
-        <group desc="" id="2" name="level2" type="actor">
+        <group desc="" id="2" name="pong" type="actor">
             <r id="33"/>
+            <r id="107"/>
+            <r id="109"/>
             <r id="31"/>
+        </group>
+        <group desc="" id="3" name="Piano" type="actor">
+            <r id="64"/>
+            <r id="66"/>
+            <r id="68"/>
+            <r id="101"/>
+            <r id="85"/>
+            <r id="70"/>
+            <r id="103"/>
+            <r id="72"/>
+            <r id="74"/>
+            <r id="76"/>
+            <r id="62"/>
+        </group>
+        <group desc="" id="4" name="pac man" type="actor">
+            <r id="87"/>
+            <r id="89"/>
+            <r id="91"/>
+            <r id="59"/>
+            <r id="93"/>
         </group>
     </folders>
     <packs/>
@@ -111,17 +140,18 @@
     <props/>
     <attributes>
         <list cid="-1" id="6" name="Player Notes" save="true" val="list"/>
-        <number cid="-1" id="12" name="score" save="true" value="0"/>
         <number cid="-1" id="5" name="Y of ball" save="true" value="0.0"/>
-        <boolean cid="-1" id="8" name="Pink Button Pressed" save="true" value="false"/>
         <list cid="-1" id="7" name="Required Notes" save="true" val="list"/>
-        <number cid="-1" id="11" name="lives" save="true" value="3"/>
-        <boolean cid="-1" id="3" name="left" save="true" value="false"/>
-        <number cid="-1" id="10" name="level" save="true" value="0"/>
-        <number cid="-1" id="8" name="Level" save="true" value="0.0"/>
+        <number cid="-1" id="11" name="lives" save="true" value="3.0"/>
+        <number cid="-1" id="10" name="level" save="true" value="0.0"/>
+        <number cid="-1" id="13" name="lives4" save="true" value="0.0"/>
         <number cid="-1" id="2" name="Score4" save="true" value="0.0"/>
         <boolean cid="-1" id="4" name="right" save="true" value="false"/>
         <boolean cid="-1" id="9" name="region 1 activated" save="true" value="false"/>
+        <number cid="-1" id="12" name="score" save="true" value="0.0"/>
+        <boolean cid="-1" id="8" name="Pink Button Pressed" save="true" value="false"/>
+        <boolean cid="-1" id="3" name="left" save="true" value="false"/>
+        <number cid="-1" id="8" name="Level" save="true" value="0.0"/>
     </attributes>
     <collisions>
         <poly id="0" name="Square" pts="0.0,0.0#0.0,1.0#1.0,1.0#1.0,0.0"/>
@@ -154,7 +184,7 @@
     </collisions>
     <autotileFormats/>
     <atlases>
-        <atlas allScenes="true" desc="" dirty="true" id="0" members="0,3,5,7,8,9,10,15,16,18,20,21,23,25,27,31,33,35,38,39,41,43,45,47,49,51,53,57,58,59,61,62,64,66,68,70,72,74,76,78,79,80,81,82,83,84,85,87,89,91,93,95,97,99,101,103,106,107,109,111," name="Main Atlas" pvr="false" resize="0" target="0"/>
+        <atlas allScenes="true" desc="" dirty="true" id="0" members="0,3,5,7,8,9,10,15,16,18,20,21,23,25,27,31,33,38,39,41,43,45,47,49,53,57,58,59,61,62,64,66,68,70,72,74,76,78,79,80,81,82,83,84,85,87,89,91,93,95,97,99,101,103,106,107,109,111,112,114,116,118,120,122," name="Main Atlas" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="1" members="" name="Atlas 2" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="2" members="" name="Atlas 3" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="3" members="" name="Atlas 4" pvr="false" resize="0" target="0"/>
