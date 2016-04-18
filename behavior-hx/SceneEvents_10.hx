@@ -39,6 +39,7 @@ import box2D.common.math.B2Vec2;
 import box2D.dynamics.B2Body;
 import box2D.dynamics.B2Fixture;
 import box2D.dynamics.joints.B2Joint;
+import box2D.collision.shapes.B2Shape;
 
 import motion.Actuate;
 import motion.easing.Back;
@@ -68,40 +69,33 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class Design_35_35_Stompable extends ActorScript
+class SceneEvents_10 extends SceneScript
 {
-	public var _StompedAnimation:String;
+	public var _lives4:Float;
 	
-	/* ========================= Custom Event ========================= */
-	public function _customEvent_stomped():Void
+	
+	public function new(dummy:Int, dummy2:Engine)
 	{
-		if(!(asBoolean(actor.getActorValue("_BeingStomped"))))
-		{
-			actor.setActorValue("_BeingStomped", true);
-			actor.setAnimation("" + _StompedAnimation);
-			actor.shout("_customEvent_" + "Stop");
-			actor.setActorValue("_DisallowMovement", true);
-			runLater(1000 * 0.2, function(timeTask:TimedTask):Void {
-				recycleActor(actor);
-			}, actor);
-		}
-	}
-	
-	
-	public function new(dummy:Int, actor:Actor, dummy2:Engine)
-	{
-		super(actor);
-		nameMap.set("Actor", "actor");
-		nameMap.set("Stomped Animation", "_StompedAnimation");
+		super();
+		nameMap.set("lives4", "_lives4");
+		_lives4 = 3.0;
 		
 	}
 	
 	override public function init()
 	{
 		
-		/* ======================== When Creating ========================= */
-		actor.setActorValue("_BeingStomped", false);
-		actor.setActorValue("_DisallowMovement", false);
+		/* ========================= When Drawing ========================= */
+		addWhenDrawingListener(null, function(g:G, x:Float, y:Float, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled)
+			{
+				g.drawString("" + "Score:", 20, 40);
+				g.drawString("" + Engine.engine.getGameAttribute("score"), 90, 40);
+				g.drawString("" + "Lives:", 20, 60);
+				g.drawString("" + _lives4, 80, 60);
+			}
+		});
 		
 	}
 	

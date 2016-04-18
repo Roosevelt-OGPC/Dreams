@@ -39,7 +39,6 @@ import box2D.common.math.B2Vec2;
 import box2D.dynamics.B2Body;
 import box2D.dynamics.B2Fixture;
 import box2D.dynamics.joints.B2Joint;
-import box2D.collision.shapes.B2Shape;
 
 import motion.Actuate;
 import motion.easing.Back;
@@ -69,18 +68,73 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class SceneEvents_11 extends SceneScript
+class Design_32_32_Collision extends ActorScript
 {
+	public var _Lives:Float;
+	public var _JumpKey:String;
 	
-	
-	public function new(dummy:Int, dummy2:Engine)
+	/* ========================= Custom Event ========================= */
+	public function _customEvent_stomped():Void
 	{
-		super();
+		Engine.engine.setGameAttribute("Score4", (Engine.engine.getGameAttribute("Score4") + 100));
+	}
+	
+	
+	public function new(dummy:Int, actor:Actor, dummy2:Engine)
+	{
+		super(actor);
+		nameMap.set("Actor", "actor");
+		nameMap.set("Lives", "_Lives");
+		_Lives = 0.0;
+		nameMap.set("Jump Key", "_JumpKey");
 		
 	}
 	
 	override public function init()
 	{
+		
+		/* ======================== Actor of Type ========================= */
+		addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled && sameAsAny(getActorType(16), event.otherActor.getType(),event.otherActor.getGroup()))
+			{
+				/* kill player if they collide with an enemy */
+				if(event.otherFromLeft)
+				{
+					recycleActor(actor);
+					Engine.engine.setGameAttribute("lives4", (Engine.engine.getGameAttribute("lives4") - 1));
+				}
+				else if(event.otherFromBottom)
+				{
+					recycleActor(actor);
+				}
+				else if(event.otherFromRight)
+				{
+					recycleActor(actor);
+				}
+			}
+		});
+		
+		/* ======================== Actor of Type ========================= */
+		addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled && sameAsAny(getActorType(18), event.otherActor.getType(),event.otherActor.getGroup()))
+			{
+				/* kill player if they collide with an enemy */
+				if(event.otherFromLeft)
+				{
+					recycleActor(actor);
+				}
+				else if(event.otherFromBottom)
+				{
+					recycleActor(actor);
+				}
+				else if(event.otherFromRight)
+				{
+					recycleActor(actor);
+				}
+			}
+		});
 		
 	}
 	

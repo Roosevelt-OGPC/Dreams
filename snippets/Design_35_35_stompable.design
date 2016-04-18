@@ -64,4 +64,12 @@
         </event-custom>
     </group>
     <group eventID="2" id="-1"/>
+    <group eventID="3" id="0">
+        <event-collide-typetotype comment="false" x="15" y="15">
+            <group eventID="3" id="-1"/>
+            <actortype id="0"/>
+            <actortype eid="124" id="1"/>
+        </event-collide-typetotype>
+    </group>
+    <group eventID="3" id="-1"/>
 </groups>

@@ -77,12 +77,7 @@
         <tile collision="0" data="" durations="100" frames="14" id="14" order="-1"/>
     </tileset>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="20" fixedrot="false" fric="0.2" gid="3" id="18" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Big Tooth" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="19" static="false">
-        <snippets>
-            <s enabled="true" id="35">
-                <prop id="2147483647" list="0" val="thisactor"/>
-                <prop id="1" list="0" val="Animation 1"/>
-            </s>
-        </snippets>
+        <snippets/>
     </actor>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="64" id="19" name="Big Tooth" shared="false" width="64">
         <anim across="1" down="1" durations="100" height="64" id="0" loop="true" name="Animation 0" numframes="1" originx="32" originy="32" sync="false" version="2" width="64">
@@ -292,51 +287,6 @@
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="64" id="113" name="Dead block" shared="false" width="64">
         <anim across="1" down="1" durations="100" height="64" id="0" loop="true" name="Animation 0" numframes="1" originx="32" originy="32" sync="false" version="2" width="64">
             <poly data="4,16,16,48,16,48,48,16,48" density="0.1" fric="0.2" gid="-1000" id="0" name="default" rest="0.0" sensor="false"/>
-        </anim>
-    </sprite>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="35" fixedrot="true" fric="0.2" gid="3" id="33" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="DK player" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="34" static="false">
-        <snippets>
-            <s enabled="true" id="2">
-                <prop id="32" list="0" val="down"/>
-                <prop id="2147483647" list="0" val="thisactor"/>
-                <prop id="33" list="0" val="left"/>
-                <prop id="34" list="0" val="right"/>
-                <prop id="38" list="0" val="0.0"/>
-                <prop id="39" list="0" val="0.0"/>
-                <prop id="40" list="0" val="true"/>
-                <prop id="11" list="0" val="30.0"/>
-                <prop id="44" list="0" val="false"/>
-                <prop id="45" list="0" val="false"/>
-                <prop id="46" list="0" val="true"/>
-                <prop id="47" list="0" val="false"/>
-                <prop id="49" list="0" val="false"/>
-                <prop id="50" list="0" val="UP/DOWN"/>
-                <prop id="51" list="0" val="UP/DOWN"/>
-                <prop id="52" list="0" val="UP/DOWN"/>
-                <prop id="53" list="0" val="UP/DOWN"/>
-                <prop id="54" list="0" val="LEFT"/>
-                <prop id="55" list="0" val="LEFT"/>
-                <prop id="56" list="0" val="RIGHT"/>
-                <prop id="57" list="0" val="RIGHT"/>
-                <prop id="58" list="0" val="true"/>
-                <prop id="31" list="0" val="up"/>
-            </s>
-            <s enabled="true" id="40">
-                <prop id="2147483647" list="0" val="thisactor"/>
-                <prop id="2" list="0" val="0.0"/>
-            </s>
-        </snippets>
-    </actor>
-    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="64" id="34" name="DK player" shared="false" width="64">
-        <anim across="1" down="1" durations="100" height="64" id="0" loop="true" name="UP/DOWN" numframes="1" originx="32" originy="32" sync="false" version="2" width="64">
-            <poly data="4,22,22,45,22,45,54,22,54" density="0.1" fric="0.2" gid="-1000" id="1" name="Box" rest="0.0" sensor="false"/>
-        </anim>
-        <anim across="1" down="1" durations="100" height="64" id="1" loop="true" name="LEFT" numframes="1" originx="32" originy="32" sync="false" version="2" width="64">
-            <poly data="4,22,22,45,22,45,54,22,54" density="0.1" fric="0.2" gid="-1000" id="0" name="Box" rest="0.0" sensor="false"/>
-            <poly data="4,0,0,64,0,64,64,0,64" density="0.1" fric="0.2" gid="-1000" id="1" name="Box" rest="0.0" sensor="false"/>
-        </anim>
-        <anim across="1" down="1" durations="100" height="64" id="2" loop="true" name="RIGHT" numframes="1" originx="32" originy="32" sync="false" version="2" width="64">
-            <poly data="4,19,22,42,22,42,54,19,54" density="0.1" fric="0.2" gid="-1000" id="0" name="RIGHT" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="77" fixedrot="true" fric="0.2" gid="3" id="95" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="DK Player" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="96" static="false">
@@ -596,6 +546,14 @@
             <poly data="4,17,15,46,15,46,43,17,43" density="0.1" fric="0.2" gid="-1000" id="0" name="default" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="92" fixedrot="true" fric="0.2" gid="3" id="124" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Key DK" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="125" static="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="64" id="125" name="Key DK" shared="false" width="64">
+        <anim across="1" down="1" durations="100" height="64" id="0" loop="true" name="Animation 0" numframes="1" originx="32" originy="32" sync="false" version="2" width="64">
+            <poly data="4,23,12,51,12,51,49,23,49" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
     <tileset across="3" atlasID="0" desc="" down="2" id="10" name="L1Set" oid="-1" shared="false" th="32" tw="32">
         <tile collision="-1" data="" durations="100" frames="0" id="0" order="-1"/>
         <tile collision="-1" data="" durations="100" frames="1" id="1" order="-1"/>
@@ -640,18 +598,6 @@
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="64" id="32" name="LADDER" shared="false" width="64">
         <anim across="1" down="1" durations="100" height="64" id="0" loop="true" name="Animation 0" numframes="1" originx="32" originy="32" sync="false" version="2" width="64">
             <poly data="4,0,0,64,0,64,64,0,64" density="0.1" fric="0.2" gid="1" id="0" name="default" rest="0.0" sensor="false"/>
-        </anim>
-    </sprite>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="50" fixedrot="false" fric="0.2" gid="3" id="51" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="lil buddy" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="52" static="false">
-        <snippets>
-            <s enabled="true" id="49">
-                <prop id="2147483647" list="0" val="thisactor"/>
-            </s>
-        </snippets>
-    </actor>
-    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="64" id="52" name="lil buddy" shared="false" width="64">
-        <anim across="1" down="1" durations="100" height="64" id="0" loop="true" name="Animation 0" numframes="1" originx="32" originy="32" sync="false" version="2" width="64">
-            <poly data="4,17,3,41,3,41,63,17,63" density="0.1" fric="0.2" gid="-1000" id="0" name="default" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="4" fixedrot="true" fric="0.2" gid="3" id="3" ignoreg="false" inertia="1.0" ldamp="0.0" mass="20.0" name="lion" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="4" static="false">
@@ -1034,7 +980,7 @@
             <poly data="4,0,0,16,0,16,16,0,16" density="0.1" fric="0.2" gid="-1000" id="0" name="default" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="79" fixedrot="true" fric="0.2" gid="3" id="99" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Square Dude" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="100" static="false">
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="79" fixedrot="true" fric="0.2" gid="3" id="99" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Square Dude" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="100" static="false">
         <snippets/>
     </actor>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="64" id="100" name="Square Dude" shared="false" width="64">
@@ -1046,12 +992,7 @@
         </anim>
     </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="19" fixedrot="true" fric="0.2" gid="3" id="16" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Tooth" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="17" static="false">
-        <snippets>
-            <s enabled="true" id="35">
-                <prop id="2147483647" list="0" val="thisactor"/>
-                <prop id="1" list="0" val="smush"/>
-            </s>
-        </snippets>
+        <snippets/>
     </actor>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="64" id="17" name="Tooth" shared="false" width="64">
         <anim across="1" down="1" durations="100" height="64" id="0" loop="true" name="Animation 0" numframes="1" originx="32" originy="32" sync="false" version="2" width="64">
@@ -1070,14 +1011,6 @@
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="32" id="46" name="Ugh" shared="false" width="32">
         <anim across="1" down="1" durations="100" height="32" id="0" loop="true" name="Animation 0" numframes="1" originx="16" originy="16" sync="false" version="2" width="32">
             <poly data="4,0,5,32,5,32,9,0,9" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
-        </anim>
-    </sprite>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="39" fixedrot="true" fric="0.0" gid="3" id="35" ignoreg="false" inertia="1.0" ldamp="0.0" mass="20.0" name="wall" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="36" static="false">
-        <snippets/>
-    </actor>
-    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="250" id="36" name="wall" shared="false" width="125">
-        <anim across="1" down="1" durations="100" height="250" id="0" loop="true" name="Animation 0" numframes="1" originx="32" originy="32" sync="false" version="2" width="125">
-            <poly data="4,0,0,74,0,74,74,0,74" density="0.1" fric="0.2" gid="-1000" id="0" name="default" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
 </pack>

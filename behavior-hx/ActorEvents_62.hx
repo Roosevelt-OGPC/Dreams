@@ -68,7 +68,7 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class ActorEvents_99 extends ActorScript
+class ActorEvents_62 extends ActorScript
 {
 	
 	
@@ -86,24 +86,20 @@ class ActorEvents_99 extends ActorScript
 		{
 			if(wrapper.enabled)
 			{
-				if((Engine.engine.getGameAttribute("region 1 activated") == true))
+				if((actor.isMouseOver() && isMousePressed()))
 				{
-					actor.setAnimation("" + "Right");
-					actor.setXVelocity(0);
+					playSound(getSound(80));
+					Engine.engine.getGameAttribute("Player Notes").push("c");
 				}
-				else
-				{
-					if((Engine.engine.getGameAttribute("Pink Button Pressed") == true))
-					{
-						actor.setXVelocity(-2);
-						actor.setAnimation("" + "Left");
-					}
-					else if((Engine.engine.getGameAttribute("Pink Button Pressed") == false))
-					{
-						actor.setXVelocity(2);
-						actor.setAnimation("" + "Right");
-					}
-				}
+			}
+		});
+		
+		/* ======================== Sound is done ========================= */
+		addSoundListener(getSound(80), function(list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled)
+			{
+				stopAllSounds();
 			}
 		});
 		
