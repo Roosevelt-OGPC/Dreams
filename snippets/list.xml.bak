@@ -65,6 +65,7 @@
         <events>
             <event displayName="Enters Region" enabled="true" id="1" name="event-type-region" order="1" repeats="true"/>
             <event displayName="Created" enabled="true" id="2" name="init" order="2" repeats="true"/>
+            <event displayName="Drawing" enabled="true" id="3" name="draw" order="3" repeats="true"/>
         </events>
     </snippet>
     <snippet attachedevent="false" class="scripts.Design_10_10_Camera" classname="scripts.Design_10_10_Camera" desc="" description="" design="true" drawOrder="0" id="10" name="Camera" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
@@ -447,7 +448,8 @@
     <snippet attachedevent="true" class="scripts.ActorEvents_76" classname="scripts.ActorEvents_76" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="67" name="ActorEvents_76" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
         <blocks/>
         <events>
-            <event displayName="Updated" enabled="true" id="1" name="step" order="1" repeats="true"/>
+            <event displayName="Updated" enabled="true" id="1" name="step" order="2" repeats="true"/>
+            <event displayName="Created" enabled="true" id="2" name="init" order="1" repeats="true"/>
         </events>
     </snippet>
     <snippet attachedevent="false" class="scripts.Design_68_68_EmphasiseOnMouseOver" classname="scripts.Design_68_68_EmphasiseOnMouseOver" desc="Emphasises the actor in some way when the cursor is placed over it. Options include fade, grow, shrink, brighten, darken and more." description="Emphasises the actor in some way when the cursor is placed over it. Options include fade, grow, shrink, brighten, darken and more." design="true" drawOrder="0" id="68" name="Emphasise On Mouse Over" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
@@ -619,7 +621,9 @@
     </snippet>
     <snippet attachedevent="true" class="scripts.ActorEvents_120" classname="scripts.ActorEvents_120" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="90" name="ActorEvents_120" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
         <blocks/>
-        <events/>
+        <events>
+            <event displayName="Actor - Type" enabled="true" id="1" name="event-collide-actortotype" order="1" repeats="true"/>
+        </events>
     </snippet>
     <snippet attachedevent="true" class="scripts.ActorEvents_122" classname="scripts.ActorEvents_122" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="91" name="ActorEvents_122" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
         <blocks/>

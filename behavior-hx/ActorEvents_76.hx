@@ -81,14 +81,28 @@ class ActorEvents_76 extends ActorScript
 	override public function init()
 	{
 		
+		/* ======================== When Creating ========================= */
+		Engine.engine.setGameAttribute("piano lives", 3);
+		
 		/* ======================== When Updating ========================= */
 		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
 		{
 			if(wrapper.enabled)
 			{
-				if((actor.isMouseOver() && isMousePressed()))
+				if((Engine.engine.getGameAttribute("piano lives") > 0))
 				{
-					Engine.engine.setGameAttribute("Player Notes", new Array<Dynamic>());
+					if((actor.isMouseOver() && isMousePressed()))
+					{
+						Engine.engine.setGameAttribute("Player Notes", new Array<Dynamic>());
+						Engine.engine.setGameAttribute("piano lives", (Engine.engine.getGameAttribute("piano lives") - 1));
+					}
+				}
+				else if((Engine.engine.getGameAttribute("piano lives") == 0))
+				{
+					recycleActor(actor);
+					Engine.engine.setGameAttribute("level", (Engine.engine.getGameAttribute("level") + 1));
+					Engine.engine.setGameAttribute("lives", (Engine.engine.getGameAttribute("lives") - 1));
+					switchScene(GameModel.get().scenes.get(3).getID(), null, createCrossfadeTransition(1));
 				}
 			}
 		});
