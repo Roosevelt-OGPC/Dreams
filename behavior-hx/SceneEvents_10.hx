@@ -69,38 +69,86 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class SceneEvents_17 extends SceneScript
+class SceneEvents_10 extends SceneScript
 {
+	public var _lives4:Float;
 	
 	
 	public function new(dummy:Int, dummy2:Engine)
 	{
 		super();
+		nameMap.set("lives4", "_lives4");
+		_lives4 = 3.0;
 		
 	}
 	
 	override public function init()
 	{
 		
-		/* ======================== When Creating ========================= */
-		Engine.engine.setGameAttribute("left", new Array<Dynamic>());
-		Engine.engine.getGameAttribute("Required Notes").push("c");
-		Engine.engine.getGameAttribute("Required Notes").push("d");
-		Engine.engine.getGameAttribute("Required Notes").push("e");
-		
 		/* ========================= When Drawing ========================= */
 		addWhenDrawingListener(null, function(g:G, x:Float, y:Float, list:Array<Dynamic>):Void
 		{
 			if(wrapper.enabled)
 			{
-				g.drawString("" + Engine.engine.getGameAttribute("Player Notes"), 500, 30);
-				g.drawString("" + Engine.engine.getGameAttribute("Required Notes"), 100, 30);
-				g.drawString("" + Engine.engine.getGameAttribute("score"), 100, 30);
-				if((("" + Engine.engine.getGameAttribute("Player Notes")) == ("" + Engine.engine.getGameAttribute("Required Notes"))))
+				g.drawString("" + "Score:", 20, 40);
+				g.drawString("" + Engine.engine.getGameAttribute("score"), 90, 40);
+				g.drawString("" + "Lives:", 20, 60);
+				g.drawString("" + _lives4, 80, 60);
+			}
+		});
+		
+		/* ======================== Specific Actor ======================== */
+		addCollisionListener(getActor(1), function(event:Collision, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled && (getActor(16) == event.otherActor))
+			{
+				if(event.otherFromBottom)
 				{
-					switchScene(GameModel.get().scenes.get(3).getID(), null, createCrossfadeTransition(1));
-					Engine.engine.setGameAttribute("level", (Engine.engine.getGameAttribute("level") + 1));
-					Engine.engine.setGameAttribute("score", (Engine.engine.getGameAttribute("score") + 1000));
+					recycleActor(getActor(16));
+					createRecycledActor(getActorType(112), 208, 273, Script.FRONT);
+					createRecycledActor(getActorType(23), 209, 242, Script.FRONT);
+				}
+			}
+		});
+		
+		/* ======================== Specific Actor ======================== */
+		addCollisionListener(getActor(1), function(event:Collision, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled && (getActor(29) == event.otherActor))
+			{
+				if(event.otherFromBottom)
+				{
+					recycleActor(getActor(29));
+					createRecycledActor(getActorType(112), 497, 144, Script.FRONT);
+					createRecycledActor(getActorType(114), 497, 112, Script.FRONT);
+				}
+			}
+		});
+		
+		/* ======================== Specific Actor ======================== */
+		addCollisionListener(getLastCreatedActor(), function(event:Collision, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled && (getLastCreatedActor() == event.otherActor))
+			{
+				if(event.otherFromBottom)
+				{
+					recycleActor(getActor(30));
+					createRecycledActor(getActorType(112), 2289, 272, Script.FRONT);
+					createRecycledActor(getActorType(114), 2288, 241, Script.FRONT);
+				}
+			}
+		});
+		
+		/* ======================== Specific Actor ======================== */
+		addCollisionListener(getLastCreatedActor(), function(event:Collision, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled && (getLastCreatedActor() == event.otherActor))
+			{
+				if(event.otherFromBottom)
+				{
+					recycleActor(getActor(31));
+					createRecycledActor(getActorType(112), 3281, 144, Script.FRONT);
+					createRecycledActor(getActorType(114), 3280, 113, Script.FRONT);
 				}
 			}
 		});
