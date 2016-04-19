@@ -157,7 +157,7 @@
             <poly data="4,0,0,32,0,32,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="default" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="43" fixedrot="false" fric="0.2" gid="3" id="43" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="block4" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="44" static="true">
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="43" fixedrot="false" fric="0.2" gid="3" id="43" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="block4" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="44" static="false">
         <snippets/>
     </actor>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="64" id="44" name="block4" shared="false" width="64">
@@ -653,7 +653,7 @@
             <poly data="4,0,0,71,0,71,286,0,286" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="81" fixedrot="false" fric="0.2" gid="3" id="101" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Note button" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="102" static="true">
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="81" fixedrot="false" fric="0.2" gid="3" id="101" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Note button" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="102" static="false">
         <snippets/>
     </actor>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="64" id="102" name="Note button" shared="false" width="64">
@@ -736,7 +736,7 @@
             <poly data="4,0,0,71,0,71,286,0,286" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="82" fixedrot="false" fric="0.2" gid="3" id="103" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Note player" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="104" static="true">
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="82" fixedrot="false" fric="0.2" gid="3" id="103" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Note player" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="104" static="false">
         <snippets>
             <s enabled="true" id="68">
                 <prop id="2147483647" list="0" val="thisactor"/>
@@ -933,7 +933,7 @@
             <poly data="4,0,0,64,0,64,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="90" fixedrot="false" fric="0.2" gid="3" id="120" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="pole spike" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="121" static="true">
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="90" fixedrot="false" fric="0.2" gid="3" id="120" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="pole spike" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="121" static="false">
         <snippets/>
     </actor>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="64" id="121" name="pole spike" shared="false" width="64">

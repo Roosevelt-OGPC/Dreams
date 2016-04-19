@@ -97,11 +97,10 @@ class SceneEvents_19 extends SceneScript
 			if(wrapper.enabled)
 			{
 				g.drawString("" + Engine.engine.getGameAttribute("Player Notes"), 500, 30);
-				if((("" + Engine.engine.getGameAttribute("Player Notes")) == ("" + Engine.engine.getGameAttribute("Required Notes"))))
+				g.drawString("" + Engine.engine.getGameAttribute("left"), 100, 30);
+				if((("" + Engine.engine.getGameAttribute("Required Notes")) == ("" + Engine.engine.getGameAttribute("Player Notes"))))
 				{
 					switchScene(GameModel.get().scenes.get(3).getID(), null, createCrossfadeTransition(1));
-					Engine.engine.setGameAttribute("level", (Engine.engine.getGameAttribute("level") + 1));
-					Engine.engine.setGameAttribute("score", (Engine.engine.getGameAttribute("score") + 1000));
 				}
 			}
 		});

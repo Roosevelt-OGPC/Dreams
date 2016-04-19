@@ -8,32 +8,25 @@
                     <int id="1" val="500"/>
                     <int id="2" val="30"/>
                 </draw-text>
-                <if comment="false" x="26" y="65">
+                <draw-text comment="false" x="26" y="65">
+                    <get-game-val-3 comment="false" id="0" x="0" y="0"/>
+                    <int id="1" val="100"/>
+                    <int id="2" val="30"/>
+                </draw-text>
+                <if comment="false" x="26" y="90">
                     <group eventID="1" id="-1">
-                        <scene-change-through comment="false" x="37" y="100">
+                        <scene-change-through comment="false" x="37" y="125">
                             <scene eid="3" id="0"/>
                             <int id="1" val="0"/>
                             <int id="2" val="1"/>
                         </scene-change-through>
-                        <set-game-val-10 comment="false" x="37" y="127">
-                            <plus comment="false" id="0" x="0" y="0">
-                                <get-game-val-10 comment="false" id="0" x="0" y="0"/>
-                                <int id="1" val="1"/>
-                            </plus>
-                        </set-game-val-10>
-                        <set-game-val-12 comment="false" x="37" y="157">
-                            <plus comment="false" id="0" x="0" y="0">
-                                <get-game-val-12 comment="false" id="0" x="0" y="0"/>
-                                <int id="1" val="1000"/>
-                            </plus>
-                        </set-game-val-12>
                     </group>
                     <eq comment="false" id="0" x="0" y="0">
                         <tostring comment="false" id="0" x="0" y="0">
-                            <get-game-val-6 comment="false" id="0" x="0" y="0"/>
+                            <get-game-val-7 comment="false" id="0" x="0" y="0"/>
                         </tostring>
                         <tostring comment="false" id="1" x="0" y="0">
-                            <get-game-val-7 comment="false" id="0" x="0" y="0"/>
+                            <get-game-val-6 comment="false" id="0" x="0" y="0"/>
                         </tostring>
                     </eq>
                 </if>
