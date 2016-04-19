@@ -68,7 +68,7 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class ActorEvents_62 extends ActorScript
+class ActorEvents_95 extends ActorScript
 {
 	
 	
@@ -81,25 +81,24 @@ class ActorEvents_62 extends ActorScript
 	override public function init()
 	{
 		
-		/* ======================== When Updating ========================= */
-		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
+		/* ======================== Actor of Type ========================= */
+		addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void
 		{
-			if(wrapper.enabled)
+			if(wrapper.enabled && sameAsAny(getActorType(99), event.otherActor.getType(),event.otherActor.getGroup()))
 			{
-				if((actor.isMouseOver() && isMousePressed()))
-				{
-					playSound(getSound(128));
-					Engine.engine.getGameAttribute("Player Notes").push("c");
-				}
+				recycleActor(actor);
+				reloadCurrentScene(createFadeOut(2, Utils.getColorRGB(0,0,0)), createFadeIn(2, Utils.getColorRGB(0,0,0)));
 			}
 		});
 		
-		/* ======================== Sound is done ========================= */
-		addSoundListener(getSound(80), function(list:Array<Dynamic>):Void
+		/* ======================== Actor of Type ========================= */
+		addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void
 		{
-			if(wrapper.enabled)
+			if(wrapper.enabled && sameAsAny(getActorType(124), event.otherActor.getType(),event.otherActor.getGroup()))
 			{
-				stopAllSounds();
+				recycleActor(actor.getLastCollidedActor());
+				Engine.engine.setGameAttribute("DK Score", 1);
+				Engine.engine.setGameAttribute("score", (Engine.engine.getGameAttribute("score") + 100));
 			}
 		});
 		

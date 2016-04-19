@@ -88,7 +88,7 @@ class ActorEvents_72 extends ActorScript
 			{
 				if((actor.isMouseOver() && isMousePressed()))
 				{
-					playSound(getSound(78));
+					playSound(getSound(126));
 					Engine.engine.getGameAttribute("Player Notes").push("a");
 				}
 			}

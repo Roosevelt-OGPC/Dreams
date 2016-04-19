@@ -7,7 +7,7 @@
                     <group eventID="1" id="-1">
                         <play-sound4 comment="false" x="37" y="78">
                             <int id="0" val="0"/>
-                            <sound eid="81" id="1"/>
+                            <sound eid="129" id="1"/>
                         </play-sound4>
                         <add-list comment="false" x="37" y="105">
                             <get-game-val-6 comment="false" id="0" x="0" y="0"/>

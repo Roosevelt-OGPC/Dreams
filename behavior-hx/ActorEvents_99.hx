@@ -68,7 +68,7 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class ActorEvents_62 extends ActorScript
+class ActorEvents_99 extends ActorScript
 {
 	
 	
@@ -86,20 +86,33 @@ class ActorEvents_62 extends ActorScript
 		{
 			if(wrapper.enabled)
 			{
-				if((actor.isMouseOver() && isMousePressed()))
+				if((Engine.engine.getGameAttribute("region 1 activated") == true))
 				{
-					playSound(getSound(128));
-					Engine.engine.getGameAttribute("Player Notes").push("c");
+					actor.setAnimation("" + "Right");
+					actor.setXVelocity(0);
+				}
+				else
+				{
+					if((Engine.engine.getGameAttribute("Pink Button Pressed") == true))
+					{
+						actor.setXVelocity(-2);
+						actor.setAnimation("" + "Left");
+					}
+					else if((Engine.engine.getGameAttribute("Pink Button Pressed") == false))
+					{
+						actor.setXVelocity(2);
+						actor.setAnimation("" + "Right");
+					}
 				}
 			}
 		});
 		
-		/* ======================== Sound is done ========================= */
-		addSoundListener(getSound(80), function(list:Array<Dynamic>):Void
+		/* ======================== Specific Actor ======================== */
+		addActorPositionListener(actor, function(enteredScreen:Bool, exitedScreen:Bool, enteredScene:Bool, exitedScene:Bool, list:Array<Dynamic>):Void
 		{
-			if(wrapper.enabled)
+			if(wrapper.enabled && exitedScene)
 			{
-				stopAllSounds();
+				reloadCurrentScene(createFadeOut(2, Utils.getColorRGB(0,0,0)), createFadeIn(2, Utils.getColorRGB(0,0,0)));
 			}
 		});
 		
