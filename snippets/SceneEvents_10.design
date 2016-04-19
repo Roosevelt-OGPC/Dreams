@@ -45,4 +45,132 @@
         </draw-text>
     </group>
     <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <event-collide-actortoactor comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <if comment="false" x="26" y="47">
+                    <group eventID="2" id="-1">
+                        <die comment="false" x="37" y="80">
+                            <ACTOR eid="16" id="0"/>
+                        </die>
+                        <create-actor3 comment="false" x="37" y="107">
+                            <actortype eid="112" id="0"/>
+                            <int id="1" val="208"/>
+                            <int id="2" val="273"/>
+                            <int id="3" val="0"/>
+                        </create-actor3>
+                        <create-actor3 comment="false" x="37" y="134">
+                            <actortype eid="23" id="0"/>
+                            <int id="1" val="209"/>
+                            <int id="2" val="242"/>
+                            <int id="3" val="0"/>
+                        </create-actor3>
+                    </group>
+                    <collision-bottom comment="false" id="0" x="0" y="0">
+                        <int id="0" val="0"/>
+                        <int id="1" val="1"/>
+                    </collision-bottom>
+                </if>
+            </group>
+            <ACTOR eid="1" id="0"/>
+            <ACTOR eid="16" id="1"/>
+        </event-collide-actortoactor>
+    </group>
+    <group eventID="2" id="-1"/>
+    <group eventID="3" id="0">
+        <event-collide-actortoactor comment="false" x="15" y="15">
+            <group eventID="3" id="-1">
+                <if comment="false" x="26" y="47">
+                    <group eventID="3" id="-1">
+                        <die comment="false" x="37" y="80">
+                            <ACTOR eid="29" id="0"/>
+                        </die>
+                        <create-actor3 comment="false" x="37" y="107">
+                            <actortype eid="112" id="0"/>
+                            <int id="1" val="497"/>
+                            <int id="2" val="144"/>
+                            <int id="3" val="0"/>
+                        </create-actor3>
+                        <create-actor3 comment="false" x="37" y="134">
+                            <actortype eid="114" id="0"/>
+                            <int id="1" val="497"/>
+                            <int id="2" val="112"/>
+                            <int id="3" val="0"/>
+                        </create-actor3>
+                    </group>
+                    <collision-bottom comment="false" id="0" x="0" y="0">
+                        <int id="0" val="0"/>
+                        <int id="1" val="1"/>
+                    </collision-bottom>
+                </if>
+            </group>
+            <ACTOR eid="1" id="0"/>
+            <ACTOR eid="29" id="1"/>
+        </event-collide-actortoactor>
+    </group>
+    <group eventID="3" id="-1"/>
+    <group eventID="4" id="0">
+        <event-collide-actortoactor comment="false" x="15" y="15">
+            <group eventID="4" id="-1">
+                <if comment="false" x="26" y="47">
+                    <group eventID="4" id="-1">
+                        <die comment="false" x="37" y="80">
+                            <ACTOR eid="30" id="0"/>
+                        </die>
+                        <create-actor3 comment="false" x="37" y="107">
+                            <actortype eid="112" id="0"/>
+                            <int id="1" val="2289"/>
+                            <int id="2" val="272"/>
+                            <int id="3" val="0"/>
+                        </create-actor3>
+                        <create-actor3 comment="false" x="37" y="134">
+                            <actortype eid="114" id="0"/>
+                            <int id="1" val="2288"/>
+                            <int id="2" val="241"/>
+                            <int id="3" val="0"/>
+                        </create-actor3>
+                    </group>
+                    <collision-bottom comment="false" id="0" x="0" y="0">
+                        <int id="0" val="0"/>
+                        <int id="1" val="1"/>
+                    </collision-bottom>
+                </if>
+            </group>
+            <ACTOR eid="lastcreated" id="0"/>
+            <ACTOR eid="lastcreated" id="1"/>
+        </event-collide-actortoactor>
+    </group>
+    <group eventID="4" id="-1"/>
+    <group eventID="5" id="0">
+        <event-collide-actortoactor comment="false" x="15" y="15">
+            <group eventID="5" id="-1">
+                <if comment="false" x="26" y="47">
+                    <group eventID="5" id="-1">
+                        <die comment="false" x="37" y="80">
+                            <ACTOR eid="31" id="0"/>
+                        </die>
+                        <create-actor3 comment="false" x="37" y="107">
+                            <actortype eid="112" id="0"/>
+                            <int id="1" val="3281"/>
+                            <int id="2" val="144"/>
+                            <int id="3" val="0"/>
+                        </create-actor3>
+                        <create-actor3 comment="false" x="37" y="134">
+                            <actortype eid="114" id="0"/>
+                            <int id="1" val="3280"/>
+                            <int id="2" val="113"/>
+                            <int id="3" val="0"/>
+                        </create-actor3>
+                    </group>
+                    <collision-bottom comment="false" id="0" x="0" y="0">
+                        <int id="0" val="0"/>
+                        <int id="1" val="1"/>
+                    </collision-bottom>
+                </if>
+            </group>
+            <ACTOR eid="lastcreated" id="0"/>
+            <ACTOR eid="lastcreated" id="1"/>
+        </event-collide-actortoactor>
+    </group>
+    <group eventID="5" id="-1"/>
 </groups>
