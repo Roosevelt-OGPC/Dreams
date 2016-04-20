@@ -38,7 +38,7 @@
                 <draw-text comment="false" x="26" y="90">
                     <get-game-val-12 comment="false" id="0" x="0" y="0"/>
                     <int id="1" val="100"/>
-                    <int id="2" val="30"/>
+                    <int id="2" val="60"/>
                 </draw-text>
                 <if comment="false" x="26" y="115">
                     <group eventID="2" id="-1">
