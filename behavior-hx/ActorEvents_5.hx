@@ -68,7 +68,7 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class ActorEvents_95 extends ActorScript
+class ActorEvents_5 extends ActorScript
 {
 	
 	
@@ -81,24 +81,19 @@ class ActorEvents_95 extends ActorScript
 	override public function init()
 	{
 		
-		/* ======================== Actor of Type ========================= */
-		addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void
+		/* ======================== When Updating ========================= */
+		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
 		{
-			if(wrapper.enabled && sameAsAny(getActorType(99), event.otherActor.getType(),event.otherActor.getGroup()))
+			if(wrapper.enabled)
 			{
-				recycleActor(actor);
-				reloadCurrentScene(createFadeOut(2, Utils.getColorRGB(0,0,0)), createFadeIn(2, Utils.getColorRGB(0,0,0)));
-			}
-		});
-		
-		/* ======================== Actor of Type ========================= */
-		addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void
-		{
-			if(wrapper.enabled && sameAsAny(getActorType(124), event.otherActor.getType(),event.otherActor.getGroup()))
-			{
-				recycleActor(actor.getLastCollidedActor());
-				Engine.engine.setGameAttribute("DK Score", 1);
-				Engine.engine.setGameAttribute("score", (Engine.engine.getGameAttribute("score") + 100));
+				if((actor.getScreenX() < 0))
+				{
+					actor.setX(1);
+				}
+				else if((actor.getScreenX() > (getScreenWidth() - (actor.getWidth()))))
+				{
+					actor.setX(((getScreenWidth() - (actor.getWidth())) - 1));
+				}
 			}
 		});
 		
