@@ -93,7 +93,7 @@ class SceneEvents_10 extends SceneScript
 				g.drawString("" + "Score:", 20, 40);
 				g.drawString("" + Engine.engine.getGameAttribute("score"), 90, 40);
 				g.drawString("" + "Lives:", 20, 60);
-				g.drawString("" + _lives4, 80, 60);
+				g.drawString("" + Engine.engine.getGameAttribute("lives4"), 80, 60);
 			}
 		});
 		
@@ -126,13 +126,13 @@ class SceneEvents_10 extends SceneScript
 		});
 		
 		/* ======================== Specific Actor ======================== */
-		addCollisionListener(getLastCreatedActor(), function(event:Collision, list:Array<Dynamic>):Void
+		addCollisionListener(getActor(1), function(event:Collision, list:Array<Dynamic>):Void
 		{
-			if(wrapper.enabled && (getLastCreatedActor() == event.otherActor))
+			if(wrapper.enabled && (getActor(40) == event.otherActor))
 			{
 				if(event.otherFromBottom)
 				{
-					recycleActor(getActor(30));
+					recycleActor(getActor(40));
 					createRecycledActor(getActorType(112), 2289, 272, Script.FRONT);
 					createRecycledActor(getActorType(114), 2288, 241, Script.FRONT);
 				}
@@ -140,15 +140,57 @@ class SceneEvents_10 extends SceneScript
 		});
 		
 		/* ======================== Specific Actor ======================== */
-		addCollisionListener(getLastCreatedActor(), function(event:Collision, list:Array<Dynamic>):Void
+		addCollisionListener(getActor(1), function(event:Collision, list:Array<Dynamic>):Void
 		{
-			if(wrapper.enabled && (getLastCreatedActor() == event.otherActor))
+			if(wrapper.enabled && (getActor(31) == event.otherActor))
 			{
 				if(event.otherFromBottom)
 				{
 					recycleActor(getActor(31));
 					createRecycledActor(getActorType(112), 3281, 144, Script.FRONT);
 					createRecycledActor(getActorType(114), 3280, 113, Script.FRONT);
+				}
+			}
+		});
+		
+		/* ======================== Specific Actor ======================== */
+		addCollisionListener(getActor(1), function(event:Collision, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled && (getActor(39) == event.otherActor))
+			{
+				if(event.thisFromBottom)
+				{
+					recycleActor(getActor(1));
+				}
+			}
+		});
+		
+		/* ======================== Specific Actor ======================== */
+		addActorEntersRegionListener(getRegion(1), function(a:Actor, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled && sameAs(getActor(1), a))
+			{
+				Engine.engine.setGameAttribute("level", (Engine.engine.getGameAttribute("level") + 1));
+				Engine.engine.setGameAttribute("score", (Engine.engine.getGameAttribute("score") + 1000));
+				switchScene(GameModel.get().scenes.get(3).getID(), createFadeOut(2, Utils.getColorRGB(0,0,0)), createFadeIn(2, Utils.getColorRGB(0,0,0)));
+			}
+		});
+		
+		/* ======================== Specific Actor ======================== */
+		addWhenKilledListener(getActor(1), function(list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled)
+			{
+				if((Engine.engine.getGameAttribute("lives4") > 0))
+				{
+					Engine.engine.setGameAttribute("lives4", (Engine.engine.getGameAttribute("lives4") - 1));
+					reloadCurrentScene(createFadeOut(.5, Utils.getColorRGB(0,0,0)), createFadeIn(.5, Utils.getColorRGB(0,0,0)));
+				}
+				else if((Engine.engine.getGameAttribute("lives4") == 0))
+				{
+					Engine.engine.setGameAttribute("lives", (Engine.engine.getGameAttribute("lives") - 1));
+					Engine.engine.setGameAttribute("level", (Engine.engine.getGameAttribute("level") + 1));
+					switchScene(GameModel.get().scenes.get(3).getID(), null, createCrossfadeTransition(1));
 				}
 			}
 		});

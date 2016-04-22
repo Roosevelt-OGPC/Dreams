@@ -39,7 +39,6 @@ import box2D.common.math.B2Vec2;
 import box2D.dynamics.B2Body;
 import box2D.dynamics.B2Fixture;
 import box2D.dynamics.joints.B2Joint;
-import box2D.collision.shapes.B2Shape;
 
 import motion.Actuate;
 import motion.easing.Back;
@@ -69,61 +68,42 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class SceneEvents_21 extends SceneScript
+class ActorEvents_133 extends ActorScript
 {
-	public var _lives4:Float;
 	
 	
-	public function new(dummy:Int, dummy2:Engine)
+	public function new(dummy:Int, actor:Actor, dummy2:Engine)
 	{
-		super();
-		nameMap.set("lives4", "_lives4");
-		_lives4 = 3.0;
+		super(actor);
 		
 	}
 	
 	override public function init()
 	{
 		
-		/* ======================== Specific Actor ======================== */
-		addActorEntersRegionListener(getRegion(0), function(a:Actor, list:Array<Dynamic>):Void
-		{
-			if(wrapper.enabled && sameAs(getActor(1), a))
-			{
-				Engine.engine.setGameAttribute("level", (Engine.engine.getGameAttribute("level") + 1));
-				Engine.engine.setGameAttribute("score", (Engine.engine.getGameAttribute("score") + 1000));
-				switchScene(GameModel.get().scenes.get(3).getID(), createFadeOut(2, Utils.getColorRGB(0,0,0)), createFadeIn(2, Utils.getColorRGB(0,0,0)));
-			}
-		});
-		
-		/* ======================== Specific Actor ======================== */
-		addWhenKilledListener(getActor(1), function(list:Array<Dynamic>):Void
+		/* ======================== When Updating ========================= */
+		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
 		{
 			if(wrapper.enabled)
 			{
-				if((Engine.engine.getGameAttribute("lives4") > 0))
+				if((Engine.engine.getGameAttribute("region 1 activated") == true))
 				{
-					Engine.engine.setGameAttribute("lives4", (Engine.engine.getGameAttribute("lives4") - 1));
-					reloadCurrentScene(createFadeOut(.5, Utils.getColorRGB(0,0,0)), createFadeIn(.5, Utils.getColorRGB(0,0,0)));
+					actor.setAnimation("" + "White Tooth (L)");
+					actor.setXVelocity(0);
 				}
-				else if((Engine.engine.getGameAttribute("lives4") == 0))
+				else
 				{
-					Engine.engine.setGameAttribute("lives", (Engine.engine.getGameAttribute("lives") - 1));
-					Engine.engine.setGameAttribute("level", (Engine.engine.getGameAttribute("level") + 1));
-					switchScene(GameModel.get().scenes.get(3).getID(), null, createCrossfadeTransition(1));
+					if((Engine.engine.getGameAttribute("white button pressed") == true))
+					{
+						actor.setXVelocity(2);
+						actor.setAnimation("" + "White Tooth (L)");
+					}
+					else if((Engine.engine.getGameAttribute("white button pressed") == false))
+					{
+						actor.setXVelocity(-2);
+						actor.setAnimation("" + "White Tooth (R)");
+					}
 				}
-			}
-		});
-		
-		/* ========================= When Drawing ========================= */
-		addWhenDrawingListener(null, function(g:G, x:Float, y:Float, list:Array<Dynamic>):Void
-		{
-			if(wrapper.enabled)
-			{
-				g.drawString("" + "Score:", 20, 40);
-				g.drawString("" + Engine.engine.getGameAttribute("score"), 90, 40);
-				g.drawString("" + "Lives:", 20, 60);
-				g.drawString("" + Engine.engine.getGameAttribute("lives4"), 80, 60);
 			}
 		});
 		

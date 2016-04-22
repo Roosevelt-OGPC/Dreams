@@ -68,25 +68,13 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class Design_32_32_Collision extends ActorScript
+class ActorEvents_95 extends ActorScript
 {
-	public var _Lives:Float;
-	public var _JumpKey:String;
-	
-	/* ========================= Custom Event ========================= */
-	public function _customEvent_stomped():Void
-	{
-		Engine.engine.setGameAttribute("score", (Engine.engine.getGameAttribute("score") + 100));
-	}
 	
 	
 	public function new(dummy:Int, actor:Actor, dummy2:Engine)
 	{
 		super(actor);
-		nameMap.set("Actor", "actor");
-		nameMap.set("Lives", "_Lives");
-		_Lives = 0.0;
-		nameMap.set("Jump Key", "_JumpKey");
 		
 	}
 	
@@ -96,20 +84,18 @@ class Design_32_32_Collision extends ActorScript
 		/* ======================== Actor of Type ========================= */
 		addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void
 		{
-			if(wrapper.enabled && sameAsAny(getActorType(16), event.otherActor.getType(),event.otherActor.getGroup()))
+			if(wrapper.enabled && sameAsAny(getActorType(99), event.otherActor.getType(),event.otherActor.getGroup()))
 			{
-				/* kill player if they collide with an enemy */
-				if(event.otherFromLeft)
+				if((Engine.engine.getGameAttribute("DK lives") > 0))
 				{
 					recycleActor(actor);
+					switchScene(GameModel.get().scenes.get(20).getID(), null, createCrossfadeTransition(.5));
 				}
-				else if(event.otherFromBottom)
+				else if((Engine.engine.getGameAttribute("DK lives") == 0))
 				{
-					recycleActor(actor);
-				}
-				else if(event.otherFromRight)
-				{
-					recycleActor(actor);
+					Engine.engine.setGameAttribute("lives", (Engine.engine.getGameAttribute("lives") - 1));
+					Engine.engine.setGameAttribute("level", (Engine.engine.getGameAttribute("level") + 1));
+					switchScene(GameModel.get().scenes.get(3).getID(), null, createCrossfadeTransition(1));
 				}
 			}
 		});
@@ -117,21 +103,49 @@ class Design_32_32_Collision extends ActorScript
 		/* ======================== Actor of Type ========================= */
 		addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void
 		{
-			if(wrapper.enabled && sameAsAny(getActorType(18), event.otherActor.getType(),event.otherActor.getGroup()))
+			if(wrapper.enabled && sameAsAny(getActorType(133), event.otherActor.getType(),event.otherActor.getGroup()))
 			{
-				/* kill player if they collide with an enemy */
-				if(event.otherFromLeft)
+				if((Engine.engine.getGameAttribute("DK lives") > 0))
 				{
 					recycleActor(actor);
+					switchScene(GameModel.get().scenes.get(20).getID(), null, createCrossfadeTransition(.5));
 				}
-				else if(event.otherFromBottom)
+				else if((Engine.engine.getGameAttribute("DK lives") == 0))
+				{
+					Engine.engine.setGameAttribute("lives", (Engine.engine.getGameAttribute("lives") - 1));
+					Engine.engine.setGameAttribute("level", (Engine.engine.getGameAttribute("level") + 1));
+					switchScene(GameModel.get().scenes.get(3).getID(), null, createCrossfadeTransition(1));
+				}
+			}
+		});
+		
+		/* ======================== Actor of Type ========================= */
+		addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled && sameAsAny(getActorType(135), event.otherActor.getType(),event.otherActor.getGroup()))
+			{
+				if((Engine.engine.getGameAttribute("DK lives") > 0))
 				{
 					recycleActor(actor);
+					switchScene(GameModel.get().scenes.get(20).getID(), null, createCrossfadeTransition(.5));
 				}
-				else if(event.otherFromRight)
+				else if((Engine.engine.getGameAttribute("DK lives") == 0))
 				{
-					recycleActor(actor);
+					Engine.engine.setGameAttribute("lives", (Engine.engine.getGameAttribute("lives") - 1));
+					Engine.engine.setGameAttribute("level", (Engine.engine.getGameAttribute("level") + 1));
+					switchScene(GameModel.get().scenes.get(3).getID(), null, createCrossfadeTransition(1));
 				}
+			}
+		});
+		
+		/* ======================== Actor of Type ========================= */
+		addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled && sameAsAny(getActorType(124), event.otherActor.getType(),event.otherActor.getGroup()))
+			{
+				recycleActor(actor.getLastCollidedActor());
+				Engine.engine.setGameAttribute("DK Score", 1);
+				Engine.engine.setGameAttribute("score", (Engine.engine.getGameAttribute("score") + 100));
 			}
 		});
 		

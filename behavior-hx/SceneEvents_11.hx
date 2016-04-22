@@ -69,16 +69,13 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class SceneEvents_21 extends SceneScript
+class SceneEvents_11 extends SceneScript
 {
-	public var _lives4:Float;
 	
 	
 	public function new(dummy:Int, dummy2:Engine)
 	{
 		super();
-		nameMap.set("lives4", "_lives4");
-		_lives4 = 3.0;
 		
 	}
 	
@@ -88,29 +85,23 @@ class SceneEvents_21 extends SceneScript
 		/* ======================== Specific Actor ======================== */
 		addActorEntersRegionListener(getRegion(0), function(a:Actor, list:Array<Dynamic>):Void
 		{
-			if(wrapper.enabled && sameAs(getActor(1), a))
+			if(wrapper.enabled && sameAs(getActor(3), a))
 			{
-				Engine.engine.setGameAttribute("level", (Engine.engine.getGameAttribute("level") + 1));
-				Engine.engine.setGameAttribute("score", (Engine.engine.getGameAttribute("score") + 1000));
-				switchScene(GameModel.get().scenes.get(3).getID(), createFadeOut(2, Utils.getColorRGB(0,0,0)), createFadeIn(2, Utils.getColorRGB(0,0,0)));
+				Engine.engine.setGameAttribute("region 1 activated", true);
 			}
 		});
 		
 		/* ======================== Specific Actor ======================== */
-		addWhenKilledListener(getActor(1), function(list:Array<Dynamic>):Void
+		addActorEntersRegionListener(getRegion(1), function(a:Actor, list:Array<Dynamic>):Void
 		{
-			if(wrapper.enabled)
+			if(wrapper.enabled && sameAs(getActor(1), a))
 			{
-				if((Engine.engine.getGameAttribute("lives4") > 0))
+				if((Engine.engine.getGameAttribute("DK Score") == 1))
 				{
-					Engine.engine.setGameAttribute("lives4", (Engine.engine.getGameAttribute("lives4") - 1));
-					reloadCurrentScene(createFadeOut(.5, Utils.getColorRGB(0,0,0)), createFadeIn(.5, Utils.getColorRGB(0,0,0)));
-				}
-				else if((Engine.engine.getGameAttribute("lives4") == 0))
-				{
-					Engine.engine.setGameAttribute("lives", (Engine.engine.getGameAttribute("lives") - 1));
+					recycleActor(getActor(1));
 					Engine.engine.setGameAttribute("level", (Engine.engine.getGameAttribute("level") + 1));
-					switchScene(GameModel.get().scenes.get(3).getID(), null, createCrossfadeTransition(1));
+					Engine.engine.setGameAttribute("score", (Engine.engine.getGameAttribute("score") + 1000));
+					switchScene(GameModel.get().scenes.get(3).getID(), createFadeOut(2, Utils.getColorRGB(0,0,0)), createFadeIn(2, Utils.getColorRGB(0,0,0)));
 				}
 			}
 		});
@@ -120,10 +111,7 @@ class SceneEvents_21 extends SceneScript
 		{
 			if(wrapper.enabled)
 			{
-				g.drawString("" + "Score:", 20, 40);
-				g.drawString("" + Engine.engine.getGameAttribute("score"), 90, 40);
-				g.drawString("" + "Lives:", 20, 60);
-				g.drawString("" + Engine.engine.getGameAttribute("lives4"), 80, 60);
+				g.drawString("" + Engine.engine.getGameAttribute("score"), 10, 15);
 			}
 		});
 		
