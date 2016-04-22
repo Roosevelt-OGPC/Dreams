@@ -81,6 +81,32 @@ class ActorEvents_133 extends ActorScript
 	override public function init()
 	{
 		
+		/* ======================== When Updating ========================= */
+		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled)
+			{
+				if((Engine.engine.getGameAttribute("region 2 activated") == true))
+				{
+					actor.setAnimation("" + "White Tooth (L)");
+					actor.setXVelocity(0);
+				}
+				else
+				{
+					if((Engine.engine.getGameAttribute("white button pressed") == true))
+					{
+						actor.setXVelocity(2);
+						actor.setAnimation("" + "White Tooth (L)");
+					}
+					else if((Engine.engine.getGameAttribute("white button pressed") == false))
+					{
+						actor.setXVelocity(-2);
+						actor.setAnimation("" + "White Tooth (R)");
+					}
+				}
+			}
+		});
+		
 	}
 	
 	override public function forwardMessage(msg:String)

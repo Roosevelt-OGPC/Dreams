@@ -39,6 +39,7 @@ import box2D.common.math.B2Vec2;
 import box2D.dynamics.B2Body;
 import box2D.dynamics.B2Fixture;
 import box2D.dynamics.joints.B2Joint;
+import box2D.collision.shapes.B2Shape;
 
 import motion.Actuate;
 import motion.easing.Back;
@@ -68,42 +69,58 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class ActorEvents_135 extends ActorScript
+class SceneEvents_22 extends SceneScript
 {
 	
 	
-	public function new(dummy:Int, actor:Actor, dummy2:Engine)
+	public function new(dummy:Int, dummy2:Engine)
 	{
-		super(actor);
+		super();
 		
 	}
 	
 	override public function init()
 	{
 		
-		/* ======================== When Updating ========================= */
-		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
+		/* ======================== Specific Actor ======================== */
+		addActorEntersRegionListener(getRegion(0), function(a:Actor, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled && sameAs(getActor(5), a))
+			{
+				Engine.engine.setGameAttribute("region 1 activated", true);
+			}
+		});
+		
+		/* ======================== Specific Actor ======================== */
+		addActorEntersRegionListener(getRegion(2), function(a:Actor, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled && sameAs(getActor(1), a))
+			{
+				if((Engine.engine.getGameAttribute("DK Score") == 1))
+				{
+					recycleActor(getActor(1));
+					Engine.engine.setGameAttribute("level", (Engine.engine.getGameAttribute("level") + 1));
+					Engine.engine.setGameAttribute("score", (Engine.engine.getGameAttribute("score") + 1000));
+					switchScene(GameModel.get().scenes.get(3).getID(), createFadeOut(2, Utils.getColorRGB(0,0,0)), createFadeIn(2, Utils.getColorRGB(0,0,0)));
+				}
+			}
+		});
+		
+		/* ========================= When Drawing ========================= */
+		addWhenDrawingListener(null, function(g:G, x:Float, y:Float, list:Array<Dynamic>):Void
 		{
 			if(wrapper.enabled)
 			{
-				if((Engine.engine.getGameAttribute("region 1 activated") == true))
-				{
-					actor.setAnimation("" + "Blue Tooth (R)");
-					actor.setXVelocity(0);
-				}
-				else
-				{
-					if((Engine.engine.getGameAttribute("Blue Button Pressed") == true))
-					{
-						actor.setXVelocity(-2);
-						actor.setAnimation("" + "Blue Tooth (L)");
-					}
-					else if((Engine.engine.getGameAttribute("Blue Button Pressed") == false))
-					{
-						actor.setXVelocity(2);
-						actor.setAnimation("" + "Blue Tooth (R)");
-					}
-				}
+				g.drawString("" + Engine.engine.getGameAttribute("score"), 15, 15);
+			}
+		});
+		
+		/* ======================== Specific Actor ======================== */
+		addActorEntersRegionListener(getRegion(1), function(a:Actor, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled && sameAs(getActor(3), a))
+			{
+				Engine.engine.setGameAttribute("region 2 activated", true);
 			}
 		});
 		

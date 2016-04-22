@@ -1,27 +1,36 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <scene depth="2" desc="" eventsnippetid="93" extheight="544" extwidth="704" extx="-32" exty="-32" format="3.4.0" gravx="-0.0" gravy="0.0" height="480" id="20" name="DK 2" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="640">
     <layers>
-        <grad-bg b1="0" b2="153" g1="51" g2="204" r1="153" r2="255"/>
+        <grad-bg b1="255" b2="51" g1="153" g2="51" r1="204" r2="51"/>
         <layer blendMode="normal" color="0,255,0" id="1" locked="false" name="FLOOR" opacity="100" order="1" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
         <layer blendMode="normal" color="64,64,64" id="2" locked="false" name="ACTORS" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
     </layers>
     <joints/>
-    <regions/>
+    <regions>
+        <region b="64" g="64" h="62" id="0" name="Region 1" pts="4,5.0,0.0,5.0,62.0,0.0,62.0,0.0,0.0" r="64" type="box" w="5" x="622" y="97"/>
+        <region b="64" g="64" h="62" id="1" name="Region 2" pts="4,5.0,0.0,5.0,62.0,0.0,62.0,0.0,0.0" r="64" type="box" w="5" x="10" y="288"/>
+        <region b="64" g="64" h="65" id="2" name="Region 3" pts="4,31.0,0.0,31.0,65.0,0.0,65.0,0.0,0.0" r="64" type="box" w="31" x="352" y="382"/>
+    </regions>
     <terrainRegions/>
     <actors>
-        <actor a="0.0" aid="1" c="false" group="3" id="95" name="DK Player 1" sx="1.0" sy="1.0" x="544" y="384" z="2"/>
+        <actor a="0.0" aid="1" c="false" group="3" id="95" name="DK Player 1" sx="1.0" sy="1.0" x="489" y="384" z="2"/>
+        <actor a="0.0" aid="2" c="false" group="3" id="124" name="Key DK 2" sx="1.0" sy="1.0" x="3" y="12" z="2"/>
+        <actor a="0.0" aid="3" c="false" group="3" id="135" name="Blue Tooth DK 3" sx="1.0" sy="1.0" x="219" y="289" z="2"/>
+        <actor a="0.0" aid="5" c="false" group="3" id="133" name="White Tooth DK 5" sx="1.0" sy="1.0" x="313" y="98" z="2"/>
+        <actor a="0.0" aid="6" c="false" group="3" id="137" name="Blue Button 6" sx="1.0" sy="1.0" x="554" y="404" z="1"/>
+        <actor a="0.0" aid="7" c="false" group="3" id="139" name="White Button 7" sx="1.0" sy="1.0" x="1" y="404" z="2"/>
     </actors>
     <snippets/>
     <terrain>
-        <p pts="4,0.0,32.0,0.0,0.0,96.0,0.0,96.0,32.0" x="0.0" y="352.0"/>
-        <p pts="4,640.0,0.0,640.0,32.0,0.0,32.0,0.0,0.0" x="0.0" y="448.0"/>
-        <p pts="4,480.0,0.0,480.0,32.0,0.0,32.0,0.0,0.0" x="160.0" y="352.0"/>
-        <p pts="4,0.0,32.0,0.0,0.0,96.0,0.0,96.0,32.0" x="544.0" y="256.0"/>
-        <p pts="4,0.0,32.0,0.0,0.0,96.0,0.0,96.0,32.0" x="544.0" y="64.0"/>
-        <p pts="4,480.0,0.0,480.0,32.0,0.0,32.0,0.0,0.0" x="0.0" y="64.0"/>
         <p pts="4,480.0,0.0,480.0,32.0,0.0,32.0,0.0,0.0" x="0.0" y="256.0"/>
         <p pts="4,0.0,32.0,0.0,0.0,96.0,0.0,96.0,32.0" x="0.0" y="160.0"/>
+        <p pts="4,0.0,32.0,0.0,0.0,96.0,0.0,96.0,32.0" x="544.0" y="256.0"/>
+        <p pts="4,640.0,0.0,640.0,32.0,0.0,32.0,0.0,0.0" x="0.0" y="448.0"/>
+        <p pts="4,0.0,32.0,0.0,0.0,96.0,0.0,96.0,32.0" x="0.0" y="352.0"/>
+        <p pts="4,480.0,0.0,480.0,32.0,0.0,32.0,0.0,0.0" x="160.0" y="352.0"/>
+        <p pts="4,0.0,32.0,0.0,0.0,96.0,0.0,96.0,32.0" x="544.0" y="64.0"/>
         <p pts="4,0.0,32.0,0.0,0.0,480.0,0.0,480.0,32.0" x="160.0" y="160.0"/>
+        <p pts="4,480.0,0.0,480.0,32.0,0.0,32.0,0.0,0.0" x="0.0" y="64.0"/>
     </terrain>
     <atlases members="" retainAtlases="true"/>
 </scene>

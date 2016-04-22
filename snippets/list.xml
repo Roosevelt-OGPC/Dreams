@@ -662,7 +662,9 @@
     </snippet>
     <snippet attachedevent="true" class="scripts.ActorEvents_133" classname="scripts.ActorEvents_133" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="96" name="ActorEvents_133" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
         <blocks/>
-        <events/>
+        <events>
+            <event displayName="Updated" enabled="true" id="1" name="step" order="1" repeats="true"/>
+        </events>
     </snippet>
     <snippet attachedevent="true" class="scripts.ActorEvents_135" classname="scripts.ActorEvents_135" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="97" name="ActorEvents_135" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
         <blocks/>
@@ -671,6 +673,10 @@
         </events>
     </snippet>
     <snippet attachedevent="true" class="scripts.ActorEvents_137" classname="scripts.ActorEvents_137" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="98" name="ActorEvents_137" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.SceneEvents_22" classname="scripts.SceneEvents_22" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="99" name="SceneEvents_22" oid="-1" package="scripts." sceneid="22" scenespecific="true" shared="false" type="scene">
         <blocks/>
         <events/>
     </snippet>
