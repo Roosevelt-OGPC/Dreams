@@ -150,6 +150,7 @@
         <boolean cid="-1" id="4" name="right" save="true" value="false"/>
         <number cid="-1" id="16" name="birdManLives" save="true" value="3.0"/>
         <boolean cid="-1" id="9" name="region 1 activated" save="true" value="false"/>
+        <number cid="-1" id="20" name="DK lives" save="true" value="3.0"/>
         <boolean cid="-1" id="17" name="Blue Button Pressed" save="true" value="false"/>
         <number cid="-1" id="12" name="score" save="true" value="0.0"/>
         <boolean cid="-1" id="8" name="Pink Button Pressed" save="true" value="false"/>

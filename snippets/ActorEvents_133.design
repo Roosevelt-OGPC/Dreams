@@ -16,7 +16,7 @@
                         </set-dxy>
                     </group>
                     <eq comment="false" id="0" x="0" y="0">
-                        <get-game-val-19 comment="false" id="0" x="0" y="0"/>
+                        <get-game-val-9 comment="false" id="0" x="0" y="0"/>
                         <true comment="false" id="1" x="0" y="0"/>
                     </eq>
                 </if>

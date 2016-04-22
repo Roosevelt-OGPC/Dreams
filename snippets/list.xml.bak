@@ -539,8 +539,10 @@
     <snippet attachedevent="true" class="scripts.ActorEvents_95" classname="scripts.ActorEvents_95" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="77" name="ActorEvents_95" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
         <blocks/>
         <events>
-            <event displayName="Actor - Type" enabled="true" id="1" name="event-collide-actortotype" order="1" repeats="true"/>
-            <event displayName="Actor - Type" enabled="true" id="2" name="event-collide-actortotype" order="2" repeats="false"/>
+            <event displayName="Actor - Type" enabled="true" id="1" name="event-collide-actortotype" order="1" repeats="false"/>
+            <event displayName="Actor - Type" enabled="true" id="2" name="event-collide-actortotype" order="4" repeats="false"/>
+            <event displayName="Actor - Type" enabled="true" id="3" name="event-collide-actortotype" order="2" repeats="false"/>
+            <event displayName="Actor - Type" enabled="true" id="4" name="event-collide-actortotype" order="3" repeats="true"/>
         </events>
     </snippet>
     <snippet attachedevent="true" class="scripts.ActorEvents_97" classname="scripts.ActorEvents_97" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="78" name="ActorEvents_97" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
@@ -644,7 +646,12 @@
     </snippet>
     <snippet attachedevent="true" class="scripts.SceneEvents_20" classname="scripts.SceneEvents_20" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="93" name="SceneEvents_20" oid="-1" package="scripts." sceneid="20" scenespecific="true" shared="false" type="scene">
         <blocks/>
-        <events/>
+        <events>
+            <event displayName="Enters Region" enabled="true" id="1" name="event-actor-region" order="1" repeats="true"/>
+            <event displayName="Enters Region" enabled="true" id="2" name="event-actor-region" order="2" repeats="true"/>
+            <event displayName="Enters Region" enabled="true" id="3" name="event-actor-region" order="3" repeats="true"/>
+            <event displayName="Drawing" enabled="true" id="4" name="draw" order="4" repeats="true"/>
+        </events>
     </snippet>
     <snippet attachedevent="true" class="scripts.SceneEvents_21" classname="scripts.SceneEvents_21" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="94" name="SceneEvents_21" oid="-1" package="scripts." sceneid="21" scenespecific="true" shared="false" type="scene">
         <blocks/>
@@ -674,10 +681,14 @@
     </snippet>
     <snippet attachedevent="true" class="scripts.ActorEvents_137" classname="scripts.ActorEvents_137" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="98" name="ActorEvents_137" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
         <blocks/>
-        <events/>
+        <events>
+            <event displayName="Actor - Any" enabled="true" id="1" name="collide" order="1" repeats="true"/>
+        </events>
     </snippet>
-    <snippet attachedevent="true" class="scripts.SceneEvents_22" classname="scripts.SceneEvents_22" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="99" name="SceneEvents_22" oid="-1" package="scripts." sceneid="22" scenespecific="true" shared="false" type="scene">
+    <snippet attachedevent="true" class="scripts.ActorEvents_139" classname="scripts.ActorEvents_139" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="99" name="ActorEvents_139" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
         <blocks/>
-        <events/>
+        <events>
+            <event displayName="Actor - Any" enabled="true" id="1" name="collide" order="1" repeats="true"/>
+        </events>
     </snippet>
 </pack>
