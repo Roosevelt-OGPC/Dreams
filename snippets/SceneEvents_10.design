@@ -225,7 +225,7 @@
             <ACTOR eid="39" id="1"/>
         </event-collide-actortoactor>
     </group>
-    <group eventID="7" id="5">
+    <group eventID="7" id="1">
         <if comment="false" x="76" y="229">
             <group eventID="7" id="-1">
                 <scene-reload-color comment="false" x="87" y="259">

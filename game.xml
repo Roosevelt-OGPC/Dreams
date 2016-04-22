@@ -143,7 +143,7 @@
         <list cid="-1" id="7" name="Required Notes" save="true" val="list"/>
         <number cid="-1" id="11" name="lives" save="true" value="3.0"/>
         <number cid="-1" id="10" name="level" save="true" value="0.0"/>
-        <number cid="-1" id="13" name="lives4" save="true" value="3"/>
+        <number cid="-1" id="13" name="lives4" save="true" value="3.0"/>
         <number cid="-1" id="14" name="DK Score" save="true" value="0.0"/>
         <boolean cid="-1" id="19" name="region 2 activated" save="true" value="false"/>
         <number cid="-1" id="2" name="Score4" save="true" value="0.0"/>
