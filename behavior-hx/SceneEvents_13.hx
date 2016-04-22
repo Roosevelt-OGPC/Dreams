@@ -82,6 +82,20 @@ class SceneEvents_13 extends SceneScript
 	override public function init()
 	{
 		
+		/* ======================== When Updating ========================= */
+		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled)
+			{
+				if((Engine.engine.getGameAttribute("Pacman Score") == 27))
+				{
+					Engine.engine.setGameAttribute("level", (Engine.engine.getGameAttribute("level") + 1));
+					Engine.engine.setGameAttribute("score", (Engine.engine.getGameAttribute("score") + 1000));
+					switchScene(GameModel.get().scenes.get(3).getID(), createFadeOut(2, Utils.getColorRGB(0,0,0)), createFadeIn(2, Utils.getColorRGB(0,0,0)));
+				}
+			}
+		});
+		
 	}
 	
 	override public function forwardMessage(msg:String)

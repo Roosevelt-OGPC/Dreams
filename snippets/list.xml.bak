@@ -369,13 +369,16 @@
     </snippet>
     <snippet attachedevent="true" class="scripts.SceneEvents_13" classname="scripts.SceneEvents_13" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="57" name="SceneEvents_13" oid="-1" package="scripts." sceneid="13" scenespecific="true" shared="false" type="scene">
         <blocks/>
-        <events/>
+        <events>
+            <event displayName="Updated" enabled="true" id="1" name="step" order="1" repeats="true"/>
+        </events>
     </snippet>
     <snippet attachedevent="true" class="scripts.ActorEvents_59" classname="scripts.ActorEvents_59" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="58" name="ActorEvents_59" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
         <blocks/>
         <events>
             <event displayName="Updated" enabled="true" id="1" name="step" order="1" repeats="true"/>
             <event displayName=" Actor - Group" enabled="true" id="2" name="event-collide-actortogroup" order="2" repeats="true"/>
+            <event displayName="Actor - Type" enabled="true" id="3" name="event-collide-actortotype" order="3" repeats="true"/>
         </events>
     </snippet>
     <snippet attachedevent="true" class="scripts.SceneEvents_17" classname="scripts.SceneEvents_17" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="59" name="SceneEvents_17" oid="-1" package="scripts." sceneid="17" scenespecific="true" shared="false" type="scene">
@@ -514,7 +517,12 @@
     </snippet>
     <snippet attachedevent="true" class="scripts.SceneEvents_18" classname="scripts.SceneEvents_18" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="76" name="SceneEvents_18" oid="-1" package="scripts." sceneid="18" scenespecific="true" shared="false" type="scene">
         <blocks/>
-        <events/>
+        <events>
+            <event displayName="Enters Region" enabled="true" id="1" name="event-actor-region" order="1" repeats="true"/>
+            <event displayName="Enters Region" enabled="true" id="2" name="event-actor-region" order="4" repeats="true"/>
+            <event displayName="Enters Region" enabled="true" id="3" name="event-actor-region" order="5" repeats="true"/>
+            <event displayName="Drawing" enabled="true" id="4" name="draw" order="2" repeats="true"/>
+        </events>
     </snippet>
     <snippet attachedevent="true" class="scripts.ActorEvents_95" classname="scripts.ActorEvents_95" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="77" name="ActorEvents_95" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
         <blocks/>

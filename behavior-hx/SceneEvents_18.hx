@@ -82,6 +82,109 @@ class SceneEvents_18 extends SceneScript
 	override public function init()
 	{
 		
+		/* ======================== Specific Actor ======================== */
+		addActorEntersRegionListener(getRegion(0), function(a:Actor, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled && sameAs(getActor(67), a))
+			{
+				if((Engine.engine.getGameAttribute("Pacman Score") <= 33))
+				{
+					if((Engine.engine.getGameAttribute("Pacman Lives") > 0))
+					{
+						recycleActor(getActor(67));
+						Engine.engine.setGameAttribute("Pacman Lives", (Engine.engine.getGameAttribute("Pacman Lives") - 1));
+						Engine.engine.setGameAttribute("Pacman Score", 0);
+						switchScene(GameModel.get().scenes.get(18).getID(), null, createCrossfadeTransition(.5));
+					}
+					else if((Engine.engine.getGameAttribute("Pacman Lives") == 0))
+					{
+						Engine.engine.setGameAttribute("lives", (Engine.engine.getGameAttribute("lives") - 1));
+						Engine.engine.setGameAttribute("level", (Engine.engine.getGameAttribute("level") + 1));
+						switchScene(GameModel.get().scenes.get(3).getID(), null, createCrossfadeTransition(1));
+					}
+				}
+				else if((Engine.engine.getGameAttribute("Pacman Score") > 33))
+				{
+					recycleActor(getActor(67));
+					Engine.engine.setGameAttribute("level", (Engine.engine.getGameAttribute("level") + 1));
+					Engine.engine.setGameAttribute("score", (Engine.engine.getGameAttribute("score") + 1000));
+					switchScene(GameModel.get().scenes.get(3).getID(), createFadeOut(2, Utils.getColorRGB(0,0,0)), createFadeIn(2, Utils.getColorRGB(0,0,0)));
+				}
+			}
+		});
+		
+		/* ========================= When Drawing ========================= */
+		addWhenDrawingListener(null, function(g:G, x:Float, y:Float, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled)
+			{
+				g.setFont(getFont(142));
+				g.drawString("" + Engine.engine.getGameAttribute("Pacman Lives"), 20, 20);
+				g.drawString("" + Engine.engine.getGameAttribute("Pacman Score"), 20, 40);
+				g.drawString("" + Engine.engine.getGameAttribute("score"), 20, 60);
+			}
+		});
+		
+		/* ======================== Specific Actor ======================== */
+		addActorEntersRegionListener(getRegion(1), function(a:Actor, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled && sameAs(getActor(67), a))
+			{
+				if((Engine.engine.getGameAttribute("Pacman Score") <= 33))
+				{
+					if((Engine.engine.getGameAttribute("Pacman Lives") > 0))
+					{
+						recycleActor(getActor(67));
+						Engine.engine.setGameAttribute("Pacman Lives", (Engine.engine.getGameAttribute("Pacman Lives") - 1));
+						Engine.engine.setGameAttribute("Pacman Score", 0);
+						switchScene(GameModel.get().scenes.get(18).getID(), null, createCrossfadeTransition(.5));
+					}
+					else if((Engine.engine.getGameAttribute("Pacman Lives") == 0))
+					{
+						Engine.engine.setGameAttribute("lives", (Engine.engine.getGameAttribute("lives") - 1));
+						Engine.engine.setGameAttribute("level", (Engine.engine.getGameAttribute("level") + 1));
+						switchScene(GameModel.get().scenes.get(3).getID(), null, createCrossfadeTransition(1));
+					}
+				}
+				else if((Engine.engine.getGameAttribute("Pacman Score") > 33))
+				{
+					Engine.engine.setGameAttribute("level", (Engine.engine.getGameAttribute("level") + 1));
+					Engine.engine.setGameAttribute("score", (Engine.engine.getGameAttribute("score") + 1000));
+					switchScene(GameModel.get().scenes.get(3).getID(), createFadeOut(2, Utils.getColorRGB(0,0,0)), createFadeIn(2, Utils.getColorRGB(0,0,0)));
+				}
+			}
+		});
+		
+		/* ======================== Specific Actor ======================== */
+		addActorEntersRegionListener(getRegion(2), function(a:Actor, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled && sameAs(getActor(67), a))
+			{
+				if((Engine.engine.getGameAttribute("Pacman Score") <= 33))
+				{
+					if((Engine.engine.getGameAttribute("Pacman Lives") > 0))
+					{
+						recycleActor(getActor(67));
+						Engine.engine.setGameAttribute("Pacman Lives", (Engine.engine.getGameAttribute("Pacman Lives") - 1));
+						Engine.engine.setGameAttribute("Pacman Score", 0);
+						switchScene(GameModel.get().scenes.get(18).getID(), null, createCrossfadeTransition(.5));
+					}
+					else if((Engine.engine.getGameAttribute("Pacman Lives") == 0))
+					{
+						Engine.engine.setGameAttribute("lives", (Engine.engine.getGameAttribute("lives") - 1));
+						Engine.engine.setGameAttribute("level", (Engine.engine.getGameAttribute("level") + 1));
+						switchScene(GameModel.get().scenes.get(3).getID(), null, createCrossfadeTransition(1));
+					}
+				}
+				else if((Engine.engine.getGameAttribute("Pacman Score") > 33))
+				{
+					Engine.engine.setGameAttribute("level", (Engine.engine.getGameAttribute("level") + 1));
+					Engine.engine.setGameAttribute("score", (Engine.engine.getGameAttribute("score") + 1000));
+					switchScene(GameModel.get().scenes.get(3).getID(), createFadeOut(2, Utils.getColorRGB(0,0,0)), createFadeIn(2, Utils.getColorRGB(0,0,0)));
+				}
+			}
+		});
+		
 	}
 	
 	override public function forwardMessage(msg:String)

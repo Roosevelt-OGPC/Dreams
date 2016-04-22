@@ -102,7 +102,28 @@ class ActorEvents_59 extends ActorScript
 		{
 			if(wrapper.enabled && sameAsAny(getActorGroup(6),event.otherActor.getType(),event.otherActor.getGroup()))
 			{
-				recycleActor(actor);
+				if((Engine.engine.getGameAttribute("Pacman Lives") > 0))
+				{
+					recycleActor(actor);
+					Engine.engine.setGameAttribute("Pacman Lives", (Engine.engine.getGameAttribute("Pacman Lives") - 1));
+					switchScene(GameModel.get().scenes.get(13).getID(), null, createCrossfadeTransition(.5));
+				}
+				else if((Engine.engine.getGameAttribute("Pacman Lives") == 0))
+				{
+					Engine.engine.setGameAttribute("lives", (Engine.engine.getGameAttribute("lives") - 1));
+					Engine.engine.setGameAttribute("level", (Engine.engine.getGameAttribute("level") + 1));
+					switchScene(GameModel.get().scenes.get(3).getID(), null, createCrossfadeTransition(1));
+				}
+			}
+		});
+		
+		/* ======================== Actor of Type ========================= */
+		addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled && sameAsAny(getActorType(114), event.otherActor.getType(),event.otherActor.getGroup()))
+			{
+				recycleActor(actor.getLastCollidedActor());
+				Engine.engine.setGameAttribute("Pacman Score", (Engine.engine.getGameAttribute("Pacman Score") + 1));
 			}
 		});
 		
