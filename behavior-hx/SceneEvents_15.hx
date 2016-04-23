@@ -69,29 +69,79 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class SceneEvents_13 extends SceneScript
+class SceneEvents_15 extends SceneScript
 {
+	public var _font:Float;
+	public var _win:Float;
+	public var _freeze:Float;
 	
 	
 	public function new(dummy:Int, dummy2:Engine)
 	{
 		super();
+		nameMap.set("font", "_font");
+		_font = 0.0;
+		nameMap.set("win", "_win");
+		_win = 0.0;
+		nameMap.set("freeze", "_freeze");
+		_freeze = 0.0;
 		
 	}
 	
 	override public function init()
 	{
 		
+		/* ======================== When Creating ========================= */
+		Engine.engine.setGameAttribute("balllife", 3);
+		_win = asNumber(0);
+		propertyChanged("_win", _win);
+		_font = asNumber(0);
+		propertyChanged("_font", _font);
+		_freeze = asNumber(3);
+		propertyChanged("_freeze", _freeze);
+		getActor(1).setIgnoreGravity(!false);
+		
 		/* ======================== When Updating ========================= */
 		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
 		{
 			if(wrapper.enabled)
 			{
-				if((Engine.engine.getGameAttribute("Pacman Score") == 27))
+				getActor(1).makeAlwaysSimulate();
+				if(isKeyPressed("Spacebar"))
 				{
+					getActor(1).setIgnoreGravity(!true);
+					_font = asNumber(1);
+					propertyChanged("_font", _font);
+				}
+				if((isKeyPressed("f") && (_freeze > 0)))
+				{
+					_freeze = asNumber((_freeze - 1));
+					propertyChanged("_freeze", _freeze);
+					getActor(1).setIgnoreGravity(!false);
+					getActor(1).setVelocity(0, 0);
+				}
+				if(isKeyPressed("j"))
+				{
+					getLastCreatedActor().setVelocity(-90, 55);
+				}
+			}
+		});
+		
+		/* ======================== Specific Actor ======================== */
+		addWhenKilledListener(getActor(1), function(list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled)
+			{
+				if((Engine.engine.getGameAttribute("balllife") > 0))
+				{
+					Engine.engine.setGameAttribute("balllife", (Engine.engine.getGameAttribute("balllife") - 1));
+					switchScene(GameModel.get().scenes.get(15).getID(), null, createCrossfadeTransition(.5));
+				}
+				else if((Engine.engine.getGameAttribute("balllife") == 0))
+				{
+					Engine.engine.setGameAttribute("lives", (Engine.engine.getGameAttribute("lives") - 1));
 					Engine.engine.setGameAttribute("level", (Engine.engine.getGameAttribute("level") + 1));
-					Engine.engine.setGameAttribute("score", (Engine.engine.getGameAttribute("score") + 1000));
-					switchScene(GameModel.get().scenes.get(3).getID(), createFadeOut(2, Utils.getColorRGB(0,0,0)), createFadeIn(2, Utils.getColorRGB(0,0,0)));
+					switchScene(GameModel.get().scenes.get(3).getID(), null, createCrossfadeTransition(1));
 				}
 			}
 		});
