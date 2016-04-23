@@ -623,14 +623,15 @@
         <number default="3.0" defaultValue="3.0" desc="" dropdown="" fullname="lives4" hidden="false" id="1" name="_lives4" order="0"/>
         <blocks/>
         <events>
-            <event displayName="Enters Region" enabled="true" id="1" name="event-actor-region" order="7" repeats="true"/>
-            <event displayName="Actor Created" enabled="true" id="2" name="event-actor-create-kill" order="8" repeats="true"/>
+            <event displayName="Enters Region" enabled="true" id="1" name="event-actor-region" order="8" repeats="true"/>
+            <event displayName="Actor Created" enabled="true" id="2" name="event-actor-create-kill" order="9" repeats="true"/>
             <event displayName="Drawing" enabled="true" id="3" name="draw" order="2" repeats="true"/>
             <event displayName="Actor - Actor" enabled="true" id="4" name="event-collide-actortoactor" order="3" repeats="true"/>
             <event displayName="Actor - Actor" enabled="true" id="5" name="event-collide-actortoactor" order="4" repeats="false"/>
             <event displayName="Actor - Actor" enabled="true" id="6" name="event-collide-actortoactor" order="5" repeats="true"/>
             <event displayName="Actor - Actor" enabled="true" id="7" name="event-collide-actortoactor" order="6" repeats="true"/>
             <event displayName="Created" enabled="true" id="8" name="init" order="1" repeats="true"/>
+            <event displayName="Actor - Actor" enabled="true" id="9" name="event-collide-actortoactor" order="7" repeats="true"/>
         </events>
     </snippet>
     <snippet attachedevent="false" class="scripts.Design_95_95_stompable" classname="scripts.Design_95_95_stompable" desc="" description="" design="true" drawOrder="0" id="95" name="stompable" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
@@ -682,6 +683,20 @@
         <blocks/>
         <events>
             <event displayName="Updated" enabled="false" id="1" name="step" order="1" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.SceneEvents_22" classname="scripts.SceneEvents_22" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="102" name="SceneEvents_22" oid="-1" package="scripts." sceneid="22" scenespecific="true" shared="false" type="scene">
+        <blocks/>
+        <events>
+            <event displayName="Created" enabled="true" id="1" name="init" order="1" repeats="true"/>
+            <event displayName="Drawing" enabled="true" id="2" name="draw" order="2" repeats="true"/>
+            <event displayName="Actor - Actor" enabled="true" id="3" name="event-collide-actortoactor" order="3" repeats="true"/>
+            <event displayName="Actor - Actor" enabled="true" id="4" name="event-collide-actortoactor" order="4" repeats="true"/>
+            <event displayName="Actor - Actor" enabled="true" id="5" name="event-collide-actortoactor" order="5" repeats="true"/>
+            <event displayName="Actor - Actor" enabled="true" id="6" name="event-collide-actortoactor" order="6" repeats="true"/>
+            <event displayName="Actor - Actor" enabled="true" id="7" name="event-collide-actortoactor" order="7" repeats="true"/>
+            <event displayName="Enters Region" enabled="true" id="8" name="event-actor-region" order="8" repeats="true"/>
+            <event displayName="Actor Created" enabled="true" id="9" name="event-actor-create-kill" order="9" repeats="true"/>
         </events>
     </snippet>
 </pack>

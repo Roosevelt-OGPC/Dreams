@@ -162,7 +162,7 @@
         <number cid="-1" id="11" name="lives" save="true" value="3.0"/>
         <boolean cid="-1" id="24" name="ERight" save="true" value="false"/>
         <number cid="-1" id="10" name="level" save="true" value="0.0"/>
-        <number cid="-1" id="25" name="Espeed" save="true" value="0"/>
+        <number cid="-1" id="25" name="Espeed" save="true" value="0.0"/>
         <boolean cid="-1" id="19" name="region 2 activated" save="true" value="false"/>
         <number cid="-1" id="21" name="Pacman Score" save="true" value="0.0"/>
         <boolean cid="-1" id="4" name="right" save="true" value="false"/>
