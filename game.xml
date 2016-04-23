@@ -58,32 +58,32 @@
             <r id="143"/>
             <r id="112"/>
             <r id="16"/>
+            <r id="145"/>
             <r id="114"/>
             <r id="18"/>
             <r id="116"/>
             <r id="120"/>
             <r id="25"/>
             <r id="122"/>
-            <r id="27"/>
         </group>
         <group desc="" id="1" name="donkey kong" type="actor">
-            <r id="49"/>
             <r id="97"/>
             <r id="99"/>
-            <r id="21"/>
             <r id="133"/>
             <r id="135"/>
             <r id="137"/>
             <r id="139"/>
             <r id="124"/>
-            <r id="45"/>
-            <r id="47"/>
             <r id="95"/>
         </group>
         <group desc="" id="2" name="pong" type="actor">
+            <r id="49"/>
+            <r id="21"/>
             <r id="107"/>
             <r id="109"/>
+            <r id="45"/>
             <r id="31"/>
+            <r id="47"/>
         </group>
         <group desc="" id="3" name="Piano" type="actor">
             <r id="64"/>
@@ -147,28 +147,31 @@
     </attcats>
     <props/>
     <attributes>
+        <number cid="-1" id="13" name="lives4" save="true" value="3.0"/>
+        <number cid="-1" id="14" name="DK Score" save="true" value="0.0"/>
+        <number cid="-1" id="2" name="Score4" save="true" value="0.0"/>
+        <boolean cid="-1" id="9" name="region 1 activated" save="true" value="false"/>
+        <number cid="-1" id="12" name="score" save="true" value="0.0"/>
+        <boolean cid="-1" id="18" name="white button pressed" save="true" value="false"/>
+        <boolean cid="-1" id="23" name="ELeft" save="true" value="false"/>
+        <number cid="-1" id="15" name="piano lives" save="true" value="0.0"/>
+        <number cid="-1" id="22" name="Pacman Lives" save="true" value="3.0"/>
         <list cid="-1" id="6" name="Player Notes" save="true" val="list"/>
         <number cid="-1" id="5" name="Y of ball" save="true" value="0.0"/>
         <list cid="-1" id="7" name="Required Notes" save="true" val="list"/>
         <number cid="-1" id="11" name="lives" save="true" value="3.0"/>
+        <boolean cid="-1" id="24" name="ERight" save="true" value="false"/>
         <number cid="-1" id="10" name="level" save="true" value="0.0"/>
-        <number cid="-1" id="13" name="lives4" save="true" value="3.0"/>
-        <number cid="-1" id="14" name="DK Score" save="true" value="0.0"/>
+        <number cid="-1" id="25" name="Espeed" save="true" value="0"/>
         <boolean cid="-1" id="19" name="region 2 activated" save="true" value="false"/>
         <number cid="-1" id="21" name="Pacman Score" save="true" value="0.0"/>
-        <number cid="-1" id="2" name="Score4" save="true" value="0.0"/>
         <boolean cid="-1" id="4" name="right" save="true" value="false"/>
         <number cid="-1" id="16" name="birdManLives" save="true" value="3.0"/>
-        <boolean cid="-1" id="9" name="region 1 activated" save="true" value="false"/>
         <number cid="-1" id="20" name="DK lives" save="true" value="3.0"/>
         <boolean cid="-1" id="17" name="Blue Button Pressed" save="true" value="false"/>
-        <number cid="-1" id="12" name="score" save="true" value="0.0"/>
         <boolean cid="-1" id="8" name="Pink Button Pressed" save="true" value="false"/>
         <boolean cid="-1" id="3" name="left" save="true" value="false"/>
         <number cid="-1" id="8" name="Level" save="true" value="0.0"/>
-        <boolean cid="-1" id="18" name="white button pressed" save="true" value="false"/>
-        <number cid="-1" id="15" name="piano lives" save="true" value="0.0"/>
-        <number cid="-1" id="22" name="Pacman Lives" save="true" value="3.0"/>
     </attributes>
     <collisions>
         <poly id="0" name="Square" pts="0.0,0.0#0.0,1.0#1.0,1.0#1.0,0.0"/>
@@ -201,7 +204,7 @@
     </collisions>
     <autotileFormats/>
     <atlases>
-        <atlas allScenes="true" desc="" dirty="true" id="0" members="0,3,5,7,8,9,10,15,16,18,20,21,25,27,31,38,39,41,43,45,47,49,53,57,58,59,61,62,64,66,68,70,72,74,76,85,87,89,91,93,95,97,99,101,103,106,107,109,111,112,114,116,120,122,124,126,127,128,129,130,131,132,133,135,137,139,141,142,143," name="Main Atlas" pvr="false" resize="0" target="0"/>
+        <atlas allScenes="true" desc="" dirty="true" id="0" members="0,3,5,7,8,9,10,15,16,18,20,21,25,31,38,39,41,43,45,47,49,53,57,58,59,61,62,64,66,68,70,72,74,76,85,87,89,91,93,95,97,99,101,103,106,107,109,111,112,114,116,120,122,124,126,127,128,129,130,131,132,133,135,137,139,141,142,143,145," name="Main Atlas" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="1" members="" name="Atlas 2" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="2" members="" name="Atlas 3" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="3" members="" name="Atlas 4" pvr="false" resize="0" target="0"/>

@@ -68,83 +68,25 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class ActorEvents_49 extends ActorScript
+class Design_101_101_Enemymovement extends ActorScript
 {
-	public var _AI:Float;
+	public var _Right:Bool;
+	public var _left:Bool;
 	
 	
 	public function new(dummy:Int, actor:Actor, dummy2:Engine)
 	{
 		super(actor);
-		nameMap.set("AI", "_AI");
-		_AI = 0.0;
+		nameMap.set("Actor", "actor");
+		nameMap.set("Right", "_Right");
+		_Right = false;
+		nameMap.set("left", "_left");
+		_left = false;
 		
 	}
 	
 	override public function init()
 	{
-		
-		/* ======================== When Creating ========================= */
-		_AI = asNumber(1);
-		propertyChanged("_AI", _AI);
-		
-		/* ======================== When Updating ========================= */
-		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
-		{
-			if(wrapper.enabled)
-			{
-				if((_AI == 1))
-				{
-					actor.setY(Engine.engine.getGameAttribute("Y of ball"));
-				}
-				if((_AI == 2))
-				{
-					actor.setY(Engine.engine.getGameAttribute("Y of ball"));
-				}
-				if((_AI == 3))
-				{
-					actor.setY(Engine.engine.getGameAttribute("Y of ball"));
-				}
-				if((_AI == 4))
-				{
-					actor.setY(Engine.engine.getGameAttribute("Y of ball"));
-				}
-				if((_AI == 5))
-				{
-					actor.setY(Engine.engine.getGameAttribute("Y of ball"));
-				}
-				if((_AI == 6))
-				{
-					actor.setY((Engine.engine.getGameAttribute("Y of ball") + 20));
-				}
-				if((_AI == 7))
-				{
-					actor.setY((Engine.engine.getGameAttribute("Y of ball") + 30));
-				}
-				if((_AI == 8))
-				{
-					actor.setY((Engine.engine.getGameAttribute("Y of ball") - 20));
-				}
-				if((_AI == 9))
-				{
-					actor.setY((Engine.engine.getGameAttribute("Y of ball") - 40));
-				}
-				if((_AI == 10))
-				{
-					actor.setY((Engine.engine.getGameAttribute("Y of ball") - 30));
-				}
-			}
-		});
-		
-		/* ========================= Type & Type ========================== */
-		addSceneCollisionListener(getActorType(47).ID, getActorType(21).ID, function(event:Collision, list:Array<Dynamic>):Void
-		{
-			if(wrapper.enabled)
-			{
-				_AI = asNumber(randomInt(Math.floor(1), Math.floor(10)));
-				propertyChanged("_AI", _AI);
-			}
-		});
 		
 	}
 	

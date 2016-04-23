@@ -1,2 +1,38 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<groups/>
+<groups>
+    <group eventID="3" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="3" id="-1">
+                <set-val-19-2 comment="false" x="26" y="40">
+                    <int id="0" val="-10"/>
+                </set-val-19-2>
+            </group>
+        </init>
+    </group>
+    <group eventID="3" id="-1"/>
+    <group eventID="10" id="0">
+        <step comment="false" x="15" y="15">
+            <group eventID="10" id="-1">
+                <set-dxy comment="false" x="26" y="40">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="0"/>
+                    <get-val-19-2 comment="false" id="2" x="0" y="0"/>
+                </set-dxy>
+                <dolater comment="false" x="26" y="72">
+                    <group eventID="10" id="-1">
+                        <set-dxy comment="false" x="37" y="99">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="0"/>
+                            <neg comment="false" id="2" x="0" y="0">
+                                <get-val-19-2 comment="false" id="0" x="0" y="0"/>
+                            </neg>
+                        </set-dxy>
+                    </group>
+                    <int id="0" val="2"/>
+                    <ACTOR eid="this" id="2"/>
+                </dolater>
+            </group>
+        </step>
+    </group>
+    <group eventID="10" id="-1"/>
+</groups>
