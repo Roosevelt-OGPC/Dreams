@@ -39,7 +39,6 @@ import box2D.common.math.B2Vec2;
 import box2D.dynamics.B2Body;
 import box2D.dynamics.B2Fixture;
 import box2D.dynamics.joints.B2Joint;
-import box2D.collision.shapes.B2Shape;
 
 import motion.Actuate;
 import motion.easing.Back;
@@ -69,57 +68,35 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class SceneEvents_12 extends SceneScript
+class ActorEvents_143 extends ActorScript
 {
+	public var _SpeedX:Float;
 	
 	
-	public function new(dummy:Int, dummy2:Engine)
+	public function new(dummy:Int, actor:Actor, dummy2:Engine)
 	{
-		super();
+		super(actor);
+		nameMap.set("Speed X", "_SpeedX");
+		_SpeedX = 0.0;
 		
 	}
 	
 	override public function init()
 	{
 		
-		/* ======================== Specific Actor ======================== */
-		addWhenKilledListener(getActor(1), function(list:Array<Dynamic>):Void
+		/* ======================== When Creating ========================= */
+		_SpeedX = asNumber(-10);
+		propertyChanged("_SpeedX", _SpeedX);
+		
+		/* ======================== When Updating ========================= */
+		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
 		{
 			if(wrapper.enabled)
 			{
-				if((Engine.engine.getGameAttribute("birdManLives") > 0))
-				{
-					reloadCurrentScene(createFadeOut(.5, Utils.getColorRGB(0,0,0)), createFadeIn(.5, Utils.getColorRGB(0,0,0)));
-					Engine.engine.setGameAttribute("birdManLives", (Engine.engine.getGameAttribute("birdManLives") - 1));
-				}
-				else if((Engine.engine.getGameAttribute("birdManLives") == 0))
-				{
-					Engine.engine.setGameAttribute("level", (Engine.engine.getGameAttribute("level") + 1));
-					Engine.engine.setGameAttribute("lives", (Engine.engine.getGameAttribute("lives") - 1));
-					switchScene(GameModel.get().scenes.get(3).getID(), null, createCrossfadeTransition(1));
-				}
-			}
-		});
-		
-		/* ======================== Specific Actor ======================== */
-		addActorPositionListener(getActor(1), function(enteredScreen:Bool, exitedScreen:Bool, enteredScene:Bool, exitedScene:Bool, list:Array<Dynamic>):Void
-		{
-			if(wrapper.enabled && exitedScreen)
-			{
-				recycleActor(getActor(1));
-				reloadCurrentScene(createFadeOut(.5, Utils.getColorRGB(0,0,0)), createFadeIn(.5, Utils.getColorRGB(0,0,0)));
-				Engine.engine.setGameAttribute("birdManLives", (Engine.engine.getGameAttribute("birdManLives") - 1));
-			}
-		});
-		
-		/* ======================== Specific Actor ======================== */
-		addActorPositionListener(getActor(1), function(enteredScreen:Bool, exitedScreen:Bool, enteredScene:Bool, exitedScene:Bool, list:Array<Dynamic>):Void
-		{
-			if(wrapper.enabled && exitedScreen)
-			{
-				recycleActor(getActor(1));
-				reloadCurrentScene(createFadeOut(.5, Utils.getColorRGB(0,0,0)), createFadeIn(.5, Utils.getColorRGB(0,0,0)));
-				Engine.engine.setGameAttribute("birdManLives", (Engine.engine.getGameAttribute("birdManLives") - 1));
+				actor.setXVelocity(_SpeedX);
+				runLater(1000 * 2, function(timeTask:TimedTask):Void {
+					actor.setXVelocity(-(_SpeedX));
+				}, actor);
 			}
 		});
 		

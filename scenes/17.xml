@@ -17,7 +17,6 @@
         <actor a="0.0" aid="7" c="false" group="3" id="74" name="Note B 7" sx="1.0" sy="1.0" x="432" y="97" z="0"/>
         <actor a="0.0" aid="8" c="false" group="3" id="76" name="reset box 8" sx="1.0" sy="1.0" x="528" y="2" z="0"/>
         <actor a="0.0" aid="9" c="false" group="3" id="85" name="Player Fingers 9" sx="1.0" sy="1.0" x="505" y="148" z="0"/>
-        <actor a="0.0" aid="11" c="false" group="3" id="103" name="Note player 11" sx="1.25" sy="1.1875" x="458" y="13" z="0"/>
     </actors>
     <snippets/>
     <terrain>

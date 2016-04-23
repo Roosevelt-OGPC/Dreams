@@ -52,16 +52,6 @@
             <ACTOR eid="1" id="1"/>
         </event-actor-create-kill>
     </group>
-    <group eventID="1" id="1">
-        <scene-reload-color comment="false" x="281" y="375">
-            <int id="0" val="0"/>
-            <int id="1" val=".5"/>
-            <color b="0" g="0" id="2" r="0"/>
-            <int id="3" val="0"/>
-            <int id="4" val=".5"/>
-            <color b="0" g="0" id="5" r="0"/>
-        </scene-reload-color>
-    </group>
     <group eventID="1" id="-1"/>
     <group eventID="2" id="0">
         <event-actor-screen comment="false" x="15" y="15">
@@ -74,14 +64,6 @@
             <int id="1" val="1"/>
             <int id="2" val="1"/>
         </event-actor-screen>
-    </group>
-    <group eventID="2" id="1">
-        <set-game-val-12 comment="false" x="176" y="101">
-            <minus comment="false" id="0" x="0" y="0">
-                <int id="0" val=""/>
-                <int id="1" val=""/>
-            </minus>
-        </set-game-val-12>
     </group>
     <group eventID="2" id="-1"/>
     <group eventID="3" id="0">
@@ -110,11 +92,6 @@
             <ACTOR eid="1" id="2"/>
         </event-actor-region>
     </group>
-    <group eventID="3" id="1">
-        <set-game-val-2 comment="false" x="127" y="319">
-            <int id="0" val=""/>
-        </set-game-val-2>
-    </group>
     <group eventID="3" id="-1"/>
     <group eventID="5" id="0">
         <draw comment="false" x="15" y="15">
@@ -132,9 +109,7 @@
             </group>
         </draw>
     </group>
-    <group eventID="5" id="-1">
-        <get-game-val-2 comment="false" x="139" y="130"/>
-    </group>
+    <group eventID="5" id="-1"/>
     <group eventID="6" id="0">
         <event-actor-region comment="false" x="15" y="15">
             <group eventID="6" id="-1">
