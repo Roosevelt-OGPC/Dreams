@@ -9,15 +9,15 @@
                             <ACTOR eid="this" id="0"/>
                         </die>
                         <scene-change-through comment="false" x="37" y="104">
-                            <scene eid="20" id="0"/>
+                            <scene eid="3" id="0"/>
                             <int id="1" val="0"/>
                             <int id="2" val=".5"/>
                         </scene-change-through>
                     </group>
-                    <more comment="false" id="0" x="0" y="0">
+                    <lesseq comment="false" id="0" x="0" y="0">
                         <get-game-val-20 comment="false" id="0" x="0" y="0"/>
                         <int id="1" val="0"/>
-                    </more>
+                    </lesseq>
                 </if>
                 <else-if comment="false" x="26" y="143">
                     <group eventID="1" id="-1">
@@ -80,15 +80,15 @@
                             <ACTOR eid="this" id="0"/>
                         </die>
                         <scene-change-through comment="false" x="37" y="104">
-                            <scene eid="20" id="0"/>
+                            <scene eid="3" id="0"/>
                             <int id="1" val="0"/>
                             <int id="2" val=".5"/>
                         </scene-change-through>
                     </group>
-                    <more comment="false" id="0" x="0" y="0">
+                    <lesseq comment="false" id="0" x="0" y="0">
                         <get-game-val-20 comment="false" id="0" x="0" y="0"/>
                         <int id="1" val="0"/>
-                    </more>
+                    </lesseq>
                 </if>
                 <else-if comment="false" x="26" y="143">
                     <group eventID="3" id="-1">
@@ -110,10 +110,10 @@
                             <int id="2" val="1"/>
                         </scene-change-through>
                     </group>
-                    <eq comment="false" id="0" x="0" y="0">
+                    <less comment="false" id="0" x="0" y="0">
                         <get-game-val-20 comment="false" id="0" x="0" y="0"/>
-                        <int id="1" val="0"/>
-                    </eq>
+                        <int id="1" val="3"/>
+                    </less>
                 </else-if>
             </group>
             <ACTOR eid="this" id="0"/>
@@ -130,15 +130,15 @@
                             <ACTOR eid="this" id="0"/>
                         </die>
                         <scene-change-through comment="false" x="37" y="104">
-                            <scene eid="20" id="0"/>
+                            <scene eid="3" id="0"/>
                             <int id="1" val="0"/>
                             <int id="2" val=".5"/>
                         </scene-change-through>
                     </group>
-                    <more comment="false" id="0" x="0" y="0">
+                    <lesseq comment="false" id="0" x="0" y="0">
                         <get-game-val-20 comment="false" id="0" x="0" y="0"/>
                         <int id="1" val="0"/>
-                    </more>
+                    </lesseq>
                 </if>
                 <else-if comment="false" x="26" y="143">
                     <group eventID="4" id="-1">

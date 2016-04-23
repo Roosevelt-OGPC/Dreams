@@ -45,10 +45,10 @@
                             <int id="2" val="1"/>
                         </scene-change-through>
                     </group>
-                    <eq comment="false" id="0" x="0" y="0">
+                    <lesseq comment="false" id="0" x="0" y="0">
                         <get-game-val-16 comment="false" id="0" x="0" y="0"/>
                         <int id="1" val="0"/>
-                    </eq>
+                    </lesseq>
                 </else-if>
             </group>
             <int id="0" val="1"/>
