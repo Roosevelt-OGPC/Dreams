@@ -68,7 +68,7 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class ActorEvents_103 extends ActorScript
+class ActorEvents_143 extends ActorScript
 {
 	
 	
@@ -80,35 +80,6 @@ class ActorEvents_103 extends ActorScript
 	
 	override public function init()
 	{
-		
-		/* ======================== When Updating ========================= */
-		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
-		{
-			if(wrapper.enabled)
-			{
-				if((actor.isMouseOver() && isMousePressed()))
-				{
-					runLater(1000 * 1, function(timeTask:TimedTask):Void {
-						playSound(getSound(128));
-					}, actor);
-					runLater(1000 * 2, function(timeTask:TimedTask):Void {
-						playSound(getSound(128));
-					}, actor);
-					runLater(1000 * 3, function(timeTask:TimedTask):Void {
-						playSound(getSound(132));
-					}, actor);
-					runLater(1000 * 4, function(timeTask:TimedTask):Void {
-						playSound(getSound(132));
-					}, actor);
-					runLater(1000 * 5, function(timeTask:TimedTask):Void {
-						playSound(getSound(126));
-					}, actor);
-					runLater(1000 * 6, function(timeTask:TimedTask):Void {
-						playSound(getSound(126));
-					}, actor);
-				}
-			}
-		});
 		
 	}
 	

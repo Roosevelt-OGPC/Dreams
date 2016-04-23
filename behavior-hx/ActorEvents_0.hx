@@ -68,13 +68,20 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class ActorEvents_103 extends ActorScript
+class ActorEvents_0 extends ActorScript
 {
+	public var _Jump:Bool;
+	public var _Left:String;
+	public var _Right:String;
 	
 	
 	public function new(dummy:Int, actor:Actor, dummy2:Engine)
 	{
 		super(actor);
+		nameMap.set("Jump?", "_Jump");
+		_Jump = false;
+		nameMap.set("Left", "_Left");
+		nameMap.set("Right", "_Right");
 		
 	}
 	
@@ -86,26 +93,79 @@ class ActorEvents_103 extends ActorScript
 		{
 			if(wrapper.enabled)
 			{
-				if((actor.isMouseOver() && isMousePressed()))
+				/* make sure actor doesn't leave screen */
+				if((actor.getScreenX() < 0))
 				{
-					runLater(1000 * 1, function(timeTask:TimedTask):Void {
-						playSound(getSound(128));
-					}, actor);
-					runLater(1000 * 2, function(timeTask:TimedTask):Void {
-						playSound(getSound(128));
-					}, actor);
-					runLater(1000 * 3, function(timeTask:TimedTask):Void {
-						playSound(getSound(132));
-					}, actor);
-					runLater(1000 * 4, function(timeTask:TimedTask):Void {
-						playSound(getSound(132));
-					}, actor);
-					runLater(1000 * 5, function(timeTask:TimedTask):Void {
-						playSound(getSound(126));
-					}, actor);
-					runLater(1000 * 6, function(timeTask:TimedTask):Void {
-						playSound(getSound(126));
-					}, actor);
+					actor.setX(1);
+				}
+				else if((actor.getScreenX() > (getScreenWidth() - (actor.getWidth()))))
+				{
+					actor.setX(((getScreenWidth() - (actor.getWidth())) - 1));
+				}
+			}
+		});
+		
+		/* ======================== When Updating ========================= */
+		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled)
+			{
+				/* walk left */
+				if(isKeyDown("left"))
+				{
+					Engine.engine.setGameAttribute("left", true);
+					Engine.engine.setGameAttribute("right", false);
+					actor.setXVelocity(-20);
+					/* walk faster */
+					if(isKeyDown("shift"))
+					{
+						actor.setXVelocity(-30);
+					}
+				}
+				/* walk right */
+				else if(isKeyDown("right"))
+				{
+					Engine.engine.setGameAttribute("right", true);
+					Engine.engine.setGameAttribute("left", false);
+					actor.setXVelocity(20);
+					/* walk faster */
+					if(isKeyDown("shift"))
+					{
+						actor.setXVelocity(30);
+					}
+				}
+				/* stay still */
+				else
+				{
+					actor.setXVelocity(0);
+					Engine.engine.setGameAttribute("left", false);
+					Engine.engine.setGameAttribute("right", false);
+				}
+				/* jump */
+				if(isKeyPressed("Spacebar"))
+				{
+					if((_Jump == true))
+					{
+						_Jump = false;
+						propertyChanged("_Jump", _Jump);
+						actor.applyImpulseInDirection(270, 38);
+					}
+				}
+				_Jump = false;
+				propertyChanged("_Jump", _Jump);
+			}
+		});
+		
+		/* ======================= Member of Group ======================== */
+		addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled && sameAsAny(getActorGroup(1),event.otherActor.getType(),event.otherActor.getGroup()))
+			{
+				/* jump */
+				if(!(event.thisFromTop))
+				{
+					_Jump = true;
+					propertyChanged("_Jump", _Jump);
 				}
 			}
 		});
