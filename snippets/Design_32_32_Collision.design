@@ -104,4 +104,49 @@
         </event-custom>
     </group>
     <group eventID="4" id="-1"/>
+    <group eventID="5" id="0">
+        <event-collide-actortotype comment="false" x="15" y="15">
+            <group eventID="5" id="-1">
+                <comment-short comment="false" x="26" y="47">
+                    <int id="0" val="kill player if they collide with an enemy"/>
+                </comment-short>
+                <if comment="false" x="26" y="67">
+                    <group eventID="5" id="-1">
+                        <die comment="false" x="37" y="100">
+                            <ACTOR eid="this" id="0"/>
+                        </die>
+                    </group>
+                    <collision-left comment="false" id="0" x="0" y="0">
+                        <int id="0" val="0"/>
+                        <int id="1" val="1"/>
+                    </collision-left>
+                </if>
+                <else-if comment="false" x="26" y="139">
+                    <group eventID="5" id="-1">
+                        <die comment="false" x="37" y="172">
+                            <ACTOR eid="this" id="0"/>
+                        </die>
+                    </group>
+                    <collision-bottom comment="false" id="0" x="0" y="0">
+                        <int id="0" val="0"/>
+                        <int id="1" val="1"/>
+                    </collision-bottom>
+                </else-if>
+                <else-if comment="false" x="26" y="211">
+                    <group eventID="5" id="-1">
+                        <die comment="false" x="37" y="244">
+                            <ACTOR eid="this" id="0"/>
+                        </die>
+                    </group>
+                    <collision-right comment="false" id="0" x="0" y="0">
+                        <int id="0" val="0"/>
+                        <int id="1" val="1"/>
+                    </collision-right>
+                </else-if>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <actortype eid="143" id="1"/>
+        </event-collide-actortotype>
+    </group>
+    <group eventID="5" id="-1"/>
 </groups>

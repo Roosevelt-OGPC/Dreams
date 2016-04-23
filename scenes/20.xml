@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<scene depth="2" desc="" eventsnippetid="93" extheight="544" extwidth="704" extx="-32" exty="-32" format="3.4.0" gravx="-0.0" gravy="0.0" height="480" id="20" name="DK 2" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="640">
+<scene depth="2" desc="" eventsnippetid="93" extheight="544" extwidth="704" extx="-32" exty="-32" format="3.4.0" gravx="-0.0" gravy="0.0" height="480" id="20" name="Level 7" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="640">
     <layers>
         <grad-bg b1="255" b2="51" g1="153" g2="51" r1="204" r2="51"/>
         <layer blendMode="normal" color="0,255,0" id="1" locked="false" name="FLOOR" opacity="100" order="1" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
@@ -7,9 +7,9 @@
     </layers>
     <joints/>
     <regions>
-        <region b="64" g="64" h="62" id="0" name="Region 1" pts="4,5.0,0.0,5.0,62.0,0.0,62.0,0.0,0.0" r="64" type="box" w="5" x="622" y="97"/>
-        <region b="64" g="64" h="62" id="1" name="Region 2" pts="4,5.0,0.0,5.0,62.0,0.0,62.0,0.0,0.0" r="64" type="box" w="5" x="10" y="288"/>
-        <region b="64" g="64" h="65" id="2" name="Region 3" pts="4,31.0,0.0,31.0,65.0,0.0,65.0,0.0,0.0" r="64" type="box" w="31" x="352" y="382"/>
+        <region b="64" g="64" h="62" id="0" name="Region 1" pts="4,0.0,0.0,0.0,62.0,5.0,62.0,5.0,0.0" r="64" type="box" w="5" x="622" y="97"/>
+        <region b="64" g="64" h="62" id="1" name="Region 2" pts="4,0.0,0.0,0.0,62.0,5.0,62.0,5.0,0.0" r="64" type="box" w="5" x="10" y="288"/>
+        <region b="64" g="64" h="65" id="2" name="Region 3" pts="4,0.0,0.0,0.0,65.0,31.0,65.0,31.0,0.0" r="64" type="box" w="31" x="352" y="382"/>
     </regions>
     <terrainRegions/>
     <actors>
@@ -22,15 +22,15 @@
     </actors>
     <snippets/>
     <terrain>
-        <p pts="4,0.0,32.0,0.0,0.0,96.0,0.0,96.0,32.0" x="0.0" y="160.0"/>
-        <p pts="4,0.0,32.0,0.0,0.0,96.0,0.0,96.0,32.0" x="544.0" y="64.0"/>
-        <p pts="4,480.0,0.0,480.0,32.0,0.0,32.0,0.0,0.0" x="0.0" y="256.0"/>
-        <p pts="4,480.0,0.0,480.0,32.0,0.0,32.0,0.0,0.0" x="0.0" y="64.0"/>
-        <p pts="4,640.0,0.0,640.0,32.0,0.0,32.0,0.0,0.0" x="0.0" y="448.0"/>
-        <p pts="4,0.0,32.0,0.0,0.0,480.0,0.0,480.0,32.0" x="160.0" y="160.0"/>
-        <p pts="4,480.0,0.0,480.0,32.0,0.0,32.0,0.0,0.0" x="160.0" y="352.0"/>
         <p pts="4,0.0,32.0,0.0,0.0,96.0,0.0,96.0,32.0" x="0.0" y="352.0"/>
+        <p pts="4,0.0,32.0,0.0,0.0,96.0,0.0,96.0,32.0" x="0.0" y="160.0"/>
+        <p pts="4,480.0,0.0,480.0,32.0,0.0,32.0,0.0,0.0" x="0.0" y="64.0"/>
+        <p pts="4,480.0,0.0,480.0,32.0,0.0,32.0,0.0,0.0" x="160.0" y="352.0"/>
         <p pts="4,0.0,32.0,0.0,0.0,96.0,0.0,96.0,32.0" x="544.0" y="256.0"/>
+        <p pts="4,0.0,32.0,0.0,0.0,480.0,0.0,480.0,32.0" x="160.0" y="160.0"/>
+        <p pts="4,480.0,0.0,480.0,32.0,0.0,32.0,0.0,0.0" x="0.0" y="256.0"/>
+        <p pts="4,640.0,0.0,640.0,32.0,0.0,32.0,0.0,0.0" x="0.0" y="448.0"/>
+        <p pts="4,0.0,32.0,0.0,0.0,96.0,0.0,96.0,32.0" x="544.0" y="64.0"/>
     </terrain>
     <atlases members="" retainAtlases="true"/>
 </scene>

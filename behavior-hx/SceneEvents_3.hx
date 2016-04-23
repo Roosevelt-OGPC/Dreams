@@ -82,9 +82,6 @@ class SceneEvents_3 extends SceneScript
 	override public function init()
 	{
 		
-		/* ======================== When Creating ========================= */
-		
-		
 		/* ======================== Actor of Type ========================= */
 		addActorEntersRegionListener(getRegion(0), function(a:Actor, list:Array<Dynamic>):Void
 		{
@@ -100,7 +97,7 @@ class SceneEvents_3 extends SceneScript
 				}
 				else if((Engine.engine.getGameAttribute("level") == 2))
 				{
-					switchScene(GameModel.get().scenes.get(16).getID(), createFadeOut(1, Utils.getColorRGB(0,0,0)), createFadeIn(1, Utils.getColorRGB(0,0,0)));
+					switchScene(GameModel.get().scenes.get(12).getID(), createFadeOut(1, Utils.getColorRGB(0,0,0)), createFadeIn(1, Utils.getColorRGB(0,0,0)));
 				}
 				else if((Engine.engine.getGameAttribute("level") == 3))
 				{
@@ -108,11 +105,11 @@ class SceneEvents_3 extends SceneScript
 				}
 				else if((Engine.engine.getGameAttribute("level") == 4))
 				{
-					switchScene(GameModel.get().scenes.get(13).getID(), createFadeOut(1, Utils.getColorRGB(0,0,0)), createFadeIn(1, Utils.getColorRGB(0,0,0)));
+					switchScene(GameModel.get().scenes.get(8).getID(), createFadeOut(1, Utils.getColorRGB(0,0,0)), createFadeIn(1, Utils.getColorRGB(0,0,0)));
 				}
 				else if((Engine.engine.getGameAttribute("level") == 5))
 				{
-					switchScene(GameModel.get().scenes.get(8).getID(), createFadeOut(1, Utils.getColorRGB(0,0,0)), createFadeIn(1, Utils.getColorRGB(0,0,0)));
+					switchScene(GameModel.get().scenes.get(13).getID(), createFadeOut(1, Utils.getColorRGB(0,0,0)), createFadeIn(1, Utils.getColorRGB(0,0,0)));
 				}
 				else if((Engine.engine.getGameAttribute("level") == 6))
 				{
@@ -124,7 +121,7 @@ class SceneEvents_3 extends SceneScript
 				}
 				else if((Engine.engine.getGameAttribute("level") == 8))
 				{
-					switchScene(GameModel.get().scenes.get(12).getID(), createFadeOut(1, Utils.getColorRGB(0,0,0)), createFadeIn(1, Utils.getColorRGB(0,0,0)));
+					switchScene(GameModel.get().scenes.get(16).getID(), createFadeOut(1, Utils.getColorRGB(0,0,0)), createFadeIn(1, Utils.getColorRGB(0,0,0)));
 				}
 				else if((Engine.engine.getGameAttribute("level") == 9))
 				{
@@ -132,17 +129,13 @@ class SceneEvents_3 extends SceneScript
 				}
 				else if((Engine.engine.getGameAttribute("level") == 10))
 				{
-					switchScene(GameModel.get().scenes.get(18).getID(), createFadeOut(1, Utils.getColorRGB(0,0,0)), createFadeIn(1, Utils.getColorRGB(0,0,0)));
+					switchScene(GameModel.get().scenes.get(15).getID(), createFadeOut(1, Utils.getColorRGB(0,0,0)), createFadeIn(1, Utils.getColorRGB(0,0,0)));
 				}
 				else if((Engine.engine.getGameAttribute("level") == 11))
 				{
-					switchScene(GameModel.get().scenes.get(15).getID(), createFadeOut(1, Utils.getColorRGB(0,0,0)), createFadeIn(1, Utils.getColorRGB(0,0,0)));
+					switchScene(GameModel.get().scenes.get(18).getID(), createFadeOut(1, Utils.getColorRGB(0,0,0)), createFadeIn(1, Utils.getColorRGB(0,0,0)));
 				}
 				else if((Engine.engine.getGameAttribute("level") == 12))
-				{
-					switchScene(GameModel.get().scenes.get(7).getID(), createFadeOut(1, Utils.getColorRGB(0,0,0)), createFadeIn(1, Utils.getColorRGB(0,0,0)));
-				}
-				else if((Engine.engine.getGameAttribute("level") == 0))
 				{
 					switchScene(GameModel.get().scenes.get(7).getID(), createFadeOut(1, Utils.getColorRGB(0,0,0)), createFadeIn(1, Utils.getColorRGB(0,0,0)));
 				}

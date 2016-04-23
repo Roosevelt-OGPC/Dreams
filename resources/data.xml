@@ -313,12 +313,23 @@
             <poly data="4,0,0,20,0,20,20,0,20" density="0.1" fric="0.2" gid="-1000" id="0" name="default" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
-    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="64" id="24" name="Coin4" shared="false" width="64">
+    <music atlasID="0" desc="" id="129" loop="true" name="D" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="99" fixedrot="true" fric="0.2" gid="3" id="143" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="dark tooth" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="144" static="false">
+        <snippets>
+            <s enabled="true" id="95">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val="Animation 1"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="64" id="144" name="dark tooth" shared="false" width="64">
         <anim across="1" down="1" durations="100" height="64" id="0" loop="true" name="Animation 0" numframes="1" originx="32" originy="32" sync="false" version="2" width="64">
-            <poly data="4,17,15,45,15,45,42,17,42" density="0.1" fric="0.2" gid="-1000" id="0" name="default" rest="0.0" sensor="false"/>
+            <poly data="4,15,22,41,22,41,51,15,51" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="64" id="1" loop="true" name="Animation 1" numframes="1" originx="32" originy="32" sync="false" version="2" width="64">
+            <poly data="4,0,0,64,0,64,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 1" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
-    <music atlasID="0" desc="" id="129" loop="true" name="D" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="86" fixedrot="true" fric="0.0" gid="1" id="112" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Dead block" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="113" static="true">
         <snippets/>
     </actor>
@@ -576,14 +587,6 @@
             <poly data="4,17,15,46,15,46,43,17,43" density="0.1" fric="0.2" gid="-1000" id="0" name="default" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="89" fixedrot="false" fric="0.2" gid="3" id="118" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="item4" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="119" static="true">
-        <snippets/>
-    </actor>
-    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="64" id="119" name="item4" shared="false" width="64">
-        <anim across="1" down="1" durations="100" height="64" id="0" loop="true" name="Animation 0" numframes="1" originx="32" originy="32" sync="false" version="2" width="64">
-            <poly data="4,17,15,46,15,46,43,17,43" density="0.1" fric="0.2" gid="-1000" id="0" name="default" rest="0.0" sensor="false"/>
-        </anim>
-    </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="92" fixedrot="true" fric="0.2" gid="3" id="124" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Key DK" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="125" static="true">
         <snippets/>
     </actor>
@@ -681,9 +684,6 @@
             <poly data="4,0,0,64,0,64,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="default" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="23" fixedrot="true" fric="0.07" gid="3" id="23" ignoreg="true" inertia="1.0" ldamp="0.0" mass="0.1" name="Newspaper scrap" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="24" static="true">
-        <snippets/>
-    </actor>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="286" id="63" name="Note A" shared="false" width="71">
         <anim across="1" down="1" durations="100" height="286" id="0" loop="true" name="Animation 0" numframes="1" originx="35" originy="143" sync="false" version="2" width="71">
             <poly data="4,0,0,71,0,71,286,0,286" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
@@ -948,15 +948,6 @@
                 <prop id="2147483647" list="0" val="thisactor"/>
                 <prop id="1" list="0" val="No Control"/>
                 <prop id="2" list="0" val="3"/>
-            </s>
-            <s enabled="false" id="36">
-                <prop id="2147483647" list="0" val="thisactor"/>
-                <prop id="1" list="0" val="false"/>
-                <prop id="2" list="0" val="true"/>
-                <prop id="3" list="0" val="down"/>
-                <prop id="4" list="0" val="10"/>
-                <prop id="5" list="0" val="action1"/>
-                <prop id="6" list="0" val="0.0"/>
             </s>
             <s enabled="true" id="10">
                 <prop id="2147483647" list="0" val="thisactor"/>

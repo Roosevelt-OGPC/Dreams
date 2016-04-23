@@ -87,7 +87,7 @@ class ActorEvents_116 extends ActorScript
 			if(wrapper.enabled && sameAsAny(getActorType(0), event.otherActor.getType(),event.otherActor.getGroup()))
 			{
 				recycleActor(actor);
-				Engine.engine.setGameAttribute("score", (Engine.engine.getGameAttribute("score") + 200));
+				Engine.engine.setGameAttribute("Score4", (Engine.engine.getGameAttribute("Score4") + 1));
 			}
 		});
 		

@@ -6,16 +6,27 @@
                 <die comment="false" x="26" y="47">
                     <ACTOR eid="this" id="0"/>
                 </die>
-                <set-game-val-12 comment="false" x="26" y="74">
+                <set-game-val-2 comment="false" x="26" y="74">
                     <plus comment="false" id="0" x="0" y="0">
-                        <get-game-val-12 comment="false" id="0" x="0" y="0"/>
-                        <int id="1" val="200"/>
+                        <get-game-val-2 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="1"/>
                     </plus>
-                </set-game-val-12>
+                </set-game-val-2>
             </group>
             <ACTOR eid="this" id="0"/>
             <actortype eid="0" id="1"/>
         </event-collide-actortotype>
+    </group>
+    <group eventID="1" id="2">
+        <die comment="false" x="54" y="188">
+            <ACTOR eid="this" id="0"/>
+        </die>
+        <set-game-val-12 comment="false" x="54" y="215">
+            <plus comment="false" id="0" x="0" y="0">
+                <get-game-val-12 comment="false" id="0" x="0" y="0"/>
+                <int id="1" val="200"/>
+            </plus>
+        </set-game-val-12>
     </group>
     <group eventID="1" id="-1"/>
 </groups>
