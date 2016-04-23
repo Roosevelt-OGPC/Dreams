@@ -89,22 +89,22 @@ class ActorEvents_103 extends ActorScript
 				if((actor.isMouseOver() && isMousePressed()))
 				{
 					runLater(1000 * 1, function(timeTask:TimedTask):Void {
-						playSound(getSound(80));
+						playSound(getSound(128));
 					}, actor);
 					runLater(1000 * 2, function(timeTask:TimedTask):Void {
-						playSound(getSound(80));
+						playSound(getSound(128));
 					}, actor);
 					runLater(1000 * 3, function(timeTask:TimedTask):Void {
-						playSound(getSound(84));
+						playSound(getSound(132));
 					}, actor);
 					runLater(1000 * 4, function(timeTask:TimedTask):Void {
-						playSound(getSound(84));
+						playSound(getSound(132));
 					}, actor);
 					runLater(1000 * 5, function(timeTask:TimedTask):Void {
-						playSound(getSound(78));
+						playSound(getSound(126));
 					}, actor);
 					runLater(1000 * 6, function(timeTask:TimedTask):Void {
-						playSound(getSound(78));
+						playSound(getSound(126));
 					}, actor);
 				}
 			}

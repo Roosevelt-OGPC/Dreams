@@ -1,65 +1,65 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <groups>
     <group eventID="1" id="0">
-        <step comment="false" x="15" y="15">
+        <step comment="false" x="34" y="13">
             <group eventID="1" id="-1">
-                <if comment="false" x="26" y="40">
+                <if comment="false" x="45" y="38">
                     <group eventID="1" id="-1">
-                        <dolater comment="false" x="37" y="78">
+                        <dolater comment="false" x="56" y="76">
                             <group eventID="1" id="-1">
-                                <play-sound4 comment="false" x="48" y="105">
+                                <play-sound4 comment="false" x="67" y="103">
                                     <int id="0" val="0"/>
-                                    <sound eid="80" id="1"/>
+                                    <sound eid="128" id="1"/>
                                 </play-sound4>
                             </group>
                             <int id="0" val="1"/>
                             <ACTOR eid="this" id="2"/>
                         </dolater>
-                        <dolater comment="false" x="37" y="144">
+                        <dolater comment="false" x="56" y="142">
                             <group eventID="1" id="-1">
-                                <play-sound4 comment="false" x="48" y="171">
+                                <play-sound4 comment="false" x="67" y="169">
                                     <int id="0" val="0"/>
-                                    <sound eid="80" id="1"/>
+                                    <sound eid="128" id="1"/>
                                 </play-sound4>
                             </group>
                             <int id="0" val="2"/>
                             <ACTOR eid="this" id="2"/>
                         </dolater>
-                        <dolater comment="false" x="37" y="210">
+                        <dolater comment="false" x="56" y="208">
                             <group eventID="1" id="-1">
-                                <play-sound4 comment="false" x="48" y="237">
+                                <play-sound4 comment="false" x="67" y="235">
                                     <int id="0" val="0"/>
-                                    <sound eid="84" id="1"/>
+                                    <sound eid="132" id="1"/>
                                 </play-sound4>
                             </group>
                             <int id="0" val="3"/>
                             <ACTOR eid="this" id="2"/>
                         </dolater>
-                        <dolater comment="false" x="37" y="276">
+                        <dolater comment="false" x="56" y="274">
                             <group eventID="1" id="-1">
-                                <play-sound4 comment="false" x="48" y="303">
+                                <play-sound4 comment="false" x="67" y="301">
                                     <int id="0" val="0"/>
-                                    <sound eid="84" id="1"/>
+                                    <sound eid="132" id="1"/>
                                 </play-sound4>
                             </group>
                             <int id="0" val="4"/>
                             <ACTOR eid="this" id="2"/>
                         </dolater>
-                        <dolater comment="false" x="37" y="342">
+                        <dolater comment="false" x="56" y="340">
                             <group eventID="1" id="-1">
-                                <play-sound4 comment="false" x="48" y="369">
+                                <play-sound4 comment="false" x="67" y="367">
                                     <int id="0" val="0"/>
-                                    <sound eid="78" id="1"/>
+                                    <sound eid="126" id="1"/>
                                 </play-sound4>
                             </group>
                             <int id="0" val="5"/>
                             <ACTOR eid="this" id="2"/>
                         </dolater>
-                        <dolater comment="false" x="37" y="408">
+                        <dolater comment="false" x="56" y="406">
                             <group eventID="1" id="-1">
-                                <play-sound4 comment="false" x="48" y="435">
+                                <play-sound4 comment="false" x="67" y="433">
                                     <int id="0" val="0"/>
-                                    <sound eid="78" id="1"/>
+                                    <sound eid="126" id="1"/>
                                 </play-sound4>
                             </group>
                             <int id="0" val="6"/>
@@ -78,6 +78,11 @@
                 </if>
             </group>
         </step>
+    </group>
+    <group eventID="1" id="2">
+        <else comment="false" x="105" y="47">
+            <group eventID="1" id="-1"/>
+        </else>
     </group>
     <group eventID="1" id="-1"/>
 </groups>
