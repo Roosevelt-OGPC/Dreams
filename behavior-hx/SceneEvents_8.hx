@@ -39,6 +39,7 @@ import box2D.common.math.B2Vec2;
 import box2D.dynamics.B2Body;
 import box2D.dynamics.B2Fixture;
 import box2D.dynamics.joints.B2Joint;
+import box2D.collision.shapes.B2Shape;
 
 import motion.Actuate;
 import motion.easing.Back;
@@ -68,26 +69,77 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class ActorEvents_116 extends ActorScript
+class SceneEvents_8 extends SceneScript
 {
+	public var _ScoreEnemy:Float;
+	public var _scorePlayer:Float;
 	
-	
-	public function new(dummy:Int, actor:Actor, dummy2:Engine)
+	/* ========================= Custom Event ========================= */
+	public function _customEvent__scoreEnemy():Void
 	{
-		super(actor);
+		createRecycledActor(getActorType(47), 290, 66, Script.MIDDLE);
+		getActor(49).applyImpulseInDirection(45, 30);
+	}
+	
+	/* ========================= Custom Event ========================= */
+	public function _customEvent__scorePlayer():Void
+	{
+		createRecycledActor(getActorType(47), 290, 66, Script.MIDDLE);
+		getActor(49).applyImpulseInDirection(135, 30);
+	}
+	
+	
+	public function new(dummy:Int, dummy2:Engine)
+	{
+		super();
+		nameMap.set("Score-Enemy", "_ScoreEnemy");
+		_ScoreEnemy = 0.0;
+		nameMap.set("_scorePlayer", "_scorePlayer");
+		_scorePlayer = 0.0;
 		
 	}
 	
 	override public function init()
 	{
 		
-		/* ======================== Actor of Type ========================= */
-		addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void
+		/* ======================== When Creating ========================= */
+		getActor(49).applyImpulseInDirection(45, 30);
+		
+		/* ======================== Specific Actor ======================== */
+		addActorEntersRegionListener(getRegion(0), function(a:Actor, list:Array<Dynamic>):Void
 		{
-			if(wrapper.enabled && sameAsAny(getActorType(0), event.otherActor.getType(),event.otherActor.getGroup()))
+			if(wrapper.enabled && sameAs(getActor(49), a))
 			{
-				recycleActor(actor);
-				Engine.engine.setGameAttribute("Score4", (Engine.engine.getGameAttribute("Score4") + 1));
+				_ScoreEnemy = asNumber((_ScoreEnemy + 1));
+				propertyChanged("_ScoreEnemy", _ScoreEnemy);
+				recycleActor(getActor(49));
+				shoutToScene("_customEvent_" + "_scoreEnemy");
+			}
+		});
+		
+		/* ======================== When Updating ========================= */
+		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled)
+			{
+				if((_ScoreEnemy == 3))
+				{
+					Engine.engine.setGameAttribute("lives", (Engine.engine.getGameAttribute("lives") - 1));
+					Engine.engine.setGameAttribute("level", (Engine.engine.getGameAttribute("level") + 1));
+					switchScene(GameModel.get().scenes.get(3).getID(), null, createCrossfadeTransition(1));
+				}
+			}
+		});
+		
+		/* ======================== Specific Actor ======================== */
+		addActorEntersRegionListener(getRegion(1), function(a:Actor, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled && sameAs(getActor(49), a))
+			{
+				_scorePlayer = asNumber((_scorePlayer + 1));
+				propertyChanged("_scorePlayer", _scorePlayer);
+				recycleActor(getActor(49));
+				shoutToScene("_customEvent_" + "_scorePlayer");
 			}
 		});
 		
